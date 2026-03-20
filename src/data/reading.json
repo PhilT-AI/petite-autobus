@@ -542,6 +542,396 @@
           "explanation": "« Documenter l'état de tous les biens avec des photographies... pour faciliter toute réclamation en cas de dommages. »"
         }
       ]
+    },
+    {
+      "id": "R15",
+      "title": "L'ingénieur et le trou",
+      "level": "NP-A",
+      "topic": "Humour militaire – Génie",
+      "text": "Le Sapeur Côté, du 5e Régiment du génie de combat, avait reçu un ordre simple : creuser une tranchée de deux mètres de long pour un exercice de défense.\n\nQuatre heures plus tard, le Lieutenant Morin est venu inspecter le travail. Il a trouvé un trou de huit mètres de long, trois mètres de large, et deux mètres de profondeur. À côté, il y avait un système de drainage improvisé et ce qui ressemblait au début d'une terrasse.\n\n« Côté, j'avais demandé une tranchée de deux mètres. Qu'est-ce que c'est que ça ? »\n\n« Lieutenant, quand je creuse, je m'engage à fond. Et puis, j'ai remarqué que le sol avait un mauvais drainage, alors j'ai ajouté un système pour évacuer l'eau. Et la terrasse, c'est pour le moral des troupes. Un soldat qui a une terrasse est un soldat heureux. »\n\n« Il y a des chaises pliantes là-dedans ? »\n\n« Oui, Lieutenant. J'ai aussi trouvé des pierres plates parfaites pour un foyer. On pourrait faire un barbecue vendredi. »\n\nLe Lieutenant a regardé le trou, a regardé le ciel, et a décidé que certaines batailles ne valaient pas la peine d'être livrées. Le barbecue a eu lieu le vendredi. Toute la compagnie est venue. Le Colonel a apporté des saucisses.",
+      "questions": [
+        {
+          "stem": "Quelle était la tâche originale du Sapeur Côté ?",
+          "options": ["Construire un pont", "Creuser une tranchée de deux mètres", "Installer un système de drainage", "Préparer un barbecue"],
+          "correct": 1,
+          "explanation": "« Il avait reçu un ordre simple : creuser une tranchée de deux mètres de long. »"
+        },
+        {
+          "stem": "Quelle était la taille réelle du trou ?",
+          "options": ["Deux mètres de long", "Cinq mètres de long", "Huit mètres de long et trois de large", "Dix mètres de long"],
+          "correct": 2,
+          "explanation": "« Un trou de huit mètres de long, trois mètres de large, et deux mètres de profondeur. »"
+        },
+        {
+          "stem": "Pourquoi Côté a-t-il ajouté un système de drainage ?",
+          "options": ["C'était dans les ordres", "Le sol avait un mauvais drainage", "Le Lieutenant l'a demandé", "Il pleuvait ce jour-là"],
+          "correct": 1,
+          "explanation": "« J'ai remarqué que le sol avait un mauvais drainage, alors j'ai ajouté un système. »"
+        },
+        {
+          "stem": "Que s'est-il passé vendredi ?",
+          "options": ["Une inspection", "Un barbecue dans le trou", "Un exercice de combat", "Côté a rempli le trou"],
+          "correct": 1,
+          "explanation": "« Le barbecue a eu lieu le vendredi. Toute la compagnie est venue. »"
+        },
+        {
+          "stem": "Qu'a apporté le Colonel ?",
+          "options": ["De la bière", "Des chaises", "Des saucisses", "Un rapport disciplinaire"],
+          "correct": 2,
+          "explanation": "« Le Colonel a apporté des saucisses. »"
+        }
+      ]
+    },
+    {
+      "id": "R16",
+      "title": "Le fantassin et le cours de français",
+      "level": "NP-B",
+      "topic": "Humour militaire – Formation linguistique",
+      "text": "Le Sergent Thompson, anglophone du Royal Canadian Regiment, avait été envoyé à l'École de langues de Saint-Jean pour atteindre son profil linguistique BBB. Il était en semaine trois sur quarante.\n\n« Comment ça va, le français ? » lui a demandé son ami par téléphone.\n\n« J'ai appris à dire 'je ne comprends pas' de six façons différentes. C'est ma phrase la plus utile. »\n\nSon professeur, Madame Lafleur, était une femme patiente. Elle devait l'être. Le Sergent Thompson conjuguait tous les verbes au passé composé, même quand il parlait du futur.\n\n« Sergent, comment direz-vous 'je vais manger' ? »\n\n« J'ai mangé ? »\n\n« Non, ça c'est le passé. Le futur. »\n\n« J'ai mangé... demain ? »\n\nMadame Lafleur a pris une grande respiration. En semaine huit, Thompson avait fait des progrès remarquables. Il pouvait maintenant commander un café, se présenter, et expliquer en détail pourquoi l'infanterie était supérieure aux blindés — tout en français.\n\n« Votre français est excellent quand vous parlez de l'infanterie, » a noté Madame Lafleur dans son évaluation. « Pour tous les autres sujets, nous continuons à travailler. »\n\nThompson a obtenu son BBB à la semaine trente-huit. Son discours de fin de cours, entièrement en français, portait sur les vingt raisons pour lesquelles les fantassins sont les meilleurs soldats. Il a reçu une standing ovation de ses camarades d'infanterie. Les blindés ont quitté la salle.",
+      "questions": [
+        {
+          "stem": "Où le Sergent Thompson suit-il son cours de français ?",
+          "options": ["À Ottawa", "À l'École de langues de Saint-Jean", "À Valcartier", "À Borden"],
+          "correct": 1,
+          "explanation": "« Envoyé à l'École de langues de Saint-Jean. »"
+        },
+        {
+          "stem": "Quel profil linguistique doit-il atteindre ?",
+          "options": ["AAA", "BBB", "CBC", "CCC"],
+          "correct": 1,
+          "explanation": "« Pour atteindre son profil linguistique BBB. »"
+        },
+        {
+          "stem": "Quel problème avait Thompson avec la conjugaison ?",
+          "options": ["Il oubliait les verbes", "Il conjuguait tout au passé composé", "Il ne savait pas utiliser l'imparfait", "Il mélangeait le masculin et le féminin"],
+          "correct": 1,
+          "explanation": "« Le Sergent Thompson conjuguait tous les verbes au passé composé, même quand il parlait du futur. »"
+        },
+        {
+          "stem": "De quoi Thompson parlait-il le mieux en français ?",
+          "options": ["De la météo", "De la nourriture", "De la supériorité de l'infanterie", "De sa famille"],
+          "correct": 2,
+          "explanation": "« Votre français est excellent quand vous parlez de l'infanterie. »"
+        },
+        {
+          "stem": "En quelle semaine a-t-il obtenu son BBB ?",
+          "options": ["Semaine vingt", "Semaine trente", "Semaine trente-huit", "Semaine quarante"],
+          "correct": 2,
+          "explanation": "« Thompson a obtenu son BBB à la semaine trente-huit. »"
+        }
+      ]
+    },
+    {
+      "id": "R17",
+      "title": "L'artilleur et le réveil",
+      "level": "NP-A",
+      "topic": "Humour militaire – Artillerie",
+      "text": "Le Bombardier Paquette, du 1er Régiment, Royal Canadian Horse Artillery, avait un problème de sommeil. Non, il n'avait pas d'insomnie — c'est le contraire. Il pouvait dormir à travers n'importe quoi. Le bruit des canons de 155 mm ? Comme une berceuse. Les alarmes à cinq heures du matin ? Inaudibles.\n\nSon sergent de section avait tout essayé. Trois réveils simultanés. Un seau d'eau. Même un clairon joué directement dans son oreille. Paquette dormait comme un bébé.\n\n« C'est un don, » disait Paquette avec fierté. « Après trois ans à côté des obusiers, plus rien ne me réveille. »\n\n« Ce n'est pas un don, c'est un problème disciplinaire, » répondait le Sergent Lacroix.\n\nLa solution est venue par accident. Un matin, quelqu'un dans les baraquements a chuchoté : « Il y a de la poutine gratuite au mess. » Paquette s'est levé en exactement deux secondes.\n\nDepuis ce jour, le Sergent Lacroix a enregistré la phrase « poutine gratuite au mess » sur son téléphone et la joue chaque matin à cinq heures. Paquette se lève immédiatement, réalise qu'il n'y a pas de poutine, et commence sa journée frustré mais ponctuel.\n\n« C'est cruel, Sergent. »\n\n« C'est efficace, Bombardier. »",
+      "questions": [
+        {
+          "stem": "Quel est le problème du Bombardier Paquette ?",
+          "options": ["Il a de l'insomnie", "Il dort trop profondément", "Il est toujours en retard aux exercices", "Il n'aime pas se lever tôt"],
+          "correct": 1,
+          "explanation": "« Il pouvait dormir à travers n'importe quoi. »"
+        },
+        {
+          "stem": "Pourquoi le bruit ne le réveille-t-il plus ?",
+          "options": ["Il porte des bouchons d'oreilles", "Trois ans à côté des obusiers", "Il prend des médicaments", "Il est sourd"],
+          "correct": 1,
+          "explanation": "« Après trois ans à côté des obusiers, plus rien ne me réveille. »"
+        },
+        {
+          "stem": "Qu'est-ce qui a finalement réveillé Paquette ?",
+          "options": ["Un seau d'eau", "Un clairon", "Le mot 'poutine gratuite'", "Son sergent qui criait"],
+          "correct": 2,
+          "explanation": "« Quelqu'un a chuchoté : 'Il y a de la poutine gratuite au mess.' Paquette s'est levé en exactement deux secondes. »"
+        },
+        {
+          "stem": "Quelle solution le Sergent Lacroix a-t-il trouvée ?",
+          "options": ["Mettre cinq réveils", "Enregistrer 'poutine gratuite au mess' sur son téléphone", "Demander une mutation pour Paquette", "Le mettre de garde la nuit"],
+          "correct": 1,
+          "explanation": "« Le Sergent Lacroix a enregistré la phrase 'poutine gratuite au mess' sur son téléphone et la joue chaque matin. »"
+        },
+        {
+          "stem": "Comment Paquette décrit-il la méthode du sergent ?",
+          "options": ["Géniale", "Cruelle", "Amusante", "Injuste"],
+          "correct": 1,
+          "explanation": "« C'est cruel, Sergent. » « C'est efficace, Bombardier. »"
+        }
+      ]
+    },
+    {
+      "id": "R18",
+      "title": "Le médecin et la parade des malades",
+      "level": "NP-B",
+      "topic": "Humour militaire – Services de santé",
+      "text": "Le Capitaine Docteur Bergeron était le médecin militaire de la garnison de Petawawa. Chaque lundi matin, il tenait la parade des malades, où les soldats venaient avec leurs plaintes médicales. Il avait développé un système de classification personnel.\n\n« Catégorie A : réellement malade. Catégorie B : un peu malade mais surtout fatigué du lundi. Catégorie C : veut éviter la course de cinq kilomètres prévue à 09 h 00. »\n\nCe lundi-là, dix-sept soldats se sont présentés. Par coïncidence, la course de cinq kilomètres était prévue à 09 h 00.\n\n« Caporal Lemieux, qu'est-ce qui ne va pas ? »\n\n« Mon genou me fait mal, Capitaine. »\n\n« Depuis quand ? »\n\n« Depuis... ce matin. Quand j'ai vu le programme du jour. »\n\n« Catégorie C. Allez courir. Suivant ! »\n\nDeux soldats avaient réellement mal à la gorge. Le Capitaine Bergeron leur a donné du repos. Les quinze autres ont reçu deux comprimés d'ibuprofène et l'ordre de se présenter à la ligne de départ.\n\n« Docteur, l'ibuprofène ne guérit pas la paresse, » a observé l'infirmière, le Caporal-chef Simard.\n\n« Non, mais l'effet placebo est remarquable quand l'alternative est des pompes jusqu'à ce que le sergent soit fatigué. »",
+      "questions": [
+        {
+          "stem": "Que signifie la « Catégorie C » du docteur ?",
+          "options": ["Réellement malade", "Un peu fatigué", "Veut éviter la course", "Blessure grave"],
+          "correct": 2,
+          "explanation": "« Catégorie C : veut éviter la course de cinq kilomètres. »"
+        },
+        {
+          "stem": "Combien de soldats se sont présentés à la parade des malades ?",
+          "options": ["Cinq", "Dix", "Dix-sept", "Vingt-deux"],
+          "correct": 2,
+          "explanation": "« Dix-sept soldats se sont présentés. »"
+        },
+        {
+          "stem": "Depuis quand le Caporal Lemieux avait-il mal au genou ?",
+          "options": ["Depuis une semaine", "Depuis la veille", "Depuis qu'il a vu le programme du jour", "Depuis un exercice"],
+          "correct": 2,
+          "explanation": "« Depuis... ce matin. Quand j'ai vu le programme du jour. »"
+        },
+        {
+          "stem": "Combien de soldats étaient vraiment malades ?",
+          "options": ["Aucun", "Deux", "Cinq", "Dix"],
+          "correct": 1,
+          "explanation": "« Deux soldats avaient réellement mal à la gorge. » Les quinze autres voulaient éviter la course."
+        },
+        {
+          "stem": "Qu'est-ce que les soldats de Catégorie C ont reçu ?",
+          "options": ["Du repos", "Un billet médical", "De l'ibuprofène et l'ordre de courir", "Une exemption"],
+          "correct": 2,
+          "explanation": "« Les quinze autres ont reçu deux comprimés d'ibuprofène et l'ordre de se présenter à la ligne de départ. »"
+        }
+      ]
+    },
+    {
+      "id": "R19",
+      "title": "Le logisticien et les bottes perdues",
+      "level": "NP-B",
+      "topic": "Humour militaire – Logistique",
+      "text": "Le Caporal Veilleux travaillait au magasin d'habillement de la BFC Gagetown. Son travail consistait à distribuer des uniformes et de l'équipement. Le problème, c'est que le système d'inventaire était un mystère que même les meilleurs esprits de la logistique n'avaient jamais résolu.\n\n« J'ai besoin de bottes de taille 10, » a demandé un soldat.\n\n« Le système dit qu'on en a trois cent quarante-deux paires en stock. »\n\n« Excellent ! »\n\n« Mais physiquement, je n'en trouve aucune. Par contre, j'ai trouvé deux cents bérets de taille extra-large que personne n'a jamais commandés et une caisse de raquettes à neige qui date de 1987. »\n\nLe soldat est parti avec des bottes de taille 11 et quatre paires de chaussettes épaisses pour compenser. Veilleux a noté dans le registre : « Article distribué conformément aux besoins opérationnels. Solution alternative appliquée. »\n\nQuand l'Adjudant Carrier a fait l'inspection trimestrielle, il a découvert que le magasin contenait, entre autres : soixante parkas pour un climat arctique (en plein été au Nouveau-Brunswick), un kayak, et un mannequin en uniforme de la Deuxième Guerre mondiale que personne ne pouvait expliquer.\n\n« Veilleux, pourquoi y a-t-il un kayak dans le magasin d'habillement ? »\n\n« Je ne sais pas, Adjudant. Il était là avant moi. J'ai peur de le bouger parce qu'il est dans le système comme 'équipement essentiel'. »",
+      "questions": [
+        {
+          "stem": "Quelle taille de bottes le soldat voulait-il ?",
+          "options": ["Taille 9", "Taille 10", "Taille 11", "Taille 12"],
+          "correct": 1,
+          "explanation": "« J'ai besoin de bottes de taille 10. »"
+        },
+        {
+          "stem": "Combien de paires le système indiquait-il en stock ?",
+          "options": ["Zéro", "Quarante-deux", "Trois cent quarante-deux", "Mille"],
+          "correct": 2,
+          "explanation": "« Le système dit qu'on en a trois cent quarante-deux paires en stock. »"
+        },
+        {
+          "stem": "Qu'a reçu le soldat finalement ?",
+          "options": ["Les bottes de taille 10", "Des bottes de taille 11 avec des chaussettes épaisses", "Des raquettes à neige", "Rien du tout"],
+          "correct": 1,
+          "explanation": "« Le soldat est parti avec des bottes de taille 11 et quatre paires de chaussettes épaisses pour compenser. »"
+        },
+        {
+          "stem": "Quel objet étrange se trouvait dans le magasin ?",
+          "options": ["Un vélo", "Un kayak", "Un traîneau", "Un parachute"],
+          "correct": 1,
+          "explanation": "Le magasin contenait, entre autres, « un kayak » que personne ne pouvait expliquer."
+        },
+        {
+          "stem": "Pourquoi Veilleux n'a-t-il pas bougé le kayak ?",
+          "options": ["Il était trop lourd", "Il bloquait la porte", "Il est dans le système comme 'équipement essentiel'", "L'Adjudant lui a dit de ne pas y toucher"],
+          "correct": 2,
+          "explanation": "« J'ai peur de le bouger parce qu'il est dans le système comme 'équipement essentiel'. »"
+        }
+      ]
+    },
+    {
+      "id": "R20",
+      "title": "La recrue et le parcours d'obstacles",
+      "level": "NP-A",
+      "topic": "Humour militaire – Instruction",
+      "text": "Le Soldat Picard était en formation de base à Saint-Jean. Aujourd'hui, c'était le jour du parcours d'obstacles — l'épreuve que tous les recrues redoutaient.\n\nLe parcours comprenait un mur de trois mètres, un passage sous des barbelés, une traversée de corde, et une course dans la boue. Le Sergent-instructeur avait promis que c'était « une belle journée pour souffrir ».\n\nPicard a attaqué le mur avec enthousiasme. Il a sauté, a attrapé le bord, et est resté suspendu comme un drapeau par une journée sans vent. Ses jambes pédalaient dans le vide.\n\n« Picard ! Utilise tes bras ! » a crié le Sergent.\n\n« J'utilise mes bras, Sergent ! Ce sont mes bras qui ne veulent pas coopérer ! »\n\nAprès quarante-cinq secondes de lutte, il est passé par-dessus. Pour le passage sous les barbelés, il a rampé si lentement qu'une araignée a eu le temps de tisser une toile sur son casque.\n\nMais c'est la section de boue qui est devenue légendaire. Picard a glissé, est tombé face première, s'est relevé, a glissé encore, et a terminé le parcours couvert de boue de la tête aux pieds. On ne voyait que ses yeux.\n\n« Temps final : onze minutes et trente-deux secondes, » a annoncé le Sergent. « Le record de la base, c'est quatre minutes. »\n\n« Mais je l'ai terminé, Sergent ! »\n\n« Oui, Picard. Et personne ne peut t'enlever ça. »",
+      "questions": [
+        {
+          "stem": "Où se déroule la formation de base ?",
+          "options": ["À Borden", "À Saint-Jean", "À Gagetown", "À Esquimalt"],
+          "correct": 1,
+          "explanation": "« Le Soldat Picard était en formation de base à Saint-Jean. »"
+        },
+        {
+          "stem": "Quelle hauteur faisait le mur ?",
+          "options": ["Deux mètres", "Trois mètres", "Quatre mètres", "Cinq mètres"],
+          "correct": 1,
+          "explanation": "« Un mur de trois mètres. »"
+        },
+        {
+          "stem": "Combien de temps Picard a-t-il mis pour passer le mur ?",
+          "options": ["Dix secondes", "Trente secondes", "Quarante-cinq secondes", "Deux minutes"],
+          "correct": 2,
+          "explanation": "« Après quarante-cinq secondes de lutte, il est passé par-dessus. »"
+        },
+        {
+          "stem": "Quel était le temps final de Picard ?",
+          "options": ["Quatre minutes", "Sept minutes", "Onze minutes et trente-deux secondes", "Quinze minutes"],
+          "correct": 2,
+          "explanation": "« Temps final : onze minutes et trente-deux secondes. »"
+        },
+        {
+          "stem": "Quel est le record de la base ?",
+          "options": ["Trois minutes", "Quatre minutes", "Cinq minutes", "Six minutes"],
+          "correct": 1,
+          "explanation": "« Le record de la base, c'est quatre minutes. »"
+        }
+      ]
+    },
+    {
+      "id": "R21",
+      "title": "Le chauffeur et le GPS",
+      "level": "NP-B",
+      "topic": "Humour militaire – Transport",
+      "text": "Le Caporal Fortin était chauffeur de MSVS au sein du 4e Bataillon de soutien. Sa mission du jour : transporter du matériel de la BFC Valcartier à la BFC Montréal. Un trajet simple de deux heures et demie.\n\nSept heures plus tard, le Caporal Fortin a appelé son sergent depuis Rimouski.\n\n« Sergent, je crois que le GPS m'a menti. »\n\n« Fortin, Rimouski est à trois heures à l'est de Valcartier. Montréal est à deux heures à l'ouest. Comment as-tu fait ? »\n\n« J'ai suivi le GPS, Sergent. Il m'a dit de tourner, alors j'ai tourné. »\n\n« Tu n'as pas regardé les panneaux sur l'autoroute qui disaient 'Rimouski' ? »\n\n« Je faisais confiance au GPS, Sergent. Les Forces m'ont appris à suivre les instructions sans poser de questions. »\n\nLe sergent n'a pas pu argumenter contre cette logique. Le Caporal Fortin est arrivé à Montréal le lendemain matin, avec un plein de diesel en moins et un arrêt non autorisé dans un restaurant de fruits de mer à Rivière-du-Loup.\n\nDans son rapport de transport, il a écrit : « Itinéraire alternatif emprunté pour des raisons de sécurité routière. Recommandation : mettre à jour les GPS des véhicules militaires, qui semblent préférer les routes panoramiques. »\n\nLe GPS fonctionnait parfaitement. Fortin avait simplement entré « Rimouski » au lieu de « Montréal ».",
+      "questions": [
+        {
+          "stem": "Quelle était la destination prévue du Caporal Fortin ?",
+          "options": ["Rimouski", "Québec", "BFC Montréal", "Rivière-du-Loup"],
+          "correct": 2,
+          "explanation": "« Transporter du matériel de la BFC Valcartier à la BFC Montréal. »"
+        },
+        {
+          "stem": "Combien de temps le trajet aurait-il dû prendre ?",
+          "options": ["Une heure", "Deux heures et demie", "Quatre heures", "Six heures"],
+          "correct": 1,
+          "explanation": "« Un trajet simple de deux heures et demie. »"
+        },
+        {
+          "stem": "Où Fortin s'est-il retrouvé ?",
+          "options": ["À Québec", "À Trois-Rivières", "À Rimouski", "À Gaspé"],
+          "correct": 2,
+          "explanation": "« Le Caporal Fortin a appelé son sergent depuis Rimouski. »"
+        },
+        {
+          "stem": "Quelle était la vraie cause de l'erreur ?",
+          "options": ["Le GPS était en panne", "Il avait entré 'Rimouski' au lieu de 'Montréal'", "Les panneaux étaient confus", "La route était fermée"],
+          "correct": 1,
+          "explanation": "« Fortin avait simplement entré 'Rimouski' au lieu de 'Montréal'. »"
+        },
+        {
+          "stem": "Où Fortin s'est-il arrêté en chemin ?",
+          "options": ["À une station-service", "Dans un restaurant de fruits de mer à Rivière-du-Loup", "Au mess d'une autre base", "Il ne s'est pas arrêté"],
+          "correct": 1,
+          "explanation": "« Un arrêt non autorisé dans un restaurant de fruits de mer à Rivière-du-Loup. »"
+        }
+      ]
+    },
+    {
+      "id": "R22",
+      "title": "Le plongeur et la montre perdue",
+      "level": "NP-C",
+      "topic": "Humour militaire – Marine / Plongeurs",
+      "text": "Le Matelot de 1re classe Dufresne était plongeur de la Marine royale canadienne, stationné à Halifax. Il était reconnu pour deux choses : son excellence sous l'eau et sa capacité à perdre absolument tout ce qui n'était pas attaché à son corps.\n\nUn matin, le Lieutenant-Commander a convoqué l'équipe de plongée. « Messieurs, nous avons une mission de récupération. Un objet de valeur a été perdu dans le port. »\n\n« Quel type d'objet, Lieutenant-Commander ? » a demandé Dufresne.\n\n« Votre montre, Matelot. Que vous avez laissé tomber dans le port hier en prenant un selfie sur le quai. »\n\nL'équipe a passé quatre heures à fouiller le fond du port. Ils ont trouvé trois ancres rouillées, un pneu de voiture, un vieux vélo, quatorze balles de golf, et une collection impressionnante de lunettes de soleil perdues depuis des années. Mais pas de montre.\n\n« Ce n'est pas grave, » a dit Dufresne. « C'était une montre à cinq dollars. »\n\n« Vous ne pouviez pas mentionner ça avant que nous passions quatre heures au fond du port ? » a demandé le Lieutenant-Commander.\n\n« Je pensais que c'était un bon exercice d'entraînement, Lieutenant-Commander. »\n\nLe rapport de mission indiquait : « Mission de récupération d'objet : partiellement réussie. Objet principal non retrouvé. Objets secondaires récupérés : trois ancres, un vélo, quatorze balles de golf. Recommandation : interdire au Mat 1 Dufresne d'apporter des objets personnels près de l'eau. »",
+      "questions": [
+        {
+          "stem": "Où est stationné le Matelot Dufresne ?",
+          "options": ["Esquimalt", "Halifax", "Ottawa", "Victoria"],
+          "correct": 1,
+          "explanation": "« Plongeur de la Marine royale canadienne, stationné à Halifax. »"
+        },
+        {
+          "stem": "Comment Dufresne a-t-il perdu sa montre ?",
+          "options": ["Pendant une plongée", "En prenant un selfie sur le quai", "En nageant", "En lavant son équipement"],
+          "correct": 1,
+          "explanation": "« Vous avez laissé tomber dans le port hier en prenant un selfie sur le quai. »"
+        },
+        {
+          "stem": "Combien de temps l'équipe a-t-elle cherché ?",
+          "options": ["Une heure", "Deux heures", "Quatre heures", "Toute la journée"],
+          "correct": 2,
+          "explanation": "« L'équipe a passé quatre heures à fouiller le fond du port. »"
+        },
+        {
+          "stem": "Combien valait la montre ?",
+          "options": ["Cinquante dollars", "Vingt dollars", "Dix dollars", "Cinq dollars"],
+          "correct": 3,
+          "explanation": "« C'était une montre à cinq dollars. »"
+        },
+        {
+          "stem": "Combien de balles de golf ont-ils trouvées ?",
+          "options": ["Sept", "Dix", "Quatorze", "Vingt"],
+          "correct": 2,
+          "explanation": "Ils ont trouvé « quatorze balles de golf »."
+        }
+      ]
+    },
+    {
+      "id": "R23",
+      "title": "Le chat de la salle des opérations",
+      "level": "NP-A",
+      "topic": "Humour militaire – QG",
+      "text": "Personne ne savait comment le chat était entré dans la salle des opérations du quartier général de Kingston. Un matin, il était simplement là, assis sur la table de briefing, regardant les officiers avec un air de supériorité absolue.\n\nLe Major Lefebvre a essayé de le déplacer. Le chat l'a griffé. Le Capitaine Morin a essayé avec des gants de travail. Le chat a mordu les gants. Le Lieutenant Chen a essayé avec une boîte. Le chat s'est assis sur la boîte.\n\n« Il refuse de bouger, » a constaté le Major.\n\n« On ne peut pas avoir un chat dans la salle des opérations, » a dit le Colonel.\n\n« Avec respect, Colonel, le chat est le seul dans cette salle qui a l'air de savoir exactement ce qu'il fait, » a observé l'Adjudant-chef Samson.\n\nLe chat est resté. Pendant les briefings, il marchait sur le clavier et changeait les diapositives au hasard, ce qui, ironiquement, rendait certaines présentations plus intéressantes. Il dormait sur les documents classifiés et refusait de bouger pour quiconque en dessous du rang de Colonel.\n\nAprès un mois, il a reçu un nom officiel : « Général Moustache ». Il a son propre badge d'accès, sa propre chaise, et un bol de nourriture étiqueté « Personnel essentiel — Ne pas déplacer ». Le vrai général trouve ça moins drôle que tout le monde.",
+      "questions": [
+        {
+          "stem": "Où le chat a-t-il été trouvé ?",
+          "options": ["Au mess", "Dans la salle des opérations de Kingston", "Dans les baraquements", "Au garage"],
+          "correct": 1,
+          "explanation": "« Le chat était entré dans la salle des opérations du quartier général de Kingston. »"
+        },
+        {
+          "stem": "Qu'a fait le chat quand le Major a essayé de le déplacer ?",
+          "options": ["Il est parti", "Il l'a griffé", "Il a miaulé", "Il s'est caché"],
+          "correct": 1,
+          "explanation": "« Le Major Lefebvre a essayé de le déplacer. Le chat l'a griffé. »"
+        },
+        {
+          "stem": "Que faisait le chat pendant les briefings ?",
+          "options": ["Il dormait tranquillement", "Il marchait sur le clavier et changeait les diapositives", "Il restait sous la table", "Il sortait de la salle"],
+          "correct": 1,
+          "explanation": "« Il marchait sur le clavier et changeait les diapositives au hasard. »"
+        },
+        {
+          "stem": "Quel nom a-t-on donné au chat ?",
+          "options": ["Caporal Pattes", "Sergent Félix", "Général Moustache", "Major Minou"],
+          "correct": 2,
+          "explanation": "« Il a reçu un nom officiel : 'Général Moustache'. »"
+        },
+        {
+          "stem": "Pour qui le chat acceptait-il de bouger ?",
+          "options": ["Pour tout le monde", "Pour personne en dessous du rang de Colonel", "Seulement pour le Major", "Pour quiconque avait de la nourriture"],
+          "correct": 1,
+          "explanation": "« Il refusait de bouger pour quiconque en dessous du rang de Colonel. »"
+        }
+      ]
+    },
+    {
+      "id": "R24",
+      "title": "L'exercice et la pizza",
+      "level": "NP-B",
+      "topic": "Humour militaire – Exercice en campagne",
+      "text": "L'exercice « Tempête de Neige » se déroulait dans les bois de Wainwright, Alberta, en plein mois de février. La température était de moins trente degrés. Le moral était au même niveau que le thermomètre.\n\nLe Caporal Thériault, opérateur radio de la compagnie Bravo, avait un plan. Pendant son tour de garde à deux heures du matin, il a utilisé la radio pour appeler... un service de livraison de pizza.\n\n« Oui, bonjour. Je voudrais trois grandes pizzas pepperoni, deux hawaïennes, et une végétarienne pour le Lieutenant parce qu'il fait attention à sa ligne. Livraison au point de grille Mike Tango 485 723. C'est dans les bois. Vous verrez les soldats. Ils ressemblent à des bonshommes de neige tristes. »\n\nLe livreur ne pouvait évidemment pas trouver un campement militaire caché dans la forêt. Mais par un miracle logistique, il a trouvé la route d'accès et a klaxonné. Vingt-deux soldats sont sortis des bois comme des zombies affamés.\n\nLe Commandant de compagnie, le Major Dubé, est arrivé pour voir sa compagnie entière en train de manger de la pizza autour du véhicule de livraison, qui avait les feux de détresse allumés en plein milieu d'un exercice tactique.\n\n« Qui a fait ça ? » a-t-il demandé.\n\nSilence total. Vingt-deux bouches pleines de pizza. Personne ne parlait.\n\nThériault a reçu trois jours de corvée. Mais le Major a mangé la dernière part de pepperoni avant de donner la punition. L'exercice s'est terminé avec un moral nettement amélioré.",
+      "questions": [
+        {
+          "stem": "Où se déroulait l'exercice « Tempête de Neige » ?",
+          "options": ["À Petawawa", "À Gagetown", "À Wainwright, Alberta", "À Valcartier"],
+          "correct": 2,
+          "explanation": "« L'exercice se déroulait dans les bois de Wainwright, Alberta. »"
+        },
+        {
+          "stem": "Quelle était la température ?",
+          "options": ["Moins dix degrés", "Moins vingt degrés", "Moins trente degrés", "Moins quarante degrés"],
+          "correct": 2,
+          "explanation": "« La température était de moins trente degrés. »"
+        },
+        {
+          "stem": "Pourquoi Thériault a-t-il commandé une pizza végétarienne ?",
+          "options": ["Il est végétarien", "C'était moins cher", "Pour le Lieutenant qui fait attention à sa ligne", "Personne ne voulait de pepperoni"],
+          "correct": 2,
+          "explanation": "« Une végétarienne pour le Lieutenant parce qu'il fait attention à sa ligne. »"
+        },
+        {
+          "stem": "Combien de soldats sont sortis des bois ?",
+          "options": ["Dix", "Quinze", "Vingt-deux", "Trente"],
+          "correct": 2,
+          "explanation": "« Vingt-deux soldats sont sortis des bois comme des zombies affamés. »"
+        },
+        {
+          "stem": "Quelle punition Thériault a-t-il reçue ?",
+          "options": ["Aucune", "Trois jours de corvée", "Une semaine de garde", "Il a été renvoyé au camp"],
+          "correct": 1,
+          "explanation": "« Thériault a reçu trois jours de corvée. Mais le Major a mangé la dernière part avant de donner la punition. »"
+        }
+      ]
     }
   ]
 }
