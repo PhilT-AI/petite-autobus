@@ -4,6 +4,7 @@ import fasciculeIndex from "./data/fascicules.json";
 import verbsData from "./data/verbs.json";
 import grammarData from "./data/grammar-questions.json";
 import readingData from "./data/reading.json";
+import listeningData from "./data/listening.json";
 import writingData from "./data/writing-prompts.json";
 import heroImg from "./assets/hero.png";
 
@@ -2436,6 +2437,7 @@ const DailyPlan = ({ go }) => {
 /* ════════════════════ LISTENING COMPREHENSION ════════════════════ */
 const Listening = ({ go, ttsOn }) => {
   const [phase, setPhase] = useState("setup");
+  const [mode, setMode] = useState(null); // "scenarios" or "vocab"
   const [level, setLevel] = useState("A");
   const [qi, setQi] = useState(0);
   const [sel, setSel] = useState(null);
@@ -2443,10 +2445,20 @@ const Listening = ({ go, ttsOn }) => {
   const [score, setScore] = useState(0);
   const [plays, setPlays] = useState(0);
   const [qs, setQs] = useState([]);
+  const [scenario, setScenario] = useState(null);
+  const [speedMode, setSpeedMode] = useState("normal"); // normal or slow
 
-  const sentences = useMemo(() => {
+  // Filter scenarios by level
+  const scenariosByLevel = useMemo(() => {
+    const lvl = `NP-${level}`;
+    return listeningData.scenarios.filter(s => s.level === lvl);
+  }, [level]);
+
+  const allScenarios = listeningData.scenarios;
+
+  // Build vocab-based questions (original mode)
+  const vocabQuestions = useMemo(() => {
     const pool = [];
-    // Generate listening questions from lexique data
     for (const e of lexiqueData) {
       if (!e.en || e.synonyms.length < 1) continue;
       pool.push({
@@ -2454,11 +2466,9 @@ const Listening = ({ go, ttsOn }) => {
         question: `Quel mot a été utilisé comme synonyme ?`,
         correct: e.synonyms[0],
         wrong: lexiqueData.filter(x => x.id !== e.id && x.synonyms.length > 0).sort(() => Math.random() - 0.5).slice(0, 3).map(x => x.synonyms[0] || x.term),
-        term: e.term,
         en: e.en,
       });
     }
-    // Add verb example sentences
     for (const v of verbsData.verbs) {
       const lk = level === "A" ? "npA" : level === "B" ? "npB" : "npC";
       if (v[lk]?.example?.fr) {
@@ -2467,7 +2477,6 @@ const Listening = ({ go, ttsOn }) => {
           question: `Quel verbe a été utilisé dans la phrase ?`,
           correct: v.infinitif,
           wrong: verbsData.verbs.filter(x => x.id !== v.id).sort(() => Math.random() - 0.5).slice(0, 3).map(x => x.infinitif),
-          term: v.infinitif,
           en: v[lk].example.en,
         });
       }
@@ -2475,18 +2484,44 @@ const Listening = ({ go, ttsOn }) => {
     return pool.sort(() => Math.random() - 0.5).slice(0, 10);
   }, [level]);
 
-  const start = () => {
-    const shuffled = sentences.map(s => {
+  const startVocab = () => {
+    const shuffled = vocabQuestions.map(s => {
       const opts = [s.correct, ...s.wrong].sort(() => Math.random() - 0.5);
       return { ...s, opts, correctIdx: opts.indexOf(s.correct) };
     });
     setQs(shuffled);
     setQi(0); setSel(null); setAnswered(false); setScore(0); setPlays(0);
+    setMode("vocab");
+    setPhase("quiz");
+  };
+
+  const startScenario = (sc) => {
+    setScenario(sc);
+    const mapped = sc.questions.map(q => ({
+      fr: sc.text,
+      question: q.stem,
+      opts: q.options,
+      correctIdx: q.correct,
+      explanation: q.explanation,
+      scenarioTitle: sc.title,
+      scenarioType: sc.type,
+    }));
+    setQs(mapped);
+    setQi(0); setSel(null); setAnswered(false); setScore(0); setPlays(0);
+    setMode("scenarios");
     setPhase("quiz");
   };
 
   const playAudio = () => {
-    speak(qs[qi].fr);
+    const text = qs[qi]?.fr || "";
+    window.speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = "fr-FR";
+    utter.rate = speedMode === "slow" ? 0.65 : 0.85;
+    const voices = window.speechSynthesis.getVoices();
+    const frVoice = voices.find(v => v.lang.startsWith("fr")) || null;
+    if (frVoice) utter.voice = frVoice;
+    window.speechSynthesis.speak(utter);
     setPlays(p => p + 1);
   };
 
@@ -2511,9 +2546,11 @@ const Listening = ({ go, ttsOn }) => {
           <div style={{ fontSize: 40 }}>{pct >= 70 ? "🎧" : "📋"}</div>
           <div style={{ ...font.h, fontSize: 44, color: pct >= 70 ? C.gold : C.alertRed, marginTop: 8 }}>{pct}%</div>
           <div style={{ ...font.card, fontSize: 15, color: C.text, marginTop: 4 }}>{score} / {qs.length} Correct</div>
-          <div style={{ ...font.body, fontSize: 12, color: C.textSec, marginTop: 6 }}>Listening Comprehension</div>
+          <div style={{ ...font.body, fontSize: 12, color: C.textSec, marginTop: 6 }}>
+            {mode === "scenarios" && scenario ? scenario.title : "Vocabulary Listening"}
+          </div>
         </div>
-        <button onClick={() => setPhase("setup")} style={{ padding: 14, borderRadius: 12, border: "none", background: C.greenPrimary, ...font.card, fontSize: 14, color: C.text, cursor: "pointer" }}>New Session</button>
+        <button onClick={() => { setPhase("setup"); setMode(null); setScenario(null); }} style={{ padding: 14, borderRadius: 12, border: "none", background: C.greenPrimary, ...font.card, fontSize: 14, color: C.text, cursor: "pointer" }}>New Session</button>
         <button onClick={() => go("home")} style={{ padding: 12, borderRadius: 10, border: `1.5px solid ${C.border}`, background: "transparent", ...font.card, fontSize: 13, color: C.textSec, cursor: "pointer" }}>Back to Home</button>
       </div>
     );
@@ -2521,16 +2558,18 @@ const Listening = ({ go, ttsOn }) => {
 
   if (phase === "quiz") {
     const q = qs[qi];
+    const isScenario = mode === "scenarios";
     return (
       <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-          <button onClick={() => setPhase("setup")} style={{ background: "none", border: "none", cursor: "pointer", ...font.body, fontSize: 12, color: C.textSec }}>← Back</button>
+          <button onClick={() => { setPhase("setup"); setMode(null); }} style={{ background: "none", border: "none", cursor: "pointer", ...font.body, fontSize: 12, color: C.textSec }}>← Back</button>
           <span style={{ ...font.label, fontSize: 10, color: C.textMut }}>Q{qi + 1}/{qs.length}</span>
         </div>
+        {isScenario && <div style={{ ...font.card, fontSize: 13, color: C.tanLight, textAlign: "center" }}>{scenario.title}</div>}
         <Bar value={qi + 1} max={qs.length} color={C.tanLight} h={3} />
 
-        {/* Play button */}
-        <div style={{ background: C.bgCard, borderRadius: 14, padding: "28px 20px", border: `1px solid ${C.border}`, textAlign: "center" }}>
+        {/* Play button + speed toggle */}
+        <div style={{ background: C.bgCard, borderRadius: 14, padding: "24px 20px", border: `1px solid ${C.border}`, textAlign: "center" }}>
           <button onClick={playAudio} style={{
             width: 70, height: 70, borderRadius: 35, border: `2px solid ${C.tanLight}`,
             background: `${C.tanLight}15`, cursor: "pointer", display: "flex",
@@ -2538,12 +2577,17 @@ const Listening = ({ go, ttsOn }) => {
           }}>
             <span style={{ fontSize: 30 }}>🔊</span>
           </button>
-          <div style={{ ...font.card, fontSize: 14, color: C.text, marginTop: 14 }}>Tap to listen</div>
-          <div style={{ ...font.body, fontSize: 11, color: C.textMut, marginTop: 4 }}>Played {plays} time{plays !== 1 ? "s" : ""}</div>
+          <div style={{ ...font.card, fontSize: 14, color: C.text, marginTop: 12 }}>Tap to listen</div>
+          <div style={{ display: "flex", justifyContent: "center", gap: 8, marginTop: 8 }}>
+            <button onClick={() => setSpeedMode("normal")} style={{ padding: "4px 12px", borderRadius: 6, border: `1px solid ${speedMode === "normal" ? C.greenPrimary : C.border}`, background: speedMode === "normal" ? `${C.greenPrimary}18` : "transparent", ...font.label, fontSize: 10, color: speedMode === "normal" ? C.greenBright : C.textMut, cursor: "pointer" }}>Normal</button>
+            <button onClick={() => setSpeedMode("slow")} style={{ padding: "4px 12px", borderRadius: 6, border: `1px solid ${speedMode === "slow" ? C.gold : C.border}`, background: speedMode === "slow" ? `${C.gold}18` : "transparent", ...font.label, fontSize: 10, color: speedMode === "slow" ? C.gold : C.textMut, cursor: "pointer" }}>🐢 Slow</button>
+          </div>
+          <div style={{ ...font.body, fontSize: 11, color: C.textMut, marginTop: 6 }}>Played {plays} time{plays !== 1 ? "s" : ""}</div>
           {answered && (
-            <div style={{ marginTop: 12, padding: "10px 14px", background: C.bgElevated, borderRadius: 8 }}>
-              <div style={{ ...font.body, fontSize: 13, color: C.text }}>{q.fr}</div>
-              <div style={{ ...font.body, fontSize: 11, color: C.textSec, fontStyle: "italic", marginTop: 4 }}>{q.en}</div>
+            <div style={{ marginTop: 12, padding: "10px 14px", background: C.bgElevated, borderRadius: 8, textAlign: "left" }}>
+              <div style={{ ...font.body, fontSize: 13, color: C.text, whiteSpace: "pre-wrap" }}>{q.fr}</div>
+              {q.en && <div style={{ ...font.body, fontSize: 11, color: C.textSec, fontStyle: "italic", marginTop: 4 }}>{q.en}</div>}
+              {q.explanation && <div style={{ ...font.body, fontSize: 11, color: C.greenBright, marginTop: 6 }}>{q.explanation}</div>}
             </div>
           )}
         </div>
@@ -2577,23 +2621,17 @@ const Listening = ({ go, ttsOn }) => {
   }
 
   // SETUP
+  const typeIcons = { message: "📞", announcement: "📢", dialogue: "💬", instructions: "📋" };
+  const typeLabels = { message: "Message", announcement: "Announcement", dialogue: "Dialogue", instructions: "Instructions" };
+
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
       <div style={{ ...font.h, fontSize: 18, color: C.text }}>Listening Comprehension</div>
       <div style={{ ...font.body, fontSize: 12, color: C.textSec }}>
-        Listen to French sentences and answer questions. Train your ear for the PSC oral exam.
+        Listen to French audio and answer comprehension questions. Train your ear for the PSC oral exam.
       </div>
 
-      <div style={{ background: C.bgCard, borderRadius: 12, padding: 18, border: `1px solid ${C.border}` }}>
-        <div style={{ ...font.label, fontSize: 9, color: C.textMut, marginBottom: 10 }}>How it works</div>
-        <div style={{ ...font.body, fontSize: 12, color: C.text, lineHeight: 1.6 }}>
-          1. Tap 🔊 to hear a French sentence{"\n"}
-          2. Answer the question about what you heard{"\n"}
-          3. The text is revealed after you answer{"\n"}
-          4. Listen as many times as you need
-        </div>
-      </div>
-
+      {/* NP Level filter */}
       <div>
         <div style={{ ...font.label, fontSize: 9, color: C.textMut, marginBottom: 8 }}>NP Level</div>
         <div style={{ display: "flex", gap: 6 }}>
@@ -2608,9 +2646,70 @@ const Listening = ({ go, ttsOn }) => {
         </div>
       </div>
 
-      <button onClick={start} style={{ padding: 16, borderRadius: 12, border: "none", background: C.greenPrimary, ...font.card, fontSize: 15, color: C.text, cursor: "pointer" }}>
-        Start Listening (10 questions)
-      </button>
+      {/* Scenario-based listening */}
+      <div style={{ ...font.label, fontSize: 10, color: C.textMut, marginTop: 4 }}>Scenarios — NP-{level} ({scenariosByLevel.length} available)</div>
+      {scenariosByLevel.length === 0 && (
+        <div style={{ ...font.body, fontSize: 12, color: C.textSec, padding: "12px 0" }}>No scenarios at this level yet. Try another NP level or use Vocabulary Mode below.</div>
+      )}
+      {scenariosByLevel.map(sc => (
+        <div key={sc.id} onClick={() => startScenario(sc)} style={{
+          background: C.bgCard, borderRadius: 12, padding: "14px 16px",
+          border: `1px solid ${C.border}`, cursor: "pointer",
+          display: "flex", alignItems: "center", gap: 14,
+        }}>
+          <div style={{ width: 44, height: 44, borderRadius: 11, background: `${C.tanLight}15`, border: `2px solid ${C.tanLight}30`, display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <span style={{ fontSize: 20 }}>{typeIcons[sc.type] || "🎧"}</span>
+          </div>
+          <div style={{ flex: 1 }}>
+            <div style={{ ...font.card, fontSize: 14, color: C.text }}>{sc.title}</div>
+            <div style={{ ...font.body, fontSize: 11, color: C.textSec, marginTop: 2 }}>
+              {typeLabels[sc.type] || sc.type} · {sc.questions.length} questions · {sc.topic}
+            </div>
+          </div>
+          <span style={{ ...font.h, fontSize: 16, color: C.textMut }}>›</span>
+        </div>
+      ))}
+
+      {/* All scenarios button */}
+      {scenariosByLevel.length < allScenarios.length && (
+        <>
+          <div style={{ ...font.label, fontSize: 10, color: C.textMut, marginTop: 8 }}>All Levels ({allScenarios.length} total)</div>
+          {allScenarios.filter(s => s.level !== `NP-${level}`).map(sc => (
+            <div key={sc.id} onClick={() => startScenario(sc)} style={{
+              background: C.bgCard, borderRadius: 12, padding: "14px 16px",
+              border: `1px solid ${C.border}`, cursor: "pointer",
+              display: "flex", alignItems: "center", gap: 14, opacity: 0.7,
+            }}>
+              <div style={{ width: 44, height: 44, borderRadius: 11, background: `${C.textMut}12`, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <span style={{ fontSize: 20 }}>{typeIcons[sc.type] || "🎧"}</span>
+              </div>
+              <div style={{ flex: 1 }}>
+                <div style={{ ...font.card, fontSize: 14, color: C.text }}>{sc.title}</div>
+                <div style={{ ...font.body, fontSize: 11, color: C.textSec, marginTop: 2 }}>
+                  {sc.level} · {typeLabels[sc.type] || sc.type} · {sc.questions.length} Q
+                </div>
+              </div>
+              <span style={{ ...font.h, fontSize: 16, color: C.textMut }}>›</span>
+            </div>
+          ))}
+        </>
+      )}
+
+      {/* Vocab quick mode */}
+      <div style={{ ...font.label, fontSize: 10, color: C.textMut, marginTop: 12 }}>Quick Practice</div>
+      <div onClick={startVocab} style={{
+        background: `${C.gold}12`, borderRadius: 12, padding: "16px 18px",
+        border: `1px solid ${C.gold}35`, cursor: "pointer",
+        display: "flex", alignItems: "center", gap: 14,
+      }}>
+        <div style={{ width: 44, height: 44, borderRadius: 11, background: `${C.gold}15`, border: `2px solid ${C.gold}30`, display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <span style={{ fontSize: 20 }}>⚡</span>
+        </div>
+        <div>
+          <div style={{ ...font.card, fontSize: 14, color: C.text }}>Vocabulary Listening</div>
+          <div style={{ ...font.body, fontSize: 11, color: C.textSec, marginTop: 2 }}>10 random synonym & verb questions · NP-{level}</div>
+        </div>
+      </div>
     </div>
   );
 };

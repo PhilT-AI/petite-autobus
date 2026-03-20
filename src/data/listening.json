@@ -1,0 +1,897 @@
+{
+  "scenarios": [
+    {
+      "id": "L1",
+      "title": "Message sur le répondeur",
+      "type": "message",
+      "level": "NP-A",
+      "topic": "Workplace Communication",
+      "text": "Bonjour, ici le Sergent Martineau. Je vous appelle pour confirmer la réunion de demain matin à neuf heures dans la salle B. Le sujet principal sera la planification de l'exercice de novembre. Veuillez apporter vos calendriers. Merci et bonne journée.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Qui appelle ?",
+          "options": ["Le Capitaine Martineau", "Le Sergent Martineau", "Le Major Martineau", "Le Caporal Martineau"],
+          "correct": 1,
+          "explanation": "« Ici le Sergent Martineau. »"
+        },
+        {
+          "stem": "À quelle heure est la réunion ?",
+          "options": ["Huit heures", "Neuf heures", "Dix heures", "Onze heures"],
+          "correct": 1,
+          "explanation": "« La réunion de demain matin à neuf heures. »"
+        },
+        {
+          "stem": "Que doivent apporter les participants ?",
+          "options": ["Leurs rapports", "Leurs calendriers", "Leurs ordinateurs", "Leurs stylos"],
+          "correct": 1,
+          "explanation": "« Veuillez apporter vos calendriers. »"
+        }
+      ]
+    },
+    {
+      "id": "L2",
+      "title": "Annonce à la cafétéria",
+      "type": "announcement",
+      "level": "NP-A",
+      "topic": "Base Life",
+      "text": "Attention, s'il vous plaît. La cafétéria sera fermée vendredi prochain pour des rénovations. Le déjeuner sera servi au gymnase de huit heures à dix heures. Le dîner sera servi au mess des officiers de onze heures trente à treize heures. Nous nous excusons pour le dérangement.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Pourquoi la cafétéria sera-t-elle fermée ?",
+          "options": ["Pour un nettoyage", "Pour des rénovations", "Pour un événement spécial", "Pour une inspection"],
+          "correct": 1,
+          "explanation": "« La cafétéria sera fermée vendredi prochain pour des rénovations. »"
+        },
+        {
+          "stem": "Où sera servi le déjeuner ?",
+          "options": ["Au mess", "Au gymnase", "À la salle de conférence", "Au bureau du commandant"],
+          "correct": 1,
+          "explanation": "« Le déjeuner sera servi au gymnase. »"
+        },
+        {
+          "stem": "À quelle heure commence le service du dîner ?",
+          "options": ["Onze heures", "Onze heures trente", "Midi", "Douze heures trente"],
+          "correct": 1,
+          "explanation": "« Le dîner sera servi de onze heures trente à treize heures. »"
+        }
+      ]
+    },
+    {
+      "id": "L3",
+      "title": "Dialogue — Demande de congé",
+      "type": "dialogue",
+      "level": "NP-B",
+      "topic": "HR / Leave Request",
+      "text": "— Bonjour, Sergent. J'aimerais soumettre une demande de congé pour la semaine du 15 décembre.\n— Bonjour, Caporal. C'est pour des raisons personnelles ou familiales ?\n— Familiales. Ma fille a une opération à l'hôpital de Montréal et je dois être présent.\n— Je comprends. Vous avez encore combien de jours de congé ?\n— Il me reste douze jours, Sergent.\n— D'accord, remplissez le formulaire CF 100 et apportez-le-moi avant jeudi. Je vais l'approuver et l'envoyer aux ressources humaines.\n— Merci beaucoup, Sergent.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Pour quelle semaine le Caporal veut-il un congé ?",
+          "options": ["La semaine du 1er décembre", "La semaine du 8 décembre", "La semaine du 15 décembre", "La semaine du 22 décembre"],
+          "correct": 2,
+          "explanation": "« Une demande de congé pour la semaine du 15 décembre. »"
+        },
+        {
+          "stem": "Pourquoi a-t-il besoin d'un congé ?",
+          "options": ["Il déménage", "Sa fille a une opération", "Il se marie", "Il part en voyage"],
+          "correct": 1,
+          "explanation": "« Ma fille a une opération à l'hôpital de Montréal. »"
+        },
+        {
+          "stem": "Combien de jours de congé lui reste-t-il ?",
+          "options": ["Cinq jours", "Huit jours", "Douze jours", "Quinze jours"],
+          "correct": 2,
+          "explanation": "« Il me reste douze jours. »"
+        },
+        {
+          "stem": "Quel formulaire doit-il remplir ?",
+          "options": ["CF 50", "CF 75", "CF 100", "CF 200"],
+          "correct": 2,
+          "explanation": "« Remplissez le formulaire CF 100. »"
+        }
+      ]
+    },
+    {
+      "id": "L4",
+      "title": "Instructions du sergent",
+      "type": "instructions",
+      "level": "NP-A",
+      "topic": "Daily Orders",
+      "text": "Écoutez bien. Ce matin, le rassemblement est à sept heures trente devant le bâtiment principal. Après le rassemblement, nous avons une course de trois kilomètres. Ensuite, vous avez une heure pour vous préparer avant l'inspection des chambres à dix heures. Ceux qui échouent l'inspection auront une corvée samedi matin. Des questions ?",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "À quelle heure est le rassemblement ?",
+          "options": ["Sept heures", "Sept heures trente", "Huit heures", "Huit heures trente"],
+          "correct": 1,
+          "explanation": "« Le rassemblement est à sept heures trente. »"
+        },
+        {
+          "stem": "Quelle distance fait la course ?",
+          "options": ["Deux kilomètres", "Trois kilomètres", "Cinq kilomètres", "Dix kilomètres"],
+          "correct": 1,
+          "explanation": "« Nous avons une course de trois kilomètres. »"
+        },
+        {
+          "stem": "À quelle heure est l'inspection des chambres ?",
+          "options": ["Neuf heures", "Neuf heures trente", "Dix heures", "Dix heures trente"],
+          "correct": 2,
+          "explanation": "« L'inspection des chambres à dix heures. »"
+        },
+        {
+          "stem": "Quelle est la conséquence si on échoue l'inspection ?",
+          "options": ["Une course supplémentaire", "Une corvée samedi matin", "Pas de congé", "Un rapport"],
+          "correct": 1,
+          "explanation": "« Ceux qui échouent l'inspection auront une corvée samedi matin. »"
+        }
+      ]
+    },
+    {
+      "id": "L5",
+      "title": "Dialogue — À la clinique",
+      "type": "dialogue",
+      "level": "NP-B",
+      "topic": "Medical Appointment",
+      "text": "— Bonjour, je suis le Caporal Roy. J'ai rendez-vous à quatorze heures avec le docteur.\n— Oui, Caporal. Vous êtes ici pour un examen de routine ou un problème spécifique ?\n— J'ai mal au dos depuis environ trois semaines. C'est arrivé pendant un exercice en campagne.\n— D'accord. Avez-vous pris des médicaments ?\n— Oui, de l'ibuprofène, mais ça n'aide pas beaucoup.\n— Le docteur va vous examiner. En attendant, veuillez remplir ce formulaire sur vos symptômes. Ça prend environ cinq minutes.\n— Très bien, merci.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Pourquoi le Caporal Roy est-il à la clinique ?",
+          "options": ["Un examen de routine", "Il a mal au dos", "Il a mal à la tête", "Il a besoin d'un certificat"],
+          "correct": 1,
+          "explanation": "« J'ai mal au dos depuis environ trois semaines. »"
+        },
+        {
+          "stem": "Depuis combien de temps a-t-il ce problème ?",
+          "options": ["Une semaine", "Deux semaines", "Trois semaines", "Un mois"],
+          "correct": 2,
+          "explanation": "« Depuis environ trois semaines. »"
+        },
+        {
+          "stem": "Comment s'est-il blessé ?",
+          "options": ["En faisant du sport", "Pendant un exercice en campagne", "En soulevant une boîte", "En tombant dans les escaliers"],
+          "correct": 1,
+          "explanation": "« C'est arrivé pendant un exercice en campagne. »"
+        },
+        {
+          "stem": "Quel médicament a-t-il pris ?",
+          "options": ["De l'aspirine", "De l'ibuprofène", "Du Tylenol", "Aucun médicament"],
+          "correct": 1,
+          "explanation": "« Oui, de l'ibuprofène. »"
+        }
+      ]
+    },
+    {
+      "id": "L6",
+      "title": "Briefing météo",
+      "type": "announcement",
+      "level": "NP-A",
+      "topic": "Weather / Operations",
+      "text": "Voici le briefing météo pour aujourd'hui. Ce matin, il fera moins cinq degrés avec du vent du nord-ouest à vingt kilomètres à l'heure. Cet après-midi, la température va monter à deux degrés. Il y a un risque de verglas à partir de seize heures. L'exercice de nuit est maintenu, mais les conducteurs doivent utiliser les chaînes à neige. Habillez-vous en conséquence.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Quelle sera la température ce matin ?",
+          "options": ["Moins dix degrés", "Moins cinq degrés", "Zéro degré", "Deux degrés"],
+          "correct": 1,
+          "explanation": "« Ce matin, il fera moins cinq degrés. »"
+        },
+        {
+          "stem": "À quelle vitesse sera le vent ?",
+          "options": ["Dix km/h", "Quinze km/h", "Vingt km/h", "Trente km/h"],
+          "correct": 2,
+          "explanation": "« Vent du nord-ouest à vingt kilomètres à l'heure. »"
+        },
+        {
+          "stem": "Quel risque y a-t-il à partir de seize heures ?",
+          "options": ["De la pluie", "De la neige", "Du verglas", "Du brouillard"],
+          "correct": 2,
+          "explanation": "« Il y a un risque de verglas à partir de seize heures. »"
+        },
+        {
+          "stem": "L'exercice de nuit est-il annulé ?",
+          "options": ["Oui, à cause du verglas", "Non, il est maintenu", "Il est reporté à demain", "Ce n'est pas mentionné"],
+          "correct": 1,
+          "explanation": "« L'exercice de nuit est maintenu. »"
+        }
+      ]
+    },
+    {
+      "id": "L7",
+      "title": "Dialogue — Au magasin d'habillement",
+      "type": "dialogue",
+      "level": "NP-A",
+      "topic": "Equipment / Supply",
+      "text": "— Bonjour, j'ai besoin d'un nouveau chandail de combat. Le mien est déchiré.\n— D'accord. Quelle est votre taille ?\n— Moyen. Et j'ai aussi besoin de deux paires de chaussettes de laine.\n— Pas de problème. Les chaussettes sont en rupture de stock pour la taille grand. Vous êtes moyen ?\n— Oui, moyen pour tout.\n— Parfait. Signez ici pour le chandail et ici pour les chaussettes. Vous devez retourner le chandail déchiré dans les cinq jours.\n— Compris. Merci.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Pourquoi le soldat a-t-il besoin d'un nouveau chandail ?",
+          "options": ["Il l'a perdu", "Il est déchiré", "Il est trop petit", "Il est taché"],
+          "correct": 1,
+          "explanation": "« Le mien est déchiré. »"
+        },
+        {
+          "stem": "Quelle est la taille du soldat ?",
+          "options": ["Petit", "Moyen", "Grand", "Extra-grand"],
+          "correct": 1,
+          "explanation": "« Moyen. » et « Oui, moyen pour tout. »"
+        },
+        {
+          "stem": "Combien de paires de chaussettes demande-t-il ?",
+          "options": ["Une paire", "Deux paires", "Trois paires", "Quatre paires"],
+          "correct": 1,
+          "explanation": "« J'ai aussi besoin de deux paires de chaussettes de laine. »"
+        },
+        {
+          "stem": "Dans quel délai doit-il retourner le chandail déchiré ?",
+          "options": ["Deux jours", "Trois jours", "Cinq jours", "Une semaine"],
+          "correct": 2,
+          "explanation": "« Vous devez retourner le chandail déchiré dans les cinq jours. »"
+        }
+      ]
+    },
+    {
+      "id": "L8",
+      "title": "Annonce du commandant",
+      "type": "announcement",
+      "level": "NP-B",
+      "topic": "Unit Operations",
+      "text": "Bonsoir à tous. J'ai trois points importants ce soir. Premièrement, l'exercice Tempête Blanche commence le lundi 20 janvier et dure deux semaines. Tout le personnel doit avoir son équipement vérifié avant vendredi. Deuxièmement, le cours de premiers soins est obligatoire pour tous les caporaux. Les inscriptions se ferment mercredi. Troisièmement, je veux féliciter la section du Sergent Dupuis qui a obtenu la meilleure note à l'évaluation tactique. Excellent travail. C'est tout pour ce soir.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Quand commence l'exercice Tempête Blanche ?",
+          "options": ["Le 15 janvier", "Le 18 janvier", "Le 20 janvier", "Le 25 janvier"],
+          "correct": 2,
+          "explanation": "« L'exercice Tempête Blanche commence le lundi 20 janvier. »"
+        },
+        {
+          "stem": "Combien de temps dure l'exercice ?",
+          "options": ["Une semaine", "Deux semaines", "Trois semaines", "Un mois"],
+          "correct": 1,
+          "explanation": "« Dure deux semaines. »"
+        },
+        {
+          "stem": "Pour qui le cours de premiers soins est-il obligatoire ?",
+          "options": ["Tous les soldats", "Tous les caporaux", "Tous les sergents", "Tous les officiers"],
+          "correct": 1,
+          "explanation": "« Le cours de premiers soins est obligatoire pour tous les caporaux. »"
+        },
+        {
+          "stem": "Qui a obtenu la meilleure note à l'évaluation tactique ?",
+          "options": ["La section du Sergent Morin", "La section du Sergent Dupuis", "La section du Sergent Côté", "La section du Sergent Roy"],
+          "correct": 1,
+          "explanation": "« La section du Sergent Dupuis a obtenu la meilleure note. »"
+        }
+      ]
+    },
+    {
+      "id": "L9",
+      "title": "Dialogue — Réservation de salle",
+      "type": "dialogue",
+      "level": "NP-A",
+      "topic": "Office Administration",
+      "text": "— Bonjour, est-ce que la salle de conférence A est disponible mardi prochain de treize heures à quinze heures ?\n— Laissez-moi vérifier. Non, elle est réservée par le Major Gagnon de treize heures à quatorze heures trente. Mais la salle C est libre toute la journée.\n— La salle C a un projecteur ?\n— Oui, elle a un projecteur et un tableau blanc. Par contre, elle est plus petite. Capacité de quinze personnes.\n— C'est parfait, nous serons huit. Réservez-la pour moi, s'il vous plaît. Sous le nom de Lieutenant Chen.\n— C'est fait. Vous recevrez une confirmation par courriel.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Pourquoi la salle A n'est-elle pas disponible ?",
+          "options": ["Elle est en rénovation", "Elle est réservée par le Major Gagnon", "Elle est trop petite", "L'équipement est en panne"],
+          "correct": 1,
+          "explanation": "« Elle est réservée par le Major Gagnon. »"
+        },
+        {
+          "stem": "Quelle est la capacité de la salle C ?",
+          "options": ["Dix personnes", "Quinze personnes", "Vingt personnes", "Trente personnes"],
+          "correct": 1,
+          "explanation": "« Capacité de quinze personnes. »"
+        },
+        {
+          "stem": "Combien de personnes assisteront à la réunion ?",
+          "options": ["Cinq", "Huit", "Douze", "Quinze"],
+          "correct": 1,
+          "explanation": "« Nous serons huit. »"
+        },
+        {
+          "stem": "Quel équipement a la salle C ?",
+          "options": ["Seulement un tableau blanc", "Un projecteur et un tableau blanc", "Un écran de télévision", "Rien de spécial"],
+          "correct": 1,
+          "explanation": "« Elle a un projecteur et un tableau blanc. »"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Rapport d'incident radio",
+      "type": "message",
+      "level": "NP-B",
+      "topic": "Field Operations",
+      "text": "Ici Alpha Deux-Trois pour le poste de commandement. Nous avons un véhicule en panne au point de grille quatre-cinq-sept, huit-deux-trois. C'est un MSVS avec un problème de transmission. Nous avons besoin d'un mécanicien et d'un véhicule de remorquage. Deux membres de l'équipage sont légèrement blessés. Rien de grave, mais ils ont besoin d'un examen médical. Nous attendons vos instructions. Terminé.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Qui fait le rapport ?",
+          "options": ["Bravo Deux-Trois", "Alpha Deux-Trois", "Charlie Deux-Trois", "Delta Deux-Trois"],
+          "correct": 1,
+          "explanation": "« Ici Alpha Deux-Trois. »"
+        },
+        {
+          "stem": "Quel est le problème du véhicule ?",
+          "options": ["Pneu crevé", "Moteur en feu", "Problème de transmission", "Panne d'essence"],
+          "correct": 2,
+          "explanation": "« Un MSVS avec un problème de transmission. »"
+        },
+        {
+          "stem": "De quoi ont-ils besoin ?",
+          "options": ["Essence et nourriture", "Un mécanicien et un véhicule de remorquage", "Un hélicoptère", "Des renforts"],
+          "correct": 1,
+          "explanation": "« Nous avons besoin d'un mécanicien et d'un véhicule de remorquage. »"
+        },
+        {
+          "stem": "Combien de personnes sont blessées ?",
+          "options": ["Aucune", "Une", "Deux", "Trois"],
+          "correct": 2,
+          "explanation": "« Deux membres de l'équipage sont légèrement blessés. »"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Dialogue — Planification d'exercice",
+      "type": "dialogue",
+      "level": "NP-C",
+      "topic": "Operations Planning",
+      "text": "— Capitaine, j'ai finalisé le plan pour l'exercice de la semaine prochaine. La phase un commence lundi à six heures. C'est le déploiement initial vers la zone d'entraînement.\n— Combien de véhicules pour le convoi ?\n— Huit véhicules, incluant deux ambulances et un véhicule de commandement. Le trajet prend environ quatre heures jusqu'à la zone d'opérations.\n— Et la phase deux ?\n— La phase deux, c'est l'occupation défensive. Elle commence mardi matin. Les sections doivent établir leurs positions avant midi. Mercredi, on fait la phase offensive avec l'appui de la compagnie Charlie.\n— L'appui aérien est confirmé ?\n— Non, il a été annulé à cause des contraintes budgétaires. On va utiliser de la simulation au sol à la place.\n— Typique. D'accord, présentez le plan au commandant demain à huit heures.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Quand commence la phase un ?",
+          "options": ["Dimanche à six heures", "Lundi à six heures", "Lundi à huit heures", "Mardi à six heures"],
+          "correct": 1,
+          "explanation": "« La phase un commence lundi à six heures. »"
+        },
+        {
+          "stem": "Combien de véhicules sont dans le convoi ?",
+          "options": ["Cinq", "Six", "Huit", "Dix"],
+          "correct": 2,
+          "explanation": "« Huit véhicules, incluant deux ambulances et un véhicule de commandement. »"
+        },
+        {
+          "stem": "Quand commence la phase offensive ?",
+          "options": ["Mardi matin", "Mardi après-midi", "Mercredi", "Jeudi"],
+          "correct": 2,
+          "explanation": "« Mercredi, on fait la phase offensive. »"
+        },
+        {
+          "stem": "Pourquoi l'appui aérien a-t-il été annulé ?",
+          "options": ["À cause du mauvais temps", "À cause des contraintes budgétaires", "L'avion est en maintenance", "Le pilote est en congé"],
+          "correct": 1,
+          "explanation": "« Il a été annulé à cause des contraintes budgétaires. »"
+        },
+        {
+          "stem": "Combien de temps dure le trajet vers la zone d'opérations ?",
+          "options": ["Deux heures", "Trois heures", "Quatre heures", "Cinq heures"],
+          "correct": 2,
+          "explanation": "« Le trajet prend environ quatre heures. »"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Message téléphonique — Changement d'horaire",
+      "type": "message",
+      "level": "NP-A",
+      "topic": "Schedule Changes",
+      "text": "Bonjour, Caporal. C'est l'Adjudant Therrien. Le briefing de cet après-midi est déplacé de quatorze heures à quinze heures trente. La salle change aussi. On passe de la salle B à la salle D au deuxième étage. N'oubliez pas d'apporter le rapport mensuel et la liste du personnel. Rappelez-moi si vous avez des questions. Mon numéro est le 4-5-3-2.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Qui laisse le message ?",
+          "options": ["Le Sergent Therrien", "Le Caporal Therrien", "L'Adjudant Therrien", "Le Lieutenant Therrien"],
+          "correct": 2,
+          "explanation": "« C'est l'Adjudant Therrien. »"
+        },
+        {
+          "stem": "À quelle heure le briefing est-il maintenant ?",
+          "options": ["Quatorze heures", "Quatorze heures trente", "Quinze heures", "Quinze heures trente"],
+          "correct": 3,
+          "explanation": "« Le briefing est déplacé de quatorze heures à quinze heures trente. »"
+        },
+        {
+          "stem": "Dans quelle salle aura lieu le briefing ?",
+          "options": ["Salle B", "Salle C", "Salle D", "Salle E"],
+          "correct": 2,
+          "explanation": "« On passe de la salle B à la salle D. »"
+        },
+        {
+          "stem": "Quel est le numéro de téléphone de l'Adjudant ?",
+          "options": ["4-3-5-2", "4-5-2-3", "4-5-3-2", "5-4-3-2"],
+          "correct": 2,
+          "explanation": "« Mon numéro est le 4-5-3-2. »"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Dialogue — Affectation",
+      "type": "dialogue",
+      "level": "NP-B",
+      "topic": "Posting / Career",
+      "text": "— Sergent, j'ai reçu mon message d'affectation hier soir.\n— Ah oui ? Où est-ce qu'on vous envoie ?\n— À la BFC Esquimalt, en Colombie-Britannique. Je commence le premier août.\n— C'est une belle base. Vous êtes content ?\n— Oui et non. Le climat est agréable, mais ma conjointe travaille ici à Ottawa. Elle ne peut pas partir avant janvier.\n— C'est souvent le problème avec les affectations. Avez-vous regardé les options de séparation imposée ?\n— Oui, j'ai rendez-vous avec le CISP mardi pour discuter de l'indemnité et du logement temporaire.\n— Bonne idée. N'oubliez pas de contacter le Centre de coordination du déménagement aussi. Le délai est de cinq jours ouvrables après réception du message.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Où le soldat est-il affecté ?",
+          "options": ["BFC Petawawa", "BFC Valcartier", "BFC Esquimalt", "BFC Gagetown"],
+          "correct": 2,
+          "explanation": "« À la BFC Esquimalt, en Colombie-Britannique. »"
+        },
+        {
+          "stem": "Quand commence-t-il à Esquimalt ?",
+          "options": ["Le premier juin", "Le premier juillet", "Le premier août", "Le premier septembre"],
+          "correct": 2,
+          "explanation": "« Je commence le premier août. »"
+        },
+        {
+          "stem": "Quel est le problème principal ?",
+          "options": ["Il n'aime pas la base", "Sa conjointe ne peut pas partir avant janvier", "Le logement est trop cher", "Il n'a pas assez de congé"],
+          "correct": 1,
+          "explanation": "« Ma conjointe travaille ici à Ottawa. Elle ne peut pas partir avant janvier. »"
+        },
+        {
+          "stem": "Avec qui a-t-il rendez-vous mardi ?",
+          "options": ["Les ressources humaines", "Le commandant", "Le CISP", "Le centre médical"],
+          "correct": 2,
+          "explanation": "« J'ai rendez-vous avec le CISP mardi. »"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Instructions de sécurité",
+      "type": "instructions",
+      "level": "NP-B",
+      "topic": "Safety / Procedures",
+      "text": "Attention, avant de commencer le tir, je vais vous rappeler les règles de sécurité sur le champ de tir. Premièrement, votre arme doit rester pointée vers les cibles en tout temps. Deuxièmement, gardez le doigt hors de la pontet jusqu'à ce que vous soyez prêt à tirer. Troisièmement, quand le drapeau rouge est levé, personne ne traverse la ligne de tir. Si vous entendez 'cessez le feu', vous arrêtez immédiatement, vous appliquez la sécurité, et vous déposez votre arme. Est-ce que tout le monde a compris ? Ceux qui ne suivent pas ces règles seront retirés du champ de tir immédiatement.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Où doit pointer l'arme en tout temps ?",
+          "options": ["Vers le sol", "Vers le ciel", "Vers les cibles", "Vers la gauche"],
+          "correct": 2,
+          "explanation": "« Votre arme doit rester pointée vers les cibles en tout temps. »"
+        },
+        {
+          "stem": "Que signifie le drapeau rouge ?",
+          "options": ["Le tir commence", "Le tir est terminé", "Personne ne traverse la ligne de tir", "Il faut recharger"],
+          "correct": 2,
+          "explanation": "« Quand le drapeau rouge est levé, personne ne traverse la ligne de tir. »"
+        },
+        {
+          "stem": "Que fait-on quand on entend 'cessez le feu' ?",
+          "options": ["On continue et on finit son chargeur", "On arrête, on applique la sécurité et on dépose l'arme", "On se couche par terre", "On retourne au point de rassemblement"],
+          "correct": 1,
+          "explanation": "« Vous arrêtez immédiatement, vous appliquez la sécurité, et vous déposez votre arme. »"
+        },
+        {
+          "stem": "Que se passe-t-il si on ne suit pas les règles ?",
+          "options": ["Un avertissement verbal", "On est retiré du champ de tir immédiatement", "On reçoit un rapport", "Rien"],
+          "correct": 1,
+          "explanation": "« Ceux qui ne suivent pas ces règles seront retirés du champ de tir immédiatement. »"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "Dialogue — Au mess",
+      "type": "dialogue",
+      "level": "NP-A",
+      "topic": "Social / Base Life",
+      "text": "— Salut, qu'est-ce qu'il y a au menu aujourd'hui ?\n— Poulet rôti avec des légumes, ou pâtes à la sauce tomate. Il y a aussi de la soupe aux pois.\n— La soupe est bonne ?\n— Honnêtement, non. C'est la même soupe que lundi. Je pense qu'ils la réchauffent chaque jour.\n— Je vais prendre le poulet alors. Et un café.\n— Bonne idée. Le dessert, c'est du gâteau au chocolat. C'est la seule chose que le cuisinier réussit vraiment bien.\n— Excellent, je prends ça aussi. Merci.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Quelles sont les deux options principales au menu ?",
+          "options": ["Steak ou poisson", "Poulet ou pâtes", "Pizza ou sandwich", "Soupe ou salade"],
+          "correct": 1,
+          "explanation": "« Poulet rôti avec des légumes, ou pâtes à la sauce tomate. »"
+        },
+        {
+          "stem": "Pourquoi la soupe n'est-elle pas recommandée ?",
+          "options": ["Elle est froide", "C'est la même depuis lundi", "Il n'y en a plus", "Elle est trop salée"],
+          "correct": 1,
+          "explanation": "« C'est la même soupe que lundi. Je pense qu'ils la réchauffent chaque jour. »"
+        },
+        {
+          "stem": "Quel est le dessert ?",
+          "options": ["Tarte aux pommes", "Crème glacée", "Gâteau au chocolat", "Salade de fruits"],
+          "correct": 2,
+          "explanation": "« Le dessert, c'est du gâteau au chocolat. »"
+        },
+        {
+          "stem": "Que commande le soldat ?",
+          "options": ["Pâtes, soupe et café", "Poulet, café et gâteau", "Soupe et poulet", "Pâtes et dessert"],
+          "correct": 1,
+          "explanation": "Il prend le poulet, un café, et le gâteau au chocolat."
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "Annonce — Fermeture de route",
+      "type": "announcement",
+      "level": "NP-A",
+      "topic": "Base Operations",
+      "text": "Attention à tous les usagers de la route. La route principale entre le secteur nord et le gymnase sera fermée du lundi 10 mars au vendredi 14 mars pour des travaux de réparation. Les véhicules doivent utiliser la route secondaire qui passe derrière le mess. Les piétons peuvent utiliser le trottoir du côté est. Les heures de travaux sont de huit heures à seize heures. La route sera ouverte normalement le soir et les fins de semaine.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Pendant combien de jours la route sera-t-elle fermée ?",
+          "options": ["Trois jours", "Cinq jours", "Sept jours", "Dix jours"],
+          "correct": 1,
+          "explanation": "Du lundi 10 au vendredi 14 mars = 5 jours de la semaine."
+        },
+        {
+          "stem": "Pourquoi la route est-elle fermée ?",
+          "options": ["Pour un exercice", "Pour des travaux de réparation", "Pour une parade", "Pour des raisons de sécurité"],
+          "correct": 1,
+          "explanation": "« Fermée pour des travaux de réparation. »"
+        },
+        {
+          "stem": "Par où doivent passer les véhicules ?",
+          "options": ["Par le gymnase", "Par le secteur sud", "Par la route derrière le mess", "Par le stationnement"],
+          "correct": 2,
+          "explanation": "« Les véhicules doivent utiliser la route secondaire qui passe derrière le mess. »"
+        },
+        {
+          "stem": "La route est-elle fermée le soir ?",
+          "options": ["Oui, toute la nuit", "Non, elle est ouverte le soir", "Seulement après vingt heures", "Ce n'est pas mentionné"],
+          "correct": 1,
+          "explanation": "« La route sera ouverte normalement le soir et les fins de semaine. »"
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "Dialogue — Problème d'équipement",
+      "type": "dialogue",
+      "level": "NP-B",
+      "topic": "Equipment / Maintenance",
+      "text": "— Sergent, j'ai un problème avec ma radio. Elle ne transmet plus depuis ce matin.\n— Vous avez vérifié la batterie ?\n— Oui, la batterie est pleine. J'ai aussi changé le câble d'antenne, mais ça n'a rien changé.\n— Quand est-ce que ça a commencé exactement ?\n— Ce matin vers sept heures. Elle recevait encore, mais elle ne transmettait plus.\n— Ça ressemble à un problème de module de transmission. Apportez-la à l'atelier de la compagnie de maintenance. Demandez le Caporal-chef Beaulieu. Dites-lui que je vous envoie et que c'est prioritaire parce que l'exercice commence demain.\n— D'accord. Est-ce que je peux avoir une radio de remplacement en attendant ?\n— Oui, passez au magasin des transmissions. Signez le formulaire d'emprunt temporaire.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Quel est le problème avec la radio ?",
+          "options": ["Elle ne reçoit plus", "Elle ne transmet plus", "Elle est cassée complètement", "La batterie est morte"],
+          "correct": 1,
+          "explanation": "« Elle ne transmet plus depuis ce matin. » et « Elle recevait encore, mais elle ne transmettait plus. »"
+        },
+        {
+          "stem": "Qu'a déjà vérifié le soldat ?",
+          "options": ["La fréquence et le volume", "La batterie et le câble d'antenne", "Le microphone et l'écouteur", "Les paramètres et le code"],
+          "correct": 1,
+          "explanation": "« J'ai vérifié la batterie » et « j'ai aussi changé le câble d'antenne. »"
+        },
+        {
+          "stem": "Qui faut-il demander à l'atelier ?",
+          "options": ["Le Caporal Tremblay", "Le Caporal-chef Beaulieu", "Le Sergent Martin", "L'Adjudant Roy"],
+          "correct": 1,
+          "explanation": "« Demandez le Caporal-chef Beaulieu. »"
+        },
+        {
+          "stem": "Pourquoi est-ce prioritaire ?",
+          "options": ["Il y a une inspection demain", "L'exercice commence demain", "Le commandant a besoin de la radio", "C'est la dernière radio disponible"],
+          "correct": 1,
+          "explanation": "« C'est prioritaire parce que l'exercice commence demain. »"
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "title": "Rapport de fin de journée",
+      "type": "message",
+      "level": "NP-C",
+      "topic": "End of Day Report",
+      "text": "Rapport de fin de journée, compagnie Alpha. Effectif présent : quatre-vingt-sept sur quatre-vingt-douze. Trois membres en congé de maladie, deux en formation à Borden. Activités complétées : entraînement physique le matin, tir d'entretien l'après-midi. Résultats du tir : soixante-treize pour cent de qualification, ce qui est en dessous de notre objectif de quatre-vingts pour cent. Six armes ont nécessité un entretien supplémentaire après le tir. Aucun incident de sécurité à signaler. Le moral est bon malgré l'annonce du déploiement prolongé. Prochain briefing demain à sept heures. Fin du rapport.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Combien de membres sont présents ?",
+          "options": ["Quatre-vingt-cinq", "Quatre-vingt-sept", "Quatre-vingt-dix", "Quatre-vingt-douze"],
+          "correct": 1,
+          "explanation": "« Effectif présent : quatre-vingt-sept sur quatre-vingt-douze. »"
+        },
+        {
+          "stem": "Pourquoi cinq membres sont-ils absents ?",
+          "options": ["Congé annuel et déploiement", "Maladie et formation", "Congé et mission", "Blessure et cours"],
+          "correct": 1,
+          "explanation": "« Trois en congé de maladie, deux en formation à Borden. »"
+        },
+        {
+          "stem": "Quel était le taux de qualification au tir ?",
+          "options": ["Soixante-cinq pour cent", "Soixante-treize pour cent", "Quatre-vingts pour cent", "Quatre-vingt-cinq pour cent"],
+          "correct": 1,
+          "explanation": "« Soixante-treize pour cent de qualification. »"
+        },
+        {
+          "stem": "Quel était l'objectif de qualification ?",
+          "options": ["Soixante-dix pour cent", "Soixante-quinze pour cent", "Quatre-vingts pour cent", "Quatre-vingt-cinq pour cent"],
+          "correct": 2,
+          "explanation": "« En dessous de notre objectif de quatre-vingts pour cent. »"
+        },
+        {
+          "stem": "Y a-t-il eu des incidents de sécurité ?",
+          "options": ["Oui, un incident mineur", "Oui, avec une arme", "Non, aucun incident", "Ce n'est pas mentionné"],
+          "correct": 2,
+          "explanation": "« Aucun incident de sécurité à signaler. »"
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "title": "Dialogue — Cours de langue",
+      "type": "dialogue",
+      "level": "NP-A",
+      "topic": "Language Training",
+      "text": "— Comment va votre cours de français ?\n— Ça va bien, merci. On est en semaine six. On apprend les verbes au passé composé cette semaine.\n— C'est difficile ?\n— Un peu. Le professeur est très patient, heureusement. On a un examen vendredi sur les verbes irréguliers.\n— Vous étudiez combien d'heures par jour ?\n— En classe, c'est six heures. Le soir, j'étudie encore deux heures à la maison. Ma femme m'aide avec la prononciation.\n— C'est beaucoup ! Vous devez être fatigué.\n— Oui, mais je veux réussir mon BBB avant décembre. C'est important pour ma promotion.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "En quelle semaine de cours est le soldat ?",
+          "options": ["Semaine quatre", "Semaine cinq", "Semaine six", "Semaine huit"],
+          "correct": 2,
+          "explanation": "« On est en semaine six. »"
+        },
+        {
+          "stem": "Quel sujet étudient-ils cette semaine ?",
+          "options": ["Les adjectifs", "Les verbes au passé composé", "Les pronoms", "L'imparfait"],
+          "correct": 1,
+          "explanation": "« On apprend les verbes au passé composé cette semaine. »"
+        },
+        {
+          "stem": "Combien d'heures étudie-t-il au total par jour ?",
+          "options": ["Six heures", "Sept heures", "Huit heures", "Dix heures"],
+          "correct": 2,
+          "explanation": "Six heures en classe plus deux heures le soir = huit heures."
+        },
+        {
+          "stem": "Pourquoi veut-il réussir son BBB ?",
+          "options": ["Pour un déploiement", "Pour sa promotion", "Pour changer de base", "Pour enseigner le français"],
+          "correct": 1,
+          "explanation": "« C'est important pour ma promotion. »"
+        }
+      ]
+    },
+    {
+      "id": "L20",
+      "title": "Annonce d'urgence",
+      "type": "announcement",
+      "level": "NP-B",
+      "topic": "Emergency Procedures",
+      "text": "Attention, attention. Ceci est un exercice d'évacuation incendie. Tout le personnel doit quitter le bâtiment immédiatement par les sorties de secours les plus proches. N'utilisez pas les ascenseurs. Les chefs de section doivent prendre la liste de présence et faire le décompte au point de rassemblement devant le stationnement principal. Les agents de sécurité vont vérifier chaque étage. Ne retournez pas dans le bâtiment avant l'annonce officielle de fin d'exercice. Temps cible : évacuation complète en moins de quatre minutes.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "De quel type d'exercice s'agit-il ?",
+          "options": ["Exercice de confinement", "Exercice d'évacuation incendie", "Exercice de sécurité", "Exercice de premiers soins"],
+          "correct": 1,
+          "explanation": "« Ceci est un exercice d'évacuation incendie. »"
+        },
+        {
+          "stem": "Que ne doit-on PAS utiliser ?",
+          "options": ["Les escaliers", "Les fenêtres", "Les ascenseurs", "Les sorties arrière"],
+          "correct": 2,
+          "explanation": "« N'utilisez pas les ascenseurs. »"
+        },
+        {
+          "stem": "Que doivent faire les chefs de section au point de rassemblement ?",
+          "options": ["Appeler les pompiers", "Prendre la liste de présence et faire le décompte", "Attendre les instructions", "Retourner vérifier le bâtiment"],
+          "correct": 1,
+          "explanation": "« Les chefs de section doivent prendre la liste de présence et faire le décompte. »"
+        },
+        {
+          "stem": "Quel est le temps cible pour l'évacuation ?",
+          "options": ["Deux minutes", "Trois minutes", "Quatre minutes", "Cinq minutes"],
+          "correct": 2,
+          "explanation": "« Évacuation complète en moins de quatre minutes. »"
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "title": "Dialogue — Évaluation de performance",
+      "type": "dialogue",
+      "level": "NP-C",
+      "topic": "Career / Performance Review",
+      "text": "— Asseyez-vous, Caporal. Nous allons discuter de votre rapport d'évaluation pour cette année.\n— Oui, Major.\n— Dans l'ensemble, votre performance est très satisfaisante. Votre leadership pendant l'exercice Maple Resolve a été remarqué par plusieurs officiers. Votre condition physique est excellente et vos résultats au tir sont au-dessus de la moyenne.\n— Merci, Major.\n— Cependant, j'ai deux points à améliorer. Premièrement, votre capacité en français. Votre profil est actuellement ABB et le poste que vous visez exige un CBC. Il faudra une formation linguistique.\n— J'ai déjà fait une demande pour le prochain cours à Saint-Jean.\n— Très bien. Deuxièmement, vous devez améliorer votre rédaction de rapports. Vos rapports sont souvent en retard et contiennent des erreurs.\n— Je vais travailler là-dessus, Major.\n— Je vous recommande pour la promotion au grade de caporal-chef. Mais les deux points que j'ai mentionnés doivent être corrigés d'ici l'année prochaine.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Quel est le profil linguistique actuel du Caporal ?",
+          "options": ["BBB", "ABB", "CBC", "AAB"],
+          "correct": 1,
+          "explanation": "« Votre profil est actuellement ABB. »"
+        },
+        {
+          "stem": "Quel profil linguistique le poste exige-t-il ?",
+          "options": ["BBB", "BCB", "CBC", "CCC"],
+          "correct": 2,
+          "explanation": "« Le poste que vous visez exige un CBC. »"
+        },
+        {
+          "stem": "Quel problème y a-t-il avec ses rapports ?",
+          "options": ["Ils sont trop courts", "Ils sont en retard et contiennent des erreurs", "Ils ne sont pas signés", "Ils sont mal formatés"],
+          "correct": 1,
+          "explanation": "« Vos rapports sont souvent en retard et contiennent des erreurs. »"
+        },
+        {
+          "stem": "Pour quel grade est-il recommandé ?",
+          "options": ["Sergent", "Caporal-chef", "Adjudant", "Maître-caporal"],
+          "correct": 1,
+          "explanation": "« Je vous recommande pour la promotion au grade de caporal-chef. »"
+        },
+        {
+          "stem": "Pendant quel exercice le Caporal s'est-il distingué ?",
+          "options": ["Exercice Tempête Blanche", "Exercice Maple Resolve", "Exercice Northern Watch", "Exercice Iron Sword"],
+          "correct": 1,
+          "explanation": "« Votre leadership pendant l'exercice Maple Resolve a été remarqué. »"
+        }
+      ]
+    },
+    {
+      "id": "L22",
+      "title": "Consignes de déploiement",
+      "type": "instructions",
+      "level": "NP-C",
+      "topic": "Deployment Preparation",
+      "text": "Écoutez attentivement. Le déploiement en Lettonie a été confirmé pour le quinze avril. Voici les étapes avant le départ. Premièrement, tous les vaccins doivent être à jour avant le premier mars. Vérifiez votre carnet de santé avec la clinique. Deuxièmement, vos testaments et vos documents juridiques doivent être mis à jour. Le bureau juridique offre des consultations gratuites les mercredis. Troisièmement, les familles sont invitées à une séance d'information le vingt mars au gymnase. C'est important que vos conjoints et conjointes y assistent. Finalement, l'entraînement pré-déploiement commence le premier mars et dure six semaines. Il inclut le tir, les premiers soins tactiques, et la sensibilisation culturelle. Des questions ?",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Où sera le déploiement ?",
+          "options": ["En Pologne", "En Lettonie", "En Ukraine", "En Lituanie"],
+          "correct": 1,
+          "explanation": "« Le déploiement en Lettonie a été confirmé. »"
+        },
+        {
+          "stem": "Avant quelle date les vaccins doivent-ils être à jour ?",
+          "options": ["Le premier février", "Le premier mars", "Le quinze mars", "Le premier avril"],
+          "correct": 1,
+          "explanation": "« Tous les vaccins doivent être à jour avant le premier mars. »"
+        },
+        {
+          "stem": "Quand est la séance d'information pour les familles ?",
+          "options": ["Le dix mars", "Le quinze mars", "Le vingt mars", "Le vingt-cinq mars"],
+          "correct": 2,
+          "explanation": "« Les familles sont invitées à une séance d'information le vingt mars. »"
+        },
+        {
+          "stem": "Combien de temps dure l'entraînement pré-déploiement ?",
+          "options": ["Quatre semaines", "Six semaines", "Huit semaines", "Dix semaines"],
+          "correct": 1,
+          "explanation": "« L'entraînement pré-déploiement commence le premier mars et dure six semaines. »"
+        },
+        {
+          "stem": "Quand le bureau juridique offre-t-il des consultations ?",
+          "options": ["Les lundis", "Les mardis", "Les mercredis", "Les jeudis"],
+          "correct": 2,
+          "explanation": "« Le bureau juridique offre des consultations gratuites les mercredis. »"
+        }
+      ]
+    },
+    {
+      "id": "L23",
+      "title": "Dialogue — Retour de déploiement",
+      "type": "dialogue",
+      "level": "NP-B",
+      "topic": "Post-Deployment",
+      "text": "— Comment ça va depuis ton retour ?\n— Ça fait trois semaines que je suis revenu. C'est un peu bizarre de se réadapter.\n— Tu as vu quelqu'un au programme de soutien ?\n— Oui, j'ai eu deux rendez-vous avec un travailleur social. C'est obligatoire après un déploiement de plus de six mois.\n— Et physiquement ?\n— J'ai perdu huit kilos là-bas. Le médecin m'a dit de reprendre le sport graduellement. Pas de course avant deux semaines.\n— Tu reprends le travail quand ?\n— Lundi prochain. Je suis en congé de réintégration jusqu'à vendredi. Ça donne le temps de retrouver un rythme normal avec la famille.\n— C'est bien. N'hésite pas si tu as besoin de parler.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Depuis combien de temps est-il revenu ?",
+          "options": ["Une semaine", "Deux semaines", "Trois semaines", "Un mois"],
+          "correct": 2,
+          "explanation": "« Ça fait trois semaines que je suis revenu. »"
+        },
+        {
+          "stem": "Combien de rendez-vous a-t-il eus avec le travailleur social ?",
+          "options": ["Un", "Deux", "Trois", "Quatre"],
+          "correct": 1,
+          "explanation": "« J'ai eu deux rendez-vous avec un travailleur social. »"
+        },
+        {
+          "stem": "Combien de poids a-t-il perdu ?",
+          "options": ["Cinq kilos", "Huit kilos", "Dix kilos", "Douze kilos"],
+          "correct": 1,
+          "explanation": "« J'ai perdu huit kilos là-bas. »"
+        },
+        {
+          "stem": "Quand reprend-il le travail ?",
+          "options": ["Mercredi", "Vendredi", "Lundi prochain", "Dans deux semaines"],
+          "correct": 2,
+          "explanation": "« Lundi prochain. Je suis en congé de réintégration jusqu'à vendredi. »"
+        }
+      ]
+    },
+    {
+      "id": "L24",
+      "title": "Dialogue — Problème de logement",
+      "type": "dialogue",
+      "level": "NP-B",
+      "topic": "Housing / CFHA",
+      "text": "— Bonjour, je vous appelle au sujet de mon logement militaire. J'ai un problème de chauffage depuis une semaine.\n— Quelle est votre adresse ?\n— C'est le 42, rue des Érables, logement familial de la base.\n— D'accord. Quel est le problème exactement ?\n— Le chauffage ne fonctionne pas dans les chambres au deuxième étage. Le premier étage est correct, mais en haut, il fait environ douze degrés.\n— Je vais créer un billet de travail urgent. Un technicien pourra passer demain entre huit heures et midi. Est-ce que quelqu'un sera à la maison ?\n— Ma conjointe sera là toute la matinée.\n— Parfait. Le numéro de votre billet est sept-quatre-trois-deux. Gardez-le pour le suivi.\n— Merci. Et si le problème n'est pas réglé demain ?\n— Appelez-nous avec le numéro du billet et nous enverrons un autre technicien dans les vingt-quatre heures.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "Quel est le problème ?",
+          "options": ["L'eau chaude ne fonctionne pas", "Le chauffage ne fonctionne pas au deuxième étage", "Le toit fuit", "L'électricité coupe souvent"],
+          "correct": 1,
+          "explanation": "« Le chauffage ne fonctionne pas dans les chambres au deuxième étage. »"
+        },
+        {
+          "stem": "Quelle température fait-il au deuxième étage ?",
+          "options": ["Huit degrés", "Dix degrés", "Douze degrés", "Quinze degrés"],
+          "correct": 2,
+          "explanation": "« En haut, il fait environ douze degrés. »"
+        },
+        {
+          "stem": "Quand le technicien viendra-t-il ?",
+          "options": ["Aujourd'hui", "Demain entre huit heures et midi", "Après-demain", "La semaine prochaine"],
+          "correct": 1,
+          "explanation": "« Un technicien pourra passer demain entre huit heures et midi. »"
+        },
+        {
+          "stem": "Quel est le numéro du billet de travail ?",
+          "options": ["7-2-3-4", "7-3-4-2", "7-4-3-2", "7-4-2-3"],
+          "correct": 2,
+          "explanation": "« Le numéro de votre billet est sept-quatre-trois-deux. »"
+        }
+      ]
+    },
+    {
+      "id": "L25",
+      "title": "Rapport de patrouille",
+      "type": "message",
+      "level": "NP-C",
+      "topic": "Tactical Operations",
+      "text": "Rapport de patrouille, indicatif Bravo Trois. Patrouille complétée à vingt-deux heures trente. Itinéraire : du point de départ Alpha jusqu'au point de contrôle Delta, distance totale de sept kilomètres. Durée : trois heures et quinze minutes. Observations : nous avons identifié deux positions possibles d'observation ennemie aux coordonnées suivantes. Position un : quatre-cinq-trois, huit-sept-deux, sur une colline avec vue directe sur notre axe d'avance. Position deux : quatre-cinq-huit, huit-six-neuf, dans un bâtiment abandonné. Nous avons aussi trouvé des traces récentes de véhicules sur la route secondaire est. Aucun contact direct avec l'ennemi. Le moral de la section est bon mais la fatigue commence à se faire sentir. Nous recommandons une patrouille de confirmation demain matin. Fin de rapport.",
+      "speed": "normal",
+      "questions": [
+        {
+          "stem": "À quelle heure la patrouille s'est-elle terminée ?",
+          "options": ["Vingt heures", "Vingt et une heures trente", "Vingt-deux heures trente", "Vingt-trois heures"],
+          "correct": 2,
+          "explanation": "« Patrouille complétée à vingt-deux heures trente. »"
+        },
+        {
+          "stem": "Quelle était la distance totale ?",
+          "options": ["Cinq kilomètres", "Six kilomètres", "Sept kilomètres", "Huit kilomètres"],
+          "correct": 2,
+          "explanation": "« Distance totale de sept kilomètres. »"
+        },
+        {
+          "stem": "Combien de positions ennemies possibles ont été identifiées ?",
+          "options": ["Une", "Deux", "Trois", "Quatre"],
+          "correct": 1,
+          "explanation": "« Nous avons identifié deux positions possibles d'observation ennemie. »"
+        },
+        {
+          "stem": "Y a-t-il eu un contact direct avec l'ennemi ?",
+          "options": ["Oui, un bref contact", "Oui, un échange de tirs", "Non, aucun contact", "Possiblement, mais non confirmé"],
+          "correct": 2,
+          "explanation": "« Aucun contact direct avec l'ennemi. »"
+        },
+        {
+          "stem": "Que recommande le rapport ?",
+          "options": ["Un retrait immédiat", "Une patrouille de confirmation demain matin", "Un bombardement des positions", "Un renforcement de la section"],
+          "correct": 1,
+          "explanation": "« Nous recommandons une patrouille de confirmation demain matin. »"
+        }
+      ]
+    }
+  ]
+}
