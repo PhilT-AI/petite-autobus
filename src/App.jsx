@@ -2741,9 +2741,11 @@ const Reading = ({ go, ttsOn }) => {
   const [sel, setSel] = useState(null);
   const [answered, setAnswered] = useState(false);
   const [score, setScore] = useState(0);
+  const [showTranslation, setShowTranslation] = useState(false);
 
   const startPassage = (p) => {
     setPassage(p);
+    setShowTranslation(false);
     setQi(0); setSel(null); setAnswered(false); setScore(0);
     setPhase("read");
   };
@@ -2800,6 +2802,27 @@ const Reading = ({ go, ttsOn }) => {
               <SpeakBtn text={passage.text} ttsOn={ttsOn} size={26} />
             </div>
             <div style={{ ...font.body, fontSize: 13, color: C.text, lineHeight: 1.7, whiteSpace: "pre-line" }}>{passage.text}</div>
+
+            {/* Translation toggle */}
+            {passage.textEn && (
+              <>
+                <button onClick={() => setShowTranslation(!showTranslation)} style={{
+                  marginTop: 12, padding: "8px 14px", borderRadius: 8,
+                  border: `1px solid ${showTranslation ? C.tanLight : C.border}`,
+                  background: showTranslation ? `${C.tanLight}15` : "transparent",
+                  ...font.label, fontSize: 11, color: showTranslation ? C.tanLight : C.textSec,
+                  cursor: "pointer", width: "100%", textAlign: "center",
+                }}>
+                  {showTranslation ? "🇫🇷 Hide Translation" : "🇬🇧 Show English Translation"}
+                </button>
+                {showTranslation && (
+                  <div style={{ marginTop: 10, padding: "14px 16px", background: `${C.tanLight}08`, borderRadius: 10, border: `1px solid ${C.tanLight}20` }}>
+                    <div style={{ ...font.label, fontSize: 9, color: C.tanLight, marginBottom: 6 }}>English Translation</div>
+                    <div style={{ ...font.body, fontSize: 13, color: C.textSec, lineHeight: 1.7, whiteSpace: "pre-line" }}>{passage.textEn}</div>
+                  </div>
+                )}
+              </>
+            )}
           </div>
         )}
 

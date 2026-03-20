@@ -43,7 +43,8 @@
           "explanation": "« Veuillez confirmer votre présence avant le vendredi 11 octobre. »",
           "stemEn": "What must colleagues do before October 11?"
         }
-      ]
+      ],
+      "textEn": "Dear colleagues,\n\nI am informing you that a meeting will take place on Tuesday, October 15 at 2:00 PM in Conference Room B. The agenda includes the quarterly budget review and planning of activities for the month of November.\n\nPlease confirm your attendance before Friday, October 11. If you have items to add to the agenda, send them to me by email.\n\nSincerely,\nCaptain Tremblay"
     },
     {
       "id": "R2",
@@ -100,7 +101,8 @@
           "explanation": "« Le superviseur immédiat doit approuver toute demande. »",
           "stemEn": "Who must approve a leave request first?"
         }
-      ]
+      ],
+      "textEn": "Members of the Canadian Armed Forces are entitled to annual leave based on their number of years of service. Military members with less than five years of service are entitled to twenty days of leave per year. Those with between five and twenty-eight years of service receive twenty-five days.\n\nIt is important to note that leave requests must be submitted at least two weeks in advance, except in emergencies. The immediate supervisor must approve any request before it is processed by human resources.\n\nUnused leave days can be carried over to the following year, up to a maximum of fifteen days."
     },
     {
       "id": "R3",
@@ -145,7 +147,8 @@
           "explanation": "« Aucune blessure n'a été signalée. »",
           "stemEn": "Were there any injuries?"
         }
-      ]
+      ],
+      "textEn": "On March 3, 2025, at approximately 9:30 AM, a minor incident occurred in the maintenance hangar at Canadian Forces Base Trenton. A technician, Corporal Dubois, reported a hydraulic oil leak on aircraft CC-130J, tail number 614.\n\nThe maintenance team immediately isolated the area and began cleanup procedures in accordance with environmental protocols. No injuries were reported. The aircraft was taken out of service until the full inspection is completed.\n\nThe full report will be submitted to the squadron commander before March 7."
     },
     {
       "id": "R4",
@@ -202,7 +205,8 @@
           "explanation": "« Sous réserve de l'approbation de leur gestionnaire et de la disponibilité des ressources. »",
           "stemEn": "What condition must be met to receive language training?"
         }
-      ]
+      ],
+      "textEn": "Under the Official Languages Act, federal institutions are required to provide services in both of Canada's official languages. For positions designated as bilingual, incumbents must demonstrate their proficiency in both languages at the required level, as assessed by the Public Service Commission.\n\nLanguage proficiency levels are classified from A (basic) to C (advanced) for each of the three skills assessed: reading comprehension, written expression, and oral interaction. A position with a CBC language profile requires, for example, an advanced level in reading comprehension, an intermediate level in written expression, and an advanced level in oral interaction.\n\nEmployees who do not meet the required level may receive language training, subject to their manager's approval and the availability of resources."
     },
     {
       "id": "R5",
@@ -235,7 +239,8 @@
           "explanation": "« Vérifier votre équipement personnel et compléter les formations obligatoires en ligne avant vendredi. »",
           "stemEn": "What must members do before Friday?"
         }
-      ]
+      ],
+      "textEn": "Hello everyone,\n\nI want to congratulate you on your excellent work during last week's exercise. Every team member demonstrated remarkable professionalism.\n\nNext week, we will begin preparations for the annual inspection. I ask that you check your personal equipment and complete the mandatory online training before Friday.\n\nDo not hesitate to contact your section leader if you have any questions.\n\nMajor Gagnon"
     },
     {
       "id": "R6",
@@ -304,7 +309,8 @@
           "explanation": "« La section entière a passé quarante-cinq minutes à chercher. »",
           "stemEn": "How long did the section search?"
         }
-      ]
+      ],
+      "textEn": "Private Lapointe, an infantryman from the Royal 22nd Regiment, had a serious problem. His wax crayons had disappeared from his tactical bag. Not his ammunition, not his radio, not his canteen — his crayons.\n\n\"Without my crayons, how am I going to survive in the field?\" he asked his sergeant with a perfectly serious face.\n\nSergeant Bouchard let out a long sigh. \"Lapointe, you're on a combat exercise. You don't need crayons.\"\n\n\"But Sergeant, I had the red and blue ones! How am I going to mark my map without crayons? And the green one was my favourite snack for long patrols.\"\n\nThe sergeant closed his eyes for ten seconds. Finally, he said: \"Company, change of mission. Before attacking the objective, we are going to find Private Lapointe's crayons. This is apparently a matter of national survival.\"\n\nThe entire section spent forty-five minutes searching in the forest. They found the crayons in Lapointe's left pocket, exactly where he had put them the night before."
     },
     {
       "id": "R7",
@@ -373,7 +379,8 @@
           "explanation": "« Le Cpl Tremblay fait preuve d'initiative et de leadership... À surveiller. »",
           "stemEn": "What did Captain Fournier think of Tremblay?"
         }
-      ]
+      ],
+      "textEn": "Corporal Tremblay, a Leopard 2 crewman with the 12th Armoured Regiment of Canada, was a man on a mission. Not a combat mission — a much more important one. He was looking for brown gravy.\n\nIt had started on a Tuesday morning, when the cafeteria at CFB Valcartier announced that there was no more gravy for the fries. For an armoured soldier, this was an existential crisis.\n\n\"The infantry eats crayons. We eat fries with gravy. That's what sets us apart as professionals,\" he explained to Captain Fournier, who hadn't asked.\n\nTremblay organized what he called a \"gastronomic reconnaissance patrol.\" He convinced three other crew members to take the logistics vehicle for \"an essential morale support mission.\" They visited four corner stores, two restaurants, and a poutine truck before returning triumphantly with twelve boxes of St-Hubert gravy.\n\n\"Mission report: objective achieved. Zero losses. Twelve units of gravy recovered,\" he declared at the evening briefing, standing in front of a tactical map on which he had marked each stop with a red marker.\n\nCaptain Fournier noted in the log: \"Cpl Tremblay shows initiative and leadership under difficult conditions. To be monitored.\""
     },
     {
       "id": "R8",
@@ -442,7 +449,8 @@
           "explanation": "« Il faut le muter au mess. Là, au moins, les dégâts seront limités. »",
           "stemEn": "What does the sergeant suggest at the end?"
         }
-      ]
+      ],
+      "textEn": "Corporal Martin, a military police officer at CFB Petawawa, took his job very seriously. Perhaps too seriously.\n\nMonday morning, he set up his speed radar on the base's main road, where the limit was 30 km/h. At 8:15 AM, he pulled over a Major who was driving at 33 km/h.\n\n\"Sir, you were going 33 in a 30 zone,\" said Martin with the gravity of a man who had just discovered a threat to national security.\n\n\"Three kilometres per hour over?\" replied the Major, incredulous.\n\n\"Sir, the law is the law. Today it's 3 km/h, tomorrow it's anarchy.\"\n\nBy the end of the day, Martin had issued fourteen tickets. He had stopped a Colonel for crossing a yellow line, given a warning to a Lieutenant for changing lanes without signalling, and had even ticketed a parked vehicle because its tire was touching the white line.\n\nIn his daily report, he wrote: \"Productive day. The base is now a safer place thanks to my sustained efforts. Recommendation: install traffic lights at every intersection and add speed bumps every fifty metres.\"\n\nHis sergeant read the report, looked at the pile of complaints on his desk, and murmured: \"We need to transfer him to the mess. At least there, the damage will be limited.\""
     },
     {
       "id": "R9",
@@ -499,7 +507,8 @@
           "explanation": "« Le Capitaine a bu trois espressos. »",
           "stemEn": "How many espressos did he drink before flying?"
         }
-      ]
+      ],
+      "textEn": "Captain Leblanc, a CF-18 pilot at Bagotville, had an absolute rule: never fly without his coffee. Not the cafeteria coffee — his special coffee, prepared with beans imported from Colombia in an espresso machine he kept in his personal locker.\n\nOne morning, the machine broke down. Captain Leblanc looked at his broken machine as if he had just lost his best friend.\n\n\"I can't fly today,\" he announced at the briefing.\n\n\"Captain, this is a NATO exercise. You have to fly,\" replied the Commander.\n\n\"Commander, a pilot without coffee is a danger to aviation safety. It's in the regulations. Probably.\"\n\nFinally, the maintenance technician, Corporal Nguyen, fixed the machine in twenty minutes. The Captain drank three espressos, smiled for the first time that day, and went to fly.\n\nIn the mission report, he wrote: \"Successful flight. No technical problems. Personal note: buy a backup machine.\""
     },
     {
       "id": "R10",
@@ -568,7 +577,8 @@
           "explanation": "Il commence une nouvelle présentation de 89 diapositives pour expliquer pourquoi les courriels courts sont insuffisants.",
           "stemEn": "What does the Warrant Officer do after the Colonel's criticism?"
         }
-      ]
+      ],
+      "textEn": "Chief Warrant Officer Pelletier had spent his entire career perfecting two skills: yelling at recruits and creating PowerPoint presentations. After thirty years of service, he was convinced that PowerPoint was the most powerful weapon in the Canadian arsenal.\n\n\"You want to win a battle? Make a good PowerPoint,\" he would say to anyone who wanted to listen, and especially to those who didn't.\n\nHis latest presentation, titled \"Synergistic Optimization of Cross-Functional Office Material Management Processes,\" had two hundred and forty-seven slides. It included fourteen graphs, twenty-three tables, and an eagle animation that appeared every time a slide changed.\n\nThe briefing was scheduled for one hour. After three hours and ten minutes, the Colonel stood up and said: \"Chief Warrant Officer, what was the purpose of this presentation?\"\n\n\"Colonel, we need new staplers for the office.\"\n\nThe Colonel blinked three times. \"Send an email request. Two lines maximum.\"\n\nThe Chief Warrant Officer was deeply offended. He returned to his desk and started a new presentation: \"Why Two-Line Emails Are Insufficient for Modern Operational Needs.\" Eighty-nine slides planned."
     },
     {
       "id": "R11",
@@ -625,7 +635,8 @@
           "explanation": "« Raison officielle : les ingrédients doivent être identifiables. »",
           "stemEn": "Why was the submission rejected?"
         }
-      ]
+      ],
+      "textEn": "Master Corporal Gagné was a cook at the mess at CFB Edmonton. He had a deep conviction: the mess food was excellent. He was the only one who thought so.\n\n\"My tourtière is a masterpiece,\" he would say every Friday as he set the dish on the counter. The soldiers looked at the tourtière with suspicion. It was grey. Food isn't supposed to be grey.\n\n\"I'm going to submit my recipe for the CAF culinary excellence award,\" he announced one day.\n\nHis supervisor, Sergeant Roy, nearly choked on his coffee. \"The recipe for what exactly?\"\n\n\"My Monday mystery soup.\"\n\n\"Gagné, it's called 'mystery' because nobody knows what's in it. That's not a compliment.\"\n\n\"It's gastronomic mystery, Sergeant. It's art.\"\n\nThe submission was rejected. The official reason: \"Ingredients must be identifiable.\" Master Corporal Gagné considered this a terrible injustice and wrote an eight-page complaint."
     },
     {
       "id": "R12",
@@ -694,7 +705,8 @@
           "explanation": "« Le canard est revenu le lendemain. Le Commandant a décidé de le nommer mascotte officieuse. »",
           "stemEn": "What happened the next day?"
         }
-      ]
+      ],
+      "textEn": "HMCS Halifax was on patrol in the North Atlantic when an unexpected event disrupted operations. A duck had settled on the flight deck and categorically refused to leave.\n\nPetty Officer 2nd Class Boudreau, officer of the watch, first tried to chase it away with a broom. The duck didn't move. He then asked two sailors to surround it. The duck looked at them with absolute contempt and simply changed direction.\n\nAfter two hours of unsuccessful negotiations with the bird, the Ship's Commander was informed of the situation. \"You're telling me that three hundred professional sailors are unable to move a single duck?\" he asked.\n\n\"Commander, the duck is very determined,\" replied Boudreau.\n\nThe Commander called an emergency meeting. The final plan involved bread, a bucket, and what the official report describes as \"a tactical attraction manoeuvre using food resources.\" In simple terms, they lured it with bread into a bucket and transported it to the stern.\n\nThe duck came back the next day. The Commander decided to name it the ship's unofficial mascot. It's now called Captain Quackquack and has its own bunk."
     },
     {
       "id": "R13",
@@ -751,7 +763,8 @@
           "explanation": "Le stagiaire « a cliqué sur 'Activer le WiFi' dans les paramètres de l'ordinateur du Colonel ».",
           "stemEn": "What was the real problem?"
         }
-      ]
+      ],
+      "textEn": "Corporal Desrosiers, a signaller with the 2nd Signal Regiment, had a particular talent: he could set up a tactical communications network in hostile terrain in the rain, but he was absolutely incapable of making the WiFi work in his own office.\n\n\"It's not the same thing,\" he would explain to his colleagues who made fun of him. \"The tactical system is logical. Civilian WiFi is sorcery.\"\n\nOne day, the Colonel walked into the signals office. \"My computer won't connect to the network. Fix it.\"\n\nDesrosiers spent three hours trying to solve the problem. He restarted the router seven times, changed three cables, and called tech support twice. Finally, a seventeen-year-old civilian intern came by, clicked \"Enable WiFi\" in the Colonel's computer settings, and the problem was fixed.\n\n\"It was off this whole time?\" asked Desrosiers.\n\n\"Yes,\" replied the intern. \"The button was next to the volume button. The Colonel probably pressed it by accident.\"\n\nDesrosiers wrote a four-page memo recommending that all computers on the base have a \"DO NOT TOUCH THIS BUTTON\" sticker next to the WiFi button. The memo was rejected, but he still considers it his greatest contribution to the Forces."
     },
     {
       "id": "R14",
@@ -808,7 +821,8 @@
           "explanation": "« Documenter l'état de tous les biens avec des photographies... pour faciliter toute réclamation en cas de dommages. »",
           "stemEn": "Why should you take photos before the move?"
         }
-      ]
+      ],
+      "textEn": "Members of the Canadian Armed Forces who receive a posting message must follow several steps to organize their move. First, the military member must contact the Move Coordination Centre (MCC) within five business days of receiving the message.\n\nThe MCC will provide a list of approved moving companies. The military member can choose from these companies or request a self-move, in which they organize the transport of their personal belongings themselves in exchange for a lump-sum reimbursement.\n\nTravel expenses, including temporary accommodation for up to thirty days, meals, and mileage, are covered at rates set by the Treasury Board. Original receipts must be kept for any reimbursement claim.\n\nIt is strongly recommended to document the condition of all belongings with photographs before the move in order to facilitate any claim in case of damage."
     },
     {
       "id": "R15",
@@ -877,7 +891,8 @@
           "explanation": "« Le Colonel a apporté des saucisses. »",
           "stemEn": "What did the Colonel bring?"
         }
-      ]
+      ],
+      "textEn": "Sapper Côté, from the 5th Combat Engineer Regiment, had received a simple order: dig a two-metre-long trench for a defence exercise.\n\nFour hours later, Lieutenant Morin came to inspect the work. He found a hole eight metres long, three metres wide, and two metres deep. Beside it, there was an improvised drainage system and what looked like the beginning of a patio.\n\n\"Côté, I asked for a two-metre trench. What is this?\"\n\n\"Lieutenant, when I dig, I commit fully. And then, I noticed the soil had poor drainage, so I added a system to drain the water. And the patio is for troop morale. A soldier who has a patio is a happy soldier.\"\n\n\"Are there folding chairs in there?\"\n\n\"Yes, Lieutenant. I also found some flat stones perfect for a fire pit. We could do a barbecue on Friday.\"\n\nThe Lieutenant looked at the hole, looked at the sky, and decided that some battles weren't worth fighting. The barbecue took place on Friday. The whole company came. The Colonel brought sausages."
     },
     {
       "id": "R16",
@@ -946,7 +961,8 @@
           "explanation": "« Thompson a obtenu son BBB à la semaine trente-huit. »",
           "stemEn": "In which week did he get his BBB?"
         }
-      ]
+      ],
+      "textEn": "Sergeant Thompson, an anglophone from the Royal Canadian Regiment, had been sent to the Language School in Saint-Jean to achieve his BBB language profile. He was in week three of forty.\n\n\"How's the French going?\" his friend asked him by phone.\n\n\"I've learned to say 'I don't understand' six different ways. It's my most useful phrase.\"\n\nHis teacher, Madame Lafleur, was a patient woman. She had to be. Sergeant Thompson conjugated every verb in the passé composé, even when talking about the future.\n\n\"Sergeant, how would you say 'I am going to eat'?\"\n\n\"I ate?\"\n\n\"No, that's the past. The future.\"\n\n\"I ate... tomorrow?\"\n\nMadame Lafleur took a deep breath. By week eight, Thompson had made remarkable progress. He could now order a coffee, introduce himself, and explain in detail why the infantry was superior to the armoured corps — all in French.\n\n\"Your French is excellent when you talk about the infantry,\" noted Madame Lafleur in her evaluation. \"For all other subjects, we continue to work.\"\n\nThompson got his BBB in week thirty-eight. His end-of-course speech, entirely in French, was about the twenty reasons why infantrymen are the best soldiers. He received a standing ovation from his infantry classmates. The armoured soldiers left the room."
     },
     {
       "id": "R17",
@@ -1015,7 +1031,8 @@
           "explanation": "« C'est cruel, Sergent. » « C'est efficace, Bombardier. »",
           "stemEn": "How does Paquette describe the sergeant's method?"
         }
-      ]
+      ],
+      "textEn": "Bombardier Paquette, from the 1st Regiment, Royal Canadian Horse Artillery, had a sleep problem. No, he didn't have insomnia — it was the opposite. He could sleep through anything. The sound of 155mm guns? Like a lullaby. Alarms at five in the morning? Inaudible.\n\nHis section sergeant had tried everything. Three simultaneous alarm clocks. A bucket of water. Even a bugle played directly into his ear. Paquette slept like a baby.\n\n\"It's a gift,\" Paquette would say with pride. \"After three years next to the howitzers, nothing wakes me up anymore.\"\n\n\"That's not a gift, it's a disciplinary problem,\" Sergeant Lacroix would reply.\n\nThe solution came by accident. One morning, someone in the barracks whispered: \"There's free poutine at the mess.\" Paquette got up in exactly two seconds.\n\nSince that day, Sergeant Lacroix has recorded the phrase \"free poutine at the mess\" on his phone and plays it every morning at five o'clock. Paquette gets up immediately, realizes there's no poutine, and starts his day frustrated but on time.\n\n\"That's cruel, Sergeant.\"\n\n\"It's effective, Bombardier.\""
     },
     {
       "id": "R18",
@@ -1084,7 +1101,8 @@
           "explanation": "« Les quinze autres ont reçu deux comprimés d'ibuprofène et l'ordre de se présenter à la ligne de départ. »",
           "stemEn": "What did the Category C soldiers receive?"
         }
-      ]
+      ],
+      "textEn": "Captain Doctor Bergeron was the military doctor at the Petawawa garrison. Every Monday morning, he held sick parade, where soldiers came with their medical complaints. He had developed a personal classification system.\n\n\"Category A: actually sick. Category B: a little sick but mostly tired from Monday. Category C: wants to avoid the five-kilometre run scheduled for 9:00 AM.\"\n\nThat Monday, seventeen soldiers showed up. Coincidentally, the five-kilometre run was scheduled for 9:00 AM.\n\n\"Corporal Lemieux, what's wrong?\"\n\n\"My knee hurts, Captain.\"\n\n\"Since when?\"\n\n\"Since... this morning. When I saw the day's schedule.\"\n\n\"Category C. Go run. Next!\"\n\nTwo soldiers actually had sore throats. Captain Bergeron gave them rest. The other fifteen received two ibuprofen tablets and orders to report to the starting line.\n\n\"Doctor, ibuprofen doesn't cure laziness,\" observed the nurse, Master Corporal Simard.\n\n\"No, but the placebo effect is remarkable when the alternative is push-ups until the sergeant gets tired.\""
     },
     {
       "id": "R19",
@@ -1153,7 +1171,8 @@
           "explanation": "« J'ai peur de le bouger parce qu'il est dans le système comme 'équipement essentiel'. »",
           "stemEn": "Why didn't Veilleux move the kayak?"
         }
-      ]
+      ],
+      "textEn": "Corporal Veilleux worked at the clothing store at CFB Gagetown. His job was to distribute uniforms and equipment. The problem was that the inventory system was a mystery that even the best minds in logistics had never solved.\n\n\"I need size 10 boots,\" asked a soldier.\n\n\"The system says we have three hundred and forty-two pairs in stock.\"\n\n\"Excellent!\"\n\n\"But physically, I can't find any. However, I did find two hundred extra-large berets that nobody ever ordered and a crate of snowshoes from 1987.\"\n\nThe soldier left with size 11 boots and four pairs of thick socks to compensate. Veilleux noted in the register: \"Item distributed according to operational needs. Alternative solution applied.\"\n\nWhen Warrant Officer Carrier did the quarterly inspection, he discovered that the store contained, among other things: sixty Arctic parkas (in the middle of summer in New Brunswick), a kayak, and a mannequin in a World War II uniform that nobody could explain.\n\n\"Veilleux, why is there a kayak in the clothing store?\"\n\n\"I don't know, Warrant Officer. It was here before me. I'm afraid to move it because it's in the system as 'essential equipment.'\""
     },
     {
       "id": "R20",
@@ -1222,7 +1241,8 @@
           "explanation": "« Le record de la base, c'est quatre minutes. »",
           "stemEn": "What is the base record?"
         }
-      ]
+      ],
+      "textEn": "Private Picard was in basic training at Saint-Jean. Today was the day of the obstacle course — the test that all recruits dreaded.\n\nThe course included a three-metre wall, a barbed wire crawl, a rope crossing, and a run through the mud. The instructor sergeant had promised it was \"a beautiful day to suffer.\"\n\nPicard attacked the wall with enthusiasm. He jumped, grabbed the edge, and hung there like a flag on a windless day. His legs pedalled in mid-air.\n\n\"Picard! Use your arms!\" shouted the Sergeant.\n\n\"I'm using my arms, Sergeant! It's my arms that won't cooperate!\"\n\nAfter forty-five seconds of struggle, he made it over. For the barbed wire section, he crawled so slowly that a spider had time to spin a web on his helmet.\n\nBut it was the mud section that became legendary. Picard slipped, fell face first, got up, slipped again, and finished the course covered in mud from head to toe. You could only see his eyes.\n\n\"Final time: eleven minutes and thirty-two seconds,\" announced the Sergeant. \"The base record is four minutes.\"\n\n\"But I finished it, Sergeant!\"\n\n\"Yes, Picard. And nobody can take that from you.\""
     },
     {
       "id": "R21",
@@ -1291,7 +1311,8 @@
           "explanation": "« Un arrêt non autorisé dans un restaurant de fruits de mer à Rivière-du-Loup. »",
           "stemEn": "Where did Fortin stop along the way?"
         }
-      ]
+      ],
+      "textEn": "Corporal Fortin was a MSVS driver with the 4th Support Battalion. His mission that day: transport equipment from CFB Valcartier to CFB Montreal. A simple two-and-a-half-hour trip.\n\nSeven hours later, Corporal Fortin called his sergeant from Rimouski.\n\n\"Sergeant, I think the GPS lied to me.\"\n\n\"Fortin, Rimouski is three hours east of Valcartier. Montreal is two hours west. How did you manage that?\"\n\n\"I followed the GPS, Sergeant. It told me to turn, so I turned.\"\n\n\"You didn't look at the highway signs that said 'Rimouski'?\"\n\n\"I trusted the GPS, Sergeant. The Forces taught me to follow instructions without asking questions.\"\n\nThe sergeant couldn't argue against that logic. Corporal Fortin arrived in Montreal the next morning, with one less tank of diesel and an unauthorized stop at a seafood restaurant in Rivière-du-Loup.\n\nIn his transport report, he wrote: \"Alternative route taken for road safety reasons. Recommendation: update military vehicle GPS units, which seem to prefer scenic routes.\"\n\nThe GPS was working perfectly. Fortin had simply entered \"Rimouski\" instead of \"Montreal.\""
     },
     {
       "id": "R22",
@@ -1360,7 +1381,8 @@
           "explanation": "Ils ont trouvé « quatorze balles de golf ».",
           "stemEn": "How many golf balls did they find?"
         }
-      ]
+      ],
+      "textEn": "Ordinary Seaman 1st Class Dufresne was a diver in the Royal Canadian Navy, stationed in Halifax. He was known for two things: his excellence underwater and his ability to lose absolutely everything that wasn't attached to his body.\n\nOne morning, the Lieutenant-Commander called the dive team. \"Gentlemen, we have a recovery mission. A valuable object has been lost in the harbour.\"\n\n\"What type of object, Lieutenant-Commander?\" asked Dufresne.\n\n\"Your watch, Sailor. Which you dropped in the harbour yesterday while taking a selfie on the wharf.\"\n\nThe team spent four hours searching the harbour floor. They found three rusty anchors, a car tire, an old bicycle, fourteen golf balls, and an impressive collection of sunglasses lost over the years. But no watch.\n\n\"It's no big deal,\" said Dufresne. \"It was a five-dollar watch.\"\n\n\"You couldn't mention that before we spent four hours at the bottom of the harbour?\" asked the Lieutenant-Commander.\n\n\"I thought it was good training exercise, Lieutenant-Commander.\"\n\nThe mission report stated: \"Object recovery mission: partially successful. Primary object not recovered. Secondary objects recovered: three anchors, a bicycle, fourteen golf balls. Recommendation: prohibit OS 1 Dufresne from bringing personal items near water.\""
     },
     {
       "id": "R23",
@@ -1429,7 +1451,8 @@
           "explanation": "« Il refusait de bouger pour quiconque en dessous du rang de Colonel. »",
           "stemEn": "For whom would the cat agree to move?"
         }
-      ]
+      ],
+      "textEn": "Nobody knew how the cat had gotten into the operations room at the Kingston headquarters. One morning, it was simply there, sitting on the briefing table, looking at the officers with an air of absolute superiority.\n\nMajor Lefebvre tried to move it. The cat scratched him. Captain Morin tried with work gloves. The cat bit the gloves. Lieutenant Chen tried with a box. The cat sat on the box.\n\n\"It refuses to move,\" observed the Major.\n\n\"We can't have a cat in the operations room,\" said the Colonel.\n\n\"With respect, Colonel, the cat is the only one in this room who looks like he knows exactly what he's doing,\" observed Chief Warrant Officer Samson.\n\nThe cat stayed. During briefings, it walked on the keyboard and changed slides randomly, which, ironically, made some presentations more interesting. It slept on classified documents and refused to move for anyone below the rank of Colonel.\n\nAfter a month, it received an official name: \"General Whiskers.\" It has its own access badge, its own chair, and a food bowl labelled \"Essential Personnel — Do Not Move.\" The real general finds it less funny than everyone else."
     },
     {
       "id": "R24",
@@ -1498,7 +1521,8 @@
           "explanation": "« Thériault a reçu trois jours de corvée. Mais le Major a mangé la dernière part avant de donner la punition. »",
           "stemEn": "What punishment did Thériault receive?"
         }
-      ]
+      ],
+      "textEn": "Exercise \"Snowstorm\" was taking place in the woods of Wainwright, Alberta, in the middle of February. The temperature was minus thirty degrees. Morale was at the same level as the thermometer.\n\nCorporal Thériault, radio operator for Bravo Company, had a plan. During his guard shift at two in the morning, he used the radio to call... a pizza delivery service.\n\n\"Yes, hello. I'd like three large pepperoni pizzas, two Hawaiian, and one vegetarian for the Lieutenant because he's watching his figure. Delivery to grid reference Mike Tango 485 723. It's in the woods. You'll see the soldiers. They look like sad snowmen.\"\n\nThe delivery driver obviously couldn't find a military camp hidden in the forest. But by a logistical miracle, he found the access road and honked. Twenty-two soldiers came out of the woods like hungry zombies.\n\nThe company commander, Major Dubé, arrived to find his entire company eating pizza around the delivery vehicle, which had its hazard lights on in the middle of a tactical exercise.\n\n\"Who did this?\" he asked.\n\nTotal silence. Twenty-two mouths full of pizza. Nobody spoke.\n\nThériault received three days of extra duty. But the Major ate the last slice of pepperoni before giving the punishment. The exercise ended with notably improved morale."
     }
   ]
 }
