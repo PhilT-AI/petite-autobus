@@ -294,27 +294,6 @@ const Home = ({ go, srs, streak }) => {
         </div>
       </div>
 
-      {/* Category Progress */}
-      <div>
-        <div style={{ ...font.label, fontSize: 10, color: C.textMut, marginBottom: 10 }}>Progress by Category</div>
-        {Object.entries(stats.catStats).map(([cat, s]) => {
-          const pct = Math.round((s.mastered / s.total) * 100);
-          return (
-            <div key={cat} onClick={() => go("study")} style={{ background: C.bgCard, borderRadius: 11, padding: "12px 14px", border: `1px solid ${C.border}`, display: "flex", alignItems: "center", gap: 12, cursor: "pointer", marginBottom: 8 }}>
-              <div style={{ width: 36, height: 36, borderRadius: 8, background: `${C.greenPrimary}22`, border: `1.5px solid ${C.greenPrimary}44`, display: "flex", alignItems: "center", justifyContent: "center", ...font.label, fontSize: 10, color: C.greenBright }}>{cat.slice(0, 3).toUpperCase()}</div>
-              <div style={{ flex: 1 }}>
-                <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 5 }}>
-                  <span style={{ ...font.card, fontSize: 13, color: C.text, textTransform: "capitalize" }}>{cat === "nom" ? "Noms" : cat === "verbe" ? "Verbes" : cat === "connecteur" ? "Connecteurs" : "Expressions"}</span>
-                  <span style={{ ...font.body, fontSize: 11, color: C.textSec }}>{s.mastered}/{s.total}</span>
-                </div>
-                <Bar value={pct} color={pct > 70 ? C.greenBright : pct > 30 ? C.tan : C.textMut} />
-              </div>
-              <span style={{ ...font.h, fontSize: 13, color: pct > 70 ? C.greenBright : C.textSec }}>{pct}%</span>
-            </div>
-          );
-        })}
-      </div>
-
       {/* Continue */}
       {continueFasc && (
         <div onClick={() => go("flashcard", { fascicule: continueFasc[0] })} style={{ background: `${C.greenPrimary}22`, borderRadius: 12, padding: "16px 18px", border: `1px solid ${C.greenPrimary}40`, cursor: "pointer", display: "flex", alignItems: "center", gap: 12 }}>
@@ -327,27 +306,67 @@ const Home = ({ go, srs, streak }) => {
         </div>
       )}
 
-      {/* Quick Access */}
+      {/* Main Navigation */}
       <div>
-        <div style={{ ...font.label, fontSize: 10, color: C.textMut, marginBottom: 10 }}>Quick Access</div>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
+        <div style={{ ...font.label, fontSize: 10, color: C.textMut, marginBottom: 10 }}>Jump Into</div>
+        {[
+          { icon: "📚", label: "Flashcards", desc: "Synonyms & vocabulary by fascicule or category", color: C.greenPrimary, tap: () => go("study") },
+          { icon: "✏️", label: "Conjugation Drill", desc: "Verb conjugation practice · NP-A, B, C", color: C.gold, tap: () => go("conjdrill") },
+          { icon: "📝", label: "Grammar Quiz", desc: `${grammarData.questions.length} questions · 14 modules`, color: C.tan, tap: () => go("grammarquiz") },
+          { icon: "🎧", label: "Listening", desc: `${listeningData.scenarios.length} scenarios + vocab practice`, color: C.tanLight, tap: () => go("listening") },
+          { icon: "📖", label: "Reading", desc: `${readingData.passages.length} passages with comprehension questions`, color: C.alertRed, tap: () => go("reading") },
+          { icon: "✍️", label: "Writing", desc: `${writingData.prompts.length} writing prompts with self-assessment`, color: C.gold, tap: () => go("writing") },
+        ].map(a => (
+          <div key={a.label} onClick={a.tap} style={{
+            background: C.bgCard, borderRadius: 12, padding: "14px 16px",
+            border: `1px solid ${C.border}`, cursor: "pointer",
+            display: "flex", alignItems: "center", gap: 14, marginBottom: 8,
+          }}>
+            <div style={{ width: 46, height: 46, borderRadius: 12, background: `${a.color}15`, border: `2px solid ${a.color}30`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+              <span style={{ fontSize: 22 }}>{a.icon}</span>
+            </div>
+            <div style={{ flex: 1 }}>
+              <div style={{ ...font.card, fontSize: 15, color: C.text }}>{a.label}</div>
+              <div style={{ ...font.body, fontSize: 12, color: C.textSec, marginTop: 2 }}>{a.desc}</div>
+            </div>
+            <span style={{ ...font.h, fontSize: 18, color: C.textMut }}>›</span>
+          </div>
+        ))}
+      </div>
+
+      {/* Quick Tools Row */}
+      <div>
+        <div style={{ ...font.label, fontSize: 10, color: C.textMut, marginBottom: 10 }}>Tools</div>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8 }}>
           {[
-            { label: "Daily Plan", val: "Go", color: C.greenBright, tap: () => go("dailyplan") },
-            { label: "Exam Sim", val: "Go", color: C.gold, tap: () => go("examsim") },
-            { label: "Grammar Quiz", val: String(grammarData.questions.length) + "Q", color: C.tan, tap: () => go("grammarquiz") },
-            { label: "Listening", val: "Go", color: C.tanLight, tap: () => go("listening") },
-            { label: "Reading", val: String(readingData.passages.length) + "P", color: C.alertRed, tap: () => go("reading") },
-            { label: "Writing", val: String(writingData.prompts.length) + "P", color: C.gold, tap: () => go("writing") },
+            { icon: "🎯", label: "Exam Sim", color: C.tan, tap: () => go("examsim") },
+            { icon: "📋", label: "Daily Plan", color: C.greenBright, tap: () => go("dailyplan") },
+            { icon: "⚠️", label: "Weak Areas", color: C.alertRed, tap: () => go("weakareas") },
           ].map(a => (
-            <div key={a.label} onClick={a.tap} style={{ background: C.bgCard, borderRadius: 10, padding: 14, border: `1px solid ${C.border}`, cursor: a.tap ? "pointer" : "default" }}>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
-                <div style={{ width: 8, height: 8, borderRadius: 4, background: a.color }} />
-                <span style={{ ...font.h, fontSize: 20, color: a.color }}>{a.val}</span>
-              </div>
-              <span style={{ ...font.label, fontSize: 9, color: C.textSec }}>{a.label}</span>
+            <div key={a.label} onClick={a.tap} style={{ background: C.bgCard, borderRadius: 10, padding: "14px 10px", border: `1px solid ${C.border}`, cursor: "pointer", textAlign: "center" }}>
+              <span style={{ fontSize: 22, display: "block", marginBottom: 6 }}>{a.icon}</span>
+              <span style={{ ...font.label, fontSize: 10, color: C.textSec }}>{a.label}</span>
             </div>
           ))}
         </div>
+      </div>
+
+      {/* Progress Summary */}
+      <div style={{ background: C.bgCard, borderRadius: 12, padding: "14px 16px", border: `1px solid ${C.border}` }}>
+        <div style={{ ...font.label, fontSize: 10, color: C.textMut, marginBottom: 10 }}>Progress</div>
+        {Object.entries(stats.catStats).map(([cat, s]) => {
+          const pct = Math.round((s.mastered / s.total) * 100);
+          const label = cat === "nom" ? "Noms" : cat === "verbe" ? "Verbes" : cat === "connecteur" ? "Connecteurs" : "Expressions";
+          return (
+            <div key={cat} style={{ marginBottom: 10 }}>
+              <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 4 }}>
+                <span style={{ ...font.card, fontSize: 12, color: C.text }}>{label}</span>
+                <span style={{ ...font.body, fontSize: 11, color: C.textSec }}>{s.mastered}/{s.total} · {pct}%</span>
+              </div>
+              <Bar value={pct} color={pct > 70 ? C.greenBright : pct > 30 ? C.tan : C.textMut} />
+            </div>
+          );
+        })}
       </div>
     </div>
   );
