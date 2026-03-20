@@ -2858,20 +2858,12 @@ const Reading = ({ go, ttsOn }) => {
                 )}
 
                 {/* Translation of the question */}
-                <div style={{ borderTop: `1px solid ${C.border}`, paddingTop: 10 }}>
-                  <div style={{ ...font.label, fontSize: 9, color: C.textMut, marginBottom: 4 }}>Question Translation</div>
-                  <div style={{ ...font.body, fontSize: 12, color: C.textSec }}>{
-                    q.stem.includes("Quand") ? q.stem.replace("Quand", "When") :
-                    q.stem.includes("Où") ? q.stem.replace("Où", "Where") :
-                    q.stem.includes("Qui") ? q.stem.replace("Qui", "Who") :
-                    q.stem.includes("Combien") ? q.stem.replace(/Combien de temps/i, "How long").replace(/Combien de/i, "How many/much") :
-                    q.stem.includes("Pourquoi") ? q.stem.replace("Pourquoi", "Why") :
-                    q.stem.includes("Comment") ? q.stem.replace("Comment", "How") :
-                    q.stem.includes("Quel") || q.stem.includes("Quelle") ? q.stem.replace(/Quel(le)?/i, "What/Which") :
-                    q.stem.includes("Que ") || q.stem.includes("Qu'") ? q.stem.replace(/Que |Qu'/i, "What ") :
-                    q.stem
-                  }</div>
-                </div>
+                {q.stemEn && (
+                  <div style={{ borderTop: `1px solid ${C.border}`, paddingTop: 10 }}>
+                    <div style={{ ...font.label, fontSize: 9, color: C.textMut, marginBottom: 4 }}>Question Translation</div>
+                    <div style={{ ...font.body, fontSize: 12, color: C.textSec }}>{q.stemEn}</div>
+                  </div>
+                )}
 
                 {/* Tap to re-read passage hint */}
                 <button onClick={() => setPhase("read")} style={{ marginTop: 10, padding: "8px 12px", borderRadius: 8, border: `1px solid ${C.border}`, background: "transparent", ...font.body, fontSize: 11, color: C.textSec, cursor: "pointer", width: "100%" }}>

@@ -9,21 +9,39 @@
       "questions": [
         {
           "stem": "Quand aura lieu la réunion ?",
-          "options": ["Le lundi 14 octobre", "Le mardi 15 octobre", "Le vendredi 11 octobre", "Le mercredi 16 octobre"],
+          "options": [
+            "Le lundi 14 octobre",
+            "Le mardi 15 octobre",
+            "Le vendredi 11 octobre",
+            "Le mercredi 16 octobre"
+          ],
           "correct": 1,
-          "explanation": "La réunion aura lieu « le mardi 15 octobre à 14 h 00 »."
+          "explanation": "La réunion aura lieu « le mardi 15 octobre à 14 h 00 ».",
+          "stemEn": "When will the meeting take place?"
         },
         {
           "stem": "Quel est l'un des sujets à l'ordre du jour ?",
-          "options": ["L'embauche de personnel", "La révision du budget trimestriel", "La formation linguistique", "Le déménagement du bureau"],
+          "options": [
+            "L'embauche de personnel",
+            "La révision du budget trimestriel",
+            "La formation linguistique",
+            "Le déménagement du bureau"
+          ],
           "correct": 1,
-          "explanation": "L'ordre du jour comprend « la révision du budget trimestriel »."
+          "explanation": "L'ordre du jour comprend « la révision du budget trimestriel ».",
+          "stemEn": "What is one of the items on the agenda?"
         },
         {
           "stem": "Que doivent faire les collègues avant le 11 octobre ?",
-          "options": ["Soumettre un rapport", "Confirmer leur présence", "Réserver la salle", "Préparer une présentation"],
+          "options": [
+            "Soumettre un rapport",
+            "Confirmer leur présence",
+            "Réserver la salle",
+            "Préparer une présentation"
+          ],
           "correct": 1,
-          "explanation": "« Veuillez confirmer votre présence avant le vendredi 11 octobre. »"
+          "explanation": "« Veuillez confirmer votre présence avant le vendredi 11 octobre. »",
+          "stemEn": "What must colleagues do before October 11?"
         }
       ]
     },
@@ -36,27 +54,51 @@
       "questions": [
         {
           "stem": "Combien de jours de congé a un militaire avec trois ans de service ?",
-          "options": ["Quinze jours", "Vingt jours", "Vingt-cinq jours", "Trente jours"],
+          "options": [
+            "Quinze jours",
+            "Vingt jours",
+            "Vingt-cinq jours",
+            "Trente jours"
+          ],
           "correct": 1,
-          "explanation": "« Les militaires ayant moins de cinq ans de service ont droit à vingt jours. »"
+          "explanation": "« Les militaires ayant moins de cinq ans de service ont droit à vingt jours. »",
+          "stemEn": "How many leave days does a soldier with three years of service have?"
         },
         {
           "stem": "Combien de temps à l'avance doit-on soumettre une demande de congé ?",
-          "options": ["Une semaine", "Deux semaines", "Trois semaines", "Un mois"],
+          "options": [
+            "Une semaine",
+            "Deux semaines",
+            "Trois semaines",
+            "Un mois"
+          ],
           "correct": 1,
-          "explanation": "« Les demandes de congé doivent être soumises au moins deux semaines à l'avance. »"
+          "explanation": "« Les demandes de congé doivent être soumises au moins deux semaines à l'avance. »",
+          "stemEn": "How far in advance must a leave request be submitted?"
         },
         {
           "stem": "Combien de jours de congé non utilisés peut-on reporter ?",
-          "options": ["Cinq jours", "Dix jours", "Quinze jours", "Vingt jours"],
+          "options": [
+            "Cinq jours",
+            "Dix jours",
+            "Quinze jours",
+            "Vingt jours"
+          ],
           "correct": 2,
-          "explanation": "« Les congés non utilisés peuvent être reportés... dans la limite de quinze jours. »"
+          "explanation": "« Les congés non utilisés peuvent être reportés... dans la limite de quinze jours. »",
+          "stemEn": "How many unused leave days can be carried over?"
         },
         {
           "stem": "Qui doit approuver une demande de congé en premier ?",
-          "options": ["Les ressources humaines", "Le commandant de base", "Le superviseur immédiat", "L'officier de service"],
+          "options": [
+            "Les ressources humaines",
+            "Le commandant de base",
+            "Le superviseur immédiat",
+            "L'officier de service"
+          ],
           "correct": 2,
-          "explanation": "« Le superviseur immédiat doit approuver toute demande. »"
+          "explanation": "« Le superviseur immédiat doit approuver toute demande. »",
+          "stemEn": "Who must approve a leave request first?"
         }
       ]
     },
@@ -69,21 +111,39 @@
       "questions": [
         {
           "stem": "Où l'incident s'est-il produit ?",
-          "options": ["Sur la piste d'atterrissage", "Dans le hangar de maintenance", "Au bureau administratif", "Dans la salle de briefing"],
+          "options": [
+            "Sur la piste d'atterrissage",
+            "Dans le hangar de maintenance",
+            "Au bureau administratif",
+            "Dans la salle de briefing"
+          ],
           "correct": 1,
-          "explanation": "« Un incident mineur s'est produit dans le hangar de maintenance. »"
+          "explanation": "« Un incident mineur s'est produit dans le hangar de maintenance. »",
+          "stemEn": "Where did the incident occur?"
         },
         {
           "stem": "Quel type d'incident a été signalé ?",
-          "options": ["Un incendie", "Une fuite d'huile hydraulique", "Une panne électrique", "Un déversement chimique"],
+          "options": [
+            "Un incendie",
+            "Une fuite d'huile hydraulique",
+            "Une panne électrique",
+            "Un déversement chimique"
+          ],
           "correct": 1,
-          "explanation": "« Le Caporal Dubois a signalé une fuite d'huile hydraulique. »"
+          "explanation": "« Le Caporal Dubois a signalé une fuite d'huile hydraulique. »",
+          "stemEn": "What type of incident was reported?"
         },
         {
           "stem": "Y a-t-il eu des blessures ?",
-          "options": ["Oui, une personne", "Oui, deux personnes", "Non, aucune blessure", "Ce n'est pas mentionné"],
+          "options": [
+            "Oui, une personne",
+            "Oui, deux personnes",
+            "Non, aucune blessure",
+            "Ce n'est pas mentionné"
+          ],
           "correct": 2,
-          "explanation": "« Aucune blessure n'a été signalée. »"
+          "explanation": "« Aucune blessure n'a été signalée. »",
+          "stemEn": "Were there any injuries?"
         }
       ]
     },
@@ -96,9 +156,15 @@
       "questions": [
         {
           "stem": "Combien d'habiletés linguistiques sont évaluées ?",
-          "options": ["Deux", "Trois", "Quatre", "Cinq"],
+          "options": [
+            "Deux",
+            "Trois",
+            "Quatre",
+            "Cinq"
+          ],
           "correct": 1,
-          "explanation": "Trois habiletés : compréhension de l'écrit, expression écrite et interaction orale."
+          "explanation": "Trois habiletés : compréhension de l'écrit, expression écrite et interaction orale.",
+          "stemEn": "How many language skills are assessed?"
         },
         {
           "stem": "Que signifie un profil CBC ?",
@@ -109,13 +175,20 @@
             "Avancé en écriture, intermédiaire en lecture et à l'oral"
           ],
           "correct": 1,
-          "explanation": "C = avancé (lecture), B = intermédiaire (écriture), C = avancé (oral)."
+          "explanation": "C = avancé (lecture), B = intermédiaire (écriture), C = avancé (oral).",
+          "stemEn": "What does a CBC profile mean?"
         },
         {
           "stem": "Qui évalue la compétence linguistique pour les postes bilingues ?",
-          "options": ["Le gestionnaire", "Le ministère de la Défense", "La Commission de la fonction publique", "Le Conseil du Trésor"],
+          "options": [
+            "Le gestionnaire",
+            "Le ministère de la Défense",
+            "La Commission de la fonction publique",
+            "Le Conseil du Trésor"
+          ],
           "correct": 2,
-          "explanation": "« Tel qu'évalué par la Commission de la fonction publique. »"
+          "explanation": "« Tel qu'évalué par la Commission de la fonction publique. »",
+          "stemEn": "Who assesses language proficiency for bilingual positions?"
         },
         {
           "stem": "Quelle condition faut-il remplir pour recevoir une formation linguistique ?",
@@ -126,7 +199,8 @@
             "Faire une demande au commissariat"
           ],
           "correct": 1,
-          "explanation": "« Sous réserve de l'approbation de leur gestionnaire et de la disponibilité des ressources. »"
+          "explanation": "« Sous réserve de l'approbation de leur gestionnaire et de la disponibilité des ressources. »",
+          "stemEn": "What condition must be met to receive language training?"
         }
       ]
     },
@@ -139,9 +213,15 @@
       "questions": [
         {
           "stem": "Pourquoi le commandant félicite-t-il l'équipe ?",
-          "options": ["Pour l'inspection annuelle", "Pour l'exercice de la semaine dernière", "Pour les formations en ligne", "Pour le déploiement"],
+          "options": [
+            "Pour l'inspection annuelle",
+            "Pour l'exercice de la semaine dernière",
+            "Pour les formations en ligne",
+            "Pour le déploiement"
+          ],
           "correct": 1,
-          "explanation": "« Je tiens à vous féliciter pour votre excellent travail lors de l'exercice de la semaine dernière. »"
+          "explanation": "« Je tiens à vous féliciter pour votre excellent travail lors de l'exercice de la semaine dernière. »",
+          "stemEn": "Why is the commander congratulating the team?"
         },
         {
           "stem": "Que doivent faire les membres avant vendredi ?",
@@ -152,7 +232,8 @@
             "Réserver la salle de conférence"
           ],
           "correct": 1,
-          "explanation": "« Vérifier votre équipement personnel et compléter les formations obligatoires en ligne avant vendredi. »"
+          "explanation": "« Vérifier votre équipement personnel et compléter les formations obligatoires en ligne avant vendredi. »",
+          "stemEn": "What must members do before Friday?"
         }
       ]
     },
@@ -165,33 +246,63 @@
       "questions": [
         {
           "stem": "Qu'est-ce que le Soldat Lapointe a perdu ?",
-          "options": ["Ses munitions", "Sa radio", "Ses crayons de cire", "Sa gourde"],
+          "options": [
+            "Ses munitions",
+            "Sa radio",
+            "Ses crayons de cire",
+            "Sa gourde"
+          ],
           "correct": 2,
-          "explanation": "« Ses crayons de cire avaient disparu de son sac tactique. »"
+          "explanation": "« Ses crayons de cire avaient disparu de son sac tactique. »",
+          "stemEn": "What did Private Lapointe lose?"
         },
         {
           "stem": "De quel régiment est le Soldat Lapointe ?",
-          "options": ["Le Princess Patricia's", "Le Royal 22e Régiment", "Le Royal Canadian Regiment", "Les Fusiliers de Montréal"],
+          "options": [
+            "Le Princess Patricia's",
+            "Le Royal 22e Régiment",
+            "Le Royal Canadian Regiment",
+            "Les Fusiliers de Montréal"
+          ],
           "correct": 1,
-          "explanation": "« Fantassin du Royal 22e Régiment. »"
+          "explanation": "« Fantassin du Royal 22e Régiment. »",
+          "stemEn": "What regiment is Private Lapointe from?"
         },
         {
           "stem": "Pourquoi Lapointe dit-il que le crayon vert est important ?",
-          "options": ["Pour marquer la carte", "Pour écrire des rapports", "C'était sa collation préférée", "Pour signaler sa position"],
+          "options": [
+            "Pour marquer la carte",
+            "Pour écrire des rapports",
+            "C'était sa collation préférée",
+            "Pour signaler sa position"
+          ],
           "correct": 2,
-          "explanation": "« Le vert, c'était ma collation préférée pour les longues patrouilles. » (Blague classique sur les fantassins qui mangent des crayons.)"
+          "explanation": "« Le vert, c'était ma collation préférée pour les longues patrouilles. » (Blague classique sur les fantassins qui mangent des crayons.)",
+          "stemEn": "Why does Lapointe say the green crayon is important?"
         },
         {
           "stem": "Où les crayons ont-ils été trouvés ?",
-          "options": ["Dans la forêt", "Au camp de base", "Dans sa poche gauche", "Dans le sac du sergent"],
+          "options": [
+            "Dans la forêt",
+            "Au camp de base",
+            "Dans sa poche gauche",
+            "Dans le sac du sergent"
+          ],
           "correct": 2,
-          "explanation": "« Ils ont trouvé les crayons dans la poche gauche de Lapointe. »"
+          "explanation": "« Ils ont trouvé les crayons dans la poche gauche de Lapointe. »",
+          "stemEn": "Where were the crayons found?"
         },
         {
           "stem": "Combien de temps la section a-t-elle cherché ?",
-          "options": ["Dix minutes", "Vingt minutes", "Quarante-cinq minutes", "Deux heures"],
+          "options": [
+            "Dix minutes",
+            "Vingt minutes",
+            "Quarante-cinq minutes",
+            "Deux heures"
+          ],
           "correct": 2,
-          "explanation": "« La section entière a passé quarante-cinq minutes à chercher. »"
+          "explanation": "« La section entière a passé quarante-cinq minutes à chercher. »",
+          "stemEn": "How long did the section search?"
         }
       ]
     },
@@ -204,27 +315,51 @@
       "questions": [
         {
           "stem": "Quel type de véhicule le Caporal Tremblay conduit-il normalement ?",
-          "options": ["Un LAV III", "Un Leopard 2", "Un Coyote", "Un TAPV"],
+          "options": [
+            "Un LAV III",
+            "Un Leopard 2",
+            "Un Coyote",
+            "Un TAPV"
+          ],
           "correct": 1,
-          "explanation": "« Équipage de Leopard 2 au sein du 12e Régiment blindé du Canada. »"
+          "explanation": "« Équipage de Leopard 2 au sein du 12e Régiment blindé du Canada. »",
+          "stemEn": "What type of vehicle does Corporal Tremblay normally drive?"
         },
         {
           "stem": "Pourquoi Tremblay était-il en crise ?",
-          "options": ["Son char était en panne", "La cafétéria n'avait plus de sauce", "Il avait raté son cours de français", "Son équipage était incomplet"],
+          "options": [
+            "Son char était en panne",
+            "La cafétéria n'avait plus de sauce",
+            "Il avait raté son cours de français",
+            "Son équipage était incomplet"
+          ],
           "correct": 1,
-          "explanation": "« La cafétéria de la base de Valcartier avait annoncé qu'il n'y avait plus de sauce. »"
+          "explanation": "« La cafétéria de la base de Valcartier avait annoncé qu'il n'y avait plus de sauce. »",
+          "stemEn": "Why was Tremblay in crisis?"
         },
         {
           "stem": "Comment Tremblay a-t-il appelé sa mission ?",
-          "options": ["Opération Poutine", "Patrouille de reconnaissance gastronomique", "Mission de ravitaillement", "Exercice culinaire"],
+          "options": [
+            "Opération Poutine",
+            "Patrouille de reconnaissance gastronomique",
+            "Mission de ravitaillement",
+            "Exercice culinaire"
+          ],
           "correct": 1,
-          "explanation": "« Il a organisé ce qu'il a appelé une 'patrouille de reconnaissance gastronomique'. »"
+          "explanation": "« Il a organisé ce qu'il a appelé une 'patrouille de reconnaissance gastronomique'. »",
+          "stemEn": "What did Tremblay call his mission?"
         },
         {
           "stem": "Combien de boîtes de sauce ont-ils rapportées ?",
-          "options": ["Six", "Huit", "Dix", "Douze"],
+          "options": [
+            "Six",
+            "Huit",
+            "Dix",
+            "Douze"
+          ],
           "correct": 3,
-          "explanation": "« Douze boîtes de sauce St-Hubert. »"
+          "explanation": "« Douze boîtes de sauce St-Hubert. »",
+          "stemEn": "How many boxes of sauce did they bring back?"
         },
         {
           "stem": "Que pensait le Capitaine Fournier de Tremblay ?",
@@ -235,7 +370,8 @@
             "Il n'a rien remarqué"
           ],
           "correct": 1,
-          "explanation": "« Le Cpl Tremblay fait preuve d'initiative et de leadership... À surveiller. »"
+          "explanation": "« Le Cpl Tremblay fait preuve d'initiative et de leadership... À surveiller. »",
+          "stemEn": "What did Captain Fournier think of Tremblay?"
         }
       ]
     },
@@ -248,21 +384,39 @@
       "questions": [
         {
           "stem": "À quelle vitesse roulait le Major ?",
-          "options": ["30 km/h", "33 km/h", "35 km/h", "40 km/h"],
+          "options": [
+            "30 km/h",
+            "33 km/h",
+            "35 km/h",
+            "40 km/h"
+          ],
           "correct": 1,
-          "explanation": "« Vous rouliez à 33 dans une zone de 30. »"
+          "explanation": "« Vous rouliez à 33 dans une zone de 30. »",
+          "stemEn": "How fast was the Major driving?"
         },
         {
           "stem": "Combien de contraventions Martin a-t-il émises en une journée ?",
-          "options": ["Cinq", "Dix", "Quatorze", "Vingt"],
+          "options": [
+            "Cinq",
+            "Dix",
+            "Quatorze",
+            "Vingt"
+          ],
           "correct": 2,
-          "explanation": "« Martin avait émis quatorze contraventions. »"
+          "explanation": "« Martin avait émis quatorze contraventions. »",
+          "stemEn": "How many tickets did Martin issue in one day?"
         },
         {
           "stem": "Pourquoi a-t-il donné une contravention à un véhicule stationné ?",
-          "options": ["Le permis était expiré", "Le pneu touchait la ligne blanche", "Il bloquait la sortie d'urgence", "Il n'avait pas de vignette"],
+          "options": [
+            "Le permis était expiré",
+            "Le pneu touchait la ligne blanche",
+            "Il bloquait la sortie d'urgence",
+            "Il n'avait pas de vignette"
+          ],
           "correct": 1,
-          "explanation": "« Avait même donné une contravention à un véhicule stationné parce que son pneu touchait la ligne blanche. »"
+          "explanation": "« Avait même donné une contravention à un véhicule stationné parce que son pneu touchait la ligne blanche. »",
+          "stemEn": "Why did he give a ticket to a parked vehicle?"
         },
         {
           "stem": "Que recommande Martin dans son rapport ?",
@@ -273,13 +427,20 @@
             "Des caméras de surveillance"
           ],
           "correct": 1,
-          "explanation": "« Installer des feux de circulation à chaque intersection et ajouter des dos d'âne tous les cinquante mètres. »"
+          "explanation": "« Installer des feux de circulation à chaque intersection et ajouter des dos d'âne tous les cinquante mètres. »",
+          "stemEn": "What does Martin recommend in his report?"
         },
         {
           "stem": "Que suggère le sergent à la fin ?",
-          "options": ["Une promotion pour Martin", "De le muter au mess", "De lui donner un prix", "De l'envoyer en mission"],
+          "options": [
+            "Une promotion pour Martin",
+            "De le muter au mess",
+            "De lui donner un prix",
+            "De l'envoyer en mission"
+          ],
           "correct": 1,
-          "explanation": "« Il faut le muter au mess. Là, au moins, les dégâts seront limités. »"
+          "explanation": "« Il faut le muter au mess. Là, au moins, les dégâts seront limités. »",
+          "stemEn": "What does the sergeant suggest at the end?"
         }
       ]
     },
@@ -292,27 +453,51 @@
       "questions": [
         {
           "stem": "Quel type d'avion le Capitaine Leblanc pilote-t-il ?",
-          "options": ["Un CC-130", "Un CH-146", "Un CF-18", "Un CP-140"],
+          "options": [
+            "Un CC-130",
+            "Un CH-146",
+            "Un CF-18",
+            "Un CP-140"
+          ],
           "correct": 2,
-          "explanation": "« Pilote de CF-18 à Bagotville. »"
+          "explanation": "« Pilote de CF-18 à Bagotville. »",
+          "stemEn": "What type of aircraft does Captain Leblanc fly?"
         },
         {
           "stem": "Pourquoi le Capitaine ne voulait-il pas voler ?",
-          "options": ["L'avion était en panne", "Le temps était mauvais", "Sa machine à café était cassée", "Il était malade"],
+          "options": [
+            "L'avion était en panne",
+            "Le temps était mauvais",
+            "Sa machine à café était cassée",
+            "Il était malade"
+          ],
           "correct": 2,
-          "explanation": "« La machine est tombée en panne » et il a dit qu'il ne pouvait pas voler."
+          "explanation": "« La machine est tombée en panne » et il a dit qu'il ne pouvait pas voler.",
+          "stemEn": "Why didn't the Captain want to fly?"
         },
         {
           "stem": "Qui a réparé la machine à café ?",
-          "options": ["Le Commandant", "Le Capitaine lui-même", "Le Caporal Nguyen", "Un civil"],
+          "options": [
+            "Le Commandant",
+            "Le Capitaine lui-même",
+            "Le Caporal Nguyen",
+            "Un civil"
+          ],
           "correct": 2,
-          "explanation": "« Le technicien de maintenance, le Caporal Nguyen, a réparé la machine. »"
+          "explanation": "« Le technicien de maintenance, le Caporal Nguyen, a réparé la machine. »",
+          "stemEn": "Who fixed the coffee machine?"
         },
         {
           "stem": "Combien d'espressos a-t-il bu avant de voler ?",
-          "options": ["Un", "Deux", "Trois", "Quatre"],
+          "options": [
+            "Un",
+            "Deux",
+            "Trois",
+            "Quatre"
+          ],
           "correct": 2,
-          "explanation": "« Le Capitaine a bu trois espressos. »"
+          "explanation": "« Le Capitaine a bu trois espressos. »",
+          "stemEn": "How many espressos did he drink before flying?"
         }
       ]
     },
@@ -332,13 +517,20 @@
             "Cuisiner et organiser"
           ],
           "correct": 1,
-          "explanation": "« Deux compétences : crier sur les recrues et créer des présentations PowerPoint. »"
+          "explanation": "« Deux compétences : crier sur les recrues et créer des présentations PowerPoint. »",
+          "stemEn": "What are the Warrant Officer's two skills?"
         },
         {
           "stem": "Combien de diapositives contenait sa présentation ?",
-          "options": ["Cent vingt", "Cent soixante", "Deux cent quarante-sept", "Trois cents"],
+          "options": [
+            "Cent vingt",
+            "Cent soixante",
+            "Deux cent quarante-sept",
+            "Trois cents"
+          ],
           "correct": 2,
-          "explanation": "« Comptait deux cent quarante-sept diapositives. »"
+          "explanation": "« Comptait deux cent quarante-sept diapositives. »",
+          "stemEn": "How many slides did his presentation contain?"
         },
         {
           "stem": "Quel était le vrai but de la présentation ?",
@@ -349,13 +541,20 @@
             "Former les recrues"
           ],
           "correct": 1,
-          "explanation": "« Nous avons besoin de nouvelles agrafeuses pour le bureau. »"
+          "explanation": "« Nous avons besoin de nouvelles agrafeuses pour le bureau. »",
+          "stemEn": "What was the real purpose of the presentation?"
         },
         {
           "stem": "Combien de temps a duré le briefing ?",
-          "options": ["Une heure", "Deux heures", "Trois heures et dix minutes", "Quatre heures"],
+          "options": [
+            "Une heure",
+            "Deux heures",
+            "Trois heures et dix minutes",
+            "Quatre heures"
+          ],
           "correct": 2,
-          "explanation": "« Après trois heures et dix minutes, le Colonel s'est levé. »"
+          "explanation": "« Après trois heures et dix minutes, le Colonel s'est levé. »",
+          "stemEn": "How long did the briefing last?"
         },
         {
           "stem": "Que fait l'Adjudant-maître après la critique du Colonel ?",
@@ -366,7 +565,8 @@
             "Il s'excuse"
           ],
           "correct": 1,
-          "explanation": "Il commence une nouvelle présentation de 89 diapositives pour expliquer pourquoi les courriels courts sont insuffisants."
+          "explanation": "Il commence une nouvelle présentation de 89 diapositives pour expliquer pourquoi les courriels courts sont insuffisants.",
+          "stemEn": "What does the Warrant Officer do after the Colonel's criticism?"
         }
       ]
     },
@@ -379,15 +579,27 @@
       "questions": [
         {
           "stem": "Quel est le métier du Caporal-chef Gagné ?",
-          "options": ["Mécanicien", "Cuisinier", "Commis", "Chauffeur"],
+          "options": [
+            "Mécanicien",
+            "Cuisinier",
+            "Commis",
+            "Chauffeur"
+          ],
           "correct": 1,
-          "explanation": "« Le Caporal-chef Gagné était cuisinier au mess. »"
+          "explanation": "« Le Caporal-chef Gagné était cuisinier au mess. »",
+          "stemEn": "What is Master Corporal Gagné's trade?"
         },
         {
           "stem": "Quelle couleur était la tourtière ?",
-          "options": ["Dorée", "Brune", "Grise", "Verte"],
+          "options": [
+            "Dorée",
+            "Brune",
+            "Grise",
+            "Verte"
+          ],
           "correct": 2,
-          "explanation": "« Elle était grise. La nourriture n'est pas supposée être grise. »"
+          "explanation": "« Elle était grise. La nourriture n'est pas supposée être grise. »",
+          "stemEn": "What colour was the tourtière?"
         },
         {
           "stem": "Pourquoi la soupe s'appelle-t-elle 'mystère' ?",
@@ -398,7 +610,8 @@
             "Elle change de couleur chaque semaine"
           ],
           "correct": 1,
-          "explanation": "« On l'appelle 'mystère' parce que personne ne sait ce qu'il y a dedans. »"
+          "explanation": "« On l'appelle 'mystère' parce que personne ne sait ce qu'il y a dedans. »",
+          "stemEn": "Why is the soup called 'mystery'?"
         },
         {
           "stem": "Pourquoi la soumission a-t-elle été rejetée ?",
@@ -409,7 +622,8 @@
             "Le sergent a refusé de signer"
           ],
           "correct": 1,
-          "explanation": "« Raison officielle : les ingrédients doivent être identifiables. »"
+          "explanation": "« Raison officielle : les ingrédients doivent être identifiables. »",
+          "stemEn": "Why was the submission rejected?"
         }
       ]
     },
@@ -422,21 +636,39 @@
       "questions": [
         {
           "stem": "Sur quel navire se passe l'histoire ?",
-          "options": ["Le NCSM Vancouver", "Le NCSM Halifax", "Le NCSM Toronto", "Le NCSM Montréal"],
+          "options": [
+            "Le NCSM Vancouver",
+            "Le NCSM Halifax",
+            "Le NCSM Toronto",
+            "Le NCSM Montréal"
+          ],
           "correct": 1,
-          "explanation": "« Le NCSM Halifax était en patrouille dans l'Atlantique Nord. »"
+          "explanation": "« Le NCSM Halifax était en patrouille dans l'Atlantique Nord. »",
+          "stemEn": "On which ship does the story take place?"
         },
         {
           "stem": "Quel animal a causé le problème ?",
-          "options": ["Un goéland", "Un phoque", "Un canard", "Un chat"],
+          "options": [
+            "Un goéland",
+            "Un phoque",
+            "Un canard",
+            "Un chat"
+          ],
           "correct": 2,
-          "explanation": "« Un canard s'était installé sur le pont d'envol. »"
+          "explanation": "« Un canard s'était installé sur le pont d'envol. »",
+          "stemEn": "What animal caused the problem?"
         },
         {
           "stem": "Combien de temps les négociations avec le canard ont-elles duré ?",
-          "options": ["Trente minutes", "Une heure", "Deux heures", "Quatre heures"],
+          "options": [
+            "Trente minutes",
+            "Une heure",
+            "Deux heures",
+            "Quatre heures"
+          ],
           "correct": 2,
-          "explanation": "« Après deux heures de négociations infructueuses avec le volatile. »"
+          "explanation": "« Après deux heures de négociations infructueuses avec le volatile. »",
+          "stemEn": "How long did negotiations with the duck last?"
         },
         {
           "stem": "Comment ont-ils finalement déplacé le canard ?",
@@ -447,7 +679,8 @@
             "Ils ont abandonné"
           ],
           "correct": 1,
-          "explanation": "« Ils l'ont attiré avec du pain dans un seau. »"
+          "explanation": "« Ils l'ont attiré avec du pain dans un seau. »",
+          "stemEn": "How did they finally move the duck?"
         },
         {
           "stem": "Que s'est-il passé le lendemain ?",
@@ -458,7 +691,8 @@
             "Le navire a changé de route"
           ],
           "correct": 2,
-          "explanation": "« Le canard est revenu le lendemain. Le Commandant a décidé de le nommer mascotte officieuse. »"
+          "explanation": "« Le canard est revenu le lendemain. Le Commandant a décidé de le nommer mascotte officieuse. »",
+          "stemEn": "What happened the next day?"
         }
       ]
     },
@@ -471,21 +705,39 @@
       "questions": [
         {
           "stem": "Quel est le régiment du Caporal Desrosiers ?",
-          "options": ["Le 1er Régiment d'artillerie", "Le 2e Régiment de transmissions", "Le 5e Régiment du génie", "Le 3e Bataillon"],
+          "options": [
+            "Le 1er Régiment d'artillerie",
+            "Le 2e Régiment de transmissions",
+            "Le 5e Régiment du génie",
+            "Le 3e Bataillon"
+          ],
           "correct": 1,
-          "explanation": "« Signaleur au sein du 2e Régiment de transmissions. »"
+          "explanation": "« Signaleur au sein du 2e Régiment de transmissions. »",
+          "stemEn": "What is Corporal Desrosiers' regiment?"
         },
         {
           "stem": "Combien de fois a-t-il redémarré le routeur ?",
-          "options": ["Trois fois", "Cinq fois", "Sept fois", "Dix fois"],
+          "options": [
+            "Trois fois",
+            "Cinq fois",
+            "Sept fois",
+            "Dix fois"
+          ],
           "correct": 2,
-          "explanation": "« Il a redémarré le routeur sept fois. »"
+          "explanation": "« Il a redémarré le routeur sept fois. »",
+          "stemEn": "How many times did he restart the router?"
         },
         {
           "stem": "Qui a finalement résolu le problème ?",
-          "options": ["Desrosiers", "Le soutien technique", "Un stagiaire civil de dix-sept ans", "Le Colonel lui-même"],
+          "options": [
+            "Desrosiers",
+            "Le soutien technique",
+            "Un stagiaire civil de dix-sept ans",
+            "Le Colonel lui-même"
+          ],
           "correct": 2,
-          "explanation": "« Un stagiaire civil de dix-sept ans est passé, a cliqué sur 'Activer le WiFi'. »"
+          "explanation": "« Un stagiaire civil de dix-sept ans est passé, a cliqué sur 'Activer le WiFi'. »",
+          "stemEn": "Who finally solved the problem?"
         },
         {
           "stem": "Quel était le vrai problème ?",
@@ -496,7 +748,8 @@
             "Le mot de passe avait changé"
           ],
           "correct": 2,
-          "explanation": "Le stagiaire « a cliqué sur 'Activer le WiFi' dans les paramètres de l'ordinateur du Colonel »."
+          "explanation": "Le stagiaire « a cliqué sur 'Activer le WiFi' dans les paramètres de l'ordinateur du Colonel ».",
+          "stemEn": "What was the real problem?"
         }
       ]
     },
@@ -509,9 +762,15 @@
       "questions": [
         {
           "stem": "Dans quel délai doit-on contacter le CCD ?",
-          "options": ["Trois jours", "Cinq jours ouvrables", "Une semaine", "Dix jours"],
+          "options": [
+            "Trois jours",
+            "Cinq jours ouvrables",
+            "Une semaine",
+            "Dix jours"
+          ],
           "correct": 1,
-          "explanation": "« Dans les cinq jours ouvrables suivant la réception du message. »"
+          "explanation": "« Dans les cinq jours ouvrables suivant la réception du message. »",
+          "stemEn": "Within what timeframe must you contact the CCD?"
         },
         {
           "stem": "Qu'est-ce qu'un déménagement autonome ?",
@@ -522,13 +781,20 @@
             "Un déménagement d'urgence"
           ],
           "correct": 1,
-          "explanation": "« Il organise lui-même le transport de ses effets personnels contre un remboursement forfaitaire. »"
+          "explanation": "« Il organise lui-même le transport de ses effets personnels contre un remboursement forfaitaire. »",
+          "stemEn": "What is a self-move?"
         },
         {
           "stem": "Combien de jours d'hébergement temporaire sont couverts ?",
-          "options": ["Dix jours", "Vingt jours", "Trente jours", "Soixante jours"],
+          "options": [
+            "Dix jours",
+            "Vingt jours",
+            "Trente jours",
+            "Soixante jours"
+          ],
           "correct": 2,
-          "explanation": "« L'hébergement temporaire jusqu'à trente jours. »"
+          "explanation": "« L'hébergement temporaire jusqu'à trente jours. »",
+          "stemEn": "How many days of temporary accommodation are covered?"
         },
         {
           "stem": "Pourquoi faut-il prendre des photographies avant le déménagement ?",
@@ -539,7 +805,8 @@
             "C'est obligatoire pour l'assurance"
           ],
           "correct": 1,
-          "explanation": "« Documenter l'état de tous les biens avec des photographies... pour faciliter toute réclamation en cas de dommages. »"
+          "explanation": "« Documenter l'état de tous les biens avec des photographies... pour faciliter toute réclamation en cas de dommages. »",
+          "stemEn": "Why should you take photos before the move?"
         }
       ]
     },
@@ -552,33 +819,63 @@
       "questions": [
         {
           "stem": "Quelle était la tâche originale du Sapeur Côté ?",
-          "options": ["Construire un pont", "Creuser une tranchée de deux mètres", "Installer un système de drainage", "Préparer un barbecue"],
+          "options": [
+            "Construire un pont",
+            "Creuser une tranchée de deux mètres",
+            "Installer un système de drainage",
+            "Préparer un barbecue"
+          ],
           "correct": 1,
-          "explanation": "« Il avait reçu un ordre simple : creuser une tranchée de deux mètres de long. »"
+          "explanation": "« Il avait reçu un ordre simple : creuser une tranchée de deux mètres de long. »",
+          "stemEn": "What was Sapper Côté's original task?"
         },
         {
           "stem": "Quelle était la taille réelle du trou ?",
-          "options": ["Deux mètres de long", "Cinq mètres de long", "Huit mètres de long et trois de large", "Dix mètres de long"],
+          "options": [
+            "Deux mètres de long",
+            "Cinq mètres de long",
+            "Huit mètres de long et trois de large",
+            "Dix mètres de long"
+          ],
           "correct": 2,
-          "explanation": "« Un trou de huit mètres de long, trois mètres de large, et deux mètres de profondeur. »"
+          "explanation": "« Un trou de huit mètres de long, trois mètres de large, et deux mètres de profondeur. »",
+          "stemEn": "What was the actual size of the hole?"
         },
         {
           "stem": "Pourquoi Côté a-t-il ajouté un système de drainage ?",
-          "options": ["C'était dans les ordres", "Le sol avait un mauvais drainage", "Le Lieutenant l'a demandé", "Il pleuvait ce jour-là"],
+          "options": [
+            "C'était dans les ordres",
+            "Le sol avait un mauvais drainage",
+            "Le Lieutenant l'a demandé",
+            "Il pleuvait ce jour-là"
+          ],
           "correct": 1,
-          "explanation": "« J'ai remarqué que le sol avait un mauvais drainage, alors j'ai ajouté un système. »"
+          "explanation": "« J'ai remarqué que le sol avait un mauvais drainage, alors j'ai ajouté un système. »",
+          "stemEn": "Why did Côté add a drainage system?"
         },
         {
           "stem": "Que s'est-il passé vendredi ?",
-          "options": ["Une inspection", "Un barbecue dans le trou", "Un exercice de combat", "Côté a rempli le trou"],
+          "options": [
+            "Une inspection",
+            "Un barbecue dans le trou",
+            "Un exercice de combat",
+            "Côté a rempli le trou"
+          ],
           "correct": 1,
-          "explanation": "« Le barbecue a eu lieu le vendredi. Toute la compagnie est venue. »"
+          "explanation": "« Le barbecue a eu lieu le vendredi. Toute la compagnie est venue. »",
+          "stemEn": "What happened on Friday?"
         },
         {
           "stem": "Qu'a apporté le Colonel ?",
-          "options": ["De la bière", "Des chaises", "Des saucisses", "Un rapport disciplinaire"],
+          "options": [
+            "De la bière",
+            "Des chaises",
+            "Des saucisses",
+            "Un rapport disciplinaire"
+          ],
           "correct": 2,
-          "explanation": "« Le Colonel a apporté des saucisses. »"
+          "explanation": "« Le Colonel a apporté des saucisses. »",
+          "stemEn": "What did the Colonel bring?"
         }
       ]
     },
@@ -591,33 +888,63 @@
       "questions": [
         {
           "stem": "Où le Sergent Thompson suit-il son cours de français ?",
-          "options": ["À Ottawa", "À l'École de langues de Saint-Jean", "À Valcartier", "À Borden"],
+          "options": [
+            "À Ottawa",
+            "À l'École de langues de Saint-Jean",
+            "À Valcartier",
+            "À Borden"
+          ],
           "correct": 1,
-          "explanation": "« Envoyé à l'École de langues de Saint-Jean. »"
+          "explanation": "« Envoyé à l'École de langues de Saint-Jean. »",
+          "stemEn": "Where is Sergeant Thompson taking his French course?"
         },
         {
           "stem": "Quel profil linguistique doit-il atteindre ?",
-          "options": ["AAA", "BBB", "CBC", "CCC"],
+          "options": [
+            "AAA",
+            "BBB",
+            "CBC",
+            "CCC"
+          ],
           "correct": 1,
-          "explanation": "« Pour atteindre son profil linguistique BBB. »"
+          "explanation": "« Pour atteindre son profil linguistique BBB. »",
+          "stemEn": "What language profile must he achieve?"
         },
         {
           "stem": "Quel problème avait Thompson avec la conjugaison ?",
-          "options": ["Il oubliait les verbes", "Il conjuguait tout au passé composé", "Il ne savait pas utiliser l'imparfait", "Il mélangeait le masculin et le féminin"],
+          "options": [
+            "Il oubliait les verbes",
+            "Il conjuguait tout au passé composé",
+            "Il ne savait pas utiliser l'imparfait",
+            "Il mélangeait le masculin et le féminin"
+          ],
           "correct": 1,
-          "explanation": "« Le Sergent Thompson conjuguait tous les verbes au passé composé, même quand il parlait du futur. »"
+          "explanation": "« Le Sergent Thompson conjuguait tous les verbes au passé composé, même quand il parlait du futur. »",
+          "stemEn": "What problem did Thompson have with conjugation?"
         },
         {
           "stem": "De quoi Thompson parlait-il le mieux en français ?",
-          "options": ["De la météo", "De la nourriture", "De la supériorité de l'infanterie", "De sa famille"],
+          "options": [
+            "De la météo",
+            "De la nourriture",
+            "De la supériorité de l'infanterie",
+            "De sa famille"
+          ],
           "correct": 2,
-          "explanation": "« Votre français est excellent quand vous parlez de l'infanterie. »"
+          "explanation": "« Votre français est excellent quand vous parlez de l'infanterie. »",
+          "stemEn": "What did Thompson speak about best in French?"
         },
         {
           "stem": "En quelle semaine a-t-il obtenu son BBB ?",
-          "options": ["Semaine vingt", "Semaine trente", "Semaine trente-huit", "Semaine quarante"],
+          "options": [
+            "Semaine vingt",
+            "Semaine trente",
+            "Semaine trente-huit",
+            "Semaine quarante"
+          ],
           "correct": 2,
-          "explanation": "« Thompson a obtenu son BBB à la semaine trente-huit. »"
+          "explanation": "« Thompson a obtenu son BBB à la semaine trente-huit. »",
+          "stemEn": "In which week did he get his BBB?"
         }
       ]
     },
@@ -630,33 +957,63 @@
       "questions": [
         {
           "stem": "Quel est le problème du Bombardier Paquette ?",
-          "options": ["Il a de l'insomnie", "Il dort trop profondément", "Il est toujours en retard aux exercices", "Il n'aime pas se lever tôt"],
+          "options": [
+            "Il a de l'insomnie",
+            "Il dort trop profondément",
+            "Il est toujours en retard aux exercices",
+            "Il n'aime pas se lever tôt"
+          ],
           "correct": 1,
-          "explanation": "« Il pouvait dormir à travers n'importe quoi. »"
+          "explanation": "« Il pouvait dormir à travers n'importe quoi. »",
+          "stemEn": "What is Bombardier Paquette's problem?"
         },
         {
           "stem": "Pourquoi le bruit ne le réveille-t-il plus ?",
-          "options": ["Il porte des bouchons d'oreilles", "Trois ans à côté des obusiers", "Il prend des médicaments", "Il est sourd"],
+          "options": [
+            "Il porte des bouchons d'oreilles",
+            "Trois ans à côté des obusiers",
+            "Il prend des médicaments",
+            "Il est sourd"
+          ],
           "correct": 1,
-          "explanation": "« Après trois ans à côté des obusiers, plus rien ne me réveille. »"
+          "explanation": "« Après trois ans à côté des obusiers, plus rien ne me réveille. »",
+          "stemEn": "Why doesn't noise wake him up anymore?"
         },
         {
           "stem": "Qu'est-ce qui a finalement réveillé Paquette ?",
-          "options": ["Un seau d'eau", "Un clairon", "Le mot 'poutine gratuite'", "Son sergent qui criait"],
+          "options": [
+            "Un seau d'eau",
+            "Un clairon",
+            "Le mot 'poutine gratuite'",
+            "Son sergent qui criait"
+          ],
           "correct": 2,
-          "explanation": "« Quelqu'un a chuchoté : 'Il y a de la poutine gratuite au mess.' Paquette s'est levé en exactement deux secondes. »"
+          "explanation": "« Quelqu'un a chuchoté : 'Il y a de la poutine gratuite au mess.' Paquette s'est levé en exactement deux secondes. »",
+          "stemEn": "What finally woke Paquette up?"
         },
         {
           "stem": "Quelle solution le Sergent Lacroix a-t-il trouvée ?",
-          "options": ["Mettre cinq réveils", "Enregistrer 'poutine gratuite au mess' sur son téléphone", "Demander une mutation pour Paquette", "Le mettre de garde la nuit"],
+          "options": [
+            "Mettre cinq réveils",
+            "Enregistrer 'poutine gratuite au mess' sur son téléphone",
+            "Demander une mutation pour Paquette",
+            "Le mettre de garde la nuit"
+          ],
           "correct": 1,
-          "explanation": "« Le Sergent Lacroix a enregistré la phrase 'poutine gratuite au mess' sur son téléphone et la joue chaque matin. »"
+          "explanation": "« Le Sergent Lacroix a enregistré la phrase 'poutine gratuite au mess' sur son téléphone et la joue chaque matin. »",
+          "stemEn": "What solution did Sergeant Lacroix find?"
         },
         {
           "stem": "Comment Paquette décrit-il la méthode du sergent ?",
-          "options": ["Géniale", "Cruelle", "Amusante", "Injuste"],
+          "options": [
+            "Géniale",
+            "Cruelle",
+            "Amusante",
+            "Injuste"
+          ],
           "correct": 1,
-          "explanation": "« C'est cruel, Sergent. » « C'est efficace, Bombardier. »"
+          "explanation": "« C'est cruel, Sergent. » « C'est efficace, Bombardier. »",
+          "stemEn": "How does Paquette describe the sergeant's method?"
         }
       ]
     },
@@ -669,33 +1026,63 @@
       "questions": [
         {
           "stem": "Que signifie la « Catégorie C » du docteur ?",
-          "options": ["Réellement malade", "Un peu fatigué", "Veut éviter la course", "Blessure grave"],
+          "options": [
+            "Réellement malade",
+            "Un peu fatigué",
+            "Veut éviter la course",
+            "Blessure grave"
+          ],
           "correct": 2,
-          "explanation": "« Catégorie C : veut éviter la course de cinq kilomètres. »"
+          "explanation": "« Catégorie C : veut éviter la course de cinq kilomètres. »",
+          "stemEn": "What does the doctor's \"Category C\" mean?"
         },
         {
           "stem": "Combien de soldats se sont présentés à la parade des malades ?",
-          "options": ["Cinq", "Dix", "Dix-sept", "Vingt-deux"],
+          "options": [
+            "Cinq",
+            "Dix",
+            "Dix-sept",
+            "Vingt-deux"
+          ],
           "correct": 2,
-          "explanation": "« Dix-sept soldats se sont présentés. »"
+          "explanation": "« Dix-sept soldats se sont présentés. »",
+          "stemEn": "How many soldiers showed up at sick parade?"
         },
         {
           "stem": "Depuis quand le Caporal Lemieux avait-il mal au genou ?",
-          "options": ["Depuis une semaine", "Depuis la veille", "Depuis qu'il a vu le programme du jour", "Depuis un exercice"],
+          "options": [
+            "Depuis une semaine",
+            "Depuis la veille",
+            "Depuis qu'il a vu le programme du jour",
+            "Depuis un exercice"
+          ],
           "correct": 2,
-          "explanation": "« Depuis... ce matin. Quand j'ai vu le programme du jour. »"
+          "explanation": "« Depuis... ce matin. Quand j'ai vu le programme du jour. »",
+          "stemEn": "Since when did Corporal Lemieux have knee pain?"
         },
         {
           "stem": "Combien de soldats étaient vraiment malades ?",
-          "options": ["Aucun", "Deux", "Cinq", "Dix"],
+          "options": [
+            "Aucun",
+            "Deux",
+            "Cinq",
+            "Dix"
+          ],
           "correct": 1,
-          "explanation": "« Deux soldats avaient réellement mal à la gorge. » Les quinze autres voulaient éviter la course."
+          "explanation": "« Deux soldats avaient réellement mal à la gorge. » Les quinze autres voulaient éviter la course.",
+          "stemEn": "How many soldiers were actually sick?"
         },
         {
           "stem": "Qu'est-ce que les soldats de Catégorie C ont reçu ?",
-          "options": ["Du repos", "Un billet médical", "De l'ibuprofène et l'ordre de courir", "Une exemption"],
+          "options": [
+            "Du repos",
+            "Un billet médical",
+            "De l'ibuprofène et l'ordre de courir",
+            "Une exemption"
+          ],
           "correct": 2,
-          "explanation": "« Les quinze autres ont reçu deux comprimés d'ibuprofène et l'ordre de se présenter à la ligne de départ. »"
+          "explanation": "« Les quinze autres ont reçu deux comprimés d'ibuprofène et l'ordre de se présenter à la ligne de départ. »",
+          "stemEn": "What did the Category C soldiers receive?"
         }
       ]
     },
@@ -708,33 +1095,63 @@
       "questions": [
         {
           "stem": "Quelle taille de bottes le soldat voulait-il ?",
-          "options": ["Taille 9", "Taille 10", "Taille 11", "Taille 12"],
+          "options": [
+            "Taille 9",
+            "Taille 10",
+            "Taille 11",
+            "Taille 12"
+          ],
           "correct": 1,
-          "explanation": "« J'ai besoin de bottes de taille 10. »"
+          "explanation": "« J'ai besoin de bottes de taille 10. »",
+          "stemEn": "What size boots did the soldier want?"
         },
         {
           "stem": "Combien de paires le système indiquait-il en stock ?",
-          "options": ["Zéro", "Quarante-deux", "Trois cent quarante-deux", "Mille"],
+          "options": [
+            "Zéro",
+            "Quarante-deux",
+            "Trois cent quarante-deux",
+            "Mille"
+          ],
           "correct": 2,
-          "explanation": "« Le système dit qu'on en a trois cent quarante-deux paires en stock. »"
+          "explanation": "« Le système dit qu'on en a trois cent quarante-deux paires en stock. »",
+          "stemEn": "How many pairs did the system show in stock?"
         },
         {
           "stem": "Qu'a reçu le soldat finalement ?",
-          "options": ["Les bottes de taille 10", "Des bottes de taille 11 avec des chaussettes épaisses", "Des raquettes à neige", "Rien du tout"],
+          "options": [
+            "Les bottes de taille 10",
+            "Des bottes de taille 11 avec des chaussettes épaisses",
+            "Des raquettes à neige",
+            "Rien du tout"
+          ],
           "correct": 1,
-          "explanation": "« Le soldat est parti avec des bottes de taille 11 et quatre paires de chaussettes épaisses pour compenser. »"
+          "explanation": "« Le soldat est parti avec des bottes de taille 11 et quatre paires de chaussettes épaisses pour compenser. »",
+          "stemEn": "What did the soldier end up receiving?"
         },
         {
           "stem": "Quel objet étrange se trouvait dans le magasin ?",
-          "options": ["Un vélo", "Un kayak", "Un traîneau", "Un parachute"],
+          "options": [
+            "Un vélo",
+            "Un kayak",
+            "Un traîneau",
+            "Un parachute"
+          ],
           "correct": 1,
-          "explanation": "Le magasin contenait, entre autres, « un kayak » que personne ne pouvait expliquer."
+          "explanation": "Le magasin contenait, entre autres, « un kayak » que personne ne pouvait expliquer.",
+          "stemEn": "What strange object was in the warehouse?"
         },
         {
           "stem": "Pourquoi Veilleux n'a-t-il pas bougé le kayak ?",
-          "options": ["Il était trop lourd", "Il bloquait la porte", "Il est dans le système comme 'équipement essentiel'", "L'Adjudant lui a dit de ne pas y toucher"],
+          "options": [
+            "Il était trop lourd",
+            "Il bloquait la porte",
+            "Il est dans le système comme 'équipement essentiel'",
+            "L'Adjudant lui a dit de ne pas y toucher"
+          ],
           "correct": 2,
-          "explanation": "« J'ai peur de le bouger parce qu'il est dans le système comme 'équipement essentiel'. »"
+          "explanation": "« J'ai peur de le bouger parce qu'il est dans le système comme 'équipement essentiel'. »",
+          "stemEn": "Why didn't Veilleux move the kayak?"
         }
       ]
     },
@@ -747,33 +1164,63 @@
       "questions": [
         {
           "stem": "Où se déroule la formation de base ?",
-          "options": ["À Borden", "À Saint-Jean", "À Gagetown", "À Esquimalt"],
+          "options": [
+            "À Borden",
+            "À Saint-Jean",
+            "À Gagetown",
+            "À Esquimalt"
+          ],
           "correct": 1,
-          "explanation": "« Le Soldat Picard était en formation de base à Saint-Jean. »"
+          "explanation": "« Le Soldat Picard était en formation de base à Saint-Jean. »",
+          "stemEn": "Where does basic training take place?"
         },
         {
           "stem": "Quelle hauteur faisait le mur ?",
-          "options": ["Deux mètres", "Trois mètres", "Quatre mètres", "Cinq mètres"],
+          "options": [
+            "Deux mètres",
+            "Trois mètres",
+            "Quatre mètres",
+            "Cinq mètres"
+          ],
           "correct": 1,
-          "explanation": "« Un mur de trois mètres. »"
+          "explanation": "« Un mur de trois mètres. »",
+          "stemEn": "How tall was the wall?"
         },
         {
           "stem": "Combien de temps Picard a-t-il mis pour passer le mur ?",
-          "options": ["Dix secondes", "Trente secondes", "Quarante-cinq secondes", "Deux minutes"],
+          "options": [
+            "Dix secondes",
+            "Trente secondes",
+            "Quarante-cinq secondes",
+            "Deux minutes"
+          ],
           "correct": 2,
-          "explanation": "« Après quarante-cinq secondes de lutte, il est passé par-dessus. »"
+          "explanation": "« Après quarante-cinq secondes de lutte, il est passé par-dessus. »",
+          "stemEn": "How long did it take Picard to get over the wall?"
         },
         {
           "stem": "Quel était le temps final de Picard ?",
-          "options": ["Quatre minutes", "Sept minutes", "Onze minutes et trente-deux secondes", "Quinze minutes"],
+          "options": [
+            "Quatre minutes",
+            "Sept minutes",
+            "Onze minutes et trente-deux secondes",
+            "Quinze minutes"
+          ],
           "correct": 2,
-          "explanation": "« Temps final : onze minutes et trente-deux secondes. »"
+          "explanation": "« Temps final : onze minutes et trente-deux secondes. »",
+          "stemEn": "What was Picard's final time?"
         },
         {
           "stem": "Quel est le record de la base ?",
-          "options": ["Trois minutes", "Quatre minutes", "Cinq minutes", "Six minutes"],
+          "options": [
+            "Trois minutes",
+            "Quatre minutes",
+            "Cinq minutes",
+            "Six minutes"
+          ],
           "correct": 1,
-          "explanation": "« Le record de la base, c'est quatre minutes. »"
+          "explanation": "« Le record de la base, c'est quatre minutes. »",
+          "stemEn": "What is the base record?"
         }
       ]
     },
@@ -786,33 +1233,63 @@
       "questions": [
         {
           "stem": "Quelle était la destination prévue du Caporal Fortin ?",
-          "options": ["Rimouski", "Québec", "BFC Montréal", "Rivière-du-Loup"],
+          "options": [
+            "Rimouski",
+            "Québec",
+            "BFC Montréal",
+            "Rivière-du-Loup"
+          ],
           "correct": 2,
-          "explanation": "« Transporter du matériel de la BFC Valcartier à la BFC Montréal. »"
+          "explanation": "« Transporter du matériel de la BFC Valcartier à la BFC Montréal. »",
+          "stemEn": "What was Corporal Fortin's intended destination?"
         },
         {
           "stem": "Combien de temps le trajet aurait-il dû prendre ?",
-          "options": ["Une heure", "Deux heures et demie", "Quatre heures", "Six heures"],
+          "options": [
+            "Une heure",
+            "Deux heures et demie",
+            "Quatre heures",
+            "Six heures"
+          ],
           "correct": 1,
-          "explanation": "« Un trajet simple de deux heures et demie. »"
+          "explanation": "« Un trajet simple de deux heures et demie. »",
+          "stemEn": "How long should the trip have taken?"
         },
         {
           "stem": "Où Fortin s'est-il retrouvé ?",
-          "options": ["À Québec", "À Trois-Rivières", "À Rimouski", "À Gaspé"],
+          "options": [
+            "À Québec",
+            "À Trois-Rivières",
+            "À Rimouski",
+            "À Gaspé"
+          ],
           "correct": 2,
-          "explanation": "« Le Caporal Fortin a appelé son sergent depuis Rimouski. »"
+          "explanation": "« Le Caporal Fortin a appelé son sergent depuis Rimouski. »",
+          "stemEn": "Where did Fortin end up?"
         },
         {
           "stem": "Quelle était la vraie cause de l'erreur ?",
-          "options": ["Le GPS était en panne", "Il avait entré 'Rimouski' au lieu de 'Montréal'", "Les panneaux étaient confus", "La route était fermée"],
+          "options": [
+            "Le GPS était en panne",
+            "Il avait entré 'Rimouski' au lieu de 'Montréal'",
+            "Les panneaux étaient confus",
+            "La route était fermée"
+          ],
           "correct": 1,
-          "explanation": "« Fortin avait simplement entré 'Rimouski' au lieu de 'Montréal'. »"
+          "explanation": "« Fortin avait simplement entré 'Rimouski' au lieu de 'Montréal'. »",
+          "stemEn": "What was the real cause of the error?"
         },
         {
           "stem": "Où Fortin s'est-il arrêté en chemin ?",
-          "options": ["À une station-service", "Dans un restaurant de fruits de mer à Rivière-du-Loup", "Au mess d'une autre base", "Il ne s'est pas arrêté"],
+          "options": [
+            "À une station-service",
+            "Dans un restaurant de fruits de mer à Rivière-du-Loup",
+            "Au mess d'une autre base",
+            "Il ne s'est pas arrêté"
+          ],
           "correct": 1,
-          "explanation": "« Un arrêt non autorisé dans un restaurant de fruits de mer à Rivière-du-Loup. »"
+          "explanation": "« Un arrêt non autorisé dans un restaurant de fruits de mer à Rivière-du-Loup. »",
+          "stemEn": "Where did Fortin stop along the way?"
         }
       ]
     },
@@ -825,33 +1302,63 @@
       "questions": [
         {
           "stem": "Où est stationné le Matelot Dufresne ?",
-          "options": ["Esquimalt", "Halifax", "Ottawa", "Victoria"],
+          "options": [
+            "Esquimalt",
+            "Halifax",
+            "Ottawa",
+            "Victoria"
+          ],
           "correct": 1,
-          "explanation": "« Plongeur de la Marine royale canadienne, stationné à Halifax. »"
+          "explanation": "« Plongeur de la Marine royale canadienne, stationné à Halifax. »",
+          "stemEn": "Where is Sailor Dufresne stationed?"
         },
         {
           "stem": "Comment Dufresne a-t-il perdu sa montre ?",
-          "options": ["Pendant une plongée", "En prenant un selfie sur le quai", "En nageant", "En lavant son équipement"],
+          "options": [
+            "Pendant une plongée",
+            "En prenant un selfie sur le quai",
+            "En nageant",
+            "En lavant son équipement"
+          ],
           "correct": 1,
-          "explanation": "« Vous avez laissé tomber dans le port hier en prenant un selfie sur le quai. »"
+          "explanation": "« Vous avez laissé tomber dans le port hier en prenant un selfie sur le quai. »",
+          "stemEn": "How did Dufresne lose his watch?"
         },
         {
           "stem": "Combien de temps l'équipe a-t-elle cherché ?",
-          "options": ["Une heure", "Deux heures", "Quatre heures", "Toute la journée"],
+          "options": [
+            "Une heure",
+            "Deux heures",
+            "Quatre heures",
+            "Toute la journée"
+          ],
           "correct": 2,
-          "explanation": "« L'équipe a passé quatre heures à fouiller le fond du port. »"
+          "explanation": "« L'équipe a passé quatre heures à fouiller le fond du port. »",
+          "stemEn": "How long did the team search?"
         },
         {
           "stem": "Combien valait la montre ?",
-          "options": ["Cinquante dollars", "Vingt dollars", "Dix dollars", "Cinq dollars"],
+          "options": [
+            "Cinquante dollars",
+            "Vingt dollars",
+            "Dix dollars",
+            "Cinq dollars"
+          ],
           "correct": 3,
-          "explanation": "« C'était une montre à cinq dollars. »"
+          "explanation": "« C'était une montre à cinq dollars. »",
+          "stemEn": "How much was the watch worth?"
         },
         {
           "stem": "Combien de balles de golf ont-ils trouvées ?",
-          "options": ["Sept", "Dix", "Quatorze", "Vingt"],
+          "options": [
+            "Sept",
+            "Dix",
+            "Quatorze",
+            "Vingt"
+          ],
           "correct": 2,
-          "explanation": "Ils ont trouvé « quatorze balles de golf »."
+          "explanation": "Ils ont trouvé « quatorze balles de golf ».",
+          "stemEn": "How many golf balls did they find?"
         }
       ]
     },
@@ -864,33 +1371,63 @@
       "questions": [
         {
           "stem": "Où le chat a-t-il été trouvé ?",
-          "options": ["Au mess", "Dans la salle des opérations de Kingston", "Dans les baraquements", "Au garage"],
+          "options": [
+            "Au mess",
+            "Dans la salle des opérations de Kingston",
+            "Dans les baraquements",
+            "Au garage"
+          ],
           "correct": 1,
-          "explanation": "« Le chat était entré dans la salle des opérations du quartier général de Kingston. »"
+          "explanation": "« Le chat était entré dans la salle des opérations du quartier général de Kingston. »",
+          "stemEn": "Where was the cat found?"
         },
         {
           "stem": "Qu'a fait le chat quand le Major a essayé de le déplacer ?",
-          "options": ["Il est parti", "Il l'a griffé", "Il a miaulé", "Il s'est caché"],
+          "options": [
+            "Il est parti",
+            "Il l'a griffé",
+            "Il a miaulé",
+            "Il s'est caché"
+          ],
           "correct": 1,
-          "explanation": "« Le Major Lefebvre a essayé de le déplacer. Le chat l'a griffé. »"
+          "explanation": "« Le Major Lefebvre a essayé de le déplacer. Le chat l'a griffé. »",
+          "stemEn": "What did the cat do when the Major tried to move it?"
         },
         {
           "stem": "Que faisait le chat pendant les briefings ?",
-          "options": ["Il dormait tranquillement", "Il marchait sur le clavier et changeait les diapositives", "Il restait sous la table", "Il sortait de la salle"],
+          "options": [
+            "Il dormait tranquillement",
+            "Il marchait sur le clavier et changeait les diapositives",
+            "Il restait sous la table",
+            "Il sortait de la salle"
+          ],
           "correct": 1,
-          "explanation": "« Il marchait sur le clavier et changeait les diapositives au hasard. »"
+          "explanation": "« Il marchait sur le clavier et changeait les diapositives au hasard. »",
+          "stemEn": "What did the cat do during briefings?"
         },
         {
           "stem": "Quel nom a-t-on donné au chat ?",
-          "options": ["Caporal Pattes", "Sergent Félix", "Général Moustache", "Major Minou"],
+          "options": [
+            "Caporal Pattes",
+            "Sergent Félix",
+            "Général Moustache",
+            "Major Minou"
+          ],
           "correct": 2,
-          "explanation": "« Il a reçu un nom officiel : 'Général Moustache'. »"
+          "explanation": "« Il a reçu un nom officiel : 'Général Moustache'. »",
+          "stemEn": "What name was given to the cat?"
         },
         {
           "stem": "Pour qui le chat acceptait-il de bouger ?",
-          "options": ["Pour tout le monde", "Pour personne en dessous du rang de Colonel", "Seulement pour le Major", "Pour quiconque avait de la nourriture"],
+          "options": [
+            "Pour tout le monde",
+            "Pour personne en dessous du rang de Colonel",
+            "Seulement pour le Major",
+            "Pour quiconque avait de la nourriture"
+          ],
           "correct": 1,
-          "explanation": "« Il refusait de bouger pour quiconque en dessous du rang de Colonel. »"
+          "explanation": "« Il refusait de bouger pour quiconque en dessous du rang de Colonel. »",
+          "stemEn": "For whom would the cat agree to move?"
         }
       ]
     },
@@ -903,33 +1440,63 @@
       "questions": [
         {
           "stem": "Où se déroulait l'exercice « Tempête de Neige » ?",
-          "options": ["À Petawawa", "À Gagetown", "À Wainwright, Alberta", "À Valcartier"],
+          "options": [
+            "À Petawawa",
+            "À Gagetown",
+            "À Wainwright, Alberta",
+            "À Valcartier"
+          ],
           "correct": 2,
-          "explanation": "« L'exercice se déroulait dans les bois de Wainwright, Alberta. »"
+          "explanation": "« L'exercice se déroulait dans les bois de Wainwright, Alberta. »",
+          "stemEn": "Where did Exercise \"Snowstorm\" take place?"
         },
         {
           "stem": "Quelle était la température ?",
-          "options": ["Moins dix degrés", "Moins vingt degrés", "Moins trente degrés", "Moins quarante degrés"],
+          "options": [
+            "Moins dix degrés",
+            "Moins vingt degrés",
+            "Moins trente degrés",
+            "Moins quarante degrés"
+          ],
           "correct": 2,
-          "explanation": "« La température était de moins trente degrés. »"
+          "explanation": "« La température était de moins trente degrés. »",
+          "stemEn": "What was the temperature?"
         },
         {
           "stem": "Pourquoi Thériault a-t-il commandé une pizza végétarienne ?",
-          "options": ["Il est végétarien", "C'était moins cher", "Pour le Lieutenant qui fait attention à sa ligne", "Personne ne voulait de pepperoni"],
+          "options": [
+            "Il est végétarien",
+            "C'était moins cher",
+            "Pour le Lieutenant qui fait attention à sa ligne",
+            "Personne ne voulait de pepperoni"
+          ],
           "correct": 2,
-          "explanation": "« Une végétarienne pour le Lieutenant parce qu'il fait attention à sa ligne. »"
+          "explanation": "« Une végétarienne pour le Lieutenant parce qu'il fait attention à sa ligne. »",
+          "stemEn": "Why did Thériault order a vegetarian pizza?"
         },
         {
           "stem": "Combien de soldats sont sortis des bois ?",
-          "options": ["Dix", "Quinze", "Vingt-deux", "Trente"],
+          "options": [
+            "Dix",
+            "Quinze",
+            "Vingt-deux",
+            "Trente"
+          ],
           "correct": 2,
-          "explanation": "« Vingt-deux soldats sont sortis des bois comme des zombies affamés. »"
+          "explanation": "« Vingt-deux soldats sont sortis des bois comme des zombies affamés. »",
+          "stemEn": "How many soldiers came out of the woods?"
         },
         {
           "stem": "Quelle punition Thériault a-t-il reçue ?",
-          "options": ["Aucune", "Trois jours de corvée", "Une semaine de garde", "Il a été renvoyé au camp"],
+          "options": [
+            "Aucune",
+            "Trois jours de corvée",
+            "Une semaine de garde",
+            "Il a été renvoyé au camp"
+          ],
           "correct": 1,
-          "explanation": "« Thériault a reçu trois jours de corvée. Mais le Major a mangé la dernière part avant de donner la punition. »"
+          "explanation": "« Thériault a reçu trois jours de corvée. Mais le Major a mangé la dernière part avant de donner la punition. »",
+          "stemEn": "What punishment did Thériault receive?"
         }
       ]
     }
