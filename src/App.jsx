@@ -3031,6 +3031,45 @@ const Writing = ({ go }) => {
 const Settings = ({ srs, setSrs, grammarSrs, setGrammarSrs, theme, setTheme, ttsOn, toggleTTS }) => {
   const stats = useStats(srs);
   const [confirmReset, setConfirmReset] = useState(false);
+  const [updateStatus, setUpdateStatus] = useState(null); // null | "checking" | "available" | "current" | "reloading"
+
+  useEffect(() => {
+    const onReady = () => setUpdateStatus("available");
+    window.addEventListener("swUpdateReady", onReady);
+    return () => window.removeEventListener("swUpdateReady", onReady);
+  }, []);
+
+  const checkForUpdates = async () => {
+    setUpdateStatus("checking");
+    try {
+      if (window.__swReg) {
+        await window.__swReg.update();
+        // Give the SW a moment to detect changes
+        setTimeout(() => {
+          if (window.__swReg.waiting) {
+            setUpdateStatus("available");
+          } else {
+            setUpdateStatus("current");
+            setTimeout(() => setUpdateStatus(null), 3000);
+          }
+        }, 2000);
+      } else {
+        setUpdateStatus("current");
+        setTimeout(() => setUpdateStatus(null), 3000);
+      }
+    } catch {
+      setUpdateStatus("current");
+      setTimeout(() => setUpdateStatus(null), 3000);
+    }
+  };
+
+  const applyUpdate = () => {
+    setUpdateStatus("reloading");
+    if (window.__swReg && window.__swReg.waiting) {
+      window.__swReg.waiting.postMessage({ type: "CHECK_UPDATE" });
+    }
+    setTimeout(() => window.location.reload(), 500);
+  };
 
   const resetProgress = () => {
     setSrs({});
@@ -3153,6 +3192,36 @@ const Settings = ({ srs, setSrs, grammarSrs, setGrammarSrs, theme, setTheme, tts
         <div style={{ display: "flex", gap: 8 }}>
           <button onClick={exportData} style={{ flex: 1, padding: 14, borderRadius: 12, border: `1.5px solid ${C.greenPrimary}`, background: "transparent", ...font.card, fontSize: 13, color: C.greenBright, cursor: "pointer" }}>Export Progress</button>
           <button onClick={importData} style={{ flex: 1, padding: 14, borderRadius: 12, border: `1.5px solid ${C.border}`, background: "transparent", ...font.card, fontSize: 13, color: C.textSec, cursor: "pointer" }}>Import Backup</button>
+        </div>
+      </div>
+
+      {/* App Updates */}
+      <div>
+        <div style={{ ...font.label, fontSize: 9, color: C.textMut, marginBottom: 8 }}>App Updates</div>
+        <div style={{ background: C.bgCard, borderRadius: 12, border: `1px solid ${C.border}`, overflow: "hidden", padding: "14px 16px" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+            <div>
+              <div style={{ ...font.body, fontSize: 13, color: C.text }}>Auto-Update</div>
+              <div style={{ ...font.body, fontSize: 11, color: C.textSec, marginTop: 2 }}>Checks every 24h & on app open</div>
+            </div>
+            <div style={{ width: 10, height: 10, borderRadius: 5, background: C.greenPrimary }} />
+          </div>
+          {updateStatus === "available" && (
+            <div style={{ marginTop: 12, padding: 12, borderRadius: 10, background: `${C.greenPrimary}18`, border: `1px solid ${C.greenPrimary}40`, textAlign: "center" }}>
+              <div style={{ ...font.card, fontSize: 13, color: C.greenBright, marginBottom: 8 }}>🎉 New version available!</div>
+              <button onClick={applyUpdate} style={{ padding: "10px 24px", borderRadius: 10, border: "none", background: C.greenPrimary, ...font.card, fontSize: 13, color: "#fff", cursor: "pointer" }}>
+                Update Now
+              </button>
+            </div>
+          )}
+          <button onClick={checkForUpdates} disabled={updateStatus === "checking"} style={{
+            marginTop: 12, width: "100%", padding: 12, borderRadius: 10,
+            border: `1.5px solid ${C.border}`, background: "transparent",
+            ...font.card, fontSize: 13, color: C.textSec, cursor: updateStatus === "checking" ? "wait" : "pointer",
+            opacity: updateStatus === "checking" ? 0.6 : 1,
+          }}>
+            {updateStatus === "checking" ? "Checking…" : updateStatus === "current" ? "✓ App is up to date" : updateStatus === "reloading" ? "Reloading…" : "Check for Updates"}
+          </button>
         </div>
       </div>
 

@@ -15,8 +15,38 @@
     <script type="module" src="/src/main.jsx"></script>
     <script>
       if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker.register("/sw.js");
+        window.addEventListener("load", async () => {
+          const reg = await navigator.serviceWorker.register("/sw.js");
+
+          // Auto-check for updates every 24 hours
+          setInterval(() => { reg.update(); }, 24 * 60 * 60 * 1000);
+
+          // Also check on visibility (when user reopens the app)
+          document.addEventListener("visibilitychange", () => {
+            if (!document.hidden) reg.update();
+          });
+
+          // When a new SW is waiting, tell it to activate immediately
+          reg.addEventListener("updatefound", () => {
+            const newSW = reg.installing;
+            if (!newSW) return;
+            newSW.addEventListener("statechange", () => {
+              if (newSW.state === "installed" && navigator.serviceWorker.controller) {
+                // New version ready — dispatch event so React can show toast
+                window.dispatchEvent(new CustomEvent("swUpdateReady"));
+              }
+            });
+          });
+
+          // Listen for SW_UPDATED message → reload to get fresh assets
+          navigator.serviceWorker.addEventListener("message", (e) => {
+            if (e.data && e.data.type === "SW_UPDATED") {
+              window.dispatchEvent(new CustomEvent("swUpdated", { detail: e.data }));
+            }
+          });
+
+          // Expose manual check for React
+          window.__swReg = reg;
         });
       }
     </script>
