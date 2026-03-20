@@ -310,7 +310,7 @@ const Home = ({ go, srs, streak }) => {
       <div>
         <div style={{ ...font.label, fontSize: 10, color: C.textMut, marginBottom: 10 }}>Jump Into</div>
         {[
-          { icon: "📚", label: "Flashcards", desc: "Synonyms & vocabulary by fascicule or category", color: C.greenPrimary, tap: () => go("study") },
+          { icon: "🃏", label: "Flashcards", desc: "Anki-style SRS cards · by fascicule or category", color: C.greenPrimary, tap: () => go("study") },
           { icon: "✏️", label: "Conjugation Drill", desc: "Verb conjugation practice · NP-A, B, C", color: C.gold, tap: () => go("conjdrill") },
           { icon: "📝", label: "Grammar Quiz", desc: `${grammarData.questions.length} questions · 14 modules`, color: C.tan, tap: () => go("grammarquiz") },
           { icon: "🎧", label: "Listening", desc: `${listeningData.scenarios.length} scenarios + vocab practice`, color: C.tanLight, tap: () => go("listening") },
@@ -336,12 +336,14 @@ const Home = ({ go, srs, streak }) => {
 
       {/* Quick Tools Row */}
       <div>
-        <div style={{ ...font.label, fontSize: 10, color: C.textMut, marginBottom: 10 }}>Tools</div>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8 }}>
+        <div style={{ ...font.label, fontSize: 10, color: C.textMut, marginBottom: 10 }}>Tools & Reference</div>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
           {[
             { icon: "🎯", label: "Exam Sim", color: C.tan, tap: () => go("examsim") },
             { icon: "📋", label: "Daily Plan", color: C.greenBright, tap: () => go("dailyplan") },
             { icon: "⚠️", label: "Weak Areas", color: C.alertRed, tap: () => go("weakareas") },
+            { icon: "📕", label: "Verb Table", color: C.gold, tap: () => go("verbs") },
+            { icon: "📗", label: "Lexique", color: C.greenPrimary, tap: () => go("grammar") },
           ].map(a => (
             <div key={a.label} onClick={a.tap} style={{ background: C.bgCard, borderRadius: 10, padding: "14px 10px", border: `1px solid ${C.border}`, cursor: "pointer", textAlign: "center" }}>
               <span style={{ fontSize: 22, display: "block", marginBottom: 6 }}>{a.icon}</span>
@@ -372,7 +374,7 @@ const Home = ({ go, srs, streak }) => {
   );
 };
 
-/* ════════════════════ STUDY ════════════════════ */
+/* ════════════════════ FLASHCARDS (Study) ════════════════════ */
 const Study = ({ go, srs }) => {
   const [tab, setTab] = useState(null);
   const stats = useStats(srs);
@@ -381,26 +383,37 @@ const Study = ({ go, srs }) => {
     .sort((a, b) => parseInt(a[0].slice(1)) - parseInt(b[0].slice(1)));
   const totalFascDone = fascEntries.filter(([, s]) => s.pct === 100).length;
 
-  const studyModes = [
-    { k: "fasc", icon: "📚", l: "Fascicules", desc: "PSC Lexique fascicule decks" },
-    { k: "cat", icon: "🏷️", l: "By Category", desc: "Nouns, verbs, connectors, expressions" },
-    { k: "verbs", icon: "✏️", l: "Verbs", desc: "Conjugation drills & 100 CAF verbs" },
-    { k: "gram", icon: "📝", l: "Grammar", desc: `${grammarData.questions.length} quiz questions & reference` },
-    { k: "skills", icon: "🎯", l: "Skills", desc: "Listening, reading, writing & more" },
-  ];
+  const dueTotal = Object.values(stats.fascStats).reduce((a, s) => a + s.due, 0);
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-      {/* Mode selector - always visible */}
       {!tab ? (
         <>
-          <div style={{ ...font.h, fontSize: 18, color: C.text, textAlign: "center", marginBottom: 4 }}>What do you want to study?</div>
-          {studyModes.map(m => (
+          <div style={{ ...font.h, fontSize: 18, color: C.text }}>Flashcards</div>
+          <div style={{ ...font.body, fontSize: 12, color: C.textSec }}>
+            Anki-style spaced repetition cards. Flip, rate yourself, and the SRS schedules reviews automatically.
+          </div>
+
+          {/* Due cards alert */}
+          {dueTotal > 0 && (
+            <div style={{ background: `${C.gold}12`, borderRadius: 12, padding: "14px 16px", border: `1px solid ${C.gold}30`, display: "flex", alignItems: "center", gap: 12 }}>
+              <span style={{ fontSize: 22 }}>🔔</span>
+              <div style={{ flex: 1 }}>
+                <div style={{ ...font.card, fontSize: 14, color: C.text }}>{dueTotal} cards due for review</div>
+                <div style={{ ...font.body, fontSize: 11, color: C.textSec, marginTop: 2 }}>Keep your streak going!</div>
+              </div>
+            </div>
+          )}
+
+          {/* Two modes */}
+          {[
+            { k: "fasc", icon: "📚", l: "By Fascicule", desc: `${fascEntries.length} PSC Lexique decks · ${stats.total} cards` },
+            { k: "cat", icon: "🏷️", l: "By Category", desc: "Noms, Verbes, Connecteurs, Expressions" },
+          ].map(m => (
             <div key={m.k} onClick={() => setTab(m.k)} style={{
               background: C.bgCard, borderRadius: 14, padding: "18px 20px",
               border: `1px solid ${C.border}`, cursor: "pointer",
               display: "flex", alignItems: "center", gap: 16,
-              transition: "transform 0.1s",
             }}>
               <div style={{ width: 50, height: 50, borderRadius: 13, background: `${C.greenPrimary}15`, border: `2px solid ${C.greenPrimary}30`, display: "flex", alignItems: "center", justifyContent: "center" }}>
                 <span style={{ fontSize: 24 }}>{m.icon}</span>
@@ -412,15 +425,23 @@ const Study = ({ go, srs }) => {
               <span style={{ ...font.h, fontSize: 18, color: C.textMut }}>›</span>
             </div>
           ))}
+
+          {/* Overall progress */}
+          <div style={{ background: C.bgCard, borderRadius: 12, padding: "14px 16px", border: `1px solid ${C.border}` }}>
+            <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 6 }}>
+              <span style={{ ...font.card, fontSize: 13, color: C.text }}>Overall Progress</span>
+              <span style={{ ...font.body, fontSize: 12, color: C.greenBright }}>{stats.mastered} / {stats.total} mastered</span>
+            </div>
+            <Bar value={stats.mastered} max={stats.total} color={C.greenBright} />
+          </div>
         </>
       ) : (
         <>
-          {/* Back button + compact tabs when inside a mode */}
-          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: -4 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
             <button onClick={() => setTab(null)} style={{ background: "none", border: "none", cursor: "pointer", ...font.h, fontSize: 20, color: C.textSec, padding: "4px 8px 4px 0" }}>←</button>
             <div style={{ display: "flex", gap: 4, flex: 1, background: C.bgCard, borderRadius: 10, padding: 3 }}>
-              {studyModes.map(t => (
-                <button key={t.k} onClick={() => setTab(t.k)} style={{ flex: 1, padding: "10px 0", borderRadius: 8, border: "none", background: tab === t.k ? C.bgElevated : "transparent", ...font.label, fontSize: 11, color: tab === t.k ? C.greenBright : C.textMut, cursor: "pointer", fontWeight: tab === t.k ? 700 : 500 }}>{t.l}</button>
+              {[{ k: "fasc", l: "Fascicules" }, { k: "cat", l: "Categories" }].map(t => (
+                <button key={t.k} onClick={() => setTab(t.k)} style={{ flex: 1, padding: "10px 0", borderRadius: 8, border: "none", background: tab === t.k ? C.bgElevated : "transparent", ...font.label, fontSize: 12, color: tab === t.k ? C.greenBright : C.textMut, cursor: "pointer", fontWeight: tab === t.k ? 700 : 500 }}>{t.l}</button>
               ))}
             </div>
           </div>
@@ -481,89 +502,6 @@ const Study = ({ go, srs }) => {
           </div>
         );
       })}
-
-      {tab === "verbs" && <>
-        <div onClick={() => go("conjdrill")} style={{ background: `${C.gold}12`, borderRadius: 12, padding: "18px", border: `1px solid ${C.gold}35`, cursor: "pointer", display: "flex", alignItems: "center", gap: 14 }}>
-          <div style={{ width: 46, height: 46, borderRadius: 12, background: `${C.gold}15`, border: `2px solid ${C.gold}30`, display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <span style={{ ...font.h, fontSize: 18, color: C.gold }}>✎</span>
-          </div>
-          <div>
-            <div style={{ ...font.card, fontSize: 15, color: C.text }}>Conjugation Drill</div>
-            <div style={{ ...font.body, fontSize: 12, color: C.textSec, marginTop: 3 }}>Fill-in-the-blank practice · NP-A, B, C</div>
-          </div>
-        </div>
-        <div onClick={() => go("verbs")} style={{ background: `${C.greenPrimary}22`, borderRadius: 12, padding: "18px", border: `1px solid ${C.greenPrimary}40`, cursor: "pointer", display: "flex", alignItems: "center", gap: 14 }}>
-          <div style={{ width: 46, height: 46, borderRadius: 12, background: `${C.greenPrimary}15`, border: `2px solid ${C.greenPrimary}30`, display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <span style={{ ...font.h, fontSize: 16, color: C.greenBright }}>100</span>
-          </div>
-          <div>
-            <div style={{ ...font.card, fontSize: 15, color: C.text }}>Verb Reference</div>
-            <div style={{ ...font.body, fontSize: 12, color: C.textSec, marginTop: 3 }}>100 CAF verbs · All conjugations</div>
-          </div>
-        </div>
-      </>}
-
-      {tab === "gram" && <>
-        <div onClick={() => go("grammarquiz")} style={{ background: `${C.tan}12`, borderRadius: 12, padding: "18px", border: `1px solid ${C.tan}35`, cursor: "pointer", display: "flex", alignItems: "center", gap: 14 }}>
-          <div style={{ width: 46, height: 46, borderRadius: 12, background: `${C.tan}15`, border: `2px solid ${C.tan}30`, display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <span style={{ ...font.h, fontSize: 16, color: C.tan }}>{grammarData.questions.length}</span>
-          </div>
-          <div>
-            <div style={{ ...font.card, fontSize: 15, color: C.text }}>Grammar Quiz</div>
-            <div style={{ ...font.body, fontSize: 12, color: C.textSec, marginTop: 3 }}>ABCD fill-in-the-blank · Filter by module, difficulty, topic</div>
-          </div>
-        </div>
-        <div onClick={() => go("grammar")} style={{ background: `${C.greenPrimary}22`, borderRadius: 12, padding: "18px", border: `1px solid ${C.greenPrimary}40`, cursor: "pointer", display: "flex", alignItems: "center", gap: 14 }}>
-          <div style={{ width: 46, height: 46, borderRadius: 12, background: `${C.greenPrimary}15`, border: `2px solid ${C.greenPrimary}30`, display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <span style={{ ...font.h, fontSize: 14, color: C.greenBright }}>LEX</span>
-          </div>
-          <div>
-            <div style={{ ...font.card, fontSize: 15, color: C.text }}>Lexique Reference</div>
-            <div style={{ ...font.body, fontSize: 12, color: C.textSec, marginTop: 3 }}>151 synonym entries · Search & browse</div>
-          </div>
-        </div>
-
-        {/* Quick launch by module */}
-        <div style={{ ...font.label, fontSize: 9, color: C.textMut, marginTop: 4 }}>Quick Start by Module</div>
-        {grammarData.modules.map(m => {
-          const count = grammarData.questions.filter(q => q.module === m).length;
-          return (
-            <div key={m} onClick={() => go("grammarquiz", { module: m })} style={{
-              background: C.bgCard, borderRadius: 10, padding: "12px 14px",
-              border: `1px solid ${C.border}`, cursor: "pointer",
-              display: "flex", justifyContent: "space-between", alignItems: "center",
-            }}>
-              <span style={{ ...font.card, fontSize: 13, color: C.text }}>{m}</span>
-              <span style={{ ...font.body, fontSize: 11, color: C.textSec }}>{count} questions →</span>
-            </div>
-          );
-        })}
-      </>}
-
-      {tab === "skills" && <>
-        {[
-          { icon: "🎧", label: "Listening Comprehension", desc: "Listen and answer questions", color: C.tanLight, screen: "listening" },
-          { icon: "📖", label: "Reading Comprehension", desc: `${readingData.passages.length} CAF passages with questions`, color: C.alertRed, screen: "reading" },
-          { icon: "✍️", label: "Writing Practice", desc: `${writingData.prompts.length} prompts with self-assessment`, color: C.gold, screen: "writing" },
-          { icon: "🎯", label: "Exam Simulation", desc: "Timed mixed-format mock test", color: C.tan, screen: "examsim" },
-          { icon: "📋", label: "Daily Study Plan", desc: "Track your daily study goals", color: C.greenBright, screen: "dailyplan" },
-          { icon: "⚠️", label: "Weak Areas", desc: "Focus on your weakest topics", color: C.alertRed, screen: "weakareas" },
-        ].map(s => (
-          <div key={s.screen} onClick={() => go(s.screen)} style={{
-            background: C.bgCard, borderRadius: 12, padding: "16px 18px",
-            border: `1px solid ${C.border}`, cursor: "pointer",
-            display: "flex", alignItems: "center", gap: 14,
-          }}>
-            <div style={{ width: 46, height: 46, borderRadius: 12, background: `${s.color}15`, border: `2px solid ${s.color}30`, display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <span style={{ fontSize: 20 }}>{s.icon}</span>
-            </div>
-            <div>
-              <div style={{ ...font.card, fontSize: 15, color: C.text }}>{s.label}</div>
-              <div style={{ ...font.body, fontSize: 12, color: C.textSec, marginTop: 3 }}>{s.desc}</div>
-            </div>
-          </div>
-        ))}
-      </>}
     </div>
   );
 };
@@ -3328,7 +3266,7 @@ export default function App() {
 
   const navItems = [
     { k: "home", l: "Home", icon: "🏠" },
-    { k: "study", l: "Study", icon: "📖" },
+    { k: "study", l: "Flashcards", icon: "🃏" },
     { k: "decks", l: "Decks", icon: "📇" },
     { k: "progress", l: "Progress", icon: "📊" },
     { k: "settings", l: "Settings", icon: "⚙️" },
