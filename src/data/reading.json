@@ -155,6 +155,393 @@
           "explanation": "« Vérifier votre équipement personnel et compléter les formations obligatoires en ligne avant vendredi. »"
         }
       ]
+    },
+    {
+      "id": "R6",
+      "title": "La grande quête des crayons",
+      "level": "NP-A",
+      "topic": "Humour militaire – Infanterie",
+      "text": "Le Soldat Lapointe, fantassin du Royal 22e Régiment, avait un problème grave. Ses crayons de cire avaient disparu de son sac tactique. Pas ses munitions, pas sa radio, pas sa gourde — ses crayons.\n\n« Sans mes crayons, comment est-ce que je vais survivre en campagne ? » a-t-il demandé à son sergent avec un visage parfaitement sérieux.\n\nLe Sergent Bouchard a poussé un long soupir. « Lapointe, tu es en exercice de combat. Tu n'as pas besoin de crayons. »\n\n« Mais Sergent, j'avais le rouge et le bleu ! Comment est-ce que je vais marquer ma carte si je n'ai pas de crayons ? Et le vert, c'était ma collation préférée pour les longues patrouilles. »\n\nLe sergent a fermé les yeux pendant dix secondes. Finalement, il a dit : « Compagnie, changement de mission. Avant d'attaquer l'objectif, nous allons trouver les crayons du Soldat Lapointe. C'est apparemment une question de survie nationale. »\n\nLa section entière a passé quarante-cinq minutes à chercher dans la forêt. Ils ont trouvé les crayons dans la poche gauche de Lapointe, exactement là où il les avait mis la veille.",
+      "questions": [
+        {
+          "stem": "Qu'est-ce que le Soldat Lapointe a perdu ?",
+          "options": ["Ses munitions", "Sa radio", "Ses crayons de cire", "Sa gourde"],
+          "correct": 2,
+          "explanation": "« Ses crayons de cire avaient disparu de son sac tactique. »"
+        },
+        {
+          "stem": "De quel régiment est le Soldat Lapointe ?",
+          "options": ["Le Princess Patricia's", "Le Royal 22e Régiment", "Le Royal Canadian Regiment", "Les Fusiliers de Montréal"],
+          "correct": 1,
+          "explanation": "« Fantassin du Royal 22e Régiment. »"
+        },
+        {
+          "stem": "Pourquoi Lapointe dit-il que le crayon vert est important ?",
+          "options": ["Pour marquer la carte", "Pour écrire des rapports", "C'était sa collation préférée", "Pour signaler sa position"],
+          "correct": 2,
+          "explanation": "« Le vert, c'était ma collation préférée pour les longues patrouilles. » (Blague classique sur les fantassins qui mangent des crayons.)"
+        },
+        {
+          "stem": "Où les crayons ont-ils été trouvés ?",
+          "options": ["Dans la forêt", "Au camp de base", "Dans sa poche gauche", "Dans le sac du sergent"],
+          "correct": 2,
+          "explanation": "« Ils ont trouvé les crayons dans la poche gauche de Lapointe. »"
+        },
+        {
+          "stem": "Combien de temps la section a-t-elle cherché ?",
+          "options": ["Dix minutes", "Vingt minutes", "Quarante-cinq minutes", "Deux heures"],
+          "correct": 2,
+          "explanation": "« La section entière a passé quarante-cinq minutes à chercher. »"
+        }
+      ]
+    },
+    {
+      "id": "R7",
+      "title": "La quête sacrée de la sauce",
+      "level": "NP-B",
+      "topic": "Humour militaire – Blindés",
+      "text": "Le Caporal Tremblay, équipage de Leopard 2 au sein du 12e Régiment blindé du Canada, était un homme en mission. Non pas une mission de combat — une mission bien plus importante. Il cherchait de la sauce brune.\n\nCela avait commencé un mardi matin, quand la cafétéria de la base de Valcartier avait annoncé qu'il n'y avait plus de sauce pour les frites. Pour un soldat blindé, c'était une crise existentielle.\n\n« Les fantassins mangent des crayons. Nous, on mange des frites avec de la sauce. C'est ce qui nous distingue comme professionnels, » a-t-il expliqué au Capitaine Fournier, qui n'avait rien demandé.\n\nTremblay a organisé ce qu'il a appelé une « patrouille de reconnaissance gastronomique ». Il a convaincu trois autres membres de l'équipage de prendre le véhicule logistique pour « une mission essentielle de soutien au moral ». Ils ont visité quatre dépanneurs, deux restaurants, et un camion de poutine avant de revenir triomphalement avec douze boîtes de sauce St-Hubert.\n\n« Rapport de mission : objectif atteint. Zéro perte. Douze unités de sauce récupérées, » a-t-il déclaré au briefing du soir, debout devant une carte tactique sur laquelle il avait marqué chaque arrêt avec un marqueur rouge.\n\nLe Capitaine Fournier a noté dans le journal de bord : « Le Cpl Tremblay fait preuve d'initiative et de leadership dans des conditions difficiles. À surveiller. »",
+      "questions": [
+        {
+          "stem": "Quel type de véhicule le Caporal Tremblay conduit-il normalement ?",
+          "options": ["Un LAV III", "Un Leopard 2", "Un Coyote", "Un TAPV"],
+          "correct": 1,
+          "explanation": "« Équipage de Leopard 2 au sein du 12e Régiment blindé du Canada. »"
+        },
+        {
+          "stem": "Pourquoi Tremblay était-il en crise ?",
+          "options": ["Son char était en panne", "La cafétéria n'avait plus de sauce", "Il avait raté son cours de français", "Son équipage était incomplet"],
+          "correct": 1,
+          "explanation": "« La cafétéria de la base de Valcartier avait annoncé qu'il n'y avait plus de sauce. »"
+        },
+        {
+          "stem": "Comment Tremblay a-t-il appelé sa mission ?",
+          "options": ["Opération Poutine", "Patrouille de reconnaissance gastronomique", "Mission de ravitaillement", "Exercice culinaire"],
+          "correct": 1,
+          "explanation": "« Il a organisé ce qu'il a appelé une 'patrouille de reconnaissance gastronomique'. »"
+        },
+        {
+          "stem": "Combien de boîtes de sauce ont-ils rapportées ?",
+          "options": ["Six", "Huit", "Dix", "Douze"],
+          "correct": 3,
+          "explanation": "« Douze boîtes de sauce St-Hubert. »"
+        },
+        {
+          "stem": "Que pensait le Capitaine Fournier de Tremblay ?",
+          "options": [
+            "Il était furieux et l'a puni",
+            "Il a noté son initiative et leadership, avec 'à surveiller'",
+            "Il l'a recommandé pour une promotion",
+            "Il n'a rien remarqué"
+          ],
+          "correct": 1,
+          "explanation": "« Le Cpl Tremblay fait preuve d'initiative et de leadership... À surveiller. »"
+        }
+      ]
+    },
+    {
+      "id": "R8",
+      "title": "Le policier militaire le plus zélé de Petawawa",
+      "level": "NP-B",
+      "topic": "Humour militaire – Police militaire",
+      "text": "Le Caporal Martin, policier militaire à la base de Petawawa, prenait son travail très au sérieux. Peut-être trop au sérieux.\n\nLundi matin, il a installé son radar de vitesse sur la route principale de la base, où la limite était de 30 km/h. À 08 h 15, il a intercepté un Major qui roulait à 33 km/h.\n\n« Monsieur, vous rouliez à 33 dans une zone de 30, » a dit Martin avec la gravité d'un homme qui venait de découvrir une menace à la sécurité nationale.\n\n« Trois kilomètres à l'heure de trop ? » a répondu le Major, incrédule.\n\n« Monsieur, la loi, c'est la loi. Aujourd'hui c'est 3 km/h, demain c'est l'anarchie. »\n\nÀ la fin de la journée, Martin avait émis quatorze contraventions. Il avait arrêté un Colonel pour avoir traversé une ligne jaune, donné un avertissement à un Lieutenant pour avoir changé de voie sans signal, et avait même donné une contravention à un véhicule stationné parce que son pneu touchait la ligne blanche.\n\nDans son rapport quotidien, il a écrit : « Journée productive. La base est maintenant un endroit plus sûr grâce à mes efforts soutenus. Recommandation : installer des feux de circulation à chaque intersection et ajouter des dos d'âne tous les cinquante mètres. »\n\nSon sergent a lu le rapport, a regardé la pile de plaintes sur son bureau, et a murmuré : « Il faut le muter au mess. Là, au moins, les dégâts seront limités. »",
+      "questions": [
+        {
+          "stem": "À quelle vitesse roulait le Major ?",
+          "options": ["30 km/h", "33 km/h", "35 km/h", "40 km/h"],
+          "correct": 1,
+          "explanation": "« Vous rouliez à 33 dans une zone de 30. »"
+        },
+        {
+          "stem": "Combien de contraventions Martin a-t-il émises en une journée ?",
+          "options": ["Cinq", "Dix", "Quatorze", "Vingt"],
+          "correct": 2,
+          "explanation": "« Martin avait émis quatorze contraventions. »"
+        },
+        {
+          "stem": "Pourquoi a-t-il donné une contravention à un véhicule stationné ?",
+          "options": ["Le permis était expiré", "Le pneu touchait la ligne blanche", "Il bloquait la sortie d'urgence", "Il n'avait pas de vignette"],
+          "correct": 1,
+          "explanation": "« Avait même donné une contravention à un véhicule stationné parce que son pneu touchait la ligne blanche. »"
+        },
+        {
+          "stem": "Que recommande Martin dans son rapport ?",
+          "options": [
+            "Plus de policiers militaires",
+            "Des feux de circulation et des dos d'âne",
+            "Une réduction de la limite de vitesse",
+            "Des caméras de surveillance"
+          ],
+          "correct": 1,
+          "explanation": "« Installer des feux de circulation à chaque intersection et ajouter des dos d'âne tous les cinquante mètres. »"
+        },
+        {
+          "stem": "Que suggère le sergent à la fin ?",
+          "options": ["Une promotion pour Martin", "De le muter au mess", "De lui donner un prix", "De l'envoyer en mission"],
+          "correct": 1,
+          "explanation": "« Il faut le muter au mess. Là, au moins, les dégâts seront limités. »"
+        }
+      ]
+    },
+    {
+      "id": "R9",
+      "title": "Le pilote et le café",
+      "level": "NP-A",
+      "topic": "Humour militaire – Aviation",
+      "text": "Le Capitaine Leblanc, pilote de CF-18 à Bagotville, avait une règle absolue : jamais de vol sans son café. Pas le café de la cafétéria — son café spécial, préparé avec des grains importés de Colombie dans une machine à espresso qu'il gardait dans son casier personnel.\n\nUn matin, la machine est tombée en panne. Le Capitaine Leblanc a regardé sa machine cassée comme s'il venait de perdre son meilleur ami.\n\n« Je ne peux pas voler aujourd'hui, » a-t-il annoncé au briefing.\n\n« Capitaine, c'est un exercice de l'OTAN. Vous devez voler, » a répondu le Commandant.\n\n« Commandant, un pilote sans café est un danger pour la sécurité aérienne. C'est dans les règlements. Probablement. »\n\nFinalement, le technicien de maintenance, le Caporal Nguyen, a réparé la machine en vingt minutes. Le Capitaine a bu trois espressos, a souri pour la première fois de la journée, et est parti voler.\n\nDans le rapport de mission, il a écrit : « Vol réussi. Aucun problème technique. Note personnelle : acheter une machine de rechange. »",
+      "questions": [
+        {
+          "stem": "Quel type d'avion le Capitaine Leblanc pilote-t-il ?",
+          "options": ["Un CC-130", "Un CH-146", "Un CF-18", "Un CP-140"],
+          "correct": 2,
+          "explanation": "« Pilote de CF-18 à Bagotville. »"
+        },
+        {
+          "stem": "Pourquoi le Capitaine ne voulait-il pas voler ?",
+          "options": ["L'avion était en panne", "Le temps était mauvais", "Sa machine à café était cassée", "Il était malade"],
+          "correct": 2,
+          "explanation": "« La machine est tombée en panne » et il a dit qu'il ne pouvait pas voler."
+        },
+        {
+          "stem": "Qui a réparé la machine à café ?",
+          "options": ["Le Commandant", "Le Capitaine lui-même", "Le Caporal Nguyen", "Un civil"],
+          "correct": 2,
+          "explanation": "« Le technicien de maintenance, le Caporal Nguyen, a réparé la machine. »"
+        },
+        {
+          "stem": "Combien d'espressos a-t-il bu avant de voler ?",
+          "options": ["Un", "Deux", "Trois", "Quatre"],
+          "correct": 2,
+          "explanation": "« Le Capitaine a bu trois espressos. »"
+        }
+      ]
+    },
+    {
+      "id": "R10",
+      "title": "L'adjudant et le PowerPoint",
+      "level": "NP-B",
+      "topic": "Humour militaire – Administration",
+      "text": "L'Adjudant-maître Pelletier avait passé sa carrière entière à perfectionner deux compétences : crier sur les recrues et créer des présentations PowerPoint. Après trente ans de service, il était convaincu que le PowerPoint était l'arme la plus puissante de l'arsenal canadien.\n\n« Vous voulez remporter une bataille ? Faites un bon PowerPoint, » disait-il à quiconque voulait l'entendre, et surtout à ceux qui ne voulaient pas.\n\nSa dernière présentation, intitulée « Optimisation synergique des processus de gestion interfonctionnelle du matériel de bureau », comptait deux cent quarante-sept diapositives. Elle incluait quatorze graphiques, vingt-trois tableaux, et une animation d'un aigle qui apparaissait chaque fois qu'on changeait de diapositive.\n\nLe briefing était prévu pour une heure. Après trois heures et dix minutes, le Colonel s'est levé et a dit : « Adjudant-maître, quel était le but de cette présentation ? »\n\n« Colonel, nous avons besoin de nouvelles agrafeuses pour le bureau. »\n\nLe Colonel a cligné des yeux trois fois. « Faites une demande par courriel. Deux lignes maximum. »\n\nL'Adjudant-maître a été profondément offensé. Il est retourné à son bureau et a commencé une nouvelle présentation : « Pourquoi les courriels de deux lignes sont insuffisants pour les besoins opérationnels modernes. » Quatre-vingt-neuf diapositives prévues.",
+      "questions": [
+        {
+          "stem": "Quelles sont les deux compétences de l'Adjudant-maître ?",
+          "options": [
+            "Tirer au fusil et courir",
+            "Crier sur les recrues et faire des PowerPoint",
+            "Écrire des rapports et conduire",
+            "Cuisiner et organiser"
+          ],
+          "correct": 1,
+          "explanation": "« Deux compétences : crier sur les recrues et créer des présentations PowerPoint. »"
+        },
+        {
+          "stem": "Combien de diapositives contenait sa présentation ?",
+          "options": ["Cent vingt", "Cent soixante", "Deux cent quarante-sept", "Trois cents"],
+          "correct": 2,
+          "explanation": "« Comptait deux cent quarante-sept diapositives. »"
+        },
+        {
+          "stem": "Quel était le vrai but de la présentation ?",
+          "options": [
+            "Réorganiser le bureau",
+            "Demander de nouvelles agrafeuses",
+            "Préparer un déploiement",
+            "Former les recrues"
+          ],
+          "correct": 1,
+          "explanation": "« Nous avons besoin de nouvelles agrafeuses pour le bureau. »"
+        },
+        {
+          "stem": "Combien de temps a duré le briefing ?",
+          "options": ["Une heure", "Deux heures", "Trois heures et dix minutes", "Quatre heures"],
+          "correct": 2,
+          "explanation": "« Après trois heures et dix minutes, le Colonel s'est levé. »"
+        },
+        {
+          "stem": "Que fait l'Adjudant-maître après la critique du Colonel ?",
+          "options": [
+            "Il envoie un courriel de deux lignes",
+            "Il commence une nouvelle présentation encore plus longue",
+            "Il prend sa retraite",
+            "Il s'excuse"
+          ],
+          "correct": 1,
+          "explanation": "Il commence une nouvelle présentation de 89 diapositives pour expliquer pourquoi les courriels courts sont insuffisants."
+        }
+      ]
+    },
+    {
+      "id": "R11",
+      "title": "Le cuisinier qui voulait la médaille",
+      "level": "NP-A",
+      "topic": "Humour militaire – Logistique",
+      "text": "Le Caporal-chef Gagné était cuisinier au mess de la BFC Edmonton. Il avait une conviction profonde : la nourriture du mess était excellente. Il était le seul à le penser.\n\n« Ma tourtière est un chef-d'œuvre, » disait-il chaque vendredi en posant le plat sur le comptoir. Les soldats regardaient la tourtière avec méfiance. Elle était grise. La nourriture n'est pas supposée être grise.\n\n« Je vais soumettre ma recette pour le prix d'excellence culinaire des FAC, » a-t-il annoncé un jour.\n\nSon superviseur, le Sergent Roy, a failli s'étouffer avec son café. « La recette de quoi exactement ? »\n\n« Ma soupe mystère du lundi. »\n\n« Gagné, on l'appelle 'mystère' parce que personne ne sait ce qu'il y a dedans. Ce n'est pas un compliment. »\n\n« C'est du mystère gastronomique, Sergent. C'est de l'art. »\n\nLa soumission a été rejetée. La raison officielle : « Les ingrédients doivent être identifiables. » Le Caporal-chef Gagné a considéré cela comme une injustice terrible et a écrit une plainte de huit pages.",
+      "questions": [
+        {
+          "stem": "Quel est le métier du Caporal-chef Gagné ?",
+          "options": ["Mécanicien", "Cuisinier", "Commis", "Chauffeur"],
+          "correct": 1,
+          "explanation": "« Le Caporal-chef Gagné était cuisinier au mess. »"
+        },
+        {
+          "stem": "Quelle couleur était la tourtière ?",
+          "options": ["Dorée", "Brune", "Grise", "Verte"],
+          "correct": 2,
+          "explanation": "« Elle était grise. La nourriture n'est pas supposée être grise. »"
+        },
+        {
+          "stem": "Pourquoi la soupe s'appelle-t-elle 'mystère' ?",
+          "options": [
+            "C'est le nom officiel de la recette",
+            "Personne ne sait ce qu'il y a dedans",
+            "C'est une recette secrète de famille",
+            "Elle change de couleur chaque semaine"
+          ],
+          "correct": 1,
+          "explanation": "« On l'appelle 'mystère' parce que personne ne sait ce qu'il y a dedans. »"
+        },
+        {
+          "stem": "Pourquoi la soumission a-t-elle été rejetée ?",
+          "options": [
+            "La date limite était dépassée",
+            "Les ingrédients doivent être identifiables",
+            "Le formulaire était mal rempli",
+            "Le sergent a refusé de signer"
+          ],
+          "correct": 1,
+          "explanation": "« Raison officielle : les ingrédients doivent être identifiables. »"
+        }
+      ]
+    },
+    {
+      "id": "R12",
+      "title": "Le navire et le canard",
+      "level": "NP-C",
+      "topic": "Humour militaire – Marine",
+      "text": "Le NCSM Halifax était en patrouille dans l'Atlantique Nord quand un événement inattendu a perturbé les opérations. Un canard s'était installé sur le pont d'envol et refusait catégoriquement de partir.\n\nLe Maître de 2e classe Boudreau, officier de quart, a d'abord essayé de le chasser avec un balai. Le canard n'a pas bougé. Il a ensuite demandé à deux matelots de l'encercler. Le canard les a regardés avec un mépris absolu et a simplement changé de direction.\n\nAprès deux heures de négociations infructueuses avec le volatile, le Commandant du navire a été informé de la situation. « Vous êtes en train de me dire que trois cents marins professionnels sont incapables de déplacer un seul canard ? » a-t-il demandé.\n\n« Commandant, le canard est très déterminé, » a répondu Boudreau.\n\nLe Commandant a convoqué une réunion d'urgence. Le plan final impliquait du pain, un seau, et ce que le rapport officiel décrit comme « une manœuvre d'attraction tactique utilisant des ressources alimentaires ». En termes simples, ils l'ont attiré avec du pain dans un seau et l'ont transporté jusqu'à la plage arrière.\n\nLe canard est revenu le lendemain. Le Commandant a décidé de le nommer mascotte officieuse du navire. Il s'appelle maintenant Capitaine Coincouin et il a sa propre couchette.",
+      "questions": [
+        {
+          "stem": "Sur quel navire se passe l'histoire ?",
+          "options": ["Le NCSM Vancouver", "Le NCSM Halifax", "Le NCSM Toronto", "Le NCSM Montréal"],
+          "correct": 1,
+          "explanation": "« Le NCSM Halifax était en patrouille dans l'Atlantique Nord. »"
+        },
+        {
+          "stem": "Quel animal a causé le problème ?",
+          "options": ["Un goéland", "Un phoque", "Un canard", "Un chat"],
+          "correct": 2,
+          "explanation": "« Un canard s'était installé sur le pont d'envol. »"
+        },
+        {
+          "stem": "Combien de temps les négociations avec le canard ont-elles duré ?",
+          "options": ["Trente minutes", "Une heure", "Deux heures", "Quatre heures"],
+          "correct": 2,
+          "explanation": "« Après deux heures de négociations infructueuses avec le volatile. »"
+        },
+        {
+          "stem": "Comment ont-ils finalement déplacé le canard ?",
+          "options": [
+            "Avec un filet",
+            "En l'attirant avec du pain dans un seau",
+            "En utilisant un hélicoptère",
+            "Ils ont abandonné"
+          ],
+          "correct": 1,
+          "explanation": "« Ils l'ont attiré avec du pain dans un seau. »"
+        },
+        {
+          "stem": "Que s'est-il passé le lendemain ?",
+          "options": [
+            "Le canard n'est jamais revenu",
+            "Un autre canard est arrivé",
+            "Le canard est revenu et est devenu mascotte",
+            "Le navire a changé de route"
+          ],
+          "correct": 2,
+          "explanation": "« Le canard est revenu le lendemain. Le Commandant a décidé de le nommer mascotte officieuse. »"
+        }
+      ]
+    },
+    {
+      "id": "R13",
+      "title": "Le Signaleur et le WiFi",
+      "level": "NP-B",
+      "topic": "Humour militaire – Transmissions",
+      "text": "Le Caporal Desrosiers, signaleur au sein du 2e Régiment de transmissions, avait un talent particulier : il pouvait installer un réseau de communication tactique en terrain hostile sous la pluie, mais il était absolument incapable de faire fonctionner le WiFi de son propre bureau.\n\n« Ce n'est pas la même chose, » expliquait-il à ses collègues qui se moquaient de lui. « Le système tactique, c'est logique. Le WiFi civil, c'est de la sorcellerie. »\n\nUn jour, le Colonel est entré dans le bureau des transmissions. « Mon ordinateur ne se connecte pas au réseau. Réglez ça. »\n\nDesrosiers a passé trois heures à essayer de résoudre le problème. Il a redémarré le routeur sept fois, changé trois câbles, et appelé le soutien technique deux fois. Finalement, un stagiaire civil de dix-sept ans est passé, a cliqué sur « Activer le WiFi » dans les paramètres de l'ordinateur du Colonel, et le problème était réglé.\n\n« C'était éteint tout ce temps ? » a demandé Desrosiers.\n\n« Oui, » a répondu le stagiaire. « Le bouton était à côté du bouton de volume. Le Colonel l'a probablement appuyé par accident. »\n\nDesrosiers a écrit un mémo de quatre pages recommandant que tous les ordinateurs de la base aient un autocollant « NE PAS TOUCHER CE BOUTON » à côté du bouton WiFi. Le mémo a été rejeté, mais il le considère toujours comme sa meilleure contribution aux Forces.",
+      "questions": [
+        {
+          "stem": "Quel est le régiment du Caporal Desrosiers ?",
+          "options": ["Le 1er Régiment d'artillerie", "Le 2e Régiment de transmissions", "Le 5e Régiment du génie", "Le 3e Bataillon"],
+          "correct": 1,
+          "explanation": "« Signaleur au sein du 2e Régiment de transmissions. »"
+        },
+        {
+          "stem": "Combien de fois a-t-il redémarré le routeur ?",
+          "options": ["Trois fois", "Cinq fois", "Sept fois", "Dix fois"],
+          "correct": 2,
+          "explanation": "« Il a redémarré le routeur sept fois. »"
+        },
+        {
+          "stem": "Qui a finalement résolu le problème ?",
+          "options": ["Desrosiers", "Le soutien technique", "Un stagiaire civil de dix-sept ans", "Le Colonel lui-même"],
+          "correct": 2,
+          "explanation": "« Un stagiaire civil de dix-sept ans est passé, a cliqué sur 'Activer le WiFi'. »"
+        },
+        {
+          "stem": "Quel était le vrai problème ?",
+          "options": [
+            "Le câble était débranché",
+            "Le routeur était en panne",
+            "Le WiFi était désactivé dans les paramètres",
+            "Le mot de passe avait changé"
+          ],
+          "correct": 2,
+          "explanation": "Le stagiaire « a cliqué sur 'Activer le WiFi' dans les paramètres de l'ordinateur du Colonel »."
+        }
+      ]
+    },
+    {
+      "id": "R14",
+      "title": "Procédure de déménagement",
+      "level": "NP-B",
+      "topic": "Administration militaire",
+      "text": "Les membres des Forces armées canadiennes qui reçoivent un message d'affectation doivent suivre plusieurs étapes pour organiser leur déménagement. Premièrement, le militaire doit contacter le Centre de coordination du déménagement (CCD) dans les cinq jours ouvrables suivant la réception du message.\n\nLe CCD fournira une liste de compagnies de déménagement approuvées. Le militaire peut choisir parmi ces compagnies ou demander un déménagement autonome, dans lequel il organise lui-même le transport de ses effets personnels contre un remboursement forfaitaire.\n\nLes frais de déplacement, incluant l'hébergement temporaire jusqu'à trente jours, les repas et le kilométrage, sont couverts selon les taux établis par le Conseil du Trésor. Les reçus originaux doivent être conservés pour toute demande de remboursement.\n\nIl est fortement recommandé de documenter l'état de tous les biens avec des photographies avant le déménagement afin de faciliter toute réclamation en cas de dommages.",
+      "questions": [
+        {
+          "stem": "Dans quel délai doit-on contacter le CCD ?",
+          "options": ["Trois jours", "Cinq jours ouvrables", "Une semaine", "Dix jours"],
+          "correct": 1,
+          "explanation": "« Dans les cinq jours ouvrables suivant la réception du message. »"
+        },
+        {
+          "stem": "Qu'est-ce qu'un déménagement autonome ?",
+          "options": [
+            "Un déménagement payé par le militaire sans remboursement",
+            "Le militaire organise le transport lui-même contre un remboursement forfaitaire",
+            "Le déménagement est fait par l'unité",
+            "Un déménagement d'urgence"
+          ],
+          "correct": 1,
+          "explanation": "« Il organise lui-même le transport de ses effets personnels contre un remboursement forfaitaire. »"
+        },
+        {
+          "stem": "Combien de jours d'hébergement temporaire sont couverts ?",
+          "options": ["Dix jours", "Vingt jours", "Trente jours", "Soixante jours"],
+          "correct": 2,
+          "explanation": "« L'hébergement temporaire jusqu'à trente jours. »"
+        },
+        {
+          "stem": "Pourquoi faut-il prendre des photographies avant le déménagement ?",
+          "options": [
+            "Pour le rapport d'affectation",
+            "Pour faciliter les réclamations en cas de dommages",
+            "Pour le dossier personnel",
+            "C'est obligatoire pour l'assurance"
+          ],
+          "correct": 1,
+          "explanation": "« Documenter l'état de tous les biens avec des photographies... pour faciliter toute réclamation en cas de dommages. »"
+        }
+      ]
     }
   ]
 }
