@@ -37,7 +37,12 @@ const loadGrammarSRS = () => {
 const saveGrammarSRS = (d) => localStorage.setItem(GRAMMAR_SRS_KEY, JSON.stringify(d));
 
 const recordGrammarAnswer = (gsrs, questionId, correct, module, topic, difficulty) => {
-  const prev = gsrs[questionId] || { attempts: 0, correct: 0, lastAttempt: 0, module, topic, difficulty };
+  const prev = gsrs[questionId] || { attempts: 0, correct: 0, lastAttempt: 0, module, topic, difficulty, streak: 0, nextDue: 0 };
+  const streak = correct ? (prev.streak || 0) + 1 : 0;
+  // SRS scheduling: interval doubles with each correct streak, resets on wrong
+  const intervals = [0, 1, 3, 7, 14, 30, 60]; // days
+  const intervalDays = intervals[Math.min(streak, intervals.length - 1)];
+  const nextDue = Date.now() + intervalDays * 86400000;
   return {
     ...gsrs,
     [questionId]: {
@@ -46,8 +51,22 @@ const recordGrammarAnswer = (gsrs, questionId, correct, module, topic, difficult
       correct: prev.correct + (correct ? 1 : 0),
       lastAttempt: Date.now(),
       module, topic, difficulty,
+      streak,
+      nextDue,
     }
   };
+};
+
+const isGrammarDue = (gsrs, questionId) => {
+  const state = gsrs[questionId];
+  if (!state) return true; // never attempted
+  return Date.now() >= (state.nextDue || 0);
+};
+
+const isGrammarWeak = (gsrs, questionId) => {
+  const state = gsrs[questionId];
+  if (!state) return false;
+  return state.attempts > 0 && (state.correct / state.attempts) < 0.6;
 };
 
 const loadTheme = () => {
@@ -1284,6 +1303,52 @@ const GrammarQuiz = ({ go, params, grammarSrs, setGrammarSrs, ttsOn }) => {
       <div style={{ ...font.body, fontSize: 12, color: C.textSec }}>
         {allQs.length} questions available · Select filters to build your quiz
       </div>
+
+      {/* Quick launch: Due for review */}
+      {(() => {
+        const dueCount = allQs.filter(q => isGrammarDue(grammarSrs, q.id)).length;
+        const weakCount = allQs.filter(q => isGrammarWeak(grammarSrs, q.id)).length;
+        return (dueCount > 0 || weakCount > 0) ? (
+          <div style={{ display: "flex", gap: 6 }}>
+            {dueCount > 0 && dueCount < allQs.length && (
+              <button onClick={() => {
+                const due = allQs.filter(q => isGrammarDue(grammarSrs, q.id));
+                const shuffled = [...due].sort(() => Math.random() - 0.5);
+                setQs(shuffled.map(q => {
+                  const opts = [q.correct, ...q.wrong.map(w => w.answer)].sort(() => Math.random() - 0.5);
+                  return { ...q, opts, correctIdx: opts.indexOf(q.correct) };
+                }));
+                setQi(0); setSel(null); setAnswered(false); setScore(0); setAnswers([]);
+                setPhase("quiz");
+              }} style={{
+                flex: 1, padding: "12px 10px", borderRadius: 10, textAlign: "center",
+                border: `1.5px solid ${C.greenBright}44`, background: `${C.greenBright}12`, cursor: "pointer",
+              }}>
+                <div style={{ ...font.card, fontSize: 13, color: C.greenBright }}>Review Due ({dueCount})</div>
+                <div style={{ ...font.body, fontSize: 10, color: C.textMut, marginTop: 2 }}>SRS scheduled</div>
+              </button>
+            )}
+            {weakCount > 0 && (
+              <button onClick={() => {
+                const weak = allQs.filter(q => isGrammarWeak(grammarSrs, q.id));
+                const shuffled = [...weak].sort(() => Math.random() - 0.5);
+                setQs(shuffled.map(q => {
+                  const opts = [q.correct, ...q.wrong.map(w => w.answer)].sort(() => Math.random() - 0.5);
+                  return { ...q, opts, correctIdx: opts.indexOf(q.correct) };
+                }));
+                setQi(0); setSel(null); setAnswered(false); setScore(0); setAnswers([]);
+                setPhase("quiz");
+              }} style={{
+                flex: 1, padding: "12px 10px", borderRadius: 10, textAlign: "center",
+                border: `1.5px solid ${C.alertRed}44`, background: `${C.alertRed}12`, cursor: "pointer",
+              }}>
+                <div style={{ ...font.card, fontSize: 13, color: C.alertRed }}>Weak ({weakCount})</div>
+                <div style={{ ...font.body, fontSize: 10, color: C.textMut, marginTop: 2 }}>Below 60%</div>
+              </button>
+            )}
+          </div>
+        ) : null;
+      })()}
 
       {/* Mode select */}
       <div style={{ display: "flex", gap: 6 }}>
