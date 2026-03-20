@@ -2822,15 +2822,61 @@ const Reading = ({ go, ttsOn }) => {
               if (answered && isSel && !isCorr) { bc = C.alertRed; bg = `${C.alertRed}12`; }
               if (!answered && isSel) { bc = C.greenPrimary; bg = `${C.greenPrimary}12`; }
               return (
-                <button key={i} onClick={() => pick(i)} style={{ background: bg, borderRadius: 10, padding: "12px 14px", border: `1.5px solid ${bc}`, cursor: answered ? "default" : "pointer", textAlign: "left" }}>
+                <button key={i} onClick={() => pick(i)} style={{ background: bg, borderRadius: 10, padding: "12px 14px", border: `1.5px solid ${bc}`, cursor: answered ? "default" : "pointer", textAlign: "left", display: "flex", alignItems: "center", gap: 10 }}>
+                  <div style={{ width: 24, height: 24, borderRadius: 6, border: `1.5px solid ${isSel ? bc : C.textMut}33`, display: "flex", alignItems: "center", justifyContent: "center", ...font.label, fontSize: 10, color: isSel ? bc : C.textMut, flexShrink: 0 }}>
+                    {answered && isCorr ? "✓" : answered && isSel && !isCorr ? "✗" : String.fromCharCode(65 + i)}
+                  </div>
                   <span style={{ ...font.body, fontSize: 13, color: C.text }}>{o}</span>
                 </button>
               );
             })}
 
-            {answered && q.explanation && (
-              <div style={{ background: C.bgElevated, borderRadius: 10, padding: 14, border: `1px solid ${sel === q.correct ? C.greenBright : C.alertRed}25` }}>
-                <div style={{ ...font.body, fontSize: 12, color: C.textSec }}>{q.explanation}</div>
+            {answered && (
+              <div style={{ background: C.bgElevated, borderRadius: 12, padding: 16, border: `1px solid ${sel === q.correct ? C.greenBright : C.alertRed}30` }}>
+                {/* Result header */}
+                <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 10 }}>
+                  <span style={{ fontSize: 18 }}>{sel === q.correct ? "✅" : "❌"}</span>
+                  <span style={{ ...font.card, fontSize: 14, color: sel === q.correct ? C.greenBright : C.alertRed }}>
+                    {sel === q.correct ? "Correct!" : "Incorrect"}
+                  </span>
+                </div>
+
+                {/* If wrong, show the correct answer */}
+                {sel !== q.correct && (
+                  <div style={{ background: `${C.greenBright}10`, borderRadius: 8, padding: "10px 12px", marginBottom: 10, border: `1px solid ${C.greenBright}25` }}>
+                    <div style={{ ...font.label, fontSize: 9, color: C.greenBright, marginBottom: 4 }}>Correct Answer</div>
+                    <div style={{ ...font.card, fontSize: 13, color: C.text }}>{q.options[q.correct]}</div>
+                  </div>
+                )}
+
+                {/* Explanation from passage */}
+                {q.explanation && (
+                  <div style={{ marginBottom: 10 }}>
+                    <div style={{ ...font.label, fontSize: 9, color: C.tanLight, marginBottom: 4 }}>From the passage</div>
+                    <div style={{ ...font.body, fontSize: 13, color: C.text, fontStyle: "italic", lineHeight: 1.5 }}>{q.explanation}</div>
+                  </div>
+                )}
+
+                {/* Translation of the question */}
+                <div style={{ borderTop: `1px solid ${C.border}`, paddingTop: 10 }}>
+                  <div style={{ ...font.label, fontSize: 9, color: C.textMut, marginBottom: 4 }}>Question Translation</div>
+                  <div style={{ ...font.body, fontSize: 12, color: C.textSec }}>{
+                    q.stem.includes("Quand") ? q.stem.replace("Quand", "When") :
+                    q.stem.includes("Où") ? q.stem.replace("Où", "Where") :
+                    q.stem.includes("Qui") ? q.stem.replace("Qui", "Who") :
+                    q.stem.includes("Combien") ? q.stem.replace(/Combien de temps/i, "How long").replace(/Combien de/i, "How many/much") :
+                    q.stem.includes("Pourquoi") ? q.stem.replace("Pourquoi", "Why") :
+                    q.stem.includes("Comment") ? q.stem.replace("Comment", "How") :
+                    q.stem.includes("Quel") || q.stem.includes("Quelle") ? q.stem.replace(/Quel(le)?/i, "What/Which") :
+                    q.stem.includes("Que ") || q.stem.includes("Qu'") ? q.stem.replace(/Que |Qu'/i, "What ") :
+                    q.stem
+                  }</div>
+                </div>
+
+                {/* Tap to re-read passage hint */}
+                <button onClick={() => setPhase("read")} style={{ marginTop: 10, padding: "8px 12px", borderRadius: 8, border: `1px solid ${C.border}`, background: "transparent", ...font.body, fontSize: 11, color: C.textSec, cursor: "pointer", width: "100%" }}>
+                  📖 Re-read the passage
+                </button>
               </div>
             )}
 
