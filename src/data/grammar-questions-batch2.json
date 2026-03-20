@@ -1,0 +1,2104 @@
+{
+  "questions": [
+    {
+      "id": "M10-REP-201",
+      "module": "Mod 10",
+      "topic": "Reported Speech",
+      "difficulty": "Easy",
+      "stem": "Le sergent a dit qu'il ______ prêt pour l'inspection.",
+      "correct": "était",
+      "correctExplanation": "In reported speech introduced by a past tense verb ('a dit'), the present tense 'est' shifts to the imparfait 'était'.",
+      "wrong": [
+        { "answer": "est", "explanation": "Wrong tense: after 'a dit que', the present tense must shift to the imparfait in reported speech." },
+        { "answer": "sera", "explanation": "Wrong tense: 'sera' (future) would indicate a future event, but the original statement was in the present." },
+        { "answer": "serait", "explanation": "Wrong tense: 'serait' (conditional) is used when the original statement was in the future, not the present." }
+      ]
+    },
+    {
+      "id": "M10-REP-202",
+      "module": "Mod 10",
+      "topic": "Reported Speech",
+      "difficulty": "Easy",
+      "stem": "La capitaine a annoncé que le déploiement ______ lieu le mois suivant.",
+      "correct": "aurait",
+      "correctExplanation": "In reported speech with a past introducer, the future 'aura' shifts to the conditional 'aurait'. 'Le mois suivant' replaces 'le mois prochain'.",
+      "wrong": [
+        { "answer": "aura", "explanation": "Wrong tense: 'aura' (future) does not shift properly after a past-tense reporting verb." },
+        { "answer": "avait", "explanation": "Wrong tense: 'avait' (imparfait) would indicate an ongoing past state, not a shifted future." },
+        { "answer": "a eu", "explanation": "Wrong tense: 'a eu' (passé composé) refers to a completed past action, not a shifted future." }
+      ]
+    },
+    {
+      "id": "M10-REP-203",
+      "module": "Mod 10",
+      "topic": "Indirect Questions",
+      "difficulty": "Easy",
+      "stem": "Le commandant a demandé ______ les troupes étaient arrivées.",
+      "correct": "si",
+      "correctExplanation": "When reporting a yes/no question, French uses 'si' (whether/if) to introduce the indirect question.",
+      "wrong": [
+        { "answer": "que", "explanation": "Wrong connector: 'que' introduces a statement in reported speech, not a yes/no question." },
+        { "answer": "quand", "explanation": "Wrong meaning: 'quand' means 'when' and changes the meaning of the original yes/no question." },
+        { "answer": "est-ce que", "explanation": "Wrong register: 'est-ce que' is used in direct questions, not in indirect (reported) questions." }
+      ]
+    },
+    {
+      "id": "M10-REP-204",
+      "module": "Mod 10",
+      "topic": "Indirect Questions",
+      "difficulty": "Medium",
+      "stem": "Le colonel veut savoir ______ le rapport sera terminé.",
+      "correct": "quand",
+      "correctExplanation": "The indirect question retains the interrogative word 'quand' but uses declarative word order (no inversion).",
+      "wrong": [
+        { "answer": "quand est-ce que", "explanation": "Wrong form: in indirect questions, 'est-ce que' is dropped; only the interrogative word remains." },
+        { "answer": "si", "explanation": "Wrong meaning: 'si' introduces yes/no questions, but the original asks 'when', not 'whether'." },
+        { "answer": "que", "explanation": "Wrong connector: 'que' does not carry the meaning of 'when' needed here." }
+      ]
+    },
+    {
+      "id": "M10-REP-205",
+      "module": "Mod 10",
+      "topic": "Tense Shifting in Reported Speech",
+      "difficulty": "Medium",
+      "stem": "Il nous a informés qu'il ______ déjà envoyé le message au quartier général.",
+      "correct": "avait",
+      "correctExplanation": "In reported speech with a past introducer, the passé composé ('a envoyé') shifts to the plus-que-parfait ('avait envoyé').",
+      "wrong": [
+        { "answer": "a", "explanation": "Wrong tense: 'a envoyé' (passé composé) must shift to 'avait envoyé' (plus-que-parfait) after a past reporting verb." },
+        { "answer": "aurait", "explanation": "Wrong tense: 'aurait envoyé' (conditionnel passé) is used for a shifted future anterior, not a shifted passé composé." },
+        { "answer": "eut", "explanation": "Wrong tense: 'eut envoyé' (passé antérieur) is a literary tense not used in standard reported speech." }
+      ]
+    },
+    {
+      "id": "M10-REP-206",
+      "module": "Mod 10",
+      "topic": "Tense Shifting in Reported Speech",
+      "difficulty": "Medium",
+      "stem": "Elle a expliqué qu'elle ______ le lendemain matin.",
+      "correct": "partirait",
+      "correctExplanation": "The original 'je partirai demain matin' shifts to 'elle partirait le lendemain matin' in reported speech after a past verb. Future becomes conditional.",
+      "wrong": [
+        { "answer": "partira", "explanation": "Wrong tense: 'partira' (future) must shift to 'partirait' (conditional) after a past reporting verb." },
+        { "answer": "partait", "explanation": "Wrong tense: 'partait' (imparfait) would imply she used to leave, not that she would leave." },
+        { "answer": "est partie", "explanation": "Wrong tense: 'est partie' (passé composé) indicates a completed action, not a shifted future." }
+      ]
+    },
+    {
+      "id": "M10-DIS-207",
+      "module": "Mod 10",
+      "topic": "Discourse Markers",
+      "difficulty": "Easy",
+      "stem": "______, je vais résumer les points principaux du briefing.",
+      "correct": "D'abord",
+      "correctExplanation": "'D'abord' (first/firstly) is a discourse marker used to introduce the first point in a sequence.",
+      "wrong": [
+        { "answer": "Ensuite", "explanation": "Wrong order: 'ensuite' means 'next/then' and introduces a subsequent point, not the first one." },
+        { "answer": "Enfin", "explanation": "Wrong order: 'enfin' means 'finally' and is used to conclude a sequence, not begin one." },
+        { "answer": "Pourtant", "explanation": "Wrong function: 'pourtant' expresses contrast ('however'), not sequence." }
+      ]
+    },
+    {
+      "id": "M10-DIS-208",
+      "module": "Mod 10",
+      "topic": "Discourse Markers",
+      "difficulty": "Medium",
+      "stem": "Le matériel est en bon état; ______, nous devons vérifier les munitions.",
+      "correct": "cependant",
+      "correctExplanation": "'Cependant' (however) is a discourse marker that introduces a contrast or reservation.",
+      "wrong": [
+        { "answer": "donc", "explanation": "Wrong logic: 'donc' (therefore) implies a consequence, not a contrast." },
+        { "answer": "de plus", "explanation": "Wrong logic: 'de plus' (moreover) adds information without contrast, but the sentence signals a reservation." },
+        { "answer": "c'est-à-dire", "explanation": "Wrong function: 'c'est-à-dire' (that is to say) clarifies a previous statement, not contrast it." }
+      ]
+    },
+    {
+      "id": "M10-DIS-209",
+      "module": "Mod 10",
+      "topic": "Discourse Markers",
+      "difficulty": "Hard",
+      "stem": "Les conditions météorologiques sont mauvaises. ______, l'exercice de tir est maintenu.",
+      "correct": "Néanmoins",
+      "correctExplanation": "'Néanmoins' (nevertheless) introduces a strong contrast, indicating the exercise continues despite bad weather.",
+      "wrong": [
+        { "answer": "Par conséquent", "explanation": "Wrong logic: 'par conséquent' (consequently) implies the exercise is a result of bad weather, which is illogical." },
+        { "answer": "En effet", "explanation": "Wrong function: 'en effet' (indeed) confirms or explains the previous statement rather than contrasting it." },
+        { "answer": "Autrement dit", "explanation": "Wrong function: 'autrement dit' (in other words) rephrases the previous statement, not contrasts it." }
+      ]
+    },
+    {
+      "id": "M10-REP-210",
+      "module": "Mod 10",
+      "topic": "Reported Speech",
+      "difficulty": "Hard",
+      "stem": "Le major a affirmé que ses soldats ______ tout le trajet à pied la veille.",
+      "correct": "avaient fait",
+      "correctExplanation": "The original 'ont fait' (passé composé) shifts to 'avaient fait' (plus-que-parfait) in reported speech after a past verb. 'La veille' replaces 'hier'.",
+      "wrong": [
+        { "answer": "ont fait", "explanation": "Wrong tense: after a past reporting verb, the passé composé must shift to the plus-que-parfait." },
+        { "answer": "faisaient", "explanation": "Wrong tense: 'faisaient' (imparfait) suggests an ongoing habit, but the passé composé indicated a completed action." },
+        { "answer": "feraient", "explanation": "Wrong tense: 'feraient' (conditional) would be the shift for the future, not the passé composé." }
+      ]
+    },
+    {
+      "id": "M10-IND-211",
+      "module": "Mod 10",
+      "topic": "Indirect Questions",
+      "difficulty": "Hard",
+      "stem": "Je me demande ce ______ s'est passé pendant la patrouille de nuit.",
+      "correct": "qui",
+      "correctExplanation": "'Ce qui' is used as the subject of the indirect question ('what happened'). 'Qui' is the subject form after 'ce'.",
+      "wrong": [
+        { "answer": "que", "explanation": "Wrong function: 'ce que' is for the object of the verb, but here 'what' is the subject of 's'est passé'." },
+        { "answer": "qu'il", "explanation": "Wrong structure: 'ce qu'il' would require a different verb construction and changes the meaning." },
+        { "answer": "dont", "explanation": "Wrong pronoun: 'ce dont' means 'what...about' and does not fit the meaning 'what happened'." }
+      ]
+    },
+    {
+      "id": "M10-REP-212",
+      "module": "Mod 10",
+      "topic": "Reported Speech",
+      "difficulty": "Medium",
+      "stem": "Le lieutenant a ordonné aux soldats de ______ leurs positions.",
+      "correct": "maintenir",
+      "correctExplanation": "When reporting a command, French uses 'ordonner de + infinitive'. The imperative 'maintenez' becomes 'de maintenir'.",
+      "wrong": [
+        { "answer": "maintenez", "explanation": "Wrong form: the imperative cannot be used after 'ordonner de'; the infinitive is required." },
+        { "answer": "maintiennent", "explanation": "Wrong form: a conjugated verb cannot follow 'de' in this reported command structure." },
+        { "answer": "maintenus", "explanation": "Wrong form: a past participle cannot follow 'de' here; the infinitive is needed." }
+      ]
+    },
+    {
+      "id": "M10-DIS-213",
+      "module": "Mod 10",
+      "topic": "Discourse Markers",
+      "difficulty": "Hard",
+      "stem": "L'opération a été un succès; ______, il y a eu quelques blessés légers.",
+      "correct": "toutefois",
+      "correctExplanation": "'Toutefois' (however/nonetheless) is a formal discourse marker used to introduce a concession or nuance.",
+      "wrong": [
+        { "answer": "ainsi", "explanation": "Wrong logic: 'ainsi' (thus) expresses consequence, not concession." },
+        { "answer": "en revanche", "explanation": "Close but wrong nuance: 'en revanche' (on the other hand) introduces a strong opposition, while 'toutefois' introduces a softer concession." },
+        { "answer": "d'ailleurs", "explanation": "Wrong function: 'd'ailleurs' (moreover/besides) adds a digression, not a concession." }
+      ]
+    },
+    {
+      "id": "M10-REP-214",
+      "module": "Mod 10",
+      "topic": "Tense Shifting in Reported Speech",
+      "difficulty": "Hard",
+      "stem": "Le général a déclaré que les renforts ______ arrivés avant la fin de la semaine précédente.",
+      "correct": "étaient",
+      "correctExplanation": "The passé composé 'sont arrivés' becomes the plus-que-parfait 'étaient arrivés' in reported speech after a past reporting verb.",
+      "wrong": [
+        { "answer": "sont", "explanation": "Wrong tense: 'sont arrivés' must shift to 'étaient arrivés' after a past-tense reporting verb." },
+        { "answer": "seraient", "explanation": "Wrong tense: 'seraient arrivés' (conditionnel passé) is the shift for the futur antérieur, not the passé composé." },
+        { "answer": "avaient", "explanation": "Wrong auxiliary: 'arriver' uses 'être' as its auxiliary, not 'avoir'." }
+      ]
+    },
+    {
+      "id": "M10-IND-215",
+      "module": "Mod 10",
+      "topic": "Indirect Questions",
+      "difficulty": "Medium",
+      "stem": "Dites-moi ______ vous avez besoin pour compléter la mission.",
+      "correct": "ce dont",
+      "correctExplanation": "'Avoir besoin de' requires 'de', so the indirect question uses 'ce dont' (what...of/about).",
+      "wrong": [
+        { "answer": "ce que", "explanation": "Wrong pronoun: 'ce que' is for direct objects, but 'avoir besoin de' requires 'de', hence 'ce dont'." },
+        { "answer": "ce qui", "explanation": "Wrong function: 'ce qui' is for subjects, but here the pronoun replaces the object of 'avoir besoin de'." },
+        { "answer": "qu'est-ce que", "explanation": "Wrong form: 'qu'est-ce que' is for direct questions only, not indirect questions." }
+      ]
+    },
+    {
+      "id": "M10-DIS-216",
+      "module": "Mod 10",
+      "topic": "Discourse Markers",
+      "difficulty": "Easy",
+      "stem": "Le briefing est terminé. ______, avez-vous des questions?",
+      "correct": "En conclusion",
+      "correctExplanation": "'En conclusion' (in conclusion) is a discourse marker used to signal the end of a presentation or speech.",
+      "wrong": [
+        { "answer": "En premier lieu", "explanation": "Wrong position: 'en premier lieu' (firstly) opens a sequence, not closes it." },
+        { "answer": "Par ailleurs", "explanation": "Wrong function: 'par ailleurs' (furthermore) adds information mid-discourse, not at the end." },
+        { "answer": "Quant à", "explanation": "Wrong function: 'quant à' (as for) introduces a new topic, not a conclusion." }
+      ]
+    },
+    {
+      "id": "M10-REP-217",
+      "module": "Mod 10",
+      "topic": "Reported Speech",
+      "difficulty": "Hard",
+      "stem": "Elle a demandé ce que nous ______ de l'exercice de survie.",
+      "correct": "pensions",
+      "correctExplanation": "The original 'que pensez-vous' becomes 'ce que nous pensions' in reported speech: 'pensez' (present) shifts to 'pensions' (imparfait) after a past reporting verb.",
+      "wrong": [
+        { "answer": "pensons", "explanation": "Wrong tense: after 'a demandé' (past), the present tense 'pensons' must shift to the imparfait 'pensions'." },
+        { "answer": "penserions", "explanation": "Wrong tense: the conditional would be used for a shifted future, not a shifted present." },
+        { "answer": "avons pensé", "explanation": "Wrong tense: the passé composé does not represent the proper shift of the present tense in reported speech." }
+      ]
+    },
+    {
+      "id": "M10-IND-218",
+      "module": "Mod 10",
+      "topic": "Indirect Questions",
+      "difficulty": "Easy",
+      "stem": "Je ne sais pas ______ le prochain convoi partira.",
+      "correct": "quand",
+      "correctExplanation": "'Quand' (when) introduces the indirect question about time, maintaining declarative word order.",
+      "wrong": [
+        { "answer": "quand est-ce que", "explanation": "Wrong form: 'est-ce que' is not used in indirect questions; only 'quand' is needed." },
+        { "answer": "si", "explanation": "Wrong meaning: 'si' introduces a yes/no question, but the original asks 'when'." },
+        { "answer": "que", "explanation": "Wrong meaning: 'que' cannot replace 'quand' to ask about time." }
+      ]
+    },
+    {
+      "id": "M12-SUBJ-219",
+      "module": "Mod 12",
+      "topic": "Subjunctive Trigger",
+      "difficulty": "Medium",
+      "stem": "Il est essentiel que chaque soldat ______ son équipement avant le départ.",
+      "correct": "vérifie",
+      "correctExplanation": "'Il est essentiel que' expresses necessity and triggers the subjunctive. 'Vérifie' is the subjunctive of 'vérifier'.",
+      "wrong": [
+        { "answer": "vérifiera", "explanation": "Wrong mood: the future indicative cannot follow 'il est essentiel que'; the subjunctive is required." },
+        { "answer": "vérifiait", "explanation": "Wrong mood: the imparfait indicative does not follow expressions of necessity." },
+        { "answer": "a vérifié", "explanation": "Wrong mood and tense: the passé composé indicative is not used after 'il est essentiel que'." }
+      ]
+    },
+    {
+      "id": "M12-SUBJ-220",
+      "module": "Mod 12",
+      "topic": "Subjunctive vs Indicative",
+      "difficulty": "Medium",
+      "stem": "Je doute que cette stratégie ______ efficace contre l'ennemi.",
+      "correct": "soit",
+      "correctExplanation": "'Douter que' expresses doubt and triggers the subjunctive. 'Soit' is the subjunctive of 'être'.",
+      "wrong": [
+        { "answer": "est", "explanation": "Wrong mood: 'douter que' requires the subjunctive, not the indicative 'est'." },
+        { "answer": "sera", "explanation": "Wrong mood: the future indicative is not used after 'douter que'." },
+        { "answer": "serait", "explanation": "Wrong mood: the conditional is not the correct mood after 'douter que'; the subjunctive is needed." }
+      ]
+    },
+    {
+      "id": "M12-SUBJ-221",
+      "module": "Mod 12",
+      "topic": "Subjunctive Trigger",
+      "difficulty": "Hard",
+      "stem": "Bien que le commandant ______ fatigué, il a poursuivi la mission.",
+      "correct": "fût",
+      "correctExplanation": "'Bien que' (although) always triggers the subjunctive. In formal/literary style, the imparfait du subjonctif 'fût' is used after a past main verb.",
+      "wrong": [
+        { "answer": "était", "explanation": "Wrong mood: 'bien que' requires the subjunctive, not the indicative 'était'." },
+        { "answer": "soit", "explanation": "Acceptable in everyday French, but in formal written style after a past main verb, the imparfait du subjonctif 'fût' is preferred." },
+        { "answer": "serait", "explanation": "Wrong mood: the conditional cannot follow 'bien que'; the subjunctive is required." }
+      ]
+    },
+    {
+      "id": "M12-INF-222",
+      "module": "Mod 12",
+      "topic": "Infinitive Structures",
+      "difficulty": "Easy",
+      "stem": "Le caporal a décidé ______ suivre la formation de leadership.",
+      "correct": "de",
+      "correctExplanation": "'Décider de + infinitive' is the correct structure. Many verbs in French require a specific preposition before an infinitive.",
+      "wrong": [
+        { "answer": "à", "explanation": "Wrong preposition: 'décider' takes 'de' before an infinitive, not 'à'." },
+        { "answer": "pour", "explanation": "Wrong preposition: 'pour' indicates purpose but is not the correct preposition after 'décider'." },
+        { "answer": "—", "explanation": "Wrong: a preposition is required. Unlike 'vouloir' or 'pouvoir', 'décider' needs 'de' before the infinitive." }
+      ]
+    },
+    {
+      "id": "M12-CONJ-223",
+      "module": "Mod 12",
+      "topic": "Conjunctions",
+      "difficulty": "Medium",
+      "stem": "Nous continuerons la patrouille ______ qu'il fasse nuit.",
+      "correct": "jusqu'à ce",
+      "correctExplanation": "'Jusqu'à ce que' (until) triggers the subjunctive. 'Fasse' is the subjunctive of 'faire'.",
+      "wrong": [
+        { "answer": "pendant", "explanation": "Wrong conjunction: 'pendant que' (while) takes the indicative and means 'during', not 'until'." },
+        { "answer": "après", "explanation": "Wrong conjunction: 'après que' (after) takes the indicative and indicates a completed event, not 'until'." },
+        { "answer": "avant", "explanation": "Wrong meaning: 'avant que' means 'before', not 'until', and would change the sentence's meaning." }
+      ]
+    },
+    {
+      "id": "M12-SUBJ-224",
+      "module": "Mod 12",
+      "topic": "Subjunctive vs Indicative",
+      "difficulty": "Hard",
+      "stem": "Il est certain que les renforts ______ demain.",
+      "correct": "arriveront",
+      "correctExplanation": "'Il est certain que' expresses certainty, which takes the indicative, not the subjunctive. The future 'arriveront' is correct.",
+      "wrong": [
+        { "answer": "arrivent", "explanation": "Wrong mood: this is the subjunctive, but 'il est certain que' takes the indicative because it expresses certainty." },
+        { "answer": "arrivassent", "explanation": "Wrong mood: this is the imparfait du subjonctif, but 'il est certain que' does not trigger the subjunctive." },
+        { "answer": "soient arrivés", "explanation": "Wrong mood: this is the passé du subjonctif, but certainty expressions take the indicative." }
+      ]
+    },
+    {
+      "id": "M12-SUBJ-225",
+      "module": "Mod 12",
+      "topic": "Subjunctive Trigger",
+      "difficulty": "Easy",
+      "stem": "Il faut que tu ______ à l'heure au rassemblement.",
+      "correct": "sois",
+      "correctExplanation": "'Il faut que' (it is necessary that) triggers the subjunctive. 'Sois' is the subjunctive of 'être' for 'tu'.",
+      "wrong": [
+        { "answer": "es", "explanation": "Wrong mood: 'il faut que' requires the subjunctive, not the present indicative 'es'." },
+        { "answer": "seras", "explanation": "Wrong mood: the future indicative cannot follow 'il faut que'." },
+        { "answer": "étais", "explanation": "Wrong mood and tense: the imparfait indicative is not used after 'il faut que'." }
+      ]
+    },
+    {
+      "id": "M12-SUBJ-226",
+      "module": "Mod 12",
+      "topic": "Subjunctive Trigger",
+      "difficulty": "Medium",
+      "stem": "Le commandant exige que le rapport ______ rédigé avant midi.",
+      "correct": "soit",
+      "correctExplanation": "'Exiger que' (to demand that) expresses a requirement and triggers the subjunctive. 'Soit rédigé' is the passive subjunctive.",
+      "wrong": [
+        { "answer": "est", "explanation": "Wrong mood: 'exiger que' requires the subjunctive, not the indicative 'est'." },
+        { "answer": "sera", "explanation": "Wrong mood: the future indicative cannot follow 'exiger que'; the subjunctive is required." },
+        { "answer": "serait", "explanation": "Wrong mood: the conditional is not used after 'exiger que'; the subjunctive is needed." }
+      ]
+    },
+    {
+      "id": "M12-SUBJ-227",
+      "module": "Mod 12",
+      "topic": "Subjunctive Trigger",
+      "difficulty": "Hard",
+      "stem": "Quoique l'opération ______ risquée, les soldats ont accepté la mission.",
+      "correct": "soit",
+      "correctExplanation": "'Quoique' (although) always triggers the subjunctive, similar to 'bien que'.",
+      "wrong": [
+        { "answer": "est", "explanation": "Wrong mood: 'quoique' requires the subjunctive, not the present indicative." },
+        { "answer": "était", "explanation": "Wrong mood: the imparfait indicative is not used after 'quoique'; the subjunctive is required." },
+        { "answer": "serait", "explanation": "Wrong mood: the conditional cannot follow 'quoique'; the subjunctive is needed." }
+      ]
+    },
+    {
+      "id": "M12-INF-228",
+      "module": "Mod 12",
+      "topic": "Infinitive Structures",
+      "difficulty": "Medium",
+      "stem": "Le soldat a appris ______ monter sa tente en moins de cinq minutes.",
+      "correct": "à",
+      "correctExplanation": "'Apprendre à + infinitive' is the correct structure meaning 'to learn to do something'.",
+      "wrong": [
+        { "answer": "de", "explanation": "Wrong preposition: 'apprendre' takes 'à' before an infinitive, not 'de'." },
+        { "answer": "pour", "explanation": "Wrong preposition: 'pour' is not the correct preposition after 'apprendre' with an infinitive." },
+        { "answer": "—", "explanation": "Wrong: a preposition is required after 'apprendre' before an infinitive. It is not a direct-infinitive verb." }
+      ]
+    },
+    {
+      "id": "M12-SUBJ-229",
+      "module": "Mod 12",
+      "topic": "Subjunctive vs Indicative",
+      "difficulty": "Hard",
+      "stem": "Après que les troupes ______ parties, le camp était désert.",
+      "correct": "sont",
+      "correctExplanation": "'Après que' takes the indicative (not the subjunctive), because it refers to a realized event. 'Sont parties' (passé composé) is correct.",
+      "wrong": [
+        { "answer": "soient", "explanation": "Common error: many speakers use the subjunctive after 'après que', but the grammatical rule requires the indicative." },
+        { "answer": "fussent", "explanation": "Wrong mood: this is the imparfait du subjonctif, but 'après que' takes the indicative." },
+        { "answer": "seraient", "explanation": "Wrong mood: the conditional is not the appropriate mood after 'après que'." }
+      ]
+    },
+    {
+      "id": "M12-CONJ-230",
+      "module": "Mod 12",
+      "topic": "Conjunctions",
+      "difficulty": "Easy",
+      "stem": "Nous partirons avant que le soleil ne ______.",
+      "correct": "se lève",
+      "correctExplanation": "'Avant que' (before) triggers the subjunctive. 'Se lève' is the subjunctive of 'se lever'. The expletive 'ne' is standard after 'avant que'.",
+      "wrong": [
+        { "answer": "se lèvera", "explanation": "Wrong mood: 'avant que' requires the subjunctive, not the future indicative." },
+        { "answer": "se levait", "explanation": "Wrong mood: the imparfait indicative is not used after 'avant que'." },
+        { "answer": "se leva", "explanation": "Wrong mood: the passé simple indicative is not used after 'avant que'; the subjunctive is required." }
+      ]
+    },
+    {
+      "id": "M13-SUBJ-231",
+      "module": "Mod 13",
+      "topic": "Subjunctive Trigger",
+      "difficulty": "Medium",
+      "stem": "Il est peu probable que l'ennemi ______ notre position.",
+      "correct": "connaisse",
+      "correctExplanation": "'Il est peu probable que' expresses doubt/low probability and triggers the subjunctive.",
+      "wrong": [
+        { "answer": "connaît", "explanation": "Wrong mood: expressions of low probability require the subjunctive, not the indicative." },
+        { "answer": "connaîtra", "explanation": "Wrong mood: the future indicative cannot follow 'il est peu probable que'." },
+        { "answer": "connaîtrait", "explanation": "Wrong mood: the conditional is not used after 'il est peu probable que'; the subjunctive is required." }
+      ]
+    },
+    {
+      "id": "M13-PASS-232",
+      "module": "Mod 13",
+      "topic": "Passive Voice",
+      "difficulty": "Medium",
+      "stem": "Les ordres ______ transmis par le quartier général hier soir.",
+      "correct": "ont été",
+      "correctExplanation": "The passive voice in the passé composé is formed with 'avoir été + past participle'. 'Ont été transmis' = were transmitted.",
+      "wrong": [
+        { "answer": "étaient", "explanation": "Wrong tense: 'étaient transmis' (imparfait passif) implies ongoing/habitual transmission, not a specific past event." },
+        { "answer": "sont", "explanation": "Wrong tense: 'sont transmis' is present passive, but 'hier soir' requires a past tense." },
+        { "answer": "avaient été", "explanation": "Wrong tense: 'avaient été transmis' (plus-que-parfait passif) implies an event prior to another past event, which is not indicated." }
+      ]
+    },
+    {
+      "id": "M13-INF-233",
+      "module": "Mod 13",
+      "topic": "Infinitive Structures",
+      "difficulty": "Easy",
+      "stem": "Le médecin militaire nous a conseillé ______ boire plus d'eau.",
+      "correct": "de",
+      "correctExplanation": "'Conseiller de + infinitive' is the correct structure. 'Conseiller' requires 'de' before an infinitive.",
+      "wrong": [
+        { "answer": "à", "explanation": "Wrong preposition: 'conseiller' takes 'de', not 'à', before an infinitive." },
+        { "answer": "pour", "explanation": "Wrong preposition: 'pour' indicates purpose but is not the required preposition after 'conseiller'." },
+        { "answer": "—", "explanation": "Wrong: 'conseiller' requires the preposition 'de' before an infinitive." }
+      ]
+    },
+    {
+      "id": "M13-REL-234",
+      "module": "Mod 13",
+      "topic": "Relative Pronouns",
+      "difficulty": "Hard",
+      "stem": "Le véhicule blindé ______ nous avons besoin est en réparation.",
+      "correct": "dont",
+      "correctExplanation": "'Avoir besoin de' requires 'de', so the relative pronoun 'dont' (which replaces 'de + noun') is needed.",
+      "wrong": [
+        { "answer": "que", "explanation": "Wrong pronoun: 'que' replaces a direct object, but 'avoir besoin de' requires 'dont'." },
+        { "answer": "qui", "explanation": "Wrong pronoun: 'qui' is used for subjects, but 'véhicule' is the object of 'avoir besoin de'." },
+        { "answer": "lequel", "explanation": "Wrong pronoun: 'lequel' is used after prepositions other than 'de'; with 'de', use 'dont'." }
+      ]
+    },
+    {
+      "id": "M13-CONJ-235",
+      "module": "Mod 13",
+      "topic": "Conjunction Choice",
+      "difficulty": "Medium",
+      "stem": "______ vous soyez bien entraînés, restez vigilants pendant la patrouille.",
+      "correct": "Même si",
+      "correctExplanation": "'Même si' (even if) is followed by the indicative, but here the meaning calls for 'bien que' + subjunctive. However, 'même si' can also be used with the indicative as a concession.",
+      "wrong": [
+        { "answer": "Parce que", "explanation": "Wrong logic: 'parce que' (because) gives a reason, not a concession." },
+        { "answer": "Puisque", "explanation": "Wrong logic: 'puisque' (since) presents a known cause, not a concession." },
+        { "answer": "Tandis que", "explanation": "Wrong meaning: 'tandis que' (while/whereas) expresses simultaneity or contrast, not concession." }
+      ]
+    },
+    {
+      "id": "M13-ADV-236",
+      "module": "Mod 13",
+      "topic": "Adverbs",
+      "difficulty": "Easy",
+      "stem": "Le sergent parle ______ pour que tous les recrues entendent.",
+      "correct": "fort",
+      "correctExplanation": "'Fort' (loudly) is used as an adverb here meaning 'loudly'. Some adjectives can function as adverbs without adding '-ment'.",
+      "wrong": [
+        { "answer": "fortement", "explanation": "Wrong nuance: 'fortement' means 'strongly/intensely', not 'loudly'. 'Parler fort' is the correct expression." },
+        { "answer": "haute", "explanation": "Wrong form: the adverbial form is 'haut' (invariable), not 'haute'. Also, 'parler fort' is more natural than 'parler haut'." },
+        { "answer": "puissamment", "explanation": "Wrong meaning: 'puissamment' means 'powerfully' and is not used with 'parler' to mean 'loudly'." }
+      ]
+    },
+    {
+      "id": "M13-SUBJ-237",
+      "module": "Mod 13",
+      "topic": "Subjunctive vs Indicative",
+      "difficulty": "Hard",
+      "stem": "Je ne pense pas que cette route ______ sûre pour le convoi.",
+      "correct": "soit",
+      "correctExplanation": "'Ne pas penser que' in the negative triggers the subjunctive because it expresses doubt. 'Soit' is the subjunctive of 'être'.",
+      "wrong": [
+        { "answer": "est", "explanation": "Wrong mood: 'ne pas penser que' in the negative requires the subjunctive, not the indicative." },
+        { "answer": "sera", "explanation": "Wrong mood: the future indicative cannot follow 'ne pas penser que' in the negative." },
+        { "answer": "serait", "explanation": "Wrong mood: the conditional is not the correct mood after 'ne pas penser que'." }
+      ]
+    },
+    {
+      "id": "M13-PREP-238",
+      "module": "Mod 13",
+      "topic": "Verb + Preposition",
+      "difficulty": "Medium",
+      "stem": "Les soldats se sont habitués ______ vivre dans des conditions difficiles.",
+      "correct": "à",
+      "correctExplanation": "'S'habituer à + infinitive' means 'to get used to doing something'. The preposition 'à' is required.",
+      "wrong": [
+        { "answer": "de", "explanation": "Wrong preposition: 's'habituer' takes 'à', not 'de', before an infinitive." },
+        { "answer": "pour", "explanation": "Wrong preposition: 'pour' is not used after 's'habituer'." },
+        { "answer": "en", "explanation": "Wrong preposition: 'en' is not used after 's'habituer' before an infinitive." }
+      ]
+    },
+    {
+      "id": "M13-OBJ-239",
+      "module": "Mod 13",
+      "topic": "Direct Object Pronouns",
+      "difficulty": "Hard",
+      "stem": "Ces documents classifiés, le colonel ______ a lus attentivement.",
+      "correct": "les",
+      "correctExplanation": "'Les' replaces the masculine plural direct object 'ces documents classifiés'. The past participle 'lus' agrees in gender and number with 'les' (m. pl.).",
+      "wrong": [
+        { "answer": "leur", "explanation": "Wrong pronoun type: 'leur' is an indirect object pronoun; 'documents' is a direct object of 'lire'." },
+        { "answer": "lui", "explanation": "Wrong pronoun: 'lui' is a singular indirect object pronoun and cannot replace a plural direct object." },
+        { "answer": "en", "explanation": "Wrong pronoun: 'en' replaces 'de + noun' or partitive expressions, not a definite direct object." }
+      ]
+    },
+    {
+      "id": "M13-SUBJ-240",
+      "module": "Mod 13",
+      "topic": "Subjunctive Trigger",
+      "difficulty": "Easy",
+      "stem": "Je suis content que tu ______ ta formation militaire.",
+      "correct": "aies terminé",
+      "correctExplanation": "'Être content que' expresses an emotion and triggers the subjunctive. 'Aies terminé' is the passé du subjonctif, indicating a completed action.",
+      "wrong": [
+        { "answer": "as terminé", "explanation": "Wrong mood: 'être content que' requires the subjunctive, not the indicative passé composé." },
+        { "answer": "avais terminé", "explanation": "Wrong mood: the plus-que-parfait indicative is not used after expressions of emotion requiring the subjunctive." },
+        { "answer": "termines", "explanation": "Wrong tense: the present subjunctive 'termines' would suggest the action is not yet completed, but context implies it is done." }
+      ]
+    },
+    {
+      "id": "M13-INF-241",
+      "module": "Mod 13",
+      "topic": "Infinitive Structures",
+      "difficulty": "Medium",
+      "stem": "Le capitaine a réussi ______ convaincre l'état-major de son plan.",
+      "correct": "à",
+      "correctExplanation": "'Réussir à + infinitive' means 'to succeed in doing something'. The preposition 'à' is required.",
+      "wrong": [
+        { "answer": "de", "explanation": "Wrong preposition: 'réussir' takes 'à', not 'de', before an infinitive." },
+        { "answer": "pour", "explanation": "Wrong preposition: 'pour' is not used after 'réussir' with an infinitive." },
+        { "answer": "—", "explanation": "Wrong: 'réussir' requires the preposition 'à' before an infinitive." }
+      ]
+    },
+    {
+      "id": "M13-PASS-242",
+      "module": "Mod 13",
+      "topic": "Passive Voice",
+      "difficulty": "Hard",
+      "stem": "La base ______ construite en 1952 par le génie militaire.",
+      "correct": "a été",
+      "correctExplanation": "The passive voice in the passé composé uses 'avoir été + past participle'. 'A été construite' (was built) agrees with the feminine subject 'la base'.",
+      "wrong": [
+        { "answer": "était", "explanation": "Wrong tense: 'était construite' (imparfait passif) implies an ongoing state, not a specific completed action in 1952." },
+        { "answer": "est", "explanation": "Wrong tense: 'est construite' (present passive) does not match the past time marker 'en 1952'." },
+        { "answer": "fut", "explanation": "Not wrong per se (passé simple passive), but 'a été' is the standard form in modern French. 'Fut' is literary and less common." }
+      ]
+    },
+    {
+      "id": "M14-COND-243",
+      "module": "Mod 14",
+      "topic": "Condition + Subjunctive",
+      "difficulty": "Medium",
+      "stem": "À condition que tout le monde ______ prêt, nous partirons à l'aube.",
+      "correct": "soit",
+      "correctExplanation": "'À condition que' (provided that) triggers the subjunctive. 'Soit' is the subjunctive of 'être'.",
+      "wrong": [
+        { "answer": "est", "explanation": "Wrong mood: 'à condition que' requires the subjunctive, not the present indicative." },
+        { "answer": "sera", "explanation": "Wrong mood: the future indicative cannot follow 'à condition que'." },
+        { "answer": "serait", "explanation": "Wrong mood: the conditional is not used after 'à condition que'; the subjunctive is required." }
+      ]
+    },
+    {
+      "id": "M14-CONJ-244",
+      "module": "Mod 14",
+      "topic": "Conjunction Choice",
+      "difficulty": "Medium",
+      "stem": "Nous devons agir vite ______ l'ennemi ne découvre notre plan.",
+      "correct": "avant que",
+      "correctExplanation": "'Avant que' (before) + subjunctive is used here. The expletive 'ne' before 'découvre' is standard formal usage after 'avant que'.",
+      "wrong": [
+        { "answer": "après que", "explanation": "Wrong meaning: 'après que' (after) reverses the timeline; we want to act before, not after, discovery." },
+        { "answer": "pendant que", "explanation": "Wrong meaning: 'pendant que' (while) implies simultaneous action, not preceding it." },
+        { "answer": "depuis que", "explanation": "Wrong meaning: 'depuis que' (since) refers to a starting point in time, not 'before'." }
+      ]
+    },
+    {
+      "id": "M14-CONJ-245",
+      "module": "Mod 14",
+      "topic": "Conjunctions",
+      "difficulty": "Easy",
+      "stem": "Le convoi s'est arrêté ______ le pont était endommagé.",
+      "correct": "parce que",
+      "correctExplanation": "'Parce que' (because) introduces a cause/reason and is followed by the indicative.",
+      "wrong": [
+        { "answer": "pour que", "explanation": "Wrong meaning: 'pour que' (so that) expresses purpose and requires the subjunctive, not cause." },
+        { "answer": "bien que", "explanation": "Wrong logic: 'bien que' (although) expresses concession, not cause." },
+        { "answer": "afin que", "explanation": "Wrong meaning: 'afin que' (in order that) expresses purpose, not cause." }
+      ]
+    },
+    {
+      "id": "M14-SI-246",
+      "module": "Mod 14",
+      "topic": "Si Clauses",
+      "difficulty": "Medium",
+      "stem": "Si nous ______ plus de soldats, nous aurions pu sécuriser la zone.",
+      "correct": "avions eu",
+      "correctExplanation": "This is a third conditional (past unreal). 'Si' + plus-que-parfait ('avions eu') + conditionnel passé ('aurions pu').",
+      "wrong": [
+        { "answer": "avons eu", "explanation": "Wrong tense: the passé composé cannot follow 'si' in a past unreal conditional." },
+        { "answer": "aurions eu", "explanation": "Wrong tense: the conditional cannot follow 'si'. The rule is 'si + plus-que-parfait', not 'si + conditionnel'." },
+        { "answer": "avions", "explanation": "Wrong tense: 'si + imparfait' is for present unreal conditions, but the main clause 'aurions pu' requires the plus-que-parfait." }
+      ]
+    },
+    {
+      "id": "M14-SUBJ-247",
+      "module": "Mod 14",
+      "topic": "Subjunctive Trigger",
+      "difficulty": "Hard",
+      "stem": "Pourvu que la météo ______ favorable pour l'exercice de demain.",
+      "correct": "soit",
+      "correctExplanation": "'Pourvu que' (let's hope that / provided that) always triggers the subjunctive.",
+      "wrong": [
+        { "answer": "est", "explanation": "Wrong mood: 'pourvu que' requires the subjunctive, not the indicative." },
+        { "answer": "sera", "explanation": "Wrong mood: the future indicative cannot follow 'pourvu que'." },
+        { "answer": "serait", "explanation": "Wrong mood: the conditional is not used after 'pourvu que'; the subjunctive is required." }
+      ]
+    },
+    {
+      "id": "M14-CONJ-248",
+      "module": "Mod 14",
+      "topic": "Conjunction Choice",
+      "difficulty": "Hard",
+      "stem": "Le major a accepté la mission ______ les risques soient élevés.",
+      "correct": "quoique",
+      "correctExplanation": "'Quoique' (although) expresses concession and triggers the subjunctive. The subjunctive 'soient' confirms this.",
+      "wrong": [
+        { "answer": "parce que", "explanation": "Wrong logic: 'parce que' (because) would mean the risks are the reason for acceptance, which is illogical." },
+        { "answer": "puisque", "explanation": "Wrong logic: 'puisque' (since) implies the risks are a known cause, not a concession." },
+        { "answer": "car", "explanation": "Wrong logic: 'car' (for/because) gives a reason, not a concession." }
+      ]
+    },
+    {
+      "id": "M14-SUBJ-249",
+      "module": "Mod 14",
+      "topic": "Subjunctive vs Indicative",
+      "difficulty": "Medium",
+      "stem": "Il semble que le convoi ______ en retard à cause de la tempête.",
+      "correct": "soit",
+      "correctExplanation": "'Il semble que' (it seems that) expresses uncertainty and triggers the subjunctive.",
+      "wrong": [
+        { "answer": "est", "explanation": "Wrong mood: 'il semble que' requires the subjunctive. Note: 'il me semble que' (indicative) is different from 'il semble que' (subjunctive)." },
+        { "answer": "sera", "explanation": "Wrong mood: the future indicative cannot follow 'il semble que'." },
+        { "answer": "était", "explanation": "Wrong mood: the imparfait indicative is not used after 'il semble que'; the subjunctive is required." }
+      ]
+    },
+    {
+      "id": "M14-OBJ-250",
+      "module": "Mod 14",
+      "topic": "Indirect Object Pronouns",
+      "difficulty": "Easy",
+      "stem": "Le commandant ______ a donné l'ordre de se replier.",
+      "correct": "leur",
+      "correctExplanation": "'Leur' is the indirect object pronoun replacing 'aux soldats' (to the soldiers). 'Donner quelque chose à quelqu'un' takes an indirect object.",
+      "wrong": [
+        { "answer": "les", "explanation": "Wrong pronoun type: 'les' is a direct object pronoun, but 'donner à' requires an indirect object." },
+        { "answer": "lui", "explanation": "Wrong number: 'lui' is singular, but the context implies multiple people (plural)." },
+        { "answer": "eux", "explanation": "Wrong form: 'eux' is a stressed pronoun, not an unstressed indirect object pronoun used before the verb." }
+      ]
+    },
+    {
+      "id": "M14-COND-251",
+      "module": "Mod 14",
+      "topic": "Condition + Subjunctive",
+      "difficulty": "Hard",
+      "stem": "À moins que vous n'______ une meilleure idée, nous suivrons le plan initial.",
+      "correct": "ayez",
+      "correctExplanation": "'À moins que' (unless) triggers the subjunctive. 'Ayez' is the subjunctive of 'avoir' for 'vous'. The expletive 'ne' is standard.",
+      "wrong": [
+        { "answer": "avez", "explanation": "Wrong mood: 'à moins que' requires the subjunctive, not the present indicative." },
+        { "answer": "aurez", "explanation": "Wrong mood: the future indicative cannot follow 'à moins que'." },
+        { "answer": "auriez", "explanation": "Wrong mood: the conditional is not the correct mood after 'à moins que'; the subjunctive is needed." }
+      ]
+    },
+    {
+      "id": "M14-CONJ-252",
+      "module": "Mod 14",
+      "topic": "Conjunctions",
+      "difficulty": "Easy",
+      "stem": "Le soldat s'entraîne dur ______ être prêt pour le déploiement.",
+      "correct": "afin d'",
+      "correctExplanation": "'Afin de + infinitive' (in order to) expresses purpose. When the subject is the same in both clauses, the infinitive structure is used instead of 'afin que + subjunctive'.",
+      "wrong": [
+        { "answer": "afin qu'", "explanation": "Wrong structure: 'afin que + subjunctive' is used when the subjects differ; here the same person trains and will be ready." },
+        { "answer": "pour que", "explanation": "Wrong structure: 'pour que + subjunctive' is for different subjects. Use 'pour + infinitive' or 'afin de + infinitive' for same subject." },
+        { "answer": "bien qu'", "explanation": "Wrong meaning: 'bien que' (although) expresses concession, not purpose." }
+      ]
+    },
+    {
+      "id": "M14-SI-253",
+      "module": "Mod 14",
+      "topic": "Si Clauses",
+      "difficulty": "Hard",
+      "stem": "Si j'______ su que la route était minée, je n'aurais pas pris ce chemin.",
+      "correct": "avais",
+      "correctExplanation": "Third conditional (past unreal): 'si + plus-que-parfait' (avais su) + conditionnel passé (n'aurais pas pris).",
+      "wrong": [
+        { "answer": "aurais", "explanation": "Wrong tense: 'si' cannot be followed by the conditional. The rule is 'si + plus-que-parfait'." },
+        { "answer": "ai", "explanation": "Wrong tense: 'si + passé composé' is not standard in conditional sentences." },
+        { "answer": "eusse", "explanation": "Wrong register: 'si + subjonctif plus-que-parfait' is extremely rare and literary. Standard French uses 'si + plus-que-parfait indicatif'." }
+      ]
+    },
+    {
+      "id": "M14-CONJ-254",
+      "module": "Mod 14",
+      "topic": "Conjunctions",
+      "difficulty": "Medium",
+      "stem": "Les soldats ont continué la marche ______ la pluie battante.",
+      "correct": "malgré",
+      "correctExplanation": "'Malgré' (despite) is a preposition followed by a noun, not a conjunction. It expresses concession without a clause.",
+      "wrong": [
+        { "answer": "bien que", "explanation": "Wrong structure: 'bien que' is a conjunction requiring a clause with a conjugated verb, not just a noun." },
+        { "answer": "quoique", "explanation": "Wrong structure: 'quoique' is a conjunction requiring a clause with a verb, not just a noun phrase." },
+        { "answer": "pourtant", "explanation": "Wrong position: 'pourtant' (however) is an adverb that connects two clauses; it cannot introduce a noun phrase." }
+      ]
+    },
+    {
+      "id": "M1-ART-255",
+      "module": "Mod 1",
+      "topic": "Articles / Gender",
+      "difficulty": "Easy",
+      "stem": "Où est ______ mess des officiers?",
+      "correct": "le",
+      "correctExplanation": "'Mess' is a masculine noun in French, so it takes the masculine definite article 'le'.",
+      "wrong": [
+        { "answer": "la", "explanation": "Wrong gender: 'mess' is masculine in French, not feminine." },
+        { "answer": "un", "explanation": "Wrong article type: the mess hall is a specific known place, requiring the definite article." },
+        { "answer": "l'", "explanation": "Wrong form: elision only occurs before a vowel or mute 'h'. 'Mess' starts with a consonant." }
+      ]
+    },
+    {
+      "id": "M1-AGR-256",
+      "module": "Mod 1",
+      "topic": "Adjective Agreement",
+      "difficulty": "Medium",
+      "stem": "Les nouvelles recrues sont ______ et motivées.",
+      "correct": "disciplinées",
+      "correctExplanation": "'Recrues' is feminine plural, so the adjective must be feminine plural: 'disciplinées'. The adjective agrees with the subject.",
+      "wrong": [
+        { "answer": "disciplinés", "explanation": "Wrong gender: 'recrues' is feminine, so the masculine plural form 'disciplinés' is incorrect." },
+        { "answer": "discipliné", "explanation": "Wrong number and gender: the masculine singular form does not agree with feminine plural 'recrues'." },
+        { "answer": "disciplinée", "explanation": "Wrong number: the feminine singular form does not agree with the plural 'recrues'." }
+      ]
+    },
+    {
+      "id": "M1-NEG-257",
+      "module": "Mod 1",
+      "topic": "Negation",
+      "difficulty": "Medium",
+      "stem": "Il n'y a ______ de munitions dans l'armurerie.",
+      "correct": "plus",
+      "correctExplanation": "'Ne...plus' means 'no more/no longer'. 'Il n'y a plus de munitions' = there are no more munitions.",
+      "wrong": [
+        { "answer": "pas", "explanation": "Possible but different meaning: 'il n'y a pas de munitions' means 'there are no munitions', not 'there are no more munitions'." },
+        { "answer": "jamais", "explanation": "Wrong meaning: 'ne...jamais' means 'never', not 'no more'." },
+        { "answer": "rien", "explanation": "Wrong structure: 'ne...rien' means 'nothing' and cannot be followed by 'de munitions'." }
+      ]
+    },
+    {
+      "id": "M1-CONJ-258",
+      "module": "Mod 1",
+      "topic": "Present Conjugation",
+      "difficulty": "Easy",
+      "stem": "Les officiers ______ la situation tous les matins.",
+      "correct": "évaluent",
+      "correctExplanation": "'Évaluer' is a regular -er verb. With 'les officiers' (ils), the present tense form is 'évaluent'.",
+      "wrong": [
+        { "answer": "évalue", "explanation": "Wrong number: 'évalue' is the singular form (il/elle), not the plural form for 'les officiers'." },
+        { "answer": "évaluons", "explanation": "Wrong person: 'évaluons' is for 'nous', not 'ils/les officiers'." },
+        { "answer": "évalues", "explanation": "Wrong person: 'évalues' is for 'tu', not 'ils'." }
+      ]
+    },
+    {
+      "id": "M1-OBJ-259",
+      "module": "Mod 1",
+      "topic": "Direct Object Pronouns",
+      "difficulty": "Hard",
+      "stem": "Le rapport? Je ______ ai remis au commandant ce matin.",
+      "correct": "le",
+      "correctExplanation": "'Le' is the masculine singular direct object pronoun replacing 'le rapport'. It is placed before the auxiliary 'ai'.",
+      "wrong": [
+        { "answer": "lui", "explanation": "Wrong pronoun: 'lui' is an indirect object pronoun. 'Le rapport' is the direct object of 'remettre'." },
+        { "answer": "l'", "explanation": "Wrong form: elision to 'l'' only occurs before a vowel. Before 'ai', we would actually write 'l'ai', so 'le' and 'l'' are both acceptable here." },
+        { "answer": "la", "explanation": "Wrong gender: 'rapport' is masculine, so the pronoun is 'le', not 'la'." }
+      ]
+    },
+    {
+      "id": "M1-PREP-260",
+      "module": "Mod 1",
+      "topic": "Prepositions",
+      "difficulty": "Medium",
+      "stem": "Le briefing commence ______ huit heures précises.",
+      "correct": "à",
+      "correctExplanation": "'À' is the preposition used with specific times in French: 'à huit heures' = at eight o'clock.",
+      "wrong": [
+        { "answer": "en", "explanation": "Wrong preposition: 'en' is used with months and years, not clock times." },
+        { "answer": "dans", "explanation": "Wrong meaning: 'dans huit heures' would mean 'in eight hours' (from now), not 'at eight o'clock'." },
+        { "answer": "pour", "explanation": "Wrong preposition: 'pour' is not used to express a specific clock time." }
+      ]
+    },
+    {
+      "id": "M1-COMP-261",
+      "module": "Mod 1",
+      "topic": "Comparisons",
+      "difficulty": "Hard",
+      "stem": "Ce peloton est ______ discipliné que le nôtre.",
+      "correct": "moins",
+      "correctExplanation": "'Moins...que' expresses the comparative of inferiority: 'less...than'.",
+      "wrong": [
+        { "answer": "le moins", "explanation": "Wrong structure: 'le moins' is the superlative ('the least'), not the comparative. Comparatives don't use 'le'." },
+        { "answer": "moindre", "explanation": "Wrong usage: 'moindre' is the comparative of 'petit' or means 'lesser', not a general comparative adverb." },
+        { "answer": "aussi", "explanation": "Wrong meaning: 'aussi...que' expresses equality ('as...as'), not inferiority." }
+      ]
+    },
+    {
+      "id": "M2-QUEST-262",
+      "module": "Mod 2",
+      "topic": "Interrogatives",
+      "difficulty": "Medium",
+      "stem": "______ de ces deux itinéraires préférez-vous pour le convoi?",
+      "correct": "Lequel",
+      "correctExplanation": "'Lequel' (which one) is the masculine singular interrogative pronoun used when choosing between specific options.",
+      "wrong": [
+        { "answer": "Quel", "explanation": "Wrong function: 'quel' is an adjective and must precede a noun. Here, a pronoun is needed because no noun follows." },
+        { "answer": "Laquelle", "explanation": "Wrong gender: 'itinéraire' is masculine, so the masculine form 'lequel' is needed." },
+        { "answer": "Lesquels", "explanation": "Wrong number: the question asks which ONE of the two, so the singular 'lequel' is correct." }
+      ]
+    },
+    {
+      "id": "M2-ADV-263",
+      "module": "Mod 2",
+      "topic": "Adverbs",
+      "difficulty": "Easy",
+      "stem": "Les recrues marchent ______ pendant l'entraînement.",
+      "correct": "lentement",
+      "correctExplanation": "'Lentement' (slowly) is an adverb formed from 'lent' + '-ement'. It modifies the verb 'marchent'.",
+      "wrong": [
+        { "answer": "lent", "explanation": "Wrong form: the adjective 'lent' cannot modify a verb; the adverb form 'lentement' is needed." },
+        { "answer": "lente", "explanation": "Wrong form: 'lente' is the feminine adjective, not an adverb." },
+        { "answer": "lents", "explanation": "Wrong form: 'lents' is the masculine plural adjective, not an adverb." }
+      ]
+    },
+    {
+      "id": "M2-CONJ-264",
+      "module": "Mod 2",
+      "topic": "Present Conjugation",
+      "difficulty": "Medium",
+      "stem": "Nous ______ à la base de Valcartier depuis trois ans.",
+      "correct": "servons",
+      "correctExplanation": "'Servir' with 'nous' in the present tense is 'servons'. With 'depuis', the present tense expresses an action that started in the past and continues.",
+      "wrong": [
+        { "answer": "servions", "explanation": "Wrong tense: the imparfait is not used with 'depuis' for an ongoing action; the present tense is required." },
+        { "answer": "avons servi", "explanation": "Wrong tense: the passé composé with 'depuis' implies the action has ended, but the context suggests it continues." },
+        { "answer": "servirons", "explanation": "Wrong tense: the future tense does not match the ongoing present situation indicated by 'depuis trois ans'." }
+      ]
+    },
+    {
+      "id": "M2-Y-265",
+      "module": "Mod 2",
+      "topic": "Y / Place Pronouns",
+      "difficulty": "Easy",
+      "stem": "Tu vas au gymnase ce soir? — Oui, j'______ vais après le souper.",
+      "correct": "y",
+      "correctExplanation": "'Y' replaces 'au gymnase' (a place introduced by 'à'). 'J'y vais' = I'm going there.",
+      "wrong": [
+        { "answer": "en", "explanation": "Wrong pronoun: 'en' replaces 'de + noun', not 'à + noun'. The place 'au gymnase' uses 'à'." },
+        { "answer": "là", "explanation": "Wrong form: 'là' is a stressed adverb of place; the unstressed pronoun 'y' is needed before the verb." },
+        { "answer": "le", "explanation": "Wrong pronoun: 'le' is a direct object pronoun and cannot replace a place introduced by 'à'." }
+      ]
+    },
+    {
+      "id": "M2-REL-266",
+      "module": "Mod 2",
+      "topic": "Relative Pronouns",
+      "difficulty": "Hard",
+      "stem": "La base ______ je suis affecté se trouve au Nouveau-Brunswick.",
+      "correct": "où",
+      "correctExplanation": "'Où' is used as a relative pronoun for places. 'La base où je suis affecté' = the base where I am posted.",
+      "wrong": [
+        { "answer": "que", "explanation": "Wrong pronoun: 'que' replaces direct objects, not locations. 'Être affecté à un lieu' requires 'où'." },
+        { "answer": "qui", "explanation": "Wrong pronoun: 'qui' replaces subjects, but 'base' is the place, not the subject of 'suis affecté'." },
+        { "answer": "dont", "explanation": "Wrong pronoun: 'dont' replaces 'de + noun', but 'être affecté à' uses the preposition 'à', not 'de'." }
+      ]
+    },
+    {
+      "id": "M2-DEPUIS-267",
+      "module": "Mod 2",
+      "topic": "Depuis / Ça fait",
+      "difficulty": "Medium",
+      "stem": "______ combien de temps attendez-vous les pièces de rechange?",
+      "correct": "Depuis",
+      "correctExplanation": "'Depuis combien de temps' (for how long / since when) is used to ask about the duration of an ongoing action.",
+      "wrong": [
+        { "answer": "Pendant", "explanation": "Wrong meaning: 'pendant combien de temps' asks about total duration of a completed action, not an ongoing one." },
+        { "answer": "Pour", "explanation": "Wrong usage: 'pour' with time is used for planned future durations, not ongoing actions." },
+        { "answer": "Il y a", "explanation": "Wrong structure: 'il y a' means 'ago' and refers to a point in the past, not a duration." }
+      ]
+    },
+    {
+      "id": "M2-PREP-268",
+      "module": "Mod 2",
+      "topic": "Prepositions with Places",
+      "difficulty": "Hard",
+      "stem": "Notre unité sera déployée ______ Lettonie l'an prochain.",
+      "correct": "en",
+      "correctExplanation": "'En' is used with feminine countries. 'Lettonie' (Latvia) is feminine, so 'en Lettonie' is correct.",
+      "wrong": [
+        { "answer": "au", "explanation": "Wrong gender: 'au' is used with masculine countries. 'Lettonie' is feminine." },
+        { "answer": "à la", "explanation": "Wrong structure: 'à la' is not used with country names; 'en' is the preposition for feminine countries." },
+        { "answer": "dans la", "explanation": "Wrong structure: 'dans la' is not the standard preposition with country names; use 'en' for feminine countries." }
+      ]
+    },
+    {
+      "id": "M3-CONJ-269",
+      "module": "Mod 3",
+      "topic": "Present Conjugation",
+      "difficulty": "Easy",
+      "stem": "Je ______ mes bottes militaires tous les dimanches.",
+      "correct": "nettoie",
+      "correctExplanation": "'Nettoyer' changes 'y' to 'i' before mute endings. With 'je', the form is 'nettoie'.",
+      "wrong": [
+        { "answer": "nettoye", "explanation": "Wrong spelling: -yer verbs change 'y' to 'i' before mute 'e'. The correct form is 'nettoie'." },
+        { "answer": "nettoyons", "explanation": "Wrong person: 'nettoyons' is for 'nous', not 'je'." },
+        { "answer": "nettois", "explanation": "Wrong form: this is not a valid conjugation of 'nettoyer'." }
+      ]
+    },
+    {
+      "id": "M3-PREP-270",
+      "module": "Mod 3",
+      "topic": "Verb + Preposition",
+      "difficulty": "Medium",
+      "stem": "Le sergent a commencé ______ distribuer les rations.",
+      "correct": "à",
+      "correctExplanation": "'Commencer à + infinitive' means 'to begin to do something'. The preposition 'à' is required after 'commencer'.",
+      "wrong": [
+        { "answer": "de", "explanation": "Tricky: 'commencer de' exists in literary French but 'commencer à' is the standard modern form." },
+        { "answer": "pour", "explanation": "Wrong preposition: 'pour' is not used after 'commencer' with an infinitive." },
+        { "answer": "—", "explanation": "Wrong: 'commencer' requires a preposition before an infinitive; it is not a direct-infinitive verb." }
+      ]
+    },
+    {
+      "id": "M3-SAV-271",
+      "module": "Mod 3",
+      "topic": "Savoir vs Connaître",
+      "difficulty": "Hard",
+      "stem": "Vous ______ utiliser ce système de communication?",
+      "correct": "savez",
+      "correctExplanation": "'Savoir + infinitive' means 'to know how to do something'. 'Connaître' cannot be followed by an infinitive.",
+      "wrong": [
+        { "answer": "connaissez", "explanation": "Wrong verb: 'connaître' expresses familiarity with a person/place/thing, not knowing how to do something." },
+        { "answer": "pouvez", "explanation": "Different meaning: 'pouvoir' means 'can/to be able to' (ability/permission), while 'savoir' means 'to know how to' (acquired skill)." },
+        { "answer": "savons", "explanation": "Wrong person: 'savons' is for 'nous', not 'vous'." }
+      ]
+    },
+    {
+      "id": "M3-TIME-272",
+      "module": "Mod 3",
+      "topic": "Time Expressions",
+      "difficulty": "Easy",
+      "stem": "La cérémonie a lieu ______ mardi prochain.",
+      "correct": "—",
+      "correctExplanation": "No preposition is needed before days of the week in French when referring to a specific day: 'mardi prochain' (next Tuesday).",
+      "wrong": [
+        { "answer": "à", "explanation": "Wrong: 'à' is not used before days of the week in French." },
+        { "answer": "en", "explanation": "Wrong: 'en' is used with months and years, not days of the week." },
+        { "answer": "sur", "explanation": "Wrong: 'sur' is not used before days of the week in French." }
+      ]
+    },
+    {
+      "id": "M3-PASS-273",
+      "module": "Mod 3",
+      "topic": "Passive Voice",
+      "difficulty": "Medium",
+      "stem": "Les recrues ______ évaluées par leurs instructeurs chaque mois.",
+      "correct": "sont",
+      "correctExplanation": "The present passive is 'être + past participle'. 'Sont évaluées' (are evaluated) agrees with the feminine plural subject.",
+      "wrong": [
+        { "answer": "ont", "explanation": "Wrong auxiliary: the passive voice uses 'être', not 'avoir'. 'Ont évaluées' would be incorrect." },
+        { "answer": "seront", "explanation": "Wrong tense: the future 'seront évaluées' does not match 'chaque mois' which implies a current habit." },
+        { "answer": "étaient", "explanation": "Wrong tense: 'étaient évaluées' (imparfait passif) implies a past habit, but context suggests a current one." }
+      ]
+    },
+    {
+      "id": "M3-OBJ-274",
+      "module": "Mod 3",
+      "topic": "Indirect Object Pronouns",
+      "difficulty": "Hard",
+      "stem": "Le capitaine a parlé aux soldats et ______ a expliqué la mission.",
+      "correct": "leur",
+      "correctExplanation": "'Leur' is the indirect object pronoun replacing 'aux soldats'. 'Expliquer quelque chose à quelqu'un' takes an indirect object.",
+      "wrong": [
+        { "answer": "les", "explanation": "Wrong pronoun type: 'les' is a direct object pronoun, but 'expliquer à quelqu'un' requires an indirect object." },
+        { "answer": "lui", "explanation": "Wrong number: 'lui' is singular, but 'aux soldats' is plural, requiring 'leur'." },
+        { "answer": "y", "explanation": "Wrong pronoun: 'y' replaces places or 'à + thing', not 'à + person'." }
+      ]
+    },
+    {
+      "id": "M4-IMP-275",
+      "module": "Mod 4",
+      "topic": "Imperative",
+      "difficulty": "Easy",
+      "stem": "______ vos armes avant de quitter le champ de tir!",
+      "correct": "Vérifiez",
+      "correctExplanation": "The imperative 'vous' form of 'vérifier' is 'vérifiez' (check/verify). It is identical to the present indicative 'vous' form.",
+      "wrong": [
+        { "answer": "Vérifie", "explanation": "Wrong form: 'vérifie' is the 'tu' imperative, but the context (military order) calls for the formal 'vous' form." },
+        { "answer": "Vérifier", "explanation": "Wrong form: the infinitive cannot be used as a direct command to a person in this context." },
+        { "answer": "Vérifions", "explanation": "Wrong person: 'vérifions' is the 'nous' imperative (let's check), but the order is directed at others." }
+      ]
+    },
+    {
+      "id": "M4-OBJ-276",
+      "module": "Mod 4",
+      "topic": "Object Pronouns + Word Order",
+      "difficulty": "Hard",
+      "stem": "Ne ______ donnez pas ces informations classifiées.",
+      "correct": "leur",
+      "correctExplanation": "In negative commands, the pronoun stays before the verb: 'ne leur donnez pas'. 'Leur' replaces the indirect object (à eux/elles).",
+      "wrong": [
+        { "answer": "les", "explanation": "Wrong pronoun: 'les' is a direct object pronoun, but 'donner à quelqu'un' requires 'leur' (indirect)." },
+        { "answer": "lui", "explanation": "Wrong number: 'lui' is singular; the context implies a plural recipient." },
+        { "answer": "y", "explanation": "Wrong pronoun: 'y' cannot replace people as indirect objects." }
+      ]
+    },
+    {
+      "id": "M4-SI-277",
+      "module": "Mod 4",
+      "topic": "Si Clauses",
+      "difficulty": "Medium",
+      "stem": "Si tu ______ le temps, passe à l'armurerie chercher les pièces.",
+      "correct": "as",
+      "correctExplanation": "First conditional (real possibility): 'si + present indicative' (as) + imperative (passe). 'As' is the present tense of 'avoir' for 'tu'.",
+      "wrong": [
+        { "answer": "avais", "explanation": "Wrong tense: 'si + imparfait' would require a conditional in the main clause, not an imperative." },
+        { "answer": "auras", "explanation": "Wrong tense: 'si' cannot be followed by the future tense in French." },
+        { "answer": "aurais", "explanation": "Wrong tense: 'si' cannot be followed by the conditional." }
+      ]
+    },
+    {
+      "id": "M4-REP-278",
+      "module": "Mod 4",
+      "topic": "Reported Speech",
+      "difficulty": "Medium",
+      "stem": "Le médecin m'a dit ______ ne pas courir pendant deux semaines.",
+      "correct": "de",
+      "correctExplanation": "Reported commands use 'dire de + infinitive'. 'M'a dit de ne pas courir' = told me not to run.",
+      "wrong": [
+        { "answer": "que", "explanation": "Wrong structure: 'dire que' introduces a statement, not a command. A command uses 'dire de + infinitive'." },
+        { "answer": "à", "explanation": "Wrong preposition: 'dire à quelqu'un de faire' uses 'de' before the infinitive, not 'à'." },
+        { "answer": "pour", "explanation": "Wrong preposition: 'pour' is not used after 'dire' to report a command." }
+      ]
+    },
+    {
+      "id": "M4-AGR-279",
+      "module": "Mod 4",
+      "topic": "Agreement with Past Participles",
+      "difficulty": "Hard",
+      "stem": "Les lettres que j'ai ______ étaient adressées au bureau du colonel.",
+      "correct": "reçues",
+      "correctExplanation": "With 'avoir', the past participle agrees with the preceding direct object. 'Les lettres' (f.pl.) precedes, so 'reçues' is correct.",
+      "wrong": [
+        { "answer": "reçu", "explanation": "Wrong agreement: the direct object 'les lettres' precedes the verb, so the past participle must agree (f.pl.)." },
+        { "answer": "reçue", "explanation": "Wrong number: 'reçue' is feminine singular, but 'les lettres' is feminine plural." },
+        { "answer": "reçus", "explanation": "Wrong gender: 'reçus' is masculine plural, but 'lettres' is feminine." }
+      ]
+    },
+    {
+      "id": "M4-DATE-280",
+      "module": "Mod 4",
+      "topic": "Dates and Time",
+      "difficulty": "Easy",
+      "stem": "L'opération a commencé ______ 15 mars 2024.",
+      "correct": "le",
+      "correctExplanation": "French uses the definite article 'le' before dates: 'le 15 mars' (on March 15th).",
+      "wrong": [
+        { "answer": "en", "explanation": "Wrong usage: 'en' is used with months alone or years, not with a full date including the day number." },
+        { "answer": "au", "explanation": "Wrong form: 'au' is not used before dates in French." },
+        { "answer": "à", "explanation": "Wrong preposition: 'à' is used with clock times, not calendar dates." }
+      ]
+    },
+    {
+      "id": "M5-SI-281",
+      "module": "Mod 5",
+      "topic": "Si Clauses",
+      "difficulty": "Hard",
+      "stem": "Si les renforts ______ arrivés à temps, nous n'aurions pas perdu le terrain.",
+      "correct": "étaient",
+      "correctExplanation": "Third conditional: 'si + plus-que-parfait' (étaient arrivés) + conditionnel passé (n'aurions pas perdu).",
+      "wrong": [
+        { "answer": "seraient", "explanation": "Wrong: 'si' cannot be followed by the conditional in French." },
+        { "answer": "sont", "explanation": "Wrong tense: the passé composé after 'si' does not work with a conditionnel passé main clause." },
+        { "answer": "avaient", "explanation": "Wrong auxiliary: 'arriver' uses 'être' as its auxiliary, not 'avoir'." }
+      ]
+    },
+    {
+      "id": "M5-PREP-282",
+      "module": "Mod 5",
+      "topic": "Prepositions / Location",
+      "difficulty": "Easy",
+      "stem": "Les provisions sont ______ le hangar numéro trois.",
+      "correct": "dans",
+      "correctExplanation": "'Dans' (in/inside) is used to indicate location inside a building or enclosed space.",
+      "wrong": [
+        { "answer": "en", "explanation": "Wrong usage: 'en' is not typically used with specific buildings; 'dans' is more precise for enclosed spaces." },
+        { "answer": "à", "explanation": "Wrong nuance: 'à' indicates general location but 'dans' is needed for 'inside' a specific building." },
+        { "answer": "sur", "explanation": "Wrong meaning: 'sur' (on) implies on top of, not inside." }
+      ]
+    },
+    {
+      "id": "M5-VERB-283",
+      "module": "Mod 5",
+      "topic": "Verb + Preposition",
+      "difficulty": "Medium",
+      "stem": "Le colonel a insisté ______ accompagner les troupes sur le terrain.",
+      "correct": "pour",
+      "correctExplanation": "'Insister pour + infinitive' means 'to insist on doing something'.",
+      "wrong": [
+        { "answer": "à", "explanation": "Wrong preposition: 'insister' takes 'pour' before an infinitive, not 'à'." },
+        { "answer": "de", "explanation": "Wrong preposition: 'insister de' is not standard French." },
+        { "answer": "sur", "explanation": "Wrong preposition with infinitive: 'insister sur' is used with a noun ('insister sur un point'), not an infinitive." }
+      ]
+    },
+    {
+      "id": "M5-NEG-284",
+      "module": "Mod 5",
+      "topic": "Negation",
+      "difficulty": "Medium",
+      "stem": "______ n'est venu au rassemblement ce matin.",
+      "correct": "Personne",
+      "correctExplanation": "'Personne ne...' means 'nobody'. When 'personne' is the subject, it comes first and 'ne' follows before the verb.",
+      "wrong": [
+        { "answer": "Rien", "explanation": "Wrong meaning: 'rien' means 'nothing', not 'nobody'. We need a word referring to people." },
+        { "answer": "Aucun", "explanation": "Wrong form: 'aucun' requires a noun after it (e.g., 'aucun soldat'), not used alone as a subject here." },
+        { "answer": "Jamais", "explanation": "Wrong meaning: 'jamais' means 'never' and cannot serve as the subject of the sentence." }
+      ]
+    },
+    {
+      "id": "M5-PASS-285",
+      "module": "Mod 5",
+      "topic": "Passive Voice",
+      "difficulty": "Hard",
+      "stem": "Tous les véhicules ______ inspectés avant chaque mission.",
+      "correct": "doivent être",
+      "correctExplanation": "'Devoir être + past participle' expresses obligation in the passive voice: 'must be inspected'.",
+      "wrong": [
+        { "answer": "doivent avoir", "explanation": "Wrong auxiliary: the passive voice uses 'être', not 'avoir'." },
+        { "answer": "sont devoir", "explanation": "Wrong structure: the modal 'devoir' must be conjugated first, followed by 'être + participe passé'." },
+        { "answer": "devront", "explanation": "Incomplete: 'devront' alone without 'être' cannot form the passive construction." }
+      ]
+    },
+    {
+      "id": "M5-Y-286",
+      "module": "Mod 5",
+      "topic": "Y / Place Pronouns",
+      "difficulty": "Easy",
+      "stem": "Tu penses à ton affectation? — Oui, j'______ pense souvent.",
+      "correct": "y",
+      "correctExplanation": "'Y' replaces 'à + thing/abstract noun'. 'Penser à quelque chose' becomes 'y penser'.",
+      "wrong": [
+        { "answer": "en", "explanation": "Wrong pronoun: 'en' replaces 'de + noun', not 'à + noun'." },
+        { "answer": "elle", "explanation": "Wrong form: stressed pronouns after 'à' are used for people, not things. 'Affectation' is a thing." },
+        { "answer": "la", "explanation": "Wrong pronoun: 'la' is a direct object pronoun, but 'penser à' requires the pronoun 'y'." }
+      ]
+    },
+    {
+      "id": "M5-REL-287",
+      "module": "Mod 5",
+      "topic": "Relative Pronouns",
+      "difficulty": "Hard",
+      "stem": "Le camp ______ les troupes ont été déployées se situe près de la frontière.",
+      "correct": "dans lequel",
+      "correctExplanation": "'Dans lequel' (in which) is the relative pronoun used after the preposition 'dans' with a masculine singular antecedent.",
+      "wrong": [
+        { "answer": "où", "explanation": "Close but less precise: 'où' can replace 'dans lequel' for places, but 'dans lequel' is more formal and precise." },
+        { "answer": "que", "explanation": "Wrong: 'que' cannot follow a preposition and does not convey 'in which'." },
+        { "answer": "dont", "explanation": "Wrong preposition: 'dont' replaces 'de + noun', not 'dans + noun'." }
+      ]
+    },
+    {
+      "id": "M5-ADV-288",
+      "module": "Mod 5",
+      "topic": "Adverbs",
+      "difficulty": "Medium",
+      "stem": "Le lieutenant parle ______ bien le français que l'anglais.",
+      "correct": "aussi",
+      "correctExplanation": "'Aussi...que' expresses equality in comparisons: 'as well...as'.",
+      "wrong": [
+        { "answer": "autant", "explanation": "Wrong form: 'autant' is used with nouns ('autant de') or verbs, not with adverbs/adjectives." },
+        { "answer": "plus", "explanation": "Wrong meaning: 'plus...que' means 'more...than', not 'as well as'." },
+        { "answer": "si", "explanation": "Close but wrong context: 'si...que' for equality is only used in negative sentences in formal French." }
+      ]
+    },
+    {
+      "id": "M6-FUT-289",
+      "module": "Mod 6",
+      "topic": "Future Time Expressions",
+      "difficulty": "Easy",
+      "stem": "L'exercice de tir ______ lieu la semaine prochaine.",
+      "correct": "aura",
+      "correctExplanation": "'Avoir lieu' means 'to take place'. With a future time marker ('la semaine prochaine'), the futur simple 'aura' is used.",
+      "wrong": [
+        { "answer": "a", "explanation": "Wrong tense: the present tense 'a' does not match the future time marker 'la semaine prochaine'." },
+        { "answer": "avait", "explanation": "Wrong tense: the imparfait 'avait' refers to the past, not the future." },
+        { "answer": "aurait", "explanation": "Wrong mood: the conditional 'aurait' expresses a hypothetical situation, not a planned future event." }
+      ]
+    },
+    {
+      "id": "M6-OBJ-290",
+      "module": "Mod 6",
+      "topic": "Direct Object Pronouns",
+      "difficulty": "Medium",
+      "stem": "Cette carte topographique, est-ce que tu ______ as étudiée?",
+      "correct": "l'",
+      "correctExplanation": "'L'' is the elided form of 'la' before a vowel. It replaces the feminine singular direct object 'cette carte topographique'. The participle agrees: 'étudiée'.",
+      "wrong": [
+        { "answer": "le", "explanation": "Wrong gender: 'carte' is feminine, so the pronoun is 'la' (elided to 'l''), not 'le'." },
+        { "answer": "les", "explanation": "Wrong number: 'cette carte' is singular, so the plural 'les' is incorrect." },
+        { "answer": "en", "explanation": "Wrong pronoun: 'en' replaces 'de + noun' or partitive expressions, not a definite direct object." }
+      ]
+    },
+    {
+      "id": "M6-VENIR-291",
+      "module": "Mod 6",
+      "topic": "Venir de + Infinitive",
+      "difficulty": "Easy",
+      "stem": "Les soldats ______ de terminer leur patrouille de nuit.",
+      "correct": "viennent",
+      "correctExplanation": "'Venir de + infinitive' expresses the recent past (just did something). With 'les soldats' (ils), the present form is 'viennent'.",
+      "wrong": [
+        { "answer": "venaient", "explanation": "Wrong tense: the imparfait 'venaient de' means 'had just' and shifts the recent past further back." },
+        { "answer": "viendront", "explanation": "Wrong tense: the future 'viendront de' does not express the recent past." },
+        { "answer": "sont venus", "explanation": "Wrong structure: 'sont venus de' is the passé composé of 'venir' + 'de', not the recent past construction." }
+      ]
+    },
+    {
+      "id": "M6-CONJ-292",
+      "module": "Mod 6",
+      "topic": "Conjunctions",
+      "difficulty": "Medium",
+      "stem": "Nous attendrons ici ______ le commandant nous donne l'ordre de partir.",
+      "correct": "jusqu'à ce que",
+      "correctExplanation": "'Jusqu'à ce que' (until) is a conjunction followed by the subjunctive. 'Donne' is the subjunctive form here.",
+      "wrong": [
+        { "answer": "pendant que", "explanation": "Wrong meaning: 'pendant que' (while) expresses simultaneity, not 'until'." },
+        { "answer": "depuis que", "explanation": "Wrong meaning: 'depuis que' (since) indicates a starting point, not an endpoint." },
+        { "answer": "après que", "explanation": "Wrong meaning: 'après que' (after) indicates sequence, not waiting until an event occurs." }
+      ]
+    },
+    {
+      "id": "M6-COMP-293",
+      "module": "Mod 6",
+      "topic": "Comparisons",
+      "difficulty": "Hard",
+      "stem": "Ce nouvel équipement est ______ que l'ancien.",
+      "correct": "meilleur",
+      "correctExplanation": "'Meilleur' is the irregular comparative of 'bon'. 'Plus bon' is incorrect in French.",
+      "wrong": [
+        { "answer": "plus bon", "explanation": "Wrong form: 'bon' has an irregular comparative. 'Meilleur' must be used instead of 'plus bon'." },
+        { "answer": "mieux", "explanation": "Wrong function: 'mieux' is the comparative of the adverb 'bien', not the adjective 'bon'." },
+        { "answer": "le meilleur", "explanation": "Wrong degree: 'le meilleur' is the superlative ('the best'), not the comparative ('better')." }
+      ]
+    },
+    {
+      "id": "M6-PREP-294",
+      "module": "Mod 6",
+      "topic": "Prepositions",
+      "difficulty": "Easy",
+      "stem": "Le char d'assaut est stationné ______ côté du bâtiment principal.",
+      "correct": "à",
+      "correctExplanation": "'À côté de' (next to/beside) is a prepositional phrase of location.",
+      "wrong": [
+        { "answer": "au", "explanation": "Wrong form: 'au' (à + le) would make 'au côté de' which means 'at the side of' in a figurative sense. 'À côté de' is the locative expression." },
+        { "answer": "de", "explanation": "Wrong preposition: 'de côté' means 'aside/to the side', changing the meaning entirely." },
+        { "answer": "en", "explanation": "Wrong preposition: 'en côté' is not a valid French expression." }
+      ]
+    },
+    {
+      "id": "M6-VERB-295",
+      "module": "Mod 6",
+      "topic": "Verb Construction",
+      "difficulty": "Hard",
+      "stem": "Le général a fait ______ les troupes à 0500 heures.",
+      "correct": "rassembler",
+      "correctExplanation": "'Faire + infinitive' is the causative construction: 'a fait rassembler les troupes' = had the troops assembled/gathered.",
+      "wrong": [
+        { "answer": "rassemblé", "explanation": "Wrong form: after 'faire', the infinitive is required, not the past participle." },
+        { "answer": "rassemblant", "explanation": "Wrong form: the present participle cannot follow 'faire' in the causative construction." },
+        { "answer": "rassemblement", "explanation": "Wrong form: a noun cannot replace the infinitive in the causative 'faire + infinitive'." }
+      ]
+    },
+    {
+      "id": "M7-REL-296",
+      "module": "Mod 7",
+      "topic": "Relative Pronouns",
+      "difficulty": "Medium",
+      "stem": "La raison pour ______ l'exercice a été annulé reste inconnue.",
+      "correct": "laquelle",
+      "correctExplanation": "'Pour laquelle' (for which) uses the feminine form 'laquelle' to agree with 'la raison' (feminine singular).",
+      "wrong": [
+        { "answer": "lequel", "explanation": "Wrong gender: 'raison' is feminine, so the masculine 'lequel' is incorrect." },
+        { "answer": "quoi", "explanation": "Wrong register: 'pour quoi' would be informal/non-standard in a relative clause; 'pour laquelle' is correct." },
+        { "answer": "que", "explanation": "Wrong structure: 'que' cannot follow a preposition in a relative clause; 'laquelle' is needed after 'pour'." }
+      ]
+    },
+    {
+      "id": "M7-PREP-297",
+      "module": "Mod 7",
+      "topic": "Prepositions",
+      "difficulty": "Easy",
+      "stem": "Le sous-officier est responsable ______ l'entretien du matériel.",
+      "correct": "de",
+      "correctExplanation": "'Responsable de' (responsible for) is a fixed expression requiring the preposition 'de'.",
+      "wrong": [
+        { "answer": "pour", "explanation": "Wrong preposition: although English uses 'responsible for', French uses 'responsable de', not 'pour'." },
+        { "answer": "à", "explanation": "Wrong preposition: 'responsable à' is not a valid French construction." },
+        { "answer": "en", "explanation": "Wrong preposition: 'responsable en' is not standard French." }
+      ]
+    },
+    {
+      "id": "M7-VERB-298",
+      "module": "Mod 7",
+      "topic": "Verb + Preposition",
+      "difficulty": "Medium",
+      "stem": "Nous nous sommes engagés ______ respecter les règles d'engagement.",
+      "correct": "à",
+      "correctExplanation": "'S'engager à + infinitive' means 'to commit to doing something'. The preposition 'à' is required.",
+      "wrong": [
+        { "answer": "de", "explanation": "Wrong preposition: 's'engager' takes 'à', not 'de', before an infinitive." },
+        { "answer": "pour", "explanation": "Wrong preposition: 'pour' is not the correct preposition after 's'engager' with an infinitive." },
+        { "answer": "en", "explanation": "Wrong preposition: 'en' is not used after 's'engager' before an infinitive." }
+      ]
+    },
+    {
+      "id": "M7-ART-299",
+      "module": "Mod 7",
+      "topic": "Articles / Gender",
+      "difficulty": "Easy",
+      "stem": "______ sentinelle a signalé un mouvement suspect près du périmètre.",
+      "correct": "La",
+      "correctExplanation": "'Sentinelle' is always feminine in French regardless of the person's gender, so it takes 'la'.",
+      "wrong": [
+        { "answer": "Le", "explanation": "Wrong gender: 'sentinelle' is a feminine noun in French, even when referring to a male soldier." },
+        { "answer": "Un", "explanation": "Wrong article type and gender: the sentence refers to a specific sentinel, and 'sentinelle' is feminine." },
+        { "answer": "Une", "explanation": "Wrong article type: the context implies a specific sentinel (the one on duty), requiring the definite article." }
+      ]
+    },
+    {
+      "id": "M7-COMP-300",
+      "module": "Mod 7",
+      "topic": "Comparisons",
+      "difficulty": "Hard",
+      "stem": "Plus l'ennemi avance, ______ notre situation devient difficile.",
+      "correct": "plus",
+      "correctExplanation": "'Plus...plus...' is a correlative comparative meaning 'the more...the more...'. Both clauses use 'plus'.",
+      "wrong": [
+        { "answer": "moins", "explanation": "Wrong logic: 'plus...moins' would mean 'the more...the less', but the sentence implies increasing difficulty." },
+        { "answer": "autant", "explanation": "Wrong structure: 'autant' cannot be used in a correlative comparative with 'plus'." },
+        { "answer": "le plus", "explanation": "Wrong structure: the superlative form is not used in correlative comparatives." }
+      ]
+    },
+    {
+      "id": "M7-SI-301",
+      "module": "Mod 7",
+      "topic": "Si Clauses",
+      "difficulty": "Medium",
+      "stem": "Si j'______ le commandant, je changerais cette procédure.",
+      "correct": "étais",
+      "correctExplanation": "Second conditional (present unreal): 'si + imparfait' (étais) + conditionnel présent (changerais).",
+      "wrong": [
+        { "answer": "serais", "explanation": "Wrong tense: 'si' cannot be followed by the conditional in French. The imparfait is required." },
+        { "answer": "suis", "explanation": "Wrong tense: 'si + present' would require a present or future in the main clause, not a conditional." },
+        { "answer": "avais été", "explanation": "Wrong tense: 'si + plus-que-parfait' is for past unreal conditions, not present unreal." }
+      ]
+    },
+    {
+      "id": "M7-CONJ-302",
+      "module": "Mod 7",
+      "topic": "Conjunctions",
+      "difficulty": "Hard",
+      "stem": "______ il pleuve ou qu'il fasse beau, l'exercice aura lieu.",
+      "correct": "Que",
+      "correctExplanation": "'Que...ou que...' (whether...or...) is a concessive construction that takes the subjunctive.",
+      "wrong": [
+        { "answer": "Si", "explanation": "Wrong structure: 'si' does not take the subjunctive and is not used in 'whether...or' constructions with subjunctive." },
+        { "answer": "Quand", "explanation": "Wrong meaning: 'quand' (when) does not express the 'whether...or' alternative." },
+        { "answer": "Comme", "explanation": "Wrong meaning: 'comme' (as/since) does not express the 'whether...or' alternative." }
+      ]
+    },
+    {
+      "id": "M8-PC-303",
+      "module": "Mod 8",
+      "topic": "Passé composé",
+      "difficulty": "Easy",
+      "stem": "Les soldats ______ rentrés à la base hier soir.",
+      "correct": "sont",
+      "correctExplanation": "'Rentrer' uses 'être' as its auxiliary in the passé composé. 'Sont rentrés' agrees with the masculine plural subject.",
+      "wrong": [
+        { "answer": "ont", "explanation": "Wrong auxiliary: 'rentrer' is a verb of movement that uses 'être', not 'avoir', in the passé composé." },
+        { "answer": "étaient", "explanation": "Wrong tense: 'étaient rentrés' is the plus-que-parfait, but 'hier soir' calls for the passé composé." },
+        { "answer": "avaient", "explanation": "Wrong auxiliary and tense: 'rentrer' uses 'être', and 'hier soir' requires the passé composé." }
+      ]
+    },
+    {
+      "id": "M8-IMP-304",
+      "module": "Mod 8",
+      "topic": "Passé composé vs Imparfait",
+      "difficulty": "Medium",
+      "stem": "Pendant que les recrues ______, l'alarme a retenti.",
+      "correct": "dormaient",
+      "correctExplanation": "The imparfait 'dormaient' describes an ongoing background action interrupted by a sudden event (passé composé 'a retenti').",
+      "wrong": [
+        { "answer": "ont dormi", "explanation": "Wrong tense: the passé composé would present sleeping as a completed action, not as background context." },
+        { "answer": "dorment", "explanation": "Wrong tense: the present tense does not match the past narration." },
+        { "answer": "dormirent", "explanation": "Wrong tense: the passé simple is literary and inconsistent with 'a retenti' (passé composé)." }
+      ]
+    },
+    {
+      "id": "M8-NEG-305",
+      "module": "Mod 8",
+      "topic": "Negation",
+      "difficulty": "Easy",
+      "stem": "Le caporal n'a ______ oublié de vérifier son équipement.",
+      "correct": "jamais",
+      "correctExplanation": "'Ne...jamais' means 'never'. In the passé composé, 'jamais' is placed between the auxiliary and the past participle.",
+      "wrong": [
+        { "answer": "pas", "explanation": "Different meaning: 'n'a pas oublié' means 'did not forget' (this time), while 'n'a jamais oublié' means 'has never forgotten'." },
+        { "answer": "plus", "explanation": "Wrong meaning: 'ne...plus' means 'no longer', not 'never'." },
+        { "answer": "rien", "explanation": "Wrong structure: 'ne...rien' means 'nothing' and cannot modify 'oublié' in this way." }
+      ]
+    },
+    {
+      "id": "M8-COMP-306",
+      "module": "Mod 8",
+      "topic": "Compound Tenses",
+      "difficulty": "Hard",
+      "stem": "Quand nous ______ fini le briefing, nous sommes partis en mission.",
+      "correct": "avons eu",
+      "correctExplanation": "'Quand + passé surcomposé' can express anteriority in spoken French, but here 'avons eu fini' is the passé surcomposé. More commonly, 'avons eu' with past participle marks completion before another past event.",
+      "wrong": [
+        { "answer": "avions", "explanation": "Acceptable alternative: 'avions fini' (plus-que-parfait) also works, but 'avons eu fini' emphasizes immediate anteriority in spoken French." },
+        { "answer": "avons", "explanation": "Wrong tense: 'avons fini' (passé composé) does not clearly express that the briefing ended before the departure." },
+        { "answer": "aurions", "explanation": "Wrong mood: the conditional 'aurions fini' implies a hypothetical completion, not an actual one." }
+      ]
+    },
+    {
+      "id": "M8-OBJ-307",
+      "module": "Mod 8",
+      "topic": "Object Pronouns + Word Order",
+      "difficulty": "Medium",
+      "stem": "Le rapport, je ______ lui ai envoyé par courriel ce matin.",
+      "correct": "le",
+      "correctExplanation": "When both a direct and indirect object pronoun appear, 'le' (direct) comes before 'lui' (indirect): 'je le lui ai envoyé'.",
+      "wrong": [
+        { "answer": "la", "explanation": "Wrong gender: 'rapport' is masculine, so the direct object pronoun is 'le', not 'la'." },
+        { "answer": "l'", "explanation": "Wrong form: before 'lui' (consonant), there is no elision; 'le' remains in full form." },
+        { "answer": "y", "explanation": "Wrong pronoun: 'y' replaces a place or 'à + thing', not a direct object." }
+      ]
+    },
+    {
+      "id": "M8-VERB-308",
+      "module": "Mod 8",
+      "topic": "Verb + Preposition",
+      "difficulty": "Hard",
+      "stem": "Le soldat a tardé ______ répondre à l'appel radio.",
+      "correct": "à",
+      "correctExplanation": "'Tarder à + infinitive' means 'to be slow to / to delay in doing something'. The preposition 'à' is required.",
+      "wrong": [
+        { "answer": "de", "explanation": "Wrong preposition: 'tarder' takes 'à', not 'de', before an infinitive." },
+        { "answer": "pour", "explanation": "Wrong preposition: 'pour' is not the correct preposition after 'tarder'." },
+        { "answer": "en", "explanation": "Wrong preposition: 'en' is not used after 'tarder' with an infinitive." }
+      ]
+    },
+    {
+      "id": "M8-REP-309",
+      "module": "Mod 8",
+      "topic": "Reported Speech",
+      "difficulty": "Medium",
+      "stem": "Il a demandé ______ nous avions terminé la reconnaissance.",
+      "correct": "si",
+      "correctExplanation": "'Si' introduces an indirect yes/no question: 'Il a demandé si...' (He asked whether...).",
+      "wrong": [
+        { "answer": "que", "explanation": "Wrong connector: 'que' introduces reported statements, not reported questions." },
+        { "answer": "quand", "explanation": "Wrong meaning: 'quand' means 'when', changing the reported question from yes/no to a time question." },
+        { "answer": "est-ce que", "explanation": "Wrong form: 'est-ce que' is for direct questions, not indirect reported questions." }
+      ]
+    },
+    {
+      "id": "M8-DEPUIS-310",
+      "module": "Mod 8",
+      "topic": "Depuis / Ça fait",
+      "difficulty": "Easy",
+      "stem": "Ça ______ trois heures que nous attendons les ordres.",
+      "correct": "fait",
+      "correctExplanation": "'Ça fait + duration + que' expresses how long something has been going on. 'Ça fait' is always in the present for ongoing actions.",
+      "wrong": [
+        { "answer": "faisait", "explanation": "Wrong tense: the imparfait 'faisait' would be used for past ongoing duration, but the present 'attendons' shows it is current." },
+        { "answer": "a fait", "explanation": "Wrong tense: the passé composé implies the waiting has ended, but the sentence suggests it continues." },
+        { "answer": "fera", "explanation": "Wrong tense: the future 'fera' does not match an ongoing present action." }
+      ]
+    },
+    {
+      "id": "M9-REL-311",
+      "module": "Mod 9",
+      "topic": "Relative Pronouns",
+      "difficulty": "Medium",
+      "stem": "Le soldat à ______ j'ai confié cette tâche est très compétent.",
+      "correct": "qui",
+      "correctExplanation": "'À qui' is used for people after the preposition 'à'. 'Confier quelque chose à quelqu'un' = to entrust something to someone.",
+      "wrong": [
+        { "answer": "que", "explanation": "Wrong: 'que' cannot follow a preposition and is used as a direct object pronoun." },
+        { "answer": "lequel", "explanation": "Less natural: 'auquel' (à + lequel) is grammatically possible but 'à qui' is preferred for people." },
+        { "answer": "dont", "explanation": "Wrong preposition: 'dont' replaces 'de + noun', not 'à + noun'." }
+      ]
+    },
+    {
+      "id": "M9-CONJ-312",
+      "module": "Mod 9",
+      "topic": "Conjunctions",
+      "difficulty": "Easy",
+      "stem": "Les soldats doivent être ponctuels ______ disciplinés.",
+      "correct": "et",
+      "correctExplanation": "'Et' (and) is the coordinating conjunction linking two parallel adjectives.",
+      "wrong": [
+        { "answer": "ou", "explanation": "Wrong meaning: 'ou' (or) implies a choice, but both qualities are required." },
+        { "answer": "mais", "explanation": "Wrong logic: 'mais' (but) implies contrast, but the two qualities are complementary." },
+        { "answer": "ni", "explanation": "Wrong context: 'ni...ni' is used in negative constructions, but this sentence is affirmative." }
+      ]
+    },
+    {
+      "id": "M9-VERB-313",
+      "module": "Mod 9",
+      "topic": "Verb + Preposition",
+      "difficulty": "Hard",
+      "stem": "Le sergent a empêché les recrues ______ quitter la caserne.",
+      "correct": "de",
+      "correctExplanation": "'Empêcher quelqu'un de + infinitive' means 'to prevent someone from doing something'. The preposition 'de' is required.",
+      "wrong": [
+        { "answer": "à", "explanation": "Wrong preposition: 'empêcher' takes 'de', not 'à', before an infinitive." },
+        { "answer": "pour", "explanation": "Wrong preposition: 'pour' is not the correct preposition after 'empêcher'." },
+        { "answer": "—", "explanation": "Wrong: 'empêcher' requires 'de' before an infinitive; no preposition is not an option." }
+      ]
+    },
+    {
+      "id": "M9-DUR-314",
+      "module": "Mod 9",
+      "topic": "Durations",
+      "difficulty": "Medium",
+      "stem": "L'entraînement de base dure ______ douze semaines.",
+      "correct": "pendant",
+      "correctExplanation": "'Pendant' + duration expresses how long an action lasts. It can be omitted in some contexts, but when present, it clarifies duration.",
+      "wrong": [
+        { "answer": "depuis", "explanation": "Wrong meaning: 'depuis' indicates a starting point ('since'), not the total duration of an activity." },
+        { "answer": "pour", "explanation": "Wrong usage: 'pour' with duration is for planned future stays or trips, not for describing how long something lasts." },
+        { "answer": "en", "explanation": "Wrong meaning: 'en douze semaines' means 'within twelve weeks' (time to complete), not 'for twelve weeks'." }
+      ]
+    },
+    {
+      "id": "M9-PREP-315",
+      "module": "Mod 9",
+      "topic": "Countries / Place Names",
+      "difficulty": "Easy",
+      "stem": "Notre contingent est déployé ______ Haïti pour une mission humanitaire.",
+      "correct": "en",
+      "correctExplanation": "'En' is used with countries that start with a vowel sound, regardless of gender. 'Haïti' starts with a vowel sound (mute h).",
+      "wrong": [
+        { "answer": "au", "explanation": "Wrong: although 'Haïti' is sometimes considered masculine, the mute 'h' means 'en' is preferred." },
+        { "answer": "à", "explanation": "Wrong: 'à' alone is used with cities, not countries." },
+        { "answer": "aux", "explanation": "Wrong: 'aux' is used with plural country names (like 'aux États-Unis'), not singular 'Haïti'." }
+      ]
+    },
+    {
+      "id": "M9-ADV-316",
+      "module": "Mod 9",
+      "topic": "Adverbs",
+      "difficulty": "Medium",
+      "stem": "L'opération s'est déroulée ______ sans incident majeur.",
+      "correct": "globalement",
+      "correctExplanation": "'Globalement' (overall/generally) is an adverb meaning the operation went generally without major incident.",
+      "wrong": [
+        { "answer": "global", "explanation": "Wrong form: the adjective 'global' cannot modify a verb; the adverb 'globalement' is needed." },
+        { "answer": "globale", "explanation": "Wrong form: 'globale' is the feminine adjective, not an adverb." },
+        { "answer": "globaux", "explanation": "Wrong form: 'globaux' is the masculine plural adjective, not an adverb." }
+      ]
+    },
+    {
+      "id": "M9-SI-317",
+      "module": "Mod 9",
+      "topic": "Si Clauses",
+      "difficulty": "Hard",
+      "stem": "Même si nous ______ les effectifs nécessaires, cette mission reste dangereuse.",
+      "correct": "avons",
+      "correctExplanation": "'Même si' + indicative expresses concession. Here the present 'avons' states a real fact: even though we have the numbers, it is still dangerous.",
+      "wrong": [
+        { "answer": "ayons", "explanation": "Wrong mood: 'même si' takes the indicative, not the subjunctive. 'Bien que' would take 'ayons'." },
+        { "answer": "aurions", "explanation": "Wrong tense: the conditional with 'même si' implies a hypothetical, but the sentence presents a real situation." },
+        { "answer": "avions", "explanation": "Wrong tense: the imparfait would imply a hypothetical or past situation, but the present tense context is about now." }
+      ]
+    },
+    {
+      "id": "M9-PREP-318",
+      "module": "Mod 9",
+      "topic": "Prepositions with Places",
+      "difficulty": "Medium",
+      "stem": "Le régiment revient ______ Afghanistan après six mois de déploiement.",
+      "correct": "d'",
+      "correctExplanation": "'D'' (de + elision) is used for returning from masculine countries beginning with a vowel. 'Revenir d'Afghanistan'.",
+      "wrong": [
+        { "answer": "de l'", "explanation": "Wrong form: 'de l'' is not used before country names; simply 'd'' is correct before a vowel." },
+        { "answer": "du", "explanation": "Wrong form: 'du' (de + le) is used when coming from masculine countries starting with a consonant, not a vowel." },
+        { "answer": "de la", "explanation": "Wrong gender: 'de la' would be used with feminine countries, but Afghanistan is masculine." }
+      ]
+    },
+    {
+      "id": "M11-NARR-319",
+      "module": "Mod 11",
+      "topic": "Narration Sequence",
+      "difficulty": "Medium",
+      "stem": "Le convoi ______ depuis deux heures quand l'embuscade a commencé.",
+      "correct": "roulait",
+      "correctExplanation": "The imparfait 'roulait' describes an ongoing background action (the convoy had been driving) interrupted by a sudden event (passé composé 'a commencé').",
+      "wrong": [
+        { "answer": "a roulé", "explanation": "Wrong tense: the passé composé would present the driving as a completed action, not as ongoing background." },
+        { "answer": "roula", "explanation": "Wrong tense: the passé simple is for completed actions and does not convey the ongoing nature." },
+        { "answer": "avait roulé", "explanation": "Wrong aspect: the plus-que-parfait emphasizes a completed action prior to another, not an ongoing one." }
+      ]
+    },
+    {
+      "id": "M11-AGR-320",
+      "module": "Mod 11",
+      "topic": "Agreement with Past Participles",
+      "difficulty": "Hard",
+      "stem": "Elles se sont ______ les mains avant de manger au mess.",
+      "correct": "lavé",
+      "correctExplanation": "In 'se laver les mains', 'les mains' is the direct object and 'se' is the indirect object. The past participle does not agree with an indirect object, so 'lavé' remains invariable.",
+      "wrong": [
+        { "answer": "lavées", "explanation": "Wrong agreement: 'se' is an indirect object here (laver les mains à soi-même), so no agreement with the subject." },
+        { "answer": "lavés", "explanation": "Wrong agreement: 'lavés' would agree with a masculine plural subject, but agreement is incorrect here regardless." },
+        { "answer": "lavée", "explanation": "Wrong agreement: when a body part follows the reflexive verb, the participle does not agree with the subject." }
+      ]
+    },
+    {
+      "id": "M11-IMP-321",
+      "module": "Mod 11",
+      "topic": "Passé composé vs Imparfait",
+      "difficulty": "Easy",
+      "stem": "Quand j'______ jeune, je voulais devenir pilote de chasse.",
+      "correct": "étais",
+      "correctExplanation": "The imparfait 'étais' describes a past state or condition (being young), not a completed action.",
+      "wrong": [
+        { "answer": "ai été", "explanation": "Wrong tense: the passé composé implies a specific, bounded period, but 'being young' is a general state." },
+        { "answer": "suis", "explanation": "Wrong tense: the present 'suis' does not match the past context of wanting to become a fighter pilot." },
+        { "answer": "fus", "explanation": "Wrong tense: the passé simple 'fus' would be literary and implies a specific moment, not a general state." }
+      ]
+    },
+    {
+      "id": "M11-COMP-322",
+      "module": "Mod 11",
+      "topic": "Compound Tenses",
+      "difficulty": "Medium",
+      "stem": "Quand nous étions arrivés, les autres ______ déjà partis.",
+      "correct": "étaient",
+      "correctExplanation": "The plus-que-parfait 'étaient partis' expresses an action completed before another past action. 'Partir' uses 'être'.",
+      "wrong": [
+        { "answer": "avaient", "explanation": "Wrong auxiliary: 'partir' uses 'être' as its auxiliary, not 'avoir'." },
+        { "answer": "sont", "explanation": "Wrong tense: the passé composé 'sont partis' does not express anteriority to another past event." },
+        { "answer": "ont", "explanation": "Wrong auxiliary and tense: 'partir' uses 'être', and the plus-que-parfait is needed for anteriority." }
+      ]
+    },
+    {
+      "id": "M11-NARR-323",
+      "module": "Mod 11",
+      "topic": "Narration Sequence",
+      "difficulty": "Hard",
+      "stem": "Il ______ beau ce jour-là, les oiseaux chantaient, et soudain une explosion a retenti.",
+      "correct": "faisait",
+      "correctExplanation": "The imparfait 'faisait' sets the scene (weather description) before the sudden event. Scene-setting uses the imparfait.",
+      "wrong": [
+        { "answer": "a fait", "explanation": "Wrong tense: the passé composé presents weather as a completed event, but here it is scene-setting background." },
+        { "answer": "fit", "explanation": "Wrong tense: the passé simple would present the weather as a completed narrative action, not background." },
+        { "answer": "ferait", "explanation": "Wrong mood: the conditional implies hypothesis, not narration of a past scene." }
+      ]
+    },
+    {
+      "id": "M11-REP-324",
+      "module": "Mod 11",
+      "topic": "Reported Speech",
+      "difficulty": "Medium",
+      "stem": "Le pilote a confirmé qu'il ______ la cible avant de tirer.",
+      "correct": "avait identifié",
+      "correctExplanation": "In reported speech, the passé composé 'a identifié' shifts to the plus-que-parfait 'avait identifié' after a past reporting verb.",
+      "wrong": [
+        { "answer": "a identifié", "explanation": "Wrong tense: after 'a confirmé' (past), the passé composé must shift to the plus-que-parfait." },
+        { "answer": "identifiait", "explanation": "Wrong tense: the imparfait would be the shift of the present, not the passé composé." },
+        { "answer": "identifierait", "explanation": "Wrong tense: the conditional would be the shift of the future, not the passé composé." }
+      ]
+    },
+    {
+      "id": "M11-VERB-325",
+      "module": "Mod 11",
+      "topic": "Verb + Preposition",
+      "difficulty": "Easy",
+      "stem": "Le colonel a refusé ______ commenter la situation.",
+      "correct": "de",
+      "correctExplanation": "'Refuser de + infinitive' means 'to refuse to do something'. The preposition 'de' is required.",
+      "wrong": [
+        { "answer": "à", "explanation": "Wrong preposition: 'refuser' takes 'de', not 'à', before an infinitive." },
+        { "answer": "pour", "explanation": "Wrong preposition: 'pour' is not the correct preposition after 'refuser'." },
+        { "answer": "—", "explanation": "Wrong: 'refuser' requires the preposition 'de' before an infinitive." }
+      ]
+    },
+    {
+      "id": "M11-AGR-326",
+      "module": "Mod 11",
+      "topic": "Agreement with Past Participles",
+      "difficulty": "Medium",
+      "stem": "Les ordres qu'elle a ______ étaient très clairs.",
+      "correct": "donnés",
+      "correctExplanation": "With 'avoir', the past participle agrees with the preceding direct object 'les ordres' (m.pl.). 'Donnés' is masculine plural.",
+      "wrong": [
+        { "answer": "donné", "explanation": "Wrong agreement: 'les ordres' precedes the verb, so the past participle must agree in gender and number." },
+        { "answer": "donnée", "explanation": "Wrong agreement: 'donnée' is feminine singular, but 'ordres' is masculine plural." },
+        { "answer": "données", "explanation": "Wrong gender: 'données' is feminine plural, but 'ordres' is masculine." }
+      ]
+    },
+    {
+      "id": "M11-CONJ-327",
+      "module": "Mod 11",
+      "topic": "Present Conjugation",
+      "difficulty": "Hard",
+      "stem": "Il faut que nous ______ nos erreurs pour progresser.",
+      "correct": "reconnaissions",
+      "correctExplanation": "'Il faut que' triggers the subjunctive. 'Reconnaissions' is the subjunctive of 'reconnaître' for 'nous'.",
+      "wrong": [
+        { "answer": "reconnaissons", "explanation": "Wrong mood: 'reconnaissons' is the present indicative, but 'il faut que' requires the subjunctive." },
+        { "answer": "reconnaîtrons", "explanation": "Wrong mood: the future indicative cannot follow 'il faut que'." },
+        { "answer": "reconnûmes", "explanation": "Wrong mood and tense: this is the passé simple, not the subjunctive." }
+      ]
+    },
+    {
+      "id": "M11-NARR-328",
+      "module": "Mod 11",
+      "topic": "Narration Sequence",
+      "difficulty": "Easy",
+      "stem": "Ce matin-là, le sergent ______ son café quand le téléphone a sonné.",
+      "correct": "buvait",
+      "correctExplanation": "The imparfait 'buvait' describes an ongoing action (drinking coffee) interrupted by a sudden event (phone rang).",
+      "wrong": [
+        { "answer": "a bu", "explanation": "Wrong tense: the passé composé implies the coffee was finished, but the action was interrupted." },
+        { "answer": "but", "explanation": "Wrong tense: the passé simple is literary and presents a completed action, not an ongoing one." },
+        { "answer": "boit", "explanation": "Wrong tense: the present tense does not match the past narration." }
+      ]
+    },
+    {
+      "id": "M1-CONJ-329",
+      "module": "Mod 1",
+      "topic": "Present Conjugation",
+      "difficulty": "Hard",
+      "stem": "Nous ______ toujours les ordres du quartier général sans discuter.",
+      "correct": "obéissons à",
+      "correctExplanation": "'Obéir à' is a regular -ir verb (2nd group). With 'nous', the present tense is 'obéissons'. The preposition 'à' is part of the verb construction.",
+      "wrong": [
+        { "answer": "obéissons", "explanation": "Incomplete: 'obéir' requires the preposition 'à' before its object. 'Obéissons aux ordres' is correct." },
+        { "answer": "obéyons à", "explanation": "Wrong spelling: 'obéir' is a 2nd group verb; the 'nous' form is 'obéissons', not 'obéyons'." },
+        { "answer": "obéions à", "explanation": "Wrong conjugation: 'obéions' is not a valid form. The correct form is 'obéissons'." }
+      ]
+    },
+    {
+      "id": "M2-NEG-330",
+      "module": "Mod 2",
+      "topic": "Negation",
+      "difficulty": "Hard",
+      "stem": "Je ne connais ______ qui puisse accomplir cette mission seul.",
+      "correct": "personne",
+      "correctExplanation": "'Ne...personne' means 'nobody'. When 'personne' is the object, it comes after the verb: 'je ne connais personne'.",
+      "wrong": [
+        { "answer": "rien", "explanation": "Wrong meaning: 'rien' means 'nothing', but we need 'nobody' to match 'qui puisse' (a person who can)." },
+        { "answer": "aucun", "explanation": "Wrong structure: 'aucun' requires a noun after it. Used alone without a noun, 'personne' is correct." },
+        { "answer": "pas", "explanation": "Wrong: 'ne...pas' negates the verb generally but does not mean 'nobody'. 'Personne' is the correct negative pronoun." }
+      ]
+    },
+    {
+      "id": "M3-ART-331",
+      "module": "Mod 3",
+      "topic": "Articles / Gender",
+      "difficulty": "Medium",
+      "stem": "______ ordonnance du médecin militaire prescrit du repos complet.",
+      "correct": "L'",
+      "correctExplanation": "'Ordonnance' is a feminine noun starting with a vowel, requiring the elided article 'l''. In military context, 'ordonnance' can mean prescription or regulation.",
+      "wrong": [
+        { "answer": "Le", "explanation": "Wrong gender: 'ordonnance' is feminine in French, and before a vowel, the article elides to 'l''." },
+        { "answer": "La", "explanation": "Wrong form: before a vowel sound, 'la' must elide to 'l''." },
+        { "answer": "Un", "explanation": "Wrong article type: the context refers to a specific prescription, requiring the definite article." }
+      ]
+    },
+    {
+      "id": "M4-IMP-332",
+      "module": "Mod 4",
+      "topic": "Imperative",
+      "difficulty": "Medium",
+      "stem": "______ attention aux mines antipersonnel dans ce secteur!",
+      "correct": "Faites",
+      "correctExplanation": "'Faire attention à' (to pay attention to) in the 'vous' imperative is 'faites'. This is the formal command form.",
+      "wrong": [
+        { "answer": "Fais", "explanation": "Wrong register: 'fais' is the 'tu' imperative; in a military context, the formal 'vous' form is expected." },
+        { "answer": "Fait", "explanation": "Wrong form: 'fait' is the past participle or the third-person singular, not the imperative." },
+        { "answer": "Faisons", "explanation": "Wrong person: 'faisons' is the 'nous' imperative (let's), but the order is directed at others." }
+      ]
+    },
+    {
+      "id": "M4-CONJ-333",
+      "module": "Mod 4",
+      "topic": "Present Conjugation",
+      "difficulty": "Easy",
+      "stem": "Les officiers ______ les recrues à la discipline militaire.",
+      "correct": "initient",
+      "correctExplanation": "'Initier' with 'les officiers' (ils) gives 'initient' in the present tense. Note: no accent change in -ier verbs.",
+      "wrong": [
+        { "answer": "initie", "explanation": "Wrong number: 'initie' is the singular form (il/elle), not for the plural 'les officiers'." },
+        { "answer": "initialisent", "explanation": "Wrong verb: 'initialiser' means to initialize (computers), not to initiate/train people." },
+        { "answer": "initiaient", "explanation": "Wrong tense: 'initiaient' is the imparfait, not the present." }
+      ]
+    },
+    {
+      "id": "M5-CONJ-334",
+      "module": "Mod 5",
+      "topic": "Conjunctions",
+      "difficulty": "Hard",
+      "stem": "______ le commandant ait donné son accord, personne ne bougera.",
+      "correct": "Tant que",
+      "correctExplanation": "'Tant que' (as long as / until) here means 'until' in a negative sense. With 'ait donné' (subjunctive), it expresses a condition not yet met.",
+      "wrong": [
+        { "answer": "Puisque", "explanation": "Wrong meaning: 'puisque' (since) gives a reason, not a temporal condition." },
+        { "answer": "Parce que", "explanation": "Wrong meaning: 'parce que' (because) expresses cause, not a temporal boundary." },
+        { "answer": "Comme", "explanation": "Wrong meaning: 'comme' (as/since) introduces a reason or comparison, not a temporal condition." }
+      ]
+    },
+    {
+      "id": "M6-REL-335",
+      "module": "Mod 6",
+      "topic": "Relative Pronouns",
+      "difficulty": "Medium",
+      "stem": "L'officier ______ je vous ai parlé sera votre nouveau commandant.",
+      "correct": "dont",
+      "correctExplanation": "'Parler de quelqu'un' uses the preposition 'de', so the relative pronoun 'dont' (replacing 'de + noun') is needed.",
+      "wrong": [
+        { "answer": "que", "explanation": "Wrong pronoun: 'que' replaces direct objects, but 'parler de' requires 'dont'." },
+        { "answer": "qui", "explanation": "Wrong pronoun: 'qui' is for subjects, not for objects of 'parler de'." },
+        { "answer": "lequel", "explanation": "Wrong form: 'lequel' is used after other prepositions. With 'de', use 'dont' for people." }
+      ]
+    },
+    {
+      "id": "M6-ADV-336",
+      "module": "Mod 6",
+      "topic": "Adverbs",
+      "difficulty": "Hard",
+      "stem": "Les troupes ont réagi ______ à la menace inattendue.",
+      "correct": "rapidement",
+      "correctExplanation": "'Rapidement' (quickly) is the adverb form of 'rapide'. In the passé composé, long adverbs usually follow the past participle.",
+      "wrong": [
+        { "answer": "rapide", "explanation": "Wrong form: the adjective 'rapide' cannot modify a verb; the adverb 'rapidement' is needed." },
+        { "answer": "rapides", "explanation": "Wrong form: 'rapides' is the plural adjective, not an adverb." },
+        { "answer": "vitement", "explanation": "Wrong word: 'vitement' is not standard French. The correct adverb is 'rapidement' or 'vite' (invariable)." }
+      ]
+    },
+    {
+      "id": "M7-PASS-337",
+      "module": "Mod 7",
+      "topic": "Passive Voice",
+      "difficulty": "Medium",
+      "stem": "Le suspect a été ______ par la police militaire.",
+      "correct": "arrêté",
+      "correctExplanation": "'A été arrêté' is the passé composé of the passive voice. 'Arrêté' agrees with the masculine singular subject 'le suspect'.",
+      "wrong": [
+        { "answer": "arrêtée", "explanation": "Wrong gender: 'suspect' is masculine, so the past participle must be masculine: 'arrêté'." },
+        { "answer": "arrêtés", "explanation": "Wrong number: 'le suspect' is singular, so the past participle must be singular: 'arrêté'." },
+        { "answer": "arrêter", "explanation": "Wrong form: the infinitive cannot follow 'a été' in the passive construction; the past participle is required." }
+      ]
+    },
+    {
+      "id": "M7-FIX-338",
+      "module": "Mod 7",
+      "topic": "Fixed Expressions",
+      "difficulty": "Easy",
+      "stem": "Il a pris la décision ______ dernière minute.",
+      "correct": "à la",
+      "correctExplanation": "'À la dernière minute' is a fixed expression meaning 'at the last minute'.",
+      "wrong": [
+        { "answer": "de la", "explanation": "Wrong preposition: the expression is 'à la dernière minute', not 'de la dernière minute'." },
+        { "answer": "en la", "explanation": "Wrong preposition: 'en la' is rarely used in modern French and is not part of this expression." },
+        { "answer": "dans la", "explanation": "Wrong preposition: 'dans la dernière minute' would mean 'during the last minute', which changes the meaning." }
+      ]
+    },
+    {
+      "id": "M8-AGR-339",
+      "module": "Mod 8",
+      "topic": "Agreement with Past Participles",
+      "difficulty": "Medium",
+      "stem": "Les soldates se sont ______ pour la cérémonie.",
+      "correct": "préparées",
+      "correctExplanation": "With reflexive verbs where 'se' is a direct object, the past participle agrees with the subject. 'Soldates' is feminine plural.",
+      "wrong": [
+        { "answer": "préparé", "explanation": "Wrong agreement: reflexive verb 'se préparer' requires agreement with the feminine plural subject 'les soldates'." },
+        { "answer": "préparés", "explanation": "Wrong gender: 'soldates' is feminine, so the participle must be 'préparées', not masculine 'préparés'." },
+        { "answer": "préparée", "explanation": "Wrong number: 'les soldates' is plural, so the participle must be 'préparées', not singular 'préparée'." }
+      ]
+    },
+    {
+      "id": "M9-CONJ-340",
+      "module": "Mod 9",
+      "topic": "Conjunctions",
+      "difficulty": "Hard",
+      "stem": "Non seulement il est brave, ______ il est aussi très intelligent.",
+      "correct": "mais",
+      "correctExplanation": "'Non seulement...mais (aussi)' means 'not only...but (also)'. This is a correlative conjunction pair.",
+      "wrong": [
+        { "answer": "et", "explanation": "Wrong structure: the correlative pair 'non seulement...mais' requires 'mais', not 'et'." },
+        { "answer": "or", "explanation": "Wrong conjunction: 'or' (now/however) is a transition word, not the partner of 'non seulement'." },
+        { "answer": "donc", "explanation": "Wrong logic: 'donc' (therefore) expresses consequence, not the addition expressed by 'non seulement...mais'." }
+      ]
+    },
+    {
+      "id": "M1-ART-341",
+      "module": "Mod 1",
+      "topic": "Articles / Gender",
+      "difficulty": "Hard",
+      "stem": "______ emblème du régiment représente un aigle doré.",
+      "correct": "L'",
+      "correctExplanation": "'Emblème' is a masculine noun starting with a vowel, so the definite article elides to 'l''. Despite ending in '-e', 'emblème' is masculine.",
+      "wrong": [
+        { "answer": "La", "explanation": "Wrong gender: 'emblème' is masculine despite ending in '-e'. Many words ending in '-ème' are masculine." },
+        { "answer": "Le", "explanation": "Wrong form: before a vowel, 'le' must elide to 'l''." },
+        { "answer": "Une", "explanation": "Wrong gender and article type: 'emblème' is masculine and specific, requiring the masculine definite article." }
+      ]
+    },
+    {
+      "id": "M2-COMP-342",
+      "module": "Mod 2",
+      "topic": "Comparisons",
+      "difficulty": "Easy",
+      "stem": "Il y a ______ de soldats dans cette compagnie que dans la nôtre.",
+      "correct": "autant",
+      "correctExplanation": "'Autant de...que' expresses equality with quantities/nouns: 'as many...as'.",
+      "wrong": [
+        { "answer": "aussi", "explanation": "Wrong form: 'aussi' is used with adjectives/adverbs, not with nouns. Use 'autant de' with nouns." },
+        { "answer": "plus", "explanation": "Wrong meaning: 'plus de...que' means 'more...than', not 'as many...as'." },
+        { "answer": "tant", "explanation": "Close but different: 'tant de' means 'so many' (exclamatory), not 'as many as' (comparative)." }
+      ]
+    },
+    {
+      "id": "M3-SI-343",
+      "module": "Mod 3",
+      "topic": "Si Clauses",
+      "difficulty": "Medium",
+      "stem": "Si le temps ______ mauvais demain, l'exercice sera reporté.",
+      "correct": "est",
+      "correctExplanation": "First conditional (real possibility): 'si + present' (est) + future (sera). This describes a likely future scenario.",
+      "wrong": [
+        { "answer": "sera", "explanation": "Wrong tense: 'si' cannot be followed by the future tense in French." },
+        { "answer": "était", "explanation": "Wrong tense: 'si + imparfait' requires a conditional in the main clause, not a future." },
+        { "answer": "serait", "explanation": "Wrong tense: 'si' cannot be followed by the conditional in French." }
+      ]
+    },
+    {
+      "id": "M4-OBJ-344",
+      "module": "Mod 4",
+      "topic": "Direct Object Pronouns",
+      "difficulty": "Medium",
+      "stem": "Les munitions? Le sergent ______ a comptées deux fois.",
+      "correct": "les",
+      "correctExplanation": "'Les' is the feminine plural direct object pronoun replacing 'les munitions'. The past participle 'comptées' agrees with the preceding direct object.",
+      "wrong": [
+        { "answer": "leur", "explanation": "Wrong pronoun type: 'leur' is an indirect object pronoun, but 'munitions' is a direct object of 'compter'." },
+        { "answer": "la", "explanation": "Wrong number: 'les munitions' is plural, requiring 'les', not the singular 'la'." },
+        { "answer": "en", "explanation": "Wrong pronoun: 'en' replaces partitive or 'de + noun', not a definite direct object." }
+      ]
+    },
+    {
+      "id": "M5-PREP-345",
+      "module": "Mod 5",
+      "topic": "Prepositions / Distance",
+      "difficulty": "Easy",
+      "stem": "La zone de largage se trouve ______ dix kilomètres d'ici.",
+      "correct": "à",
+      "correctExplanation": "'À + distance + de' expresses how far away something is: 'à dix kilomètres d'ici' = ten kilometers from here.",
+      "wrong": [
+        { "answer": "en", "explanation": "Wrong preposition: 'en' is not used to express distance from a point." },
+        { "answer": "dans", "explanation": "Wrong preposition: 'dans dix kilomètres' would mean 'in ten kilometers' (along a route), not 'ten kilometers away'." },
+        { "answer": "pour", "explanation": "Wrong preposition: 'pour' is not used to express distance." }
+      ]
+    },
+    {
+      "id": "M6-TIME-346",
+      "module": "Mod 6",
+      "topic": "Time Expressions",
+      "difficulty": "Medium",
+      "stem": "Le déploiement est prévu ______ janvier prochain.",
+      "correct": "en",
+      "correctExplanation": "'En' is used with months: 'en janvier' = in January.",
+      "wrong": [
+        { "answer": "à", "explanation": "Wrong preposition: 'à' is used with clock times, not months." },
+        { "answer": "au", "explanation": "Wrong preposition: 'au' (à + le) is used with masculine countries, not months." },
+        { "answer": "dans", "explanation": "Wrong meaning: 'dans janvier' is not standard. Use 'en janvier' for the month." }
+      ]
+    },
+    {
+      "id": "M7-EXPR-347",
+      "module": "Mod 7",
+      "topic": "Important Expressions",
+      "difficulty": "Hard",
+      "stem": "Il ______ question de changer la stratégie de défense.",
+      "correct": "est",
+      "correctExplanation": "'Il est question de' is an impersonal expression meaning 'it is a matter of / there is talk of'.",
+      "wrong": [
+        { "answer": "a", "explanation": "Wrong verb: the expression is 'il est question de', not 'il a question de'." },
+        { "answer": "fait", "explanation": "Wrong expression: 'il fait question' does not exist in French." },
+        { "answer": "va", "explanation": "Wrong expression: 'il va question de' is not a valid French construction." }
+      ]
+    },
+    {
+      "id": "M8-PC-348",
+      "module": "Mod 8",
+      "topic": "Passé composé vs Imparfait",
+      "difficulty": "Hard",
+      "stem": "Tous les jours, le caporal ______ les effectifs à six heures du matin.",
+      "correct": "comptait",
+      "correctExplanation": "The imparfait 'comptait' is used because 'tous les jours' indicates a habitual/repeated action in the past.",
+      "wrong": [
+        { "answer": "a compté", "explanation": "Wrong tense: the passé composé is for specific completed actions, not habitual past actions signaled by 'tous les jours'." },
+        { "answer": "compta", "explanation": "Wrong tense: the passé simple is for specific narrated events, not habitual actions." },
+        { "answer": "compte", "explanation": "Wrong tense: the present does not match the past narration context." }
+      ]
+    },
+    {
+      "id": "M9-DUR-349",
+      "module": "Mod 9",
+      "topic": "Durations",
+      "difficulty": "Hard",
+      "stem": "Le technicien a réparé le véhicule blindé ______ moins de deux heures.",
+      "correct": "en",
+      "correctExplanation": "'En + duration' means 'in/within' a period of time, expressing how long it took to complete something.",
+      "wrong": [
+        { "answer": "dans", "explanation": "Wrong meaning: 'dans deux heures' means 'in two hours from now' (future), not 'within two hours' (time to complete)." },
+        { "answer": "pendant", "explanation": "Wrong nuance: 'pendant' expresses the total duration of an activity, not the time needed to complete it." },
+        { "answer": "pour", "explanation": "Wrong preposition: 'pour' with time indicates a planned duration, not the time taken to accomplish something." }
+      ]
+    },
+    {
+      "id": "M11-VENIR-350",
+      "module": "Mod 11",
+      "topic": "Venir de + Infinitive",
+      "difficulty": "Hard",
+      "stem": "Le peloton ______ de terminer un exercice de tir quand l'orage a éclaté.",
+      "correct": "venait",
+      "correctExplanation": "'Venir de + infinitive' in the imparfait ('venait de') expresses the recent past relative to another past event: 'had just finished'.",
+      "wrong": [
+        { "answer": "vient", "explanation": "Wrong tense: 'vient de' (present) expresses the recent past relative to now, not relative to another past event." },
+        { "answer": "est venu", "explanation": "Wrong structure: 'est venu de' is the passé composé of 'venir' + 'de', not the recent past construction." },
+        { "answer": "viendrait", "explanation": "Wrong mood: the conditional 'viendrait de' would express a hypothetical recent past, which is unusual." }
+      ]
+    }
+  ]
+}

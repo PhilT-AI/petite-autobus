@@ -354,21 +354,58 @@ const Home = ({ go, srs, streak }) => {
 
 /* ════════════════════ STUDY ════════════════════ */
 const Study = ({ go, srs }) => {
-  const [tab, setTab] = useState("fasc");
+  const [tab, setTab] = useState(null);
   const stats = useStats(srs);
 
   const fascEntries = Object.entries(stats.fascStats)
     .sort((a, b) => parseInt(a[0].slice(1)) - parseInt(b[0].slice(1)));
   const totalFascDone = fascEntries.filter(([, s]) => s.pct === 100).length;
 
+  const studyModes = [
+    { k: "fasc", icon: "📚", l: "Fascicules", desc: "PSC Lexique fascicule decks" },
+    { k: "cat", icon: "🏷️", l: "By Category", desc: "Nouns, verbs, connectors, expressions" },
+    { k: "verbs", icon: "✏️", l: "Verbs", desc: "Conjugation drills & 100 CAF verbs" },
+    { k: "gram", icon: "📝", l: "Grammar", desc: `${grammarData.questions.length} quiz questions & reference` },
+    { k: "skills", icon: "🎯", l: "Skills", desc: "Listening, reading, writing & more" },
+  ];
+
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-      {/* Tabs */}
-      <div style={{ display: "flex", gap: 4, background: C.bgCard, borderRadius: 10, padding: 3 }}>
-        {[{ k: "fasc", l: "Fascicules" }, { k: "cat", l: "By Category" }, { k: "verbs", l: "Verbs" }, { k: "gram", l: "Grammar" }, { k: "skills", l: "Skills" }].map(t => (
-          <button key={t.k} onClick={() => setTab(t.k)} style={{ flex: 1, padding: "9px 0", borderRadius: 8, border: "none", background: tab === t.k ? C.bgElevated : "transparent", ...font.label, fontSize: 9, color: tab === t.k ? C.greenBright : C.textMut, cursor: "pointer" }}>{t.l}</button>
-        ))}
-      </div>
+      {/* Mode selector - always visible */}
+      {!tab ? (
+        <>
+          <div style={{ ...font.h, fontSize: 18, color: C.text, textAlign: "center", marginBottom: 4 }}>What do you want to study?</div>
+          {studyModes.map(m => (
+            <div key={m.k} onClick={() => setTab(m.k)} style={{
+              background: C.bgCard, borderRadius: 14, padding: "18px 20px",
+              border: `1px solid ${C.border}`, cursor: "pointer",
+              display: "flex", alignItems: "center", gap: 16,
+              transition: "transform 0.1s",
+            }}>
+              <div style={{ width: 50, height: 50, borderRadius: 13, background: `${C.greenPrimary}15`, border: `2px solid ${C.greenPrimary}30`, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <span style={{ fontSize: 24 }}>{m.icon}</span>
+              </div>
+              <div style={{ flex: 1 }}>
+                <div style={{ ...font.card, fontSize: 16, color: C.text }}>{m.l}</div>
+                <div style={{ ...font.body, fontSize: 13, color: C.textSec, marginTop: 3 }}>{m.desc}</div>
+              </div>
+              <span style={{ ...font.h, fontSize: 18, color: C.textMut }}>›</span>
+            </div>
+          ))}
+        </>
+      ) : (
+        <>
+          {/* Back button + compact tabs when inside a mode */}
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: -4 }}>
+            <button onClick={() => setTab(null)} style={{ background: "none", border: "none", cursor: "pointer", ...font.h, fontSize: 20, color: C.textSec, padding: "4px 8px 4px 0" }}>←</button>
+            <div style={{ display: "flex", gap: 4, flex: 1, background: C.bgCard, borderRadius: 10, padding: 3 }}>
+              {studyModes.map(t => (
+                <button key={t.k} onClick={() => setTab(t.k)} style={{ flex: 1, padding: "10px 0", borderRadius: 8, border: "none", background: tab === t.k ? C.bgElevated : "transparent", ...font.label, fontSize: 11, color: tab === t.k ? C.greenBright : C.textMut, cursor: "pointer", fontWeight: tab === t.k ? 700 : 500 }}>{t.l}</button>
+              ))}
+            </div>
+          </div>
+        </>
+      )}
 
       {tab === "fasc" && <>
         <div style={{ background: C.bgCard, borderRadius: 12, padding: "14px 16px", border: `1px solid ${C.border}` }}>
