@@ -1,0 +1,4504 @@
+{
+  "verbs": [
+    {
+      "id": 1,
+      "infinitif": "être",
+      "en": "to be",
+      "group": "3e",
+      "context": "Identity, status, role descriptions",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je suis prêt pour la réunion.",
+        "en": "I am ready for the meeting."
+      },
+      "npA": {
+        "present": "suis/es/est/sommes/êtes/sont",
+        "passeCompose": "j'ai été",
+        "futurProche": "je vais être",
+        "imperatif": "sois/soyons/soyez",
+        "example": {
+          "fr": "Je suis prêt pour la réunion.",
+          "en": "I am ready for the meeting."
+        }
+      },
+      "npB": {
+        "imparfait": "étais",
+        "plusQueParfait": "avais été",
+        "futurSimple": "serai",
+        "conditionnel": "serais",
+        "subjonctif": "sois",
+        "example": {
+          "fr": "Si j'étais chef, je serais plus strict.",
+          "en": "If I were the boss, I would be more strict."
+        }
+      },
+      "npC": {
+        "passeSimple": "fus",
+        "subjPasse": "aie été",
+        "condPasse": "aurais été",
+        "futurAnterieur": "aurai été",
+        "gerondif": "en étant",
+        "example": {
+          "fr": "En étant bien informé, il prit la bonne décision.",
+          "en": "Being well informed, he made the right decision."
+        }
+      }
+    },
+    {
+      "id": 2,
+      "infinitif": "avoir",
+      "en": "to have",
+      "group": "3e",
+      "context": "Possession, obligation (avoir besoin de)",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "J'ai une question pour vous.",
+        "en": "I have a question for you."
+      },
+      "npA": {
+        "present": "ai/as/a/avons/avez/ont",
+        "passeCompose": "j'ai eu",
+        "futurProche": "je vais avoir",
+        "imperatif": "aie/ayons/ayez",
+        "example": {
+          "fr": "J'ai une question pour vous.",
+          "en": "I have a question for you."
+        }
+      },
+      "npB": {
+        "imparfait": "avais",
+        "plusQueParfait": "avais eu",
+        "futurSimple": "aurai",
+        "conditionnel": "aurais",
+        "subjonctif": "aie",
+        "example": {
+          "fr": "J'aurais besoin de plus de temps.",
+          "en": "I would need more time."
+        }
+      },
+      "npC": {
+        "passeSimple": "eus",
+        "subjPasse": "aie eu",
+        "condPasse": "aurais eu",
+        "futurAnterieur": "aurai eu",
+        "gerondif": "en ayant",
+        "example": {
+          "fr": "En ayant tout vérifié, elle signa le document.",
+          "en": "Having checked everything, she signed the document."
+        }
+      }
+    },
+    {
+      "id": 3,
+      "infinitif": "faire",
+      "en": "to do / to make",
+      "group": "3e",
+      "context": "Actions, tasks, directives",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je fais le rapport chaque lundi.",
+        "en": "I do the report every Monday."
+      },
+      "npA": {
+        "present": "fais/fais/fait/faisons/faites/font",
+        "passeCompose": "j'ai fait",
+        "futurProche": "je vais faire",
+        "imperatif": "fais/faisons/faites",
+        "example": {
+          "fr": "Je fais le rapport chaque lundi.",
+          "en": "I do the report every Monday."
+        }
+      },
+      "npB": {
+        "imparfait": "faisais",
+        "plusQueParfait": "avais fait",
+        "futurSimple": "ferai",
+        "conditionnel": "ferais",
+        "subjonctif": "fasse",
+        "example": {
+          "fr": "Je ferais une copie si vous voulez.",
+          "en": "I would make a copy if you want."
+        }
+      },
+      "npC": {
+        "passeSimple": "fis",
+        "subjPasse": "aie fait",
+        "condPasse": "aurais fait",
+        "futurAnterieur": "aurai fait",
+        "gerondif": "en faisant",
+        "example": {
+          "fr": "Le commandant fit part de sa décision au groupe.",
+          "en": "The commander shared his decision with the group."
+        }
+      }
+    },
+    {
+      "id": 4,
+      "infinitif": "dire",
+      "en": "to say / to tell",
+      "group": "3e",
+      "context": "Reporting, briefings, communication",
+      "tag": "communication_ecrite",
+      "example": {
+        "fr": "Il dit que la réunion est à dix heures.",
+        "en": "He says the meeting is at ten o'clock."
+      },
+      "npA": {
+        "present": "dis/dis/dit/disons/dites/disent",
+        "passeCompose": "j'ai dit",
+        "futurProche": "je vais dire",
+        "imperatif": "dis/disons/dites",
+        "example": {
+          "fr": "Il dit que la réunion est à dix heures.",
+          "en": "He says the meeting is at ten o'clock."
+        }
+      },
+      "npB": {
+        "imparfait": "disais",
+        "plusQueParfait": "avais dit",
+        "futurSimple": "dirai",
+        "conditionnel": "dirais",
+        "subjonctif": "dise",
+        "example": {
+          "fr": "Je dirais que le projet est en bonne voie.",
+          "en": "I would say the project is on track."
+        }
+      },
+      "npC": {
+        "passeSimple": "dis",
+        "subjPasse": "aie dit",
+        "condPasse": "aurais dit",
+        "futurAnterieur": "aurai dit",
+        "gerondif": "en disant",
+        "example": {
+          "fr": "En disant cela, il mit fin au débat.",
+          "en": "By saying that, he ended the debate."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "infinitif": "pouvoir",
+      "en": "to be able to / can",
+      "group": "3e",
+      "context": "Permissions, capability, authority",
+      "tag": "expressions_modales",
+      "example": {
+        "fr": "Vous pouvez partir à midi.",
+        "en": "You can leave at noon."
+      },
+      "npA": {
+        "present": "peux/peux/peut/pouvons/pouvez/peuvent",
+        "passeCompose": "j'ai pu",
+        "futurProche": "je vais pouvoir",
+        "imperatif": "—",
+        "example": {
+          "fr": "Vous pouvez partir à midi.",
+          "en": "You can leave at noon."
+        }
+      },
+      "npB": {
+        "imparfait": "pouvais",
+        "plusQueParfait": "avais pu",
+        "futurSimple": "pourrai",
+        "conditionnel": "pourrais",
+        "subjonctif": "puisse",
+        "example": {
+          "fr": "Pourriez-vous envoyer le dossier demain?",
+          "en": "Could you send the file tomorrow?"
+        }
+      },
+      "npC": {
+        "passeSimple": "pus",
+        "subjPasse": "aie pu",
+        "condPasse": "aurais pu",
+        "futurAnterieur": "aurai pu",
+        "gerondif": "en pouvant",
+        "example": {
+          "fr": "On aurait pu éviter ce problème avec un bon plan.",
+          "en": "We could have avoided this problem with a good plan."
+        }
+      }
+    },
+    {
+      "id": 6,
+      "infinitif": "aller",
+      "en": "to go",
+      "group": "1er",
+      "context": "Movement, future intentions",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je vais au bureau chaque matin.",
+        "en": "I go to the office every morning."
+      },
+      "npA": {
+        "present": "vais/vas/va/allons/allez/vont",
+        "passeCompose": "je suis allé(e)",
+        "futurProche": "je vais aller",
+        "imperatif": "va/allons/allez",
+        "example": {
+          "fr": "Je vais au bureau chaque matin.",
+          "en": "I go to the office every morning."
+        }
+      },
+      "npB": {
+        "imparfait": "allais",
+        "plusQueParfait": "étais allé(e)",
+        "futurSimple": "irai",
+        "conditionnel": "irais",
+        "subjonctif": "aille",
+        "example": {
+          "fr": "J'irais à la base si j'avais le temps.",
+          "en": "I would go to the base if I had time."
+        }
+      },
+      "npC": {
+        "passeSimple": "allai",
+        "subjPasse": "sois allé(e)",
+        "condPasse": "serais allé(e)",
+        "futurAnterieur": "serai allé(e)",
+        "gerondif": "en allant",
+        "example": {
+          "fr": "En allant trop vite, il commit une erreur.",
+          "en": "By going too fast, he made a mistake."
+        }
+      }
+    },
+    {
+      "id": 7,
+      "infinitif": "voir",
+      "en": "to see",
+      "group": "3e",
+      "context": "Observation, review, inspection",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je vois le problème dans le texte.",
+        "en": "I see the problem in the text."
+      },
+      "npA": {
+        "present": "vois/vois/voit/voyons/voyez/voient",
+        "passeCompose": "j'ai vu",
+        "futurProche": "je vais voir",
+        "imperatif": "vois/voyons/voyez",
+        "example": {
+          "fr": "Je vois le problème dans le texte.",
+          "en": "I see the problem in the text."
+        }
+      },
+      "npB": {
+        "imparfait": "voyais",
+        "plusQueParfait": "avais vu",
+        "futurSimple": "verrai",
+        "conditionnel": "verrais",
+        "subjonctif": "voie",
+        "example": {
+          "fr": "Je verrais les résultats la semaine prochaine.",
+          "en": "I would see the results next week."
+        }
+      },
+      "npC": {
+        "passeSimple": "vis",
+        "subjPasse": "aie vu",
+        "condPasse": "aurais vu",
+        "futurAnterieur": "aurai vu",
+        "gerondif": "en voyant",
+        "example": {
+          "fr": "En voyant les chiffres, le comité changea d'avis.",
+          "en": "Upon seeing the numbers, the committee changed its mind."
+        }
+      }
+    },
+    {
+      "id": 8,
+      "infinitif": "vouloir",
+      "en": "to want",
+      "group": "3e",
+      "context": "Requests, intention, will",
+      "tag": "expressions_modales",
+      "example": {
+        "fr": "Je veux finir ce travail avant midi.",
+        "en": "I want to finish this work before noon."
+      },
+      "npA": {
+        "present": "veux/veux/veut/voulons/voulez/veulent",
+        "passeCompose": "j'ai voulu",
+        "futurProche": "je vais vouloir",
+        "imperatif": "veuille/—/veuillez",
+        "example": {
+          "fr": "Je veux finir ce travail avant midi.",
+          "en": "I want to finish this work before noon."
+        }
+      },
+      "npB": {
+        "imparfait": "voulais",
+        "plusQueParfait": "avais voulu",
+        "futurSimple": "voudrai",
+        "conditionnel": "voudrais",
+        "subjonctif": "veuille",
+        "example": {
+          "fr": "Je voudrais proposer une autre date.",
+          "en": "I would like to suggest another date."
+        }
+      },
+      "npC": {
+        "passeSimple": "voulus",
+        "subjPasse": "aie voulu",
+        "condPasse": "aurais voulu",
+        "futurAnterieur": "aurai voulu",
+        "gerondif": "en voulant",
+        "example": {
+          "fr": "En voulant trop bien faire, il dépassa le budget.",
+          "en": "By trying too hard, he exceeded the budget."
+        }
+      }
+    },
+    {
+      "id": 9,
+      "infinitif": "venir",
+      "en": "to come",
+      "group": "3e",
+      "context": "Arrival, recent past (venir de)",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Elle vient de la base de Valcartier.",
+        "en": "She comes from CFB Valcartier."
+      },
+      "npA": {
+        "present": "viens/viens/vient/venons/venez/viennent",
+        "passeCompose": "je suis venu(e)",
+        "futurProche": "je vais venir",
+        "imperatif": "viens/venons/venez",
+        "example": {
+          "fr": "Elle vient de la base de Valcartier.",
+          "en": "She comes from CFB Valcartier."
+        }
+      },
+      "npB": {
+        "imparfait": "venais",
+        "plusQueParfait": "étais venu(e)",
+        "futurSimple": "viendrai",
+        "conditionnel": "viendrais",
+        "subjonctif": "vienne",
+        "example": {
+          "fr": "Il faudrait qu'il vienne avant midi.",
+          "en": "He would need to come before noon."
+        }
+      },
+      "npC": {
+        "passeSimple": "vins",
+        "subjPasse": "sois venu(e)",
+        "condPasse": "serais venu(e)",
+        "futurAnterieur": "serai venu(e)",
+        "gerondif": "en venant",
+        "example": {
+          "fr": "Le ministre vint constater la situation sur place.",
+          "en": "The minister came to observe the situation on site."
+        }
+      }
+    },
+    {
+      "id": 10,
+      "infinitif": "devoir",
+      "en": "to have to / must",
+      "group": "3e",
+      "context": "Obligation, duty, requirement",
+      "tag": "expressions_modales",
+      "example": {
+        "fr": "Vous devez signer le formulaire aujourd'hui.",
+        "en": "You must sign the form today."
+      },
+      "npA": {
+        "present": "dois/dois/doit/devons/devez/doivent",
+        "passeCompose": "j'ai dû",
+        "futurProche": "je vais devoir",
+        "imperatif": "—",
+        "example": {
+          "fr": "Vous devez signer le formulaire aujourd'hui.",
+          "en": "You must sign the form today."
+        }
+      },
+      "npB": {
+        "imparfait": "devais",
+        "plusQueParfait": "avais dû",
+        "futurSimple": "devrai",
+        "conditionnel": "devrais",
+        "subjonctif": "doive",
+        "example": {
+          "fr": "Vous devriez lire le rapport avant la réunion.",
+          "en": "You should read the report before the meeting."
+        }
+      },
+      "npC": {
+        "passeSimple": "dus",
+        "subjPasse": "aie dû",
+        "condPasse": "aurais dû",
+        "futurAnterieur": "aurai dû",
+        "gerondif": "en devant",
+        "example": {
+          "fr": "Vous auriez dû signaler le problème plus tôt.",
+          "en": "You should have reported the problem earlier."
+        }
+      }
+    },
+    {
+      "id": 11,
+      "infinitif": "prendre",
+      "en": "to take",
+      "group": "3e",
+      "context": "Decisions, actions, measures",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Prenez note du nouveau horaire.",
+        "en": "Take note of the new schedule."
+      },
+      "npA": {
+        "present": "prends/prends/prend/prenons/prenez/prennent",
+        "passeCompose": "j'ai pris",
+        "futurProche": "je vais prendre",
+        "imperatif": "prends/prenons/prenez",
+        "example": {
+          "fr": "Prenez note du nouveau horaire.",
+          "en": "Take note of the new schedule."
+        }
+      },
+      "npB": {
+        "imparfait": "prenais",
+        "plusQueParfait": "avais pris",
+        "futurSimple": "prendrai",
+        "conditionnel": "prendrais",
+        "subjonctif": "prenne",
+        "example": {
+          "fr": "Il faudrait que le comité prenne une décision.",
+          "en": "The committee would need to make a decision."
+        }
+      },
+      "npC": {
+        "passeSimple": "pris",
+        "subjPasse": "aie pris",
+        "condPasse": "aurais pris",
+        "futurAnterieur": "aurai pris",
+        "gerondif": "en prenant",
+        "example": {
+          "fr": "En prenant cette mesure, on réduisit les risques.",
+          "en": "By taking this measure, they reduced the risks."
+        }
+      }
+    },
+    {
+      "id": 12,
+      "infinitif": "trouver",
+      "en": "to find",
+      "group": "1er",
+      "context": "Discovery, opinion, assessment",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je trouve cette idée très bonne.",
+        "en": "I find this idea very good."
+      },
+      "npA": {
+        "present": "trouve/trouves/trouve/trouvons/trouvez/trouvent",
+        "passeCompose": "j'ai trouvé",
+        "futurProche": "je vais trouver",
+        "imperatif": "trouve/trouvons/trouvez",
+        "example": {
+          "fr": "Je trouve cette idée très bonne.",
+          "en": "I find this idea very good."
+        }
+      },
+      "npB": {
+        "imparfait": "trouvais",
+        "plusQueParfait": "avais trouvé",
+        "futurSimple": "trouverai",
+        "conditionnel": "trouverais",
+        "subjonctif": "trouve",
+        "example": {
+          "fr": "Je trouverais une solution si j'avais plus de données.",
+          "en": "I would find a solution if I had more data."
+        }
+      },
+      "npC": {
+        "passeSimple": "trouvai",
+        "subjPasse": "aie trouvé",
+        "condPasse": "aurais trouvé",
+        "futurAnterieur": "aurai trouvé",
+        "gerondif": "en trouvant",
+        "example": {
+          "fr": "En trouvant la cause, l'équipe régla le problème.",
+          "en": "By finding the cause, the team fixed the problem."
+        }
+      }
+    },
+    {
+      "id": 13,
+      "infinitif": "donner",
+      "en": "to give",
+      "group": "1er",
+      "context": "Providing, granting, issuing",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Donnez-moi votre adresse courriel.",
+        "en": "Give me your email address."
+      },
+      "npA": {
+        "present": "donne/donnes/donne/donnons/donnez/donnent",
+        "passeCompose": "j'ai donné",
+        "futurProche": "je vais donner",
+        "imperatif": "donne/donnons/donnez",
+        "example": {
+          "fr": "Donnez-moi votre adresse courriel.",
+          "en": "Give me your email address."
+        }
+      },
+      "npB": {
+        "imparfait": "donnais",
+        "plusQueParfait": "avais donné",
+        "futurSimple": "donnerai",
+        "conditionnel": "donnerais",
+        "subjonctif": "donne",
+        "example": {
+          "fr": "Je donnerais la priorité au dossier urgent.",
+          "en": "I would give priority to the urgent file."
+        }
+      },
+      "npC": {
+        "passeSimple": "donnai",
+        "subjPasse": "aie donné",
+        "condPasse": "aurais donné",
+        "futurAnterieur": "aurai donné",
+        "gerondif": "en donnant",
+        "example": {
+          "fr": "En donnant plus de ressources, on améliora le service.",
+          "en": "By giving more resources, they improved the service."
+        }
+      }
+    },
+    {
+      "id": 14,
+      "infinitif": "parler",
+      "en": "to speak / to talk",
+      "group": "1er",
+      "context": "Communication, briefings",
+      "tag": "communication_ecrite",
+      "example": {
+        "fr": "Je parle avec mon chef chaque matin.",
+        "en": "I speak with my boss every morning."
+      },
+      "npA": {
+        "present": "parle/parles/parle/parlons/parlez/parlent",
+        "passeCompose": "j'ai parlé",
+        "futurProche": "je vais parler",
+        "imperatif": "parle/parlons/parlez",
+        "example": {
+          "fr": "Je parle avec mon chef chaque matin.",
+          "en": "I speak with my boss every morning."
+        }
+      },
+      "npB": {
+        "imparfait": "parlais",
+        "plusQueParfait": "avais parlé",
+        "futurSimple": "parlerai",
+        "conditionnel": "parlerais",
+        "subjonctif": "parle",
+        "example": {
+          "fr": "Je parlerais au directeur si c'était possible.",
+          "en": "I would speak to the director if it were possible."
+        }
+      },
+      "npC": {
+        "passeSimple": "parlai",
+        "subjPasse": "aie parlé",
+        "condPasse": "aurais parlé",
+        "futurAnterieur": "aurai parlé",
+        "gerondif": "en parlant",
+        "example": {
+          "fr": "En parlant clairement, elle convainquit tout le monde.",
+          "en": "By speaking clearly, she convinced everyone."
+        }
+      }
+    },
+    {
+      "id": 15,
+      "infinitif": "mettre",
+      "en": "to put / to place",
+      "group": "3e",
+      "context": "Implementation (mettre en œuvre)",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Mettez le dossier sur mon bureau.",
+        "en": "Put the file on my desk."
+      },
+      "npA": {
+        "present": "mets/mets/met/mettons/mettez/mettent",
+        "passeCompose": "j'ai mis",
+        "futurProche": "je vais mettre",
+        "imperatif": "mets/mettons/mettez",
+        "example": {
+          "fr": "Mettez le dossier sur mon bureau.",
+          "en": "Put the file on my desk."
+        }
+      },
+      "npB": {
+        "imparfait": "mettais",
+        "plusQueParfait": "avais mis",
+        "futurSimple": "mettrai",
+        "conditionnel": "mettrais",
+        "subjonctif": "mette",
+        "example": {
+          "fr": "Il est important qu'on mette le plan en œuvre.",
+          "en": "It is important that we implement the plan."
+        }
+      },
+      "npC": {
+        "passeSimple": "mis",
+        "subjPasse": "aie mis",
+        "condPasse": "aurais mis",
+        "futurAnterieur": "aurai mis",
+        "gerondif": "en mettant",
+        "example": {
+          "fr": "Le gouvernement mit en place un nouveau cadre.",
+          "en": "The government put in place a new framework."
+        }
+      }
+    },
+    {
+      "id": 16,
+      "infinitif": "savoir",
+      "en": "to know (fact)",
+      "group": "3e",
+      "context": "Knowledge, awareness, expertise",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je sais que le chef est en vacances.",
+        "en": "I know the boss is on vacation."
+      },
+      "npA": {
+        "present": "sais/sais/sait/savons/savez/savent",
+        "passeCompose": "j'ai su",
+        "futurProche": "je vais savoir",
+        "imperatif": "sache/sachons/sachez",
+        "example": {
+          "fr": "Je sais que le chef est en vacances.",
+          "en": "I know the boss is on vacation."
+        }
+      },
+      "npB": {
+        "imparfait": "savais",
+        "plusQueParfait": "avais su",
+        "futurSimple": "saurai",
+        "conditionnel": "saurais",
+        "subjonctif": "sache",
+        "example": {
+          "fr": "Je ne saurais vous dire sans vérifier.",
+          "en": "I couldn't tell you without checking."
+        }
+      },
+      "npC": {
+        "passeSimple": "sus",
+        "subjPasse": "aie su",
+        "condPasse": "aurais su",
+        "futurAnterieur": "aurai su",
+        "gerondif": "en sachant",
+        "example": {
+          "fr": "En sachant cela, le comité modifia son approche.",
+          "en": "Knowing this, the committee changed its approach."
+        }
+      }
+    },
+    {
+      "id": 17,
+      "infinitif": "passer",
+      "en": "to pass / to spend (time)",
+      "group": "1er",
+      "context": "Transition, examinations",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je passe l'examen la semaine prochaine.",
+        "en": "I am taking the exam next week."
+      },
+      "npA": {
+        "present": "passe/passes/passe/passons/passez/passent",
+        "passeCompose": "j'ai passé",
+        "futurProche": "je vais passer",
+        "imperatif": "passe/passons/passez",
+        "example": {
+          "fr": "Je passe l'examen la semaine prochaine.",
+          "en": "I am taking the exam next week."
+        }
+      },
+      "npB": {
+        "imparfait": "passais",
+        "plusQueParfait": "avais passé",
+        "futurSimple": "passerai",
+        "conditionnel": "passerais",
+        "subjonctif": "passe",
+        "example": {
+          "fr": "Je passerais plus de temps sur ce dossier si possible.",
+          "en": "I would spend more time on this file if possible."
+        }
+      },
+      "npC": {
+        "passeSimple": "passai",
+        "subjPasse": "aie passé",
+        "condPasse": "aurais passé",
+        "futurAnterieur": "aurai passé",
+        "gerondif": "en passant",
+        "example": {
+          "fr": "En passant par ce chemin, ils gagnèrent du temps.",
+          "en": "By taking this route, they saved time."
+        }
+      }
+    },
+    {
+      "id": 18,
+      "infinitif": "regarder",
+      "en": "to look at / to watch",
+      "group": "1er",
+      "context": "Review, observation",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Regardez la page trois du document.",
+        "en": "Look at page three of the document."
+      },
+      "npA": {
+        "present": "regarde/regardes/regarde/regardons/regardez/regardent",
+        "passeCompose": "j'ai regardé",
+        "futurProche": "je vais regarder",
+        "imperatif": "regarde/regardons/regardez",
+        "example": {
+          "fr": "Regardez la page trois du document.",
+          "en": "Look at page three of the document."
+        }
+      },
+      "npB": {
+        "imparfait": "regardais",
+        "plusQueParfait": "avais regardé",
+        "futurSimple": "regarderai",
+        "conditionnel": "regarderais",
+        "subjonctif": "regarde",
+        "example": {
+          "fr": "Je regarderais les détails avant de signer.",
+          "en": "I would look at the details before signing."
+        }
+      },
+      "npC": {
+        "passeSimple": "regardai",
+        "subjPasse": "aie regardé",
+        "condPasse": "aurais regardé",
+        "futurAnterieur": "aurai regardé",
+        "gerondif": "en regardant",
+        "example": {
+          "fr": "En regardant de plus près, il nota une erreur.",
+          "en": "Looking more closely, he noticed an error."
+        }
+      }
+    },
+    {
+      "id": 19,
+      "infinitif": "aimer",
+      "en": "to like / to love",
+      "group": "1er",
+      "context": "Preferences, opinions",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "J'aime travailler en équipe.",
+        "en": "I like working as a team."
+      },
+      "npA": {
+        "present": "aime/aimes/aime/aimons/aimez/aiment",
+        "passeCompose": "j'ai aimé",
+        "futurProche": "je vais aimer",
+        "imperatif": "aime/aimons/aimez",
+        "example": {
+          "fr": "J'aime travailler en équipe.",
+          "en": "I like working as a team."
+        }
+      },
+      "npB": {
+        "imparfait": "aimais",
+        "plusQueParfait": "avais aimé",
+        "futurSimple": "aimerai",
+        "conditionnel": "aimerais",
+        "subjonctif": "aime",
+        "example": {
+          "fr": "J'aimerais avoir plus de formation.",
+          "en": "I would like to have more training."
+        }
+      },
+      "npC": {
+        "passeSimple": "aimai",
+        "subjPasse": "aie aimé",
+        "condPasse": "aurais aimé",
+        "futurAnterieur": "aurai aimé",
+        "gerondif": "en aimant",
+        "example": {
+          "fr": "En aimant son travail, elle donna le meilleur d'elle-même.",
+          "en": "By loving her work, she gave her very best."
+        }
+      }
+    },
+    {
+      "id": 20,
+      "infinitif": "croire",
+      "en": "to believe",
+      "group": "3e",
+      "context": "Opinion, assessment, trust",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je crois que le plan est bon.",
+        "en": "I believe the plan is good."
+      },
+      "npA": {
+        "present": "crois/crois/croit/croyons/croyez/croient",
+        "passeCompose": "j'ai cru",
+        "futurProche": "je vais croire",
+        "imperatif": "crois/croyons/croyez",
+        "example": {
+          "fr": "Je crois que le plan est bon.",
+          "en": "I believe the plan is good."
+        }
+      },
+      "npB": {
+        "imparfait": "croyais",
+        "plusQueParfait": "avais cru",
+        "futurSimple": "croirai",
+        "conditionnel": "croirais",
+        "subjonctif": "croie",
+        "example": {
+          "fr": "Je croirais le rapport si les données étaient claires.",
+          "en": "I would believe the report if the data were clear."
+        }
+      },
+      "npC": {
+        "passeSimple": "crus",
+        "subjPasse": "aie cru",
+        "condPasse": "aurais cru",
+        "futurAnterieur": "aurai cru",
+        "gerondif": "en croyant",
+        "example": {
+          "fr": "En croyant à ce projet, l'équipe redoubla d'efforts.",
+          "en": "By believing in this project, the team doubled its efforts."
+        }
+      }
+    },
+    {
+      "id": 21,
+      "infinitif": "demander",
+      "en": "to ask / to request",
+      "group": "1er",
+      "context": "Requests, applications, inquiries",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Je demande une journée de congé.",
+        "en": "I am requesting a day off."
+      },
+      "npA": {
+        "present": "demande/demandes/demande/demandons/demandez/demandent",
+        "passeCompose": "j'ai demandé",
+        "futurProche": "je vais demander",
+        "imperatif": "demande/demandons/demandez",
+        "example": {
+          "fr": "Je demande une journée de congé.",
+          "en": "I am requesting a day off."
+        }
+      },
+      "npB": {
+        "imparfait": "demandais",
+        "plusQueParfait": "avais demandé",
+        "futurSimple": "demanderai",
+        "conditionnel": "demanderais",
+        "subjonctif": "demande",
+        "example": {
+          "fr": "Je demanderais une aide si c'était urgent.",
+          "en": "I would ask for help if it were urgent."
+        }
+      },
+      "npC": {
+        "passeSimple": "demandai",
+        "subjPasse": "aie demandé",
+        "condPasse": "aurais demandé",
+        "futurAnterieur": "aurai demandé",
+        "gerondif": "en demandant",
+        "example": {
+          "fr": "En demandant tôt, elle obtint une réponse rapide.",
+          "en": "By asking early, she got a quick answer."
+        }
+      }
+    },
+    {
+      "id": 22,
+      "infinitif": "rester",
+      "en": "to stay / to remain",
+      "group": "1er",
+      "context": "Status, continuation, position",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je reste au bureau jusqu'à cinq heures.",
+        "en": "I stay at the office until five o'clock."
+      },
+      "npA": {
+        "present": "reste/restes/reste/restons/restez/restent",
+        "passeCompose": "je suis resté(e)",
+        "futurProche": "je vais rester",
+        "imperatif": "reste/restons/restez",
+        "example": {
+          "fr": "Je reste au bureau jusqu'à cinq heures.",
+          "en": "I stay at the office until five o'clock."
+        }
+      },
+      "npB": {
+        "imparfait": "restais",
+        "plusQueParfait": "étais resté(e)",
+        "futurSimple": "resterai",
+        "conditionnel": "resterais",
+        "subjonctif": "reste",
+        "example": {
+          "fr": "Je resterais si on avait besoin de moi.",
+          "en": "I would stay if they needed me."
+        }
+      },
+      "npC": {
+        "passeSimple": "restai",
+        "subjPasse": "sois resté(e)",
+        "condPasse": "serais resté(e)",
+        "futurAnterieur": "serai resté(e)",
+        "gerondif": "en restant",
+        "example": {
+          "fr": "En restant calme, il gagna le respect de son équipe.",
+          "en": "By staying calm, he earned his team's respect."
+        }
+      }
+    },
+    {
+      "id": 23,
+      "infinitif": "répondre",
+      "en": "to answer / to respond",
+      "group": "3e",
+      "context": "Communication, correspondence",
+      "tag": "communication_ecrite",
+      "example": {
+        "fr": "Répondez au courriel avant vendredi.",
+        "en": "Reply to the email before Friday."
+      },
+      "npA": {
+        "present": "réponds/réponds/répond/répondons/répondez/répondent",
+        "passeCompose": "j'ai répondu",
+        "futurProche": "je vais répondre",
+        "imperatif": "réponds/répondons/répondez",
+        "example": {
+          "fr": "Répondez au courriel avant vendredi.",
+          "en": "Reply to the email before Friday."
+        }
+      },
+      "npB": {
+        "imparfait": "répondais",
+        "plusQueParfait": "avais répondu",
+        "futurSimple": "répondrai",
+        "conditionnel": "répondrais",
+        "subjonctif": "réponde",
+        "example": {
+          "fr": "Je répondrais plus vite si j'avais l'information.",
+          "en": "I would answer faster if I had the information."
+        }
+      },
+      "npC": {
+        "passeSimple": "répondis",
+        "subjPasse": "aie répondu",
+        "condPasse": "aurais répondu",
+        "futurAnterieur": "aurai répondu",
+        "gerondif": "en répondant",
+        "example": {
+          "fr": "En répondant vite, elle évita un retard important.",
+          "en": "By answering quickly, she avoided a major delay."
+        }
+      }
+    },
+    {
+      "id": 24,
+      "infinitif": "entendre",
+      "en": "to hear",
+      "group": "3e",
+      "context": "Listening, understanding, compliance",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "J'entends que des changements arrivent.",
+        "en": "I hear that changes are coming."
+      },
+      "npA": {
+        "present": "entends/entends/entend/entendons/entendez/entendent",
+        "passeCompose": "j'ai entendu",
+        "futurProche": "je vais entendre",
+        "imperatif": "entends/entendons/entendez",
+        "example": {
+          "fr": "J'entends que des changements arrivent.",
+          "en": "I hear that changes are coming."
+        }
+      },
+      "npB": {
+        "imparfait": "entendais",
+        "plusQueParfait": "avais entendu",
+        "futurSimple": "entendrai",
+        "conditionnel": "entendrais",
+        "subjonctif": "entende",
+        "example": {
+          "fr": "J'entendais souvent cette phrase au bureau.",
+          "en": "I used to hear that phrase at the office often."
+        }
+      },
+      "npC": {
+        "passeSimple": "entendis",
+        "subjPasse": "aie entendu",
+        "condPasse": "aurais entendu",
+        "futurAnterieur": "aurai entendu",
+        "gerondif": "en entendant",
+        "example": {
+          "fr": "En entendant la nouvelle, le groupe se mobilisa.",
+          "en": "Upon hearing the news, the group mobilized."
+        }
+      }
+    },
+    {
+      "id": 25,
+      "infinitif": "penser",
+      "en": "to think",
+      "group": "1er",
+      "context": "Opinion, planning, reflection",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je pense que c'est une bonne idée.",
+        "en": "I think it's a good idea."
+      },
+      "npA": {
+        "present": "pense/penses/pense/pensons/pensez/pensent",
+        "passeCompose": "j'ai pensé",
+        "futurProche": "je vais penser",
+        "imperatif": "pense/pensons/pensez",
+        "example": {
+          "fr": "Je pense que c'est une bonne idée.",
+          "en": "I think it's a good idea."
+        }
+      },
+      "npB": {
+        "imparfait": "pensais",
+        "plusQueParfait": "avais pensé",
+        "futurSimple": "penserai",
+        "conditionnel": "penserais",
+        "subjonctif": "pense",
+        "example": {
+          "fr": "Je penserais à une autre option si j'étais vous.",
+          "en": "I would think of another option if I were you."
+        }
+      },
+      "npC": {
+        "passeSimple": "pensai",
+        "subjPasse": "aie pensé",
+        "condPasse": "aurais pensé",
+        "futurAnterieur": "aurai pensé",
+        "gerondif": "en pensant",
+        "example": {
+          "fr": "En pensant à long terme, ils changèrent de stratégie.",
+          "en": "By thinking long-term, they changed strategy."
+        }
+      }
+    },
+    {
+      "id": 26,
+      "infinitif": "arriver",
+      "en": "to arrive / to happen",
+      "group": "1er",
+      "context": "Arrival, occurrence, events",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Le matériel arrive demain matin.",
+        "en": "The equipment arrives tomorrow morning."
+      },
+      "npA": {
+        "present": "arrive/arrives/arrive/arrivons/arrivez/arrivent",
+        "passeCompose": "je suis arrivé(e)",
+        "futurProche": "je vais arriver",
+        "imperatif": "arrive/arrivons/arrivez",
+        "example": {
+          "fr": "Le matériel arrive demain matin.",
+          "en": "The equipment arrives tomorrow morning."
+        }
+      },
+      "npB": {
+        "imparfait": "arrivais",
+        "plusQueParfait": "étais arrivé(e)",
+        "futurSimple": "arriverai",
+        "conditionnel": "arriverais",
+        "subjonctif": "arrive",
+        "example": {
+          "fr": "J'arriverais à l'heure si le trafic était bon.",
+          "en": "I would arrive on time if the traffic were good."
+        }
+      },
+      "npC": {
+        "passeSimple": "arrivai",
+        "subjPasse": "sois arrivé(e)",
+        "condPasse": "serais arrivé(e)",
+        "futurAnterieur": "serai arrivé(e)",
+        "gerondif": "en arrivant",
+        "example": {
+          "fr": "En arrivant tôt, elle prépara la salle avant les autres.",
+          "en": "By arriving early, she prepared the room before the others."
+        }
+      }
+    },
+    {
+      "id": 27,
+      "infinitif": "connaître",
+      "en": "to know (person/place)",
+      "group": "3e",
+      "context": "Familiarity, recognition",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je connais bien cette procédure.",
+        "en": "I know this procedure well."
+      },
+      "npA": {
+        "present": "connais/connais/connaît/connaissons/connaissez/connaissent",
+        "passeCompose": "j'ai connu",
+        "futurProche": "je vais connaître",
+        "imperatif": "connais/connaissons/connaissez",
+        "example": {
+          "fr": "Je connais bien cette procédure.",
+          "en": "I know this procedure well."
+        }
+      },
+      "npB": {
+        "imparfait": "connaissais",
+        "plusQueParfait": "avais connu",
+        "futurSimple": "connaîtrai",
+        "conditionnel": "connaîtrais",
+        "subjonctif": "connaisse",
+        "example": {
+          "fr": "Je connaissais le règlement avant le changement.",
+          "en": "I knew the regulation before the change."
+        }
+      },
+      "npC": {
+        "passeSimple": "connus",
+        "subjPasse": "aie connu",
+        "condPasse": "aurais connu",
+        "futurAnterieur": "aurai connu",
+        "gerondif": "en connaissant",
+        "example": {
+          "fr": "En connaissant les règles, il évita les erreurs.",
+          "en": "By knowing the rules, he avoided mistakes."
+        }
+      }
+    },
+    {
+      "id": 28,
+      "infinitif": "devenir",
+      "en": "to become",
+      "group": "3e",
+      "context": "Promotion, change of status",
+      "tag": "rh_emploi",
+      "example": {
+        "fr": "Il devient chef de section en janvier.",
+        "en": "He becomes section head in January."
+      },
+      "npA": {
+        "present": "deviens/deviens/devient/devenons/devenez/deviennent",
+        "passeCompose": "je suis devenu(e)",
+        "futurProche": "je vais devenir",
+        "imperatif": "deviens/devenons/devenez",
+        "example": {
+          "fr": "Il devient chef de section en janvier.",
+          "en": "He becomes section head in January."
+        }
+      },
+      "npB": {
+        "imparfait": "devenais",
+        "plusQueParfait": "étais devenu(e)",
+        "futurSimple": "deviendrai",
+        "conditionnel": "deviendrais",
+        "subjonctif": "devienne",
+        "example": {
+          "fr": "Elle deviendrait officier si elle réussissait le cours.",
+          "en": "She would become an officer if she passed the course."
+        }
+      },
+      "npC": {
+        "passeSimple": "devins",
+        "subjPasse": "sois devenu(e)",
+        "condPasse": "serais devenu(e)",
+        "futurAnterieur": "serai devenu(e)",
+        "gerondif": "en devenant",
+        "example": {
+          "fr": "En devenant bilingue, il ouvrit de nouvelles portes.",
+          "en": "By becoming bilingual, he opened new doors."
+        }
+      }
+    },
+    {
+      "id": 29,
+      "infinitif": "sentir",
+      "en": "to feel / to sense",
+      "group": "3e",
+      "context": "Perception, morale, atmosphere",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je sens que le moral est bon.",
+        "en": "I feel that morale is good."
+      },
+      "npA": {
+        "present": "sens/sens/sent/sentons/sentez/sentent",
+        "passeCompose": "j'ai senti",
+        "futurProche": "je vais sentir",
+        "imperatif": "sens/sentons/sentez",
+        "example": {
+          "fr": "Je sens que le moral est bon.",
+          "en": "I feel that morale is good."
+        }
+      },
+      "npB": {
+        "imparfait": "sentais",
+        "plusQueParfait": "avais senti",
+        "futurSimple": "sentirai",
+        "conditionnel": "sentirais",
+        "subjonctif": "sente",
+        "example": {
+          "fr": "Je sentais que le groupe était fatigué.",
+          "en": "I could feel that the group was tired."
+        }
+      },
+      "npC": {
+        "passeSimple": "sentis",
+        "subjPasse": "aie senti",
+        "condPasse": "aurais senti",
+        "futurAnterieur": "aurai senti",
+        "gerondif": "en sentant",
+        "example": {
+          "fr": "En sentant le besoin de changement, il proposa un plan.",
+          "en": "Sensing the need for change, he proposed a plan."
+        }
+      }
+    },
+    {
+      "id": 30,
+      "infinitif": "sembler",
+      "en": "to seem / to appear",
+      "group": "1er",
+      "context": "Assessment, impression",
+      "tag": "nuances_registre",
+      "example": {
+        "fr": "Il semble que tout est en ordre.",
+        "en": "It seems that everything is in order."
+      },
+      "npA": {
+        "present": "semble/sembles/semble/semblons/semblez/semblent",
+        "passeCompose": "j'ai semblé",
+        "futurProche": "je vais sembler",
+        "imperatif": "—",
+        "example": {
+          "fr": "Il semble que tout est en ordre.",
+          "en": "It seems that everything is in order."
+        }
+      },
+      "npB": {
+        "imparfait": "semblais",
+        "plusQueParfait": "avais semblé",
+        "futurSimple": "semblerai",
+        "conditionnel": "semblerais",
+        "subjonctif": "semble",
+        "example": {
+          "fr": "Il semblait que le projet avançait bien.",
+          "en": "It seemed that the project was going well."
+        }
+      },
+      "npC": {
+        "passeSimple": "semblai",
+        "subjPasse": "aie semblé",
+        "condPasse": "aurais semblé",
+        "futurAnterieur": "aurai semblé",
+        "gerondif": "en semblant",
+        "example": {
+          "fr": "En semblant simple, le problème cachait des risques.",
+          "en": "While seeming simple, the problem hid risks."
+        }
+      }
+    },
+    {
+      "id": 31,
+      "infinitif": "tenir",
+      "en": "to hold / to keep",
+      "group": "3e",
+      "context": "Maintaining, responsibility",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Tenez-moi au courant de la situation.",
+        "en": "Keep me informed of the situation."
+      },
+      "npA": {
+        "present": "tiens/tiens/tient/tenons/tenez/tiennent",
+        "passeCompose": "j'ai tenu",
+        "futurProche": "je vais tenir",
+        "imperatif": "tiens/tenons/tenez",
+        "example": {
+          "fr": "Tenez-moi au courant de la situation.",
+          "en": "Keep me informed of the situation."
+        }
+      },
+      "npB": {
+        "imparfait": "tenais",
+        "plusQueParfait": "avais tenu",
+        "futurSimple": "tiendrai",
+        "conditionnel": "tiendrais",
+        "subjonctif": "tienne",
+        "example": {
+          "fr": "Je tiendrais une réunion chaque semaine si possible.",
+          "en": "I would hold a meeting every week if possible."
+        }
+      },
+      "npC": {
+        "passeSimple": "tins",
+        "subjPasse": "aie tenu",
+        "condPasse": "aurais tenu",
+        "futurAnterieur": "aurai tenu",
+        "gerondif": "en tenant",
+        "example": {
+          "fr": "En tenant compte des risques, le plan fut révisé.",
+          "en": "By taking risks into account, the plan was revised."
+        }
+      }
+    },
+    {
+      "id": 32,
+      "infinitif": "comprendre",
+      "en": "to understand",
+      "group": "3e",
+      "context": "Comprehension, compliance",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je comprends le message très bien.",
+        "en": "I understand the message very well."
+      },
+      "npA": {
+        "present": "comprends/comprends/comprend/comprenons/comprenez/comprennent",
+        "passeCompose": "j'ai compris",
+        "futurProche": "je vais comprendre",
+        "imperatif": "comprends/comprenons/comprenez",
+        "example": {
+          "fr": "Je comprends le message très bien.",
+          "en": "I understand the message very well."
+        }
+      },
+      "npB": {
+        "imparfait": "comprenais",
+        "plusQueParfait": "avais compris",
+        "futurSimple": "comprendrai",
+        "conditionnel": "comprendrais",
+        "subjonctif": "comprenne",
+        "example": {
+          "fr": "Il faut que tout le monde comprenne les règles.",
+          "en": "Everyone needs to understand the rules."
+        }
+      },
+      "npC": {
+        "passeSimple": "compris",
+        "subjPasse": "aie compris",
+        "condPasse": "aurais compris",
+        "futurAnterieur": "aurai compris",
+        "gerondif": "en comprenant",
+        "example": {
+          "fr": "En comprenant le contexte, l'analyste affina ses conclusions.",
+          "en": "By understanding the context, the analyst refined his conclusions."
+        }
+      }
+    },
+    {
+      "id": 33,
+      "infinitif": "rendre",
+      "en": "to return / to render",
+      "group": "3e",
+      "context": "Reporting (rendre compte), submission",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Je rends le rapport vendredi.",
+        "en": "I am returning the report on Friday."
+      },
+      "npA": {
+        "present": "rends/rends/rend/rendons/rendez/rendent",
+        "passeCompose": "j'ai rendu",
+        "futurProche": "je vais rendre",
+        "imperatif": "rends/rendons/rendez",
+        "example": {
+          "fr": "Je rends le rapport vendredi.",
+          "en": "I am returning the report on Friday."
+        }
+      },
+      "npB": {
+        "imparfait": "rendais",
+        "plusQueParfait": "avais rendu",
+        "futurSimple": "rendrai",
+        "conditionnel": "rendrais",
+        "subjonctif": "rende",
+        "example": {
+          "fr": "Je rendrais compte au directeur chaque semaine.",
+          "en": "I would report to the director every week."
+        }
+      },
+      "npC": {
+        "passeSimple": "rendis",
+        "subjPasse": "aie rendu",
+        "condPasse": "aurais rendu",
+        "futurAnterieur": "aurai rendu",
+        "gerondif": "en rendant",
+        "example": {
+          "fr": "En rendant le verdict, le tribunal créa un précédent.",
+          "en": "By rendering the verdict, the court set a precedent."
+        }
+      }
+    },
+    {
+      "id": 34,
+      "infinitif": "attendre",
+      "en": "to wait / to expect",
+      "group": "3e",
+      "context": "Expectations, pending actions",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "J'attends votre réponse.",
+        "en": "I am waiting for your answer."
+      },
+      "npA": {
+        "present": "attends/attends/attend/attendons/attendez/attendent",
+        "passeCompose": "j'ai attendu",
+        "futurProche": "je vais attendre",
+        "imperatif": "attends/attendons/attendez",
+        "example": {
+          "fr": "J'attends votre réponse.",
+          "en": "I am waiting for your answer."
+        }
+      },
+      "npB": {
+        "imparfait": "attendais",
+        "plusQueParfait": "avais attendu",
+        "futurSimple": "attendrai",
+        "conditionnel": "attendrais",
+        "subjonctif": "attende",
+        "example": {
+          "fr": "J'attendrais la confirmation avant d'agir.",
+          "en": "I would wait for confirmation before acting."
+        }
+      },
+      "npC": {
+        "passeSimple": "attendis",
+        "subjPasse": "aie attendu",
+        "condPasse": "aurais attendu",
+        "futurAnterieur": "aurai attendu",
+        "gerondif": "en attendant",
+        "example": {
+          "fr": "En attendant la réponse, il prépara un plan B.",
+          "en": "While waiting for the answer, he prepared a plan B."
+        }
+      }
+    },
+    {
+      "id": 35,
+      "infinitif": "sortir",
+      "en": "to go out / to exit",
+      "group": "3e",
+      "context": "Departure, release, publication",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "La nouvelle directive sort cette semaine.",
+        "en": "The new directive comes out this week."
+      },
+      "npA": {
+        "present": "sors/sors/sort/sortons/sortez/sortent",
+        "passeCompose": "je suis sorti(e)",
+        "futurProche": "je vais sortir",
+        "imperatif": "sors/sortons/sortez",
+        "example": {
+          "fr": "La nouvelle directive sort cette semaine.",
+          "en": "The new directive comes out this week."
+        }
+      },
+      "npB": {
+        "imparfait": "sortais",
+        "plusQueParfait": "étais sorti(e)",
+        "futurSimple": "sortirai",
+        "conditionnel": "sortirais",
+        "subjonctif": "sorte",
+        "example": {
+          "fr": "Je sortirais plus tôt si la réunion finissait à temps.",
+          "en": "I would leave earlier if the meeting ended on time."
+        }
+      },
+      "npC": {
+        "passeSimple": "sortis",
+        "subjPasse": "sois sorti(e)",
+        "condPasse": "serais sorti(e)",
+        "futurAnterieur": "serai sorti(e)",
+        "gerondif": "en sortant",
+        "example": {
+          "fr": "En sortant du cadre habituel, l'équipe trouva une solution.",
+          "en": "By thinking outside the box, the team found a solution."
+        }
+      }
+    },
+    {
+      "id": 36,
+      "infinitif": "vivre",
+      "en": "to live",
+      "group": "3e",
+      "context": "Experience, conditions of service",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je vis près de la base depuis deux ans.",
+        "en": "I have lived near the base for two years."
+      },
+      "npA": {
+        "present": "vis/vis/vit/vivons/vivez/vivent",
+        "passeCompose": "j'ai vécu",
+        "futurProche": "je vais vivre",
+        "imperatif": "vis/vivons/vivez",
+        "example": {
+          "fr": "Je vis près de la base depuis deux ans.",
+          "en": "I have lived near the base for two years."
+        }
+      },
+      "npB": {
+        "imparfait": "vivais",
+        "plusQueParfait": "avais vécu",
+        "futurSimple": "vivrai",
+        "conditionnel": "vivrais",
+        "subjonctif": "vive",
+        "example": {
+          "fr": "Je vivrais sur la base si c'était possible.",
+          "en": "I would live on the base if it were possible."
+        }
+      },
+      "npC": {
+        "passeSimple": "vécus",
+        "subjPasse": "aie vécu",
+        "condPasse": "aurais vécu",
+        "futurAnterieur": "aurai vécu",
+        "gerondif": "en vivant",
+        "example": {
+          "fr": "En vivant cette expérience, il mûrit comme leader.",
+          "en": "By living this experience, he matured as a leader."
+        }
+      }
+    },
+    {
+      "id": 37,
+      "infinitif": "écrire",
+      "en": "to write",
+      "group": "3e",
+      "context": "Documentation, correspondence",
+      "tag": "communication_ecrite",
+      "example": {
+        "fr": "J'écris un courriel au directeur.",
+        "en": "I am writing an email to the director."
+      },
+      "npA": {
+        "present": "écris/écris/écrit/écrivons/écrivez/écrivent",
+        "passeCompose": "j'ai écrit",
+        "futurProche": "je vais écrire",
+        "imperatif": "écris/écrivons/écrivez",
+        "example": {
+          "fr": "J'écris un courriel au directeur.",
+          "en": "I am writing an email to the director."
+        }
+      },
+      "npB": {
+        "imparfait": "écrivais",
+        "plusQueParfait": "avais écrit",
+        "futurSimple": "écrirai",
+        "conditionnel": "écrirais",
+        "subjonctif": "écrive",
+        "example": {
+          "fr": "J'écrirais le rapport si j'avais les données.",
+          "en": "I would write the report if I had the data."
+        }
+      },
+      "npC": {
+        "passeSimple": "écrivis",
+        "subjPasse": "aie écrit",
+        "condPasse": "aurais écrit",
+        "futurAnterieur": "aurai écrit",
+        "gerondif": "en écrivant",
+        "example": {
+          "fr": "Il écrivit un long mémoire sur les lacunes du programme.",
+          "en": "He wrote a long memo on the program's shortcomings."
+        }
+      }
+    },
+    {
+      "id": 38,
+      "infinitif": "revenir",
+      "en": "to come back",
+      "group": "3e",
+      "context": "Return, revisiting topics",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je reviens dans cinq minutes.",
+        "en": "I'll be back in five minutes."
+      },
+      "npA": {
+        "present": "reviens/reviens/revient/revenons/revenez/reviennent",
+        "passeCompose": "je suis revenu(e)",
+        "futurProche": "je vais revenir",
+        "imperatif": "reviens/revenons/revenez",
+        "example": {
+          "fr": "Je reviens dans cinq minutes.",
+          "en": "I'll be back in five minutes."
+        }
+      },
+      "npB": {
+        "imparfait": "revenais",
+        "plusQueParfait": "étais revenu(e)",
+        "futurSimple": "reviendrai",
+        "conditionnel": "reviendrais",
+        "subjonctif": "revienne",
+        "example": {
+          "fr": "Je reviendrais sur ce point à la prochaine réunion.",
+          "en": "I would come back to this point at the next meeting."
+        }
+      },
+      "npC": {
+        "passeSimple": "revins",
+        "subjPasse": "sois revenu(e)",
+        "condPasse": "serais revenu(e)",
+        "futurAnterieur": "serai revenu(e)",
+        "gerondif": "en revenant",
+        "example": {
+          "fr": "En revenant sur sa décision, le chef calma le groupe.",
+          "en": "By reversing his decision, the boss calmed the group."
+        }
+      }
+    },
+    {
+      "id": 39,
+      "infinitif": "entrer",
+      "en": "to enter",
+      "group": "1er",
+      "context": "Entry, enrollment, data entry",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Entrez les données dans le système.",
+        "en": "Enter the data into the system."
+      },
+      "npA": {
+        "present": "entre/entres/entre/entrons/entrez/entrent",
+        "passeCompose": "je suis entré(e)",
+        "futurProche": "je vais entrer",
+        "imperatif": "entre/entrons/entrez",
+        "example": {
+          "fr": "Entrez les données dans le système.",
+          "en": "Enter the data into the system."
+        }
+      },
+      "npB": {
+        "imparfait": "entrais",
+        "plusQueParfait": "étais entré(e)",
+        "futurSimple": "entrerai",
+        "conditionnel": "entrerais",
+        "subjonctif": "entre",
+        "example": {
+          "fr": "J'entrerais les chiffres si j'avais accès au fichier.",
+          "en": "I would enter the numbers if I had access to the file."
+        }
+      },
+      "npC": {
+        "passeSimple": "entrai",
+        "subjPasse": "sois entré(e)",
+        "condPasse": "serais entré(e)",
+        "futurAnterieur": "serai entré(e)",
+        "gerondif": "en entrant",
+        "example": {
+          "fr": "En entrant en fonction, le nouveau chef changea les règles.",
+          "en": "Upon taking office, the new chief changed the rules."
+        }
+      }
+    },
+    {
+      "id": 40,
+      "infinitif": "porter",
+      "en": "to carry / to wear",
+      "group": "1er",
+      "context": "Uniform, bearing, carrying",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Portez l'uniforme propre chaque jour.",
+        "en": "Wear a clean uniform every day."
+      },
+      "npA": {
+        "present": "porte/portes/porte/portons/portez/portent",
+        "passeCompose": "j'ai porté",
+        "futurProche": "je vais porter",
+        "imperatif": "porte/portons/portez",
+        "example": {
+          "fr": "Portez l'uniforme propre chaque jour.",
+          "en": "Wear a clean uniform every day."
+        }
+      },
+      "npB": {
+        "imparfait": "portais",
+        "plusQueParfait": "avais porté",
+        "futurSimple": "porterai",
+        "conditionnel": "porterais",
+        "subjonctif": "porte",
+        "example": {
+          "fr": "Je porterais le béret si c'était la règle ici.",
+          "en": "I would wear the beret if it were the rule here."
+        }
+      },
+      "npC": {
+        "passeSimple": "portai",
+        "subjPasse": "aie porté",
+        "condPasse": "aurais porté",
+        "futurAnterieur": "aurai porté",
+        "gerondif": "en portant",
+        "example": {
+          "fr": "En portant ce projet, elle démontra son leadership.",
+          "en": "By carrying this project, she demonstrated her leadership."
+        }
+      }
+    },
+    {
+      "id": 41,
+      "infinitif": "suivre",
+      "en": "to follow",
+      "group": "3e",
+      "context": "Compliance, training, procedures",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Suivez les instructions dans le guide.",
+        "en": "Follow the instructions in the guide."
+      },
+      "npA": {
+        "present": "suis/suis/suit/suivons/suivez/suivent",
+        "passeCompose": "j'ai suivi",
+        "futurProche": "je vais suivre",
+        "imperatif": "suis/suivons/suivez",
+        "example": {
+          "fr": "Suivez les instructions dans le guide.",
+          "en": "Follow the instructions in the guide."
+        }
+      },
+      "npB": {
+        "imparfait": "suivais",
+        "plusQueParfait": "avais suivi",
+        "futurSimple": "suivrai",
+        "conditionnel": "suivrais",
+        "subjonctif": "suive",
+        "example": {
+          "fr": "Il est important qu'on suive le protocole.",
+          "en": "It is important that we follow the protocol."
+        }
+      },
+      "npC": {
+        "passeSimple": "suivis",
+        "subjPasse": "aie suivi",
+        "condPasse": "aurais suivi",
+        "futurAnterieur": "aurai suivi",
+        "gerondif": "en suivant",
+        "example": {
+          "fr": "En suivant les consignes, l'unité évita les erreurs.",
+          "en": "By following the instructions, the unit avoided errors."
+        }
+      }
+    },
+    {
+      "id": 42,
+      "infinitif": "montrer",
+      "en": "to show",
+      "group": "1er",
+      "context": "Demonstration, presentation",
+      "tag": "communication_ecrite",
+      "example": {
+        "fr": "Montrez-moi le plan sur la carte.",
+        "en": "Show me the plan on the map."
+      },
+      "npA": {
+        "present": "montre/montres/montre/montrons/montrez/montrent",
+        "passeCompose": "j'ai montré",
+        "futurProche": "je vais montrer",
+        "imperatif": "montre/montrons/montrez",
+        "example": {
+          "fr": "Montrez-moi le plan sur la carte.",
+          "en": "Show me the plan on the map."
+        }
+      },
+      "npB": {
+        "imparfait": "montrais",
+        "plusQueParfait": "avais montré",
+        "futurSimple": "montrerai",
+        "conditionnel": "montrerais",
+        "subjonctif": "montre",
+        "example": {
+          "fr": "Je montrerais les données si elles étaient prêtes.",
+          "en": "I would show the data if they were ready."
+        }
+      },
+      "npC": {
+        "passeSimple": "montrai",
+        "subjPasse": "aie montré",
+        "condPasse": "aurais montré",
+        "futurAnterieur": "aurai montré",
+        "gerondif": "en montrant",
+        "example": {
+          "fr": "En montrant les faits, il mit fin au débat.",
+          "en": "By showing the facts, he ended the debate."
+        }
+      }
+    },
+    {
+      "id": 43,
+      "infinitif": "commencer",
+      "en": "to begin / to start",
+      "group": "1er",
+      "context": "Initiation, deployment, start dates",
+      "tag": "temps_sequentiel",
+      "example": {
+        "fr": "On commence le travail à huit heures.",
+        "en": "We start work at eight o'clock."
+      },
+      "npA": {
+        "present": "commence/commences/commence/commençons/commencez/commencent",
+        "passeCompose": "j'ai commencé",
+        "futurProche": "je vais commencer",
+        "imperatif": "commence/commençons/commencez",
+        "example": {
+          "fr": "On commence le travail à huit heures.",
+          "en": "We start work at eight o'clock."
+        }
+      },
+      "npB": {
+        "imparfait": "commençais",
+        "plusQueParfait": "avais commencé",
+        "futurSimple": "commencerai",
+        "conditionnel": "commencerais",
+        "subjonctif": "commence",
+        "example": {
+          "fr": "Je commencerais plus tôt si l'horaire le permettait.",
+          "en": "I would start earlier if the schedule allowed."
+        }
+      },
+      "npC": {
+        "passeSimple": "commençai",
+        "subjPasse": "aie commencé",
+        "condPasse": "aurais commencé",
+        "futurAnterieur": "aurai commencé",
+        "gerondif": "en commençant",
+        "example": {
+          "fr": "En commençant par les priorités, l'équipe fut plus efficace.",
+          "en": "By starting with priorities, the team was more efficient."
+        }
+      }
+    },
+    {
+      "id": 44,
+      "infinitif": "compter",
+      "en": "to count / to intend",
+      "group": "1er",
+      "context": "Planning, budgeting, intention",
+      "tag": "gestion_admin",
+      "example": {
+        "fr": "Je compte finir le projet ce mois-ci.",
+        "en": "I intend to finish the project this month."
+      },
+      "npA": {
+        "present": "compte/comptes/compte/comptons/comptez/comptent",
+        "passeCompose": "j'ai compté",
+        "futurProche": "je vais compter",
+        "imperatif": "compte/comptons/comptez",
+        "example": {
+          "fr": "Je compte finir le projet ce mois-ci.",
+          "en": "I intend to finish the project this month."
+        }
+      },
+      "npB": {
+        "imparfait": "comptais",
+        "plusQueParfait": "avais compté",
+        "futurSimple": "compterai",
+        "conditionnel": "compterais",
+        "subjonctif": "compte",
+        "example": {
+          "fr": "Je compterais sur votre aide si c'était possible.",
+          "en": "I would count on your help if it were possible."
+        }
+      },
+      "npC": {
+        "passeSimple": "comptai",
+        "subjPasse": "aie compté",
+        "condPasse": "aurais compté",
+        "futurAnterieur": "aurai compté",
+        "gerondif": "en comptant",
+        "example": {
+          "fr": "En comptant chaque dollar, le budget resta dans les limites.",
+          "en": "By counting every dollar, the budget stayed within limits."
+        }
+      }
+    },
+    {
+      "id": 45,
+      "infinitif": "permettre",
+      "en": "to allow / to permit",
+      "group": "3e",
+      "context": "Authorization, permissions, policy",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "La règle permet une exception.",
+        "en": "The rule allows an exception."
+      },
+      "npA": {
+        "present": "permets/permets/permet/permettons/permettez/permettent",
+        "passeCompose": "j'ai permis",
+        "futurProche": "je vais permettre",
+        "imperatif": "permets/permettons/permettez",
+        "example": {
+          "fr": "La règle permet une exception.",
+          "en": "The rule allows an exception."
+        }
+      },
+      "npB": {
+        "imparfait": "permettais",
+        "plusQueParfait": "avais permis",
+        "futurSimple": "permettrai",
+        "conditionnel": "permettrais",
+        "subjonctif": "permette",
+        "example": {
+          "fr": "Le budget ne permettrait pas cet achat.",
+          "en": "The budget would not allow this purchase."
+        }
+      },
+      "npC": {
+        "passeSimple": "permis",
+        "subjPasse": "aie permis",
+        "condPasse": "aurais permis",
+        "futurAnterieur": "aurai permis",
+        "gerondif": "en permettant",
+        "example": {
+          "fr": "En permettant plus de souplesse, la politique fut mieux reçue.",
+          "en": "By allowing more flexibility, the policy was better received."
+        }
+      }
+    },
+    {
+      "id": 46,
+      "infinitif": "recevoir",
+      "en": "to receive",
+      "group": "3e",
+      "context": "Correspondence, supplies, orders",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "J'ai reçu votre message ce matin.",
+        "en": "I received your message this morning."
+      },
+      "npA": {
+        "present": "reçois/reçois/reçoit/recevons/recevez/reçoivent",
+        "passeCompose": "j'ai reçu",
+        "futurProche": "je vais recevoir",
+        "imperatif": "reçois/recevons/recevez",
+        "example": {
+          "fr": "J'ai reçu votre message ce matin.",
+          "en": "I received your message this morning."
+        }
+      },
+      "npB": {
+        "imparfait": "recevais",
+        "plusQueParfait": "avais reçu",
+        "futurSimple": "recevrai",
+        "conditionnel": "recevrais",
+        "subjonctif": "reçoive",
+        "example": {
+          "fr": "Je recevrais le colis vendredi si tout va bien.",
+          "en": "I would receive the package on Friday if all goes well."
+        }
+      },
+      "npC": {
+        "passeSimple": "reçus",
+        "subjPasse": "aie reçu",
+        "condPasse": "aurais reçu",
+        "futurAnterieur": "aurai reçu",
+        "gerondif": "en recevant",
+        "example": {
+          "fr": "En recevant l'ordre, l'unité se mit en marche.",
+          "en": "Upon receiving the order, the unit set out."
+        }
+      }
+    },
+    {
+      "id": 47,
+      "infinitif": "présenter",
+      "en": "to present / to introduce",
+      "group": "1er",
+      "context": "Briefings, reports, introductions",
+      "tag": "communication_ecrite",
+      "example": {
+        "fr": "Je présente le plan à mon équipe.",
+        "en": "I am presenting the plan to my team."
+      },
+      "npA": {
+        "present": "présente/présentes/présente/présentons/présentez/présentent",
+        "passeCompose": "j'ai présenté",
+        "futurProche": "je vais présenter",
+        "imperatif": "présente/présentons/présentez",
+        "example": {
+          "fr": "Je présente le plan à mon équipe.",
+          "en": "I am presenting the plan to my team."
+        }
+      },
+      "npB": {
+        "imparfait": "présentais",
+        "plusQueParfait": "avais présenté",
+        "futurSimple": "présenterai",
+        "conditionnel": "présenterais",
+        "subjonctif": "présente",
+        "example": {
+          "fr": "Je présenterais les options si le chef était là.",
+          "en": "I would present the options if the boss were here."
+        }
+      },
+      "npC": {
+        "passeSimple": "présentai",
+        "subjPasse": "aie présenté",
+        "condPasse": "aurais présenté",
+        "futurAnterieur": "aurai présenté",
+        "gerondif": "en présentant",
+        "example": {
+          "fr": "En présentant les faits, elle gagna la confiance du comité.",
+          "en": "By presenting the facts, she gained the committee's trust."
+        }
+      }
+    },
+    {
+      "id": 48,
+      "infinitif": "accepter",
+      "en": "to accept",
+      "group": "1er",
+      "context": "Approval, agreement, terms",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "J'accepte les conditions du contrat.",
+        "en": "I accept the terms of the contract."
+      },
+      "npA": {
+        "present": "accepte/acceptes/accepte/acceptons/acceptez/acceptent",
+        "passeCompose": "j'ai accepté",
+        "futurProche": "je vais accepter",
+        "imperatif": "accepte/acceptons/acceptez",
+        "example": {
+          "fr": "J'accepte les conditions du contrat.",
+          "en": "I accept the terms of the contract."
+        }
+      },
+      "npB": {
+        "imparfait": "acceptais",
+        "plusQueParfait": "avais accepté",
+        "futurSimple": "accepterai",
+        "conditionnel": "accepterais",
+        "subjonctif": "accepte",
+        "example": {
+          "fr": "J'accepterais cette offre si elle était juste.",
+          "en": "I would accept this offer if it were fair."
+        }
+      },
+      "npC": {
+        "passeSimple": "acceptai",
+        "subjPasse": "aie accepté",
+        "condPasse": "aurais accepté",
+        "futurAnterieur": "aurai accepté",
+        "gerondif": "en acceptant",
+        "example": {
+          "fr": "En acceptant le poste, il prit de grandes responsabilités.",
+          "en": "By accepting the position, he took on great responsibilities."
+        }
+      }
+    },
+    {
+      "id": 49,
+      "infinitif": "agir",
+      "en": "to act",
+      "group": "2e",
+      "context": "Action, conduct, intervention",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Il faut agir vite dans cette situation.",
+        "en": "We must act fast in this situation."
+      },
+      "npA": {
+        "present": "agis/agis/agit/agissons/agissez/agissent",
+        "passeCompose": "j'ai agi",
+        "futurProche": "je vais agir",
+        "imperatif": "agis/agissons/agissez",
+        "example": {
+          "fr": "Il faut agir vite dans cette situation.",
+          "en": "We must act fast in this situation."
+        }
+      },
+      "npB": {
+        "imparfait": "agissais",
+        "plusQueParfait": "avais agi",
+        "futurSimple": "agirai",
+        "conditionnel": "agirais",
+        "subjonctif": "agisse",
+        "example": {
+          "fr": "J'agirais tout de suite si j'avais l'ordre.",
+          "en": "I would act right away if I had the order."
+        }
+      },
+      "npC": {
+        "passeSimple": "agis",
+        "subjPasse": "aie agi",
+        "condPasse": "aurais agi",
+        "futurAnterieur": "aurai agi",
+        "gerondif": "en agissant",
+        "example": {
+          "fr": "En agissant vite, le groupe limita les dégâts.",
+          "en": "By acting quickly, the group limited the damage."
+        }
+      }
+    },
+    {
+      "id": 50,
+      "infinitif": "servir",
+      "en": "to serve",
+      "group": "3e",
+      "context": "Service, function, purpose",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Ce document sert de guide pour l'équipe.",
+        "en": "This document serves as a guide for the team."
+      },
+      "npA": {
+        "present": "sers/sers/sert/servons/servez/servent",
+        "passeCompose": "j'ai servi",
+        "futurProche": "je vais servir",
+        "imperatif": "sers/servons/servez",
+        "example": {
+          "fr": "Ce document sert de guide pour l'équipe.",
+          "en": "This document serves as a guide for the team."
+        }
+      },
+      "npB": {
+        "imparfait": "servais",
+        "plusQueParfait": "avais servi",
+        "futurSimple": "servirai",
+        "conditionnel": "servirais",
+        "subjonctif": "serve",
+        "example": {
+          "fr": "Cela servirait de modèle pour les autres unités.",
+          "en": "This would serve as a model for other units."
+        }
+      },
+      "npC": {
+        "passeSimple": "servis",
+        "subjPasse": "aie servi",
+        "condPasse": "aurais servi",
+        "futurAnterieur": "aurai servi",
+        "gerondif": "en servant",
+        "example": {
+          "fr": "En servant de médiateur, il résolut le conflit.",
+          "en": "By serving as mediator, he resolved the conflict."
+        }
+      }
+    },
+    {
+      "id": 51,
+      "infinitif": "rappeler",
+      "en": "to remind / to recall",
+      "group": "1er",
+      "context": "Reminders, callbacks, memory",
+      "tag": "communication_ecrite",
+      "example": {
+        "fr": "Je vous rappelle la date limite.",
+        "en": "I remind you of the deadline."
+      },
+      "npA": {
+        "present": "rappelle/rappelles/rappelle/rappelons/rappelez/rappellent",
+        "passeCompose": "j'ai rappelé",
+        "futurProche": "je vais rappeler",
+        "imperatif": "rappelle/rappelons/rappelez",
+        "example": {
+          "fr": "Je vous rappelle la date limite.",
+          "en": "I remind you of the deadline."
+        }
+      },
+      "npB": {
+        "imparfait": "rappelais",
+        "plusQueParfait": "avais rappelé",
+        "futurSimple": "rappellerai",
+        "conditionnel": "rappellerais",
+        "subjonctif": "rappelle",
+        "example": {
+          "fr": "Je rappellerais les règles à chaque début de cours.",
+          "en": "I would remind everyone of the rules at each class start."
+        }
+      },
+      "npC": {
+        "passeSimple": "rappelai",
+        "subjPasse": "aie rappelé",
+        "condPasse": "aurais rappelé",
+        "futurAnterieur": "aurai rappelé",
+        "gerondif": "en rappelant",
+        "example": {
+          "fr": "En rappelant les principes, le formateur renforça la discipline.",
+          "en": "By recalling the principles, the trainer reinforced discipline."
+        }
+      }
+    },
+    {
+      "id": 52,
+      "infinitif": "envoyer",
+      "en": "to send",
+      "group": "1er",
+      "context": "Correspondence, dispatch, deployment",
+      "tag": "communication_ecrite",
+      "example": {
+        "fr": "J'envoie le fichier par courriel.",
+        "en": "I am sending the file by email."
+      },
+      "npA": {
+        "present": "envoie/envoies/envoie/envoyons/envoyez/envoient",
+        "passeCompose": "j'ai envoyé",
+        "futurProche": "je vais envoyer",
+        "imperatif": "envoie/envoyons/envoyez",
+        "example": {
+          "fr": "J'envoie le fichier par courriel.",
+          "en": "I am sending the file by email."
+        }
+      },
+      "npB": {
+        "imparfait": "envoyais",
+        "plusQueParfait": "avais envoyé",
+        "futurSimple": "enverrai",
+        "conditionnel": "enverrais",
+        "subjonctif": "envoie",
+        "example": {
+          "fr": "J'enverrais le document si j'avais votre adresse.",
+          "en": "I would send the document if I had your address."
+        }
+      },
+      "npC": {
+        "passeSimple": "envoyai",
+        "subjPasse": "aie envoyé",
+        "condPasse": "aurais envoyé",
+        "futurAnterieur": "aurai envoyé",
+        "gerondif": "en envoyant",
+        "example": {
+          "fr": "En envoyant le message tôt, elle assura une réponse rapide.",
+          "en": "By sending the message early, she ensured a quick reply."
+        }
+      }
+    },
+    {
+      "id": 53,
+      "infinitif": "décider",
+      "en": "to decide",
+      "group": "1er",
+      "context": "Decision-making, command",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Le chef décide de la marche à suivre.",
+        "en": "The boss decides on the way forward."
+      },
+      "npA": {
+        "present": "décide/décides/décide/décidons/décidez/décident",
+        "passeCompose": "j'ai décidé",
+        "futurProche": "je vais décider",
+        "imperatif": "décide/décidons/décidez",
+        "example": {
+          "fr": "Le chef décide de la marche à suivre.",
+          "en": "The boss decides on the way forward."
+        }
+      },
+      "npB": {
+        "imparfait": "décidais",
+        "plusQueParfait": "avais décidé",
+        "futurSimple": "déciderai",
+        "conditionnel": "déciderais",
+        "subjonctif": "décide",
+        "example": {
+          "fr": "Je déciderais après avoir lu tous les faits.",
+          "en": "I would decide after reading all the facts."
+        }
+      },
+      "npC": {
+        "passeSimple": "décidai",
+        "subjPasse": "aie décidé",
+        "condPasse": "aurais décidé",
+        "futurAnterieur": "aurai décidé",
+        "gerondif": "en décidant",
+        "example": {
+          "fr": "En décidant vite, le commandant sauva du temps.",
+          "en": "By deciding quickly, the commander saved time."
+        }
+      }
+    },
+    {
+      "id": 54,
+      "infinitif": "représenter",
+      "en": "to represent",
+      "group": "1er",
+      "context": "Representation, delegation",
+      "tag": "gestion_admin",
+      "example": {
+        "fr": "Je représente mon unité à la conférence.",
+        "en": "I represent my unit at the conference."
+      },
+      "npA": {
+        "present": "représente/représentes/représente/représentons/représentez/représentent",
+        "passeCompose": "j'ai représenté",
+        "futurProche": "je vais représenter",
+        "imperatif": "représente/représentons/représentez",
+        "example": {
+          "fr": "Je représente mon unité à la conférence.",
+          "en": "I represent my unit at the conference."
+        }
+      },
+      "npB": {
+        "imparfait": "représentais",
+        "plusQueParfait": "avais représenté",
+        "futurSimple": "représenterai",
+        "conditionnel": "représenterais",
+        "subjonctif": "représente",
+        "example": {
+          "fr": "Je représenterais le groupe si personne d'autre ne pouvait.",
+          "en": "I would represent the group if no one else could."
+        }
+      },
+      "npC": {
+        "passeSimple": "représentai",
+        "subjPasse": "aie représenté",
+        "condPasse": "aurais représenté",
+        "futurAnterieur": "aurai représenté",
+        "gerondif": "en représentant",
+        "example": {
+          "fr": "En représentant la section, elle fit bonne impression.",
+          "en": "By representing the section, she made a good impression."
+        }
+      }
+    },
+    {
+      "id": 55,
+      "infinitif": "développer",
+      "en": "to develop",
+      "group": "1er",
+      "context": "Programs, skills, plans",
+      "tag": "gestion_admin",
+      "example": {
+        "fr": "Nous développons un nouveau programme.",
+        "en": "We are developing a new program."
+      },
+      "npA": {
+        "present": "développe/développes/développe/développons/développez/développent",
+        "passeCompose": "j'ai développé",
+        "futurProche": "je vais développer",
+        "imperatif": "développe/développons/développez",
+        "example": {
+          "fr": "Nous développons un nouveau programme.",
+          "en": "We are developing a new program."
+        }
+      },
+      "npB": {
+        "imparfait": "développais",
+        "plusQueParfait": "avais développé",
+        "futurSimple": "développerai",
+        "conditionnel": "développerais",
+        "subjonctif": "développe",
+        "example": {
+          "fr": "Je développerais ce projet avec plus de fonds.",
+          "en": "I would develop this project with more funding."
+        }
+      },
+      "npC": {
+        "passeSimple": "développai",
+        "subjPasse": "aie développé",
+        "condPasse": "aurais développé",
+        "futurAnterieur": "aurai développé",
+        "gerondif": "en développant",
+        "example": {
+          "fr": "En développant ses compétences, il obtint une promotion.",
+          "en": "By developing his skills, he earned a promotion."
+        }
+      }
+    },
+    {
+      "id": 56,
+      "infinitif": "ouvrir",
+      "en": "to open",
+      "group": "3e",
+      "context": "Opening, initiating, access",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Ouvrez le document à la page cinq.",
+        "en": "Open the document to page five."
+      },
+      "npA": {
+        "present": "ouvre/ouvres/ouvre/ouvrons/ouvrez/ouvrent",
+        "passeCompose": "j'ai ouvert",
+        "futurProche": "je vais ouvrir",
+        "imperatif": "ouvre/ouvrons/ouvrez",
+        "example": {
+          "fr": "Ouvrez le document à la page cinq.",
+          "en": "Open the document to page five."
+        }
+      },
+      "npB": {
+        "imparfait": "ouvrais",
+        "plusQueParfait": "avais ouvert",
+        "futurSimple": "ouvrirai",
+        "conditionnel": "ouvrirais",
+        "subjonctif": "ouvre",
+        "example": {
+          "fr": "J'ouvrirais un dossier si c'était nécessaire.",
+          "en": "I would open a file if it were necessary."
+        }
+      },
+      "npC": {
+        "passeSimple": "ouvris",
+        "subjPasse": "aie ouvert",
+        "condPasse": "aurais ouvert",
+        "futurAnterieur": "aurai ouvert",
+        "gerondif": "en ouvrant",
+        "example": {
+          "fr": "En ouvrant le dialogue, les deux parties trouvèrent un accord.",
+          "en": "By opening dialogue, both parties found an agreement."
+        }
+      }
+    },
+    {
+      "id": 57,
+      "infinitif": "perdre",
+      "en": "to lose",
+      "group": "3e",
+      "context": "Loss, failure, missing items",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Ne perdez pas ce document important.",
+        "en": "Don't lose this important document."
+      },
+      "npA": {
+        "present": "perds/perds/perd/perdons/perdez/perdent",
+        "passeCompose": "j'ai perdu",
+        "futurProche": "je vais perdre",
+        "imperatif": "perds/perdons/perdez",
+        "example": {
+          "fr": "Ne perdez pas ce document important.",
+          "en": "Don't lose this important document."
+        }
+      },
+      "npB": {
+        "imparfait": "perdais",
+        "plusQueParfait": "avais perdu",
+        "futurSimple": "perdrai",
+        "conditionnel": "perdrais",
+        "subjonctif": "perde",
+        "example": {
+          "fr": "On perdrait du temps sans un bon plan.",
+          "en": "We would lose time without a good plan."
+        }
+      },
+      "npC": {
+        "passeSimple": "perdis",
+        "subjPasse": "aie perdu",
+        "condPasse": "aurais perdu",
+        "futurAnterieur": "aurai perdu",
+        "gerondif": "en perdant",
+        "example": {
+          "fr": "En perdant ce délai, le projet prit du retard.",
+          "en": "By missing this deadline, the project fell behind."
+        }
+      }
+    },
+    {
+      "id": 58,
+      "infinitif": "produire",
+      "en": "to produce",
+      "group": "3e",
+      "context": "Output, documents, reports",
+      "tag": "gestion_admin",
+      "example": {
+        "fr": "L'équipe produit un rapport chaque mois.",
+        "en": "The team produces a report every month."
+      },
+      "npA": {
+        "present": "produis/produis/produit/produisons/produisez/produisent",
+        "passeCompose": "j'ai produit",
+        "futurProche": "je vais produire",
+        "imperatif": "produis/produisons/produisez",
+        "example": {
+          "fr": "L'équipe produit un rapport chaque mois.",
+          "en": "The team produces a report every month."
+        }
+      },
+      "npB": {
+        "imparfait": "produisais",
+        "plusQueParfait": "avais produit",
+        "futurSimple": "produirai",
+        "conditionnel": "produirais",
+        "subjonctif": "produise",
+        "example": {
+          "fr": "Je produirais le document plus vite avec de l'aide.",
+          "en": "I would produce the document faster with help."
+        }
+      },
+      "npC": {
+        "passeSimple": "produisis",
+        "subjPasse": "aie produit",
+        "condPasse": "aurais produit",
+        "futurAnterieur": "aurai produit",
+        "gerondif": "en produisant",
+        "example": {
+          "fr": "En produisant des résultats clairs, l'équipe gagna en crédibilité.",
+          "en": "By producing clear results, the team gained credibility."
+        }
+      }
+    },
+    {
+      "id": 59,
+      "infinitif": "lire",
+      "en": "to read",
+      "group": "3e",
+      "context": "Documentation, orders, briefings",
+      "tag": "communication_ecrite",
+      "example": {
+        "fr": "Lisez le message avant la réunion.",
+        "en": "Read the message before the meeting."
+      },
+      "npA": {
+        "present": "lis/lis/lit/lisons/lisez/lisent",
+        "passeCompose": "j'ai lu",
+        "futurProche": "je vais lire",
+        "imperatif": "lis/lisons/lisez",
+        "example": {
+          "fr": "Lisez le message avant la réunion.",
+          "en": "Read the message before the meeting."
+        }
+      },
+      "npB": {
+        "imparfait": "lisais",
+        "plusQueParfait": "avais lu",
+        "futurSimple": "lirai",
+        "conditionnel": "lirais",
+        "subjonctif": "lise",
+        "example": {
+          "fr": "Je lirais le rapport si j'avais le temps.",
+          "en": "I would read the report if I had time."
+        }
+      },
+      "npC": {
+        "passeSimple": "lus",
+        "subjPasse": "aie lu",
+        "condPasse": "aurais lu",
+        "futurAnterieur": "aurai lu",
+        "gerondif": "en lisant",
+        "example": {
+          "fr": "En lisant entre les lignes, il comprit la vraie intention.",
+          "en": "By reading between the lines, he understood the real intention."
+        }
+      }
+    },
+    {
+      "id": 60,
+      "infinitif": "chercher",
+      "en": "to look for / to seek",
+      "group": "1er",
+      "context": "Searching, research, investigation",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je cherche le dossier du mois dernier.",
+        "en": "I am looking for last month's file."
+      },
+      "npA": {
+        "present": "cherche/cherches/cherche/cherchons/cherchez/cherchent",
+        "passeCompose": "j'ai cherché",
+        "futurProche": "je vais chercher",
+        "imperatif": "cherche/cherchons/cherchez",
+        "example": {
+          "fr": "Je cherche le dossier du mois dernier.",
+          "en": "I am looking for last month's file."
+        }
+      },
+      "npB": {
+        "imparfait": "cherchais",
+        "plusQueParfait": "avais cherché",
+        "futurSimple": "chercherai",
+        "conditionnel": "chercherais",
+        "subjonctif": "cherche",
+        "example": {
+          "fr": "Je chercherais une autre solution si celle-ci ne marchait pas.",
+          "en": "I would look for another solution if this one didn't work."
+        }
+      },
+      "npC": {
+        "passeSimple": "cherchai",
+        "subjPasse": "aie cherché",
+        "condPasse": "aurais cherché",
+        "futurAnterieur": "aurai cherché",
+        "gerondif": "en cherchant",
+        "example": {
+          "fr": "En cherchant bien, il trouva la source du problème.",
+          "en": "By searching carefully, he found the source of the problem."
+        }
+      }
+    },
+    {
+      "id": 61,
+      "infinitif": "obtenir",
+      "en": "to obtain / to get",
+      "group": "3e",
+      "context": "Acquisition, achieving, clearance",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "J'obtiens les résultats demain.",
+        "en": "I get the results tomorrow."
+      },
+      "npA": {
+        "present": "obtiens/obtiens/obtient/obtenons/obtenez/obtiennent",
+        "passeCompose": "j'ai obtenu",
+        "futurProche": "je vais obtenir",
+        "imperatif": "obtiens/obtenons/obtenez",
+        "example": {
+          "fr": "J'obtiens les résultats demain.",
+          "en": "I get the results tomorrow."
+        }
+      },
+      "npB": {
+        "imparfait": "obtenais",
+        "plusQueParfait": "avais obtenu",
+        "futurSimple": "obtiendrai",
+        "conditionnel": "obtiendrais",
+        "subjonctif": "obtienne",
+        "example": {
+          "fr": "J'obtiendrais le permis si je faisais la demande.",
+          "en": "I would get the permit if I applied."
+        }
+      },
+      "npC": {
+        "passeSimple": "obtins",
+        "subjPasse": "aie obtenu",
+        "condPasse": "aurais obtenu",
+        "futurAnterieur": "aurai obtenu",
+        "gerondif": "en obtenant",
+        "example": {
+          "fr": "En obtenant l'accord du comité, le projet avança.",
+          "en": "By obtaining the committee's approval, the project moved forward."
+        }
+      }
+    },
+    {
+      "id": 62,
+      "infinitif": "établir",
+      "en": "to establish",
+      "group": "2e",
+      "context": "Creating systems, protocols, contacts",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Nous établissons un nouveau calendrier.",
+        "en": "We are establishing a new schedule."
+      },
+      "npA": {
+        "present": "établis/établis/établit/établissons/établissez/établissent",
+        "passeCompose": "j'ai établi",
+        "futurProche": "je vais établir",
+        "imperatif": "établis/établissons/établissez",
+        "example": {
+          "fr": "Nous établissons un nouveau calendrier.",
+          "en": "We are establishing a new schedule."
+        }
+      },
+      "npB": {
+        "imparfait": "établissais",
+        "plusQueParfait": "avais établi",
+        "futurSimple": "établirai",
+        "conditionnel": "établirais",
+        "subjonctif": "établisse",
+        "example": {
+          "fr": "Il faudrait qu'on établisse des règles claires.",
+          "en": "We would need to establish clear rules."
+        }
+      },
+      "npC": {
+        "passeSimple": "établis",
+        "subjPasse": "aie établi",
+        "condPasse": "aurais établi",
+        "futurAnterieur": "aurai établi",
+        "gerondif": "en établissant",
+        "example": {
+          "fr": "En établissant un plan, le groupe gagna en efficacité.",
+          "en": "By establishing a plan, the group gained efficiency."
+        }
+      }
+    },
+    {
+      "id": 63,
+      "infinitif": "assurer",
+      "en": "to ensure / to assure",
+      "group": "1er",
+      "context": "Guaranteeing, providing, insurance",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Je m'assure que tout est prêt.",
+        "en": "I make sure everything is ready."
+      },
+      "npA": {
+        "present": "assure/assures/assure/assurons/assurez/assurent",
+        "passeCompose": "j'ai assuré",
+        "futurProche": "je vais assurer",
+        "imperatif": "assure/assurons/assurez",
+        "example": {
+          "fr": "Je m'assure que tout est prêt.",
+          "en": "I make sure everything is ready."
+        }
+      },
+      "npB": {
+        "imparfait": "assurais",
+        "plusQueParfait": "avais assuré",
+        "futurSimple": "assurerai",
+        "conditionnel": "assurerais",
+        "subjonctif": "assure",
+        "example": {
+          "fr": "Je m'assurerais que tout est conforme avant de signer.",
+          "en": "I would make sure everything is compliant before signing."
+        }
+      },
+      "npC": {
+        "passeSimple": "assurai",
+        "subjPasse": "aie assuré",
+        "condPasse": "aurais assuré",
+        "futurAnterieur": "aurai assuré",
+        "gerondif": "en assurant",
+        "example": {
+          "fr": "En assurant la qualité, l'équipe évita les plaintes.",
+          "en": "By ensuring quality, the team avoided complaints."
+        }
+      }
+    },
+    {
+      "id": 64,
+      "infinitif": "reconnaître",
+      "en": "to recognize",
+      "group": "3e",
+      "context": "Recognition, identification, awards",
+      "tag": "rh_emploi",
+      "example": {
+        "fr": "Je reconnais votre bon travail.",
+        "en": "I recognize your good work."
+      },
+      "npA": {
+        "present": "reconnais/reconnais/reconnaît/reconnaissons/reconnaissez/reconnaissent",
+        "passeCompose": "j'ai reconnu",
+        "futurProche": "je vais reconnaître",
+        "imperatif": "reconnais/reconnaissons/reconnaissez",
+        "example": {
+          "fr": "Je reconnais votre bon travail.",
+          "en": "I recognize your good work."
+        }
+      },
+      "npB": {
+        "imparfait": "reconnaissais",
+        "plusQueParfait": "avais reconnu",
+        "futurSimple": "reconnaîtrai",
+        "conditionnel": "reconnaîtrais",
+        "subjonctif": "reconnaisse",
+        "example": {
+          "fr": "Je reconnaîtrais cette erreur si je la voyais.",
+          "en": "I would recognize this error if I saw it."
+        }
+      },
+      "npC": {
+        "passeSimple": "reconnus",
+        "subjPasse": "aie reconnu",
+        "condPasse": "aurais reconnu",
+        "futurAnterieur": "aurai reconnu",
+        "gerondif": "en reconnaissant",
+        "example": {
+          "fr": "En reconnaissant ses torts, il regagna la confiance du groupe.",
+          "en": "By acknowledging his mistakes, he regained the group's trust."
+        }
+      }
+    },
+    {
+      "id": 65,
+      "infinitif": "choisir",
+      "en": "to choose",
+      "group": "2e",
+      "context": "Selection, decision, preference",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Je choisis l'option la plus simple.",
+        "en": "I choose the simplest option."
+      },
+      "npA": {
+        "present": "choisis/choisis/choisit/choisissons/choisissez/choisissent",
+        "passeCompose": "j'ai choisi",
+        "futurProche": "je vais choisir",
+        "imperatif": "choisis/choisissons/choisissez",
+        "example": {
+          "fr": "Je choisis l'option la plus simple.",
+          "en": "I choose the simplest option."
+        }
+      },
+      "npB": {
+        "imparfait": "choisissais",
+        "plusQueParfait": "avais choisi",
+        "futurSimple": "choisirai",
+        "conditionnel": "choisirais",
+        "subjonctif": "choisisse",
+        "example": {
+          "fr": "Je choisirais un autre chemin si j'avais le choix.",
+          "en": "I would choose another path if I had the choice."
+        }
+      },
+      "npC": {
+        "passeSimple": "choisis",
+        "subjPasse": "aie choisi",
+        "condPasse": "aurais choisi",
+        "futurAnterieur": "aurai choisi",
+        "gerondif": "en choisissant",
+        "example": {
+          "fr": "En choisissant bien ses mots, il apaisa la situation.",
+          "en": "By choosing his words well, he calmed the situation."
+        }
+      }
+    },
+    {
+      "id": 66,
+      "infinitif": "toucher",
+      "en": "to touch / to affect",
+      "group": "1er",
+      "context": "Impact, pay (toucher un salaire)",
+      "tag": "rh_emploi",
+      "example": {
+        "fr": "Ce changement touche tout le monde.",
+        "en": "This change affects everyone."
+      },
+      "npA": {
+        "present": "touche/touches/touche/touchons/touchez/touchent",
+        "passeCompose": "j'ai touché",
+        "futurProche": "je vais toucher",
+        "imperatif": "touche/touchons/touchez",
+        "example": {
+          "fr": "Ce changement touche tout le monde.",
+          "en": "This change affects everyone."
+        }
+      },
+      "npB": {
+        "imparfait": "touchais",
+        "plusQueParfait": "avais touché",
+        "futurSimple": "toucherai",
+        "conditionnel": "toucherais",
+        "subjonctif": "touche",
+        "example": {
+          "fr": "La mesure toucherait plus de cent personnes.",
+          "en": "The measure would affect more than a hundred people."
+        }
+      },
+      "npC": {
+        "passeSimple": "touchai",
+        "subjPasse": "aie touché",
+        "condPasse": "aurais touché",
+        "futurAnterieur": "aurai touché",
+        "gerondif": "en touchant",
+        "example": {
+          "fr": "En touchant à ce sujet, elle souleva un vif débat.",
+          "en": "By touching on this topic, she sparked a lively debate."
+        }
+      }
+    },
+    {
+      "id": 67,
+      "infinitif": "manquer",
+      "en": "to miss / to lack",
+      "group": "1er",
+      "context": "Absence, deficiency, need",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Il manque deux pages dans ce rapport.",
+        "en": "Two pages are missing from this report."
+      },
+      "npA": {
+        "present": "manque/manques/manque/manquons/manquez/manquent",
+        "passeCompose": "j'ai manqué",
+        "futurProche": "je vais manquer",
+        "imperatif": "—",
+        "example": {
+          "fr": "Il manque deux pages dans ce rapport.",
+          "en": "Two pages are missing from this report."
+        }
+      },
+      "npB": {
+        "imparfait": "manquais",
+        "plusQueParfait": "avais manqué",
+        "futurSimple": "manquerai",
+        "conditionnel": "manquerais",
+        "subjonctif": "manque",
+        "example": {
+          "fr": "Le temps manquerait si on ajoutait des tâches.",
+          "en": "Time would be lacking if we added tasks."
+        }
+      },
+      "npC": {
+        "passeSimple": "manquai",
+        "subjPasse": "aie manqué",
+        "condPasse": "aurais manqué",
+        "futurAnterieur": "aurai manqué",
+        "gerondif": "en manquant",
+        "example": {
+          "fr": "En manquant cette occasion, il perdit un avantage clé.",
+          "en": "By missing this opportunity, he lost a key advantage."
+        }
+      }
+    },
+    {
+      "id": 68,
+      "infinitif": "appeler",
+      "en": "to call",
+      "group": "1er",
+      "context": "Communication, naming, summoning",
+      "tag": "communication_ecrite",
+      "example": {
+        "fr": "J'appelle le bureau pour confirmer.",
+        "en": "I am calling the office to confirm."
+      },
+      "npA": {
+        "present": "appelle/appelles/appelle/appelons/appelez/appellent",
+        "passeCompose": "j'ai appelé",
+        "futurProche": "je vais appeler",
+        "imperatif": "appelle/appelons/appelez",
+        "example": {
+          "fr": "J'appelle le bureau pour confirmer.",
+          "en": "I am calling the office to confirm."
+        }
+      },
+      "npB": {
+        "imparfait": "appelais",
+        "plusQueParfait": "avais appelé",
+        "futurSimple": "appellerai",
+        "conditionnel": "appellerais",
+        "subjonctif": "appelle",
+        "example": {
+          "fr": "J'appellerais le service si la ligne n'était pas occupée.",
+          "en": "I would call the service if the line weren't busy."
+        }
+      },
+      "npC": {
+        "passeSimple": "appelai",
+        "subjPasse": "aie appelé",
+        "condPasse": "aurais appelé",
+        "futurAnterieur": "aurai appelé",
+        "gerondif": "en appelant",
+        "example": {
+          "fr": "En appelant tôt, elle obtint un rendez-vous le jour même.",
+          "en": "By calling early, she got an appointment that same day."
+        }
+      }
+    },
+    {
+      "id": 69,
+      "infinitif": "continuer",
+      "en": "to continue",
+      "group": "1er",
+      "context": "Persistence, ongoing operations",
+      "tag": "temps_sequentiel",
+      "example": {
+        "fr": "Continuez votre bon travail.",
+        "en": "Continue your good work."
+      },
+      "npA": {
+        "present": "continue/continues/continue/continuons/continuez/continuent",
+        "passeCompose": "j'ai continué",
+        "futurProche": "je vais continuer",
+        "imperatif": "continue/continuons/continuez",
+        "example": {
+          "fr": "Continuez votre bon travail.",
+          "en": "Continue your good work."
+        }
+      },
+      "npB": {
+        "imparfait": "continuais",
+        "plusQueParfait": "avais continué",
+        "futurSimple": "continuerai",
+        "conditionnel": "continuerais",
+        "subjonctif": "continue",
+        "example": {
+          "fr": "Je continuerais si j'avais le feu vert.",
+          "en": "I would continue if I had the green light."
+        }
+      },
+      "npC": {
+        "passeSimple": "continuai",
+        "subjPasse": "aie continué",
+        "condPasse": "aurais continué",
+        "futurAnterieur": "aurai continué",
+        "gerondif": "en continuant",
+        "example": {
+          "fr": "En continuant les efforts, l'unité atteignit ses objectifs.",
+          "en": "By continuing efforts, the unit reached its objectives."
+        }
+      }
+    },
+    {
+      "id": 70,
+      "infinitif": "proposer",
+      "en": "to propose / to suggest",
+      "group": "1er",
+      "context": "Recommendations, suggestions",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Je propose une nouvelle approche.",
+        "en": "I suggest a new approach."
+      },
+      "npA": {
+        "present": "propose/proposes/propose/proposons/proposez/proposent",
+        "passeCompose": "j'ai proposé",
+        "futurProche": "je vais proposer",
+        "imperatif": "propose/proposons/proposez",
+        "example": {
+          "fr": "Je propose une nouvelle approche.",
+          "en": "I suggest a new approach."
+        }
+      },
+      "npB": {
+        "imparfait": "proposais",
+        "plusQueParfait": "avais proposé",
+        "futurSimple": "proposerai",
+        "conditionnel": "proposerais",
+        "subjonctif": "propose",
+        "example": {
+          "fr": "Je proposerais un report si le comité était d'accord.",
+          "en": "I would suggest a postponement if the committee agreed."
+        }
+      },
+      "npC": {
+        "passeSimple": "proposai",
+        "subjPasse": "aie proposé",
+        "condPasse": "aurais proposé",
+        "futurAnterieur": "aurai proposé",
+        "gerondif": "en proposant",
+        "example": {
+          "fr": "En proposant un compromis, elle débloqua la situation.",
+          "en": "By proposing a compromise, she unblocked the situation."
+        }
+      }
+    },
+    {
+      "id": 71,
+      "infinitif": "offrir",
+      "en": "to offer",
+      "group": "3e",
+      "context": "Providing, volunteering, presenting",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "L'armée offre beaucoup de formation.",
+        "en": "The military offers a lot of training."
+      },
+      "npA": {
+        "present": "offre/offres/offre/offrons/offrez/offrent",
+        "passeCompose": "j'ai offert",
+        "futurProche": "je vais offrir",
+        "imperatif": "offre/offrons/offrez",
+        "example": {
+          "fr": "L'armée offre beaucoup de formation.",
+          "en": "The military offers a lot of training."
+        }
+      },
+      "npB": {
+        "imparfait": "offrais",
+        "plusQueParfait": "avais offert",
+        "futurSimple": "offrirai",
+        "conditionnel": "offrirais",
+        "subjonctif": "offre",
+        "example": {
+          "fr": "J'offrirais mon aide si j'avais le temps.",
+          "en": "I would offer my help if I had time."
+        }
+      },
+      "npC": {
+        "passeSimple": "offris",
+        "subjPasse": "aie offert",
+        "condPasse": "aurais offert",
+        "futurAnterieur": "aurai offert",
+        "gerondif": "en offrant",
+        "example": {
+          "fr": "En offrant son soutien, il renforça les liens entre les équipes.",
+          "en": "By offering his support, he strengthened the bonds between teams."
+        }
+      }
+    },
+    {
+      "id": 72,
+      "infinitif": "apprendre",
+      "en": "to learn / to teach",
+      "group": "3e",
+      "context": "Training, education, discovery",
+      "tag": "rh_emploi",
+      "example": {
+        "fr": "J'apprends le français chaque jour.",
+        "en": "I learn French every day."
+      },
+      "npA": {
+        "present": "apprends/apprends/apprend/apprenons/apprenez/apprennent",
+        "passeCompose": "j'ai appris",
+        "futurProche": "je vais apprendre",
+        "imperatif": "apprends/apprenons/apprenez",
+        "example": {
+          "fr": "J'apprends le français chaque jour.",
+          "en": "I learn French every day."
+        }
+      },
+      "npB": {
+        "imparfait": "apprenais",
+        "plusQueParfait": "avais appris",
+        "futurSimple": "apprendrai",
+        "conditionnel": "apprendrais",
+        "subjonctif": "apprenne",
+        "example": {
+          "fr": "J'apprendrais plus vite avec un bon professeur.",
+          "en": "I would learn faster with a good teacher."
+        }
+      },
+      "npC": {
+        "passeSimple": "appris",
+        "subjPasse": "aie appris",
+        "condPasse": "aurais appris",
+        "futurAnterieur": "aurai appris",
+        "gerondif": "en apprenant",
+        "example": {
+          "fr": "En apprenant de ses erreurs, il devint un meilleur leader.",
+          "en": "By learning from his mistakes, he became a better leader."
+        }
+      }
+    },
+    {
+      "id": 73,
+      "infinitif": "jouer",
+      "en": "to play",
+      "group": "1er",
+      "context": "Role-playing, morale, recreation",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Ce facteur joue un rôle important.",
+        "en": "This factor plays an important role."
+      },
+      "npA": {
+        "present": "joue/joues/joue/jouons/jouez/jouent",
+        "passeCompose": "j'ai joué",
+        "futurProche": "je vais jouer",
+        "imperatif": "joue/jouons/jouez",
+        "example": {
+          "fr": "Ce facteur joue un rôle important.",
+          "en": "This factor plays an important role."
+        }
+      },
+      "npB": {
+        "imparfait": "jouais",
+        "plusQueParfait": "avais joué",
+        "futurSimple": "jouerai",
+        "conditionnel": "jouerais",
+        "subjonctif": "joue",
+        "example": {
+          "fr": "La météo jouerait un rôle dans la décision.",
+          "en": "The weather would play a role in the decision."
+        }
+      },
+      "npC": {
+        "passeSimple": "jouai",
+        "subjPasse": "aie joué",
+        "condPasse": "aurais joué",
+        "futurAnterieur": "aurai joué",
+        "gerondif": "en jouant",
+        "example": {
+          "fr": "En jouant un rôle clé, elle changea le cours du projet.",
+          "en": "By playing a key role, she changed the course of the project."
+        }
+      }
+    },
+    {
+      "id": 74,
+      "infinitif": "exister",
+      "en": "to exist",
+      "group": "1er",
+      "context": "Existence, availability, presence",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Ce programme existe depuis cinq ans.",
+        "en": "This program has existed for five years."
+      },
+      "npA": {
+        "present": "existe/existes/existe/existons/existez/existent",
+        "passeCompose": "j'ai existé",
+        "futurProche": "je vais exister",
+        "imperatif": "—",
+        "example": {
+          "fr": "Ce programme existe depuis cinq ans.",
+          "en": "This program has existed for five years."
+        }
+      },
+      "npB": {
+        "imparfait": "existais",
+        "plusQueParfait": "avais existé",
+        "futurSimple": "existerai",
+        "conditionnel": "existerais",
+        "subjonctif": "existe",
+        "example": {
+          "fr": "Ce problème n'existerait pas avec un meilleur plan.",
+          "en": "This problem wouldn't exist with a better plan."
+        }
+      },
+      "npC": {
+        "passeSimple": "existai",
+        "subjPasse": "aie existé",
+        "condPasse": "aurais existé",
+        "futurAnterieur": "aurai existé",
+        "gerondif": "en existant",
+        "example": {
+          "fr": "En existant depuis longtemps, cette règle devint une tradition.",
+          "en": "By existing for a long time, this rule became a tradition."
+        }
+      }
+    },
+    {
+      "id": 75,
+      "infinitif": "refuser",
+      "en": "to refuse",
+      "group": "1er",
+      "context": "Denial, rejection, non-compliance",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Je refuse cette demande pour le moment.",
+        "en": "I refuse this request for now."
+      },
+      "npA": {
+        "present": "refuse/refuses/refuse/refusons/refusez/refusent",
+        "passeCompose": "j'ai refusé",
+        "futurProche": "je vais refuser",
+        "imperatif": "refuse/refusons/refusez",
+        "example": {
+          "fr": "Je refuse cette demande pour le moment.",
+          "en": "I refuse this request for now."
+        }
+      },
+      "npB": {
+        "imparfait": "refusais",
+        "plusQueParfait": "avais refusé",
+        "futurSimple": "refuserai",
+        "conditionnel": "refuserais",
+        "subjonctif": "refuse",
+        "example": {
+          "fr": "Je refuserais si les conditions n'étaient pas bonnes.",
+          "en": "I would refuse if the conditions weren't good."
+        }
+      },
+      "npC": {
+        "passeSimple": "refusai",
+        "subjPasse": "aie refusé",
+        "condPasse": "aurais refusé",
+        "futurAnterieur": "aurai refusé",
+        "gerondif": "en refusant",
+        "example": {
+          "fr": "En refusant le compromis, il prit un risque calculé.",
+          "en": "By refusing the compromise, he took a calculated risk."
+        }
+      }
+    },
+    {
+      "id": 76,
+      "infinitif": "réussir",
+      "en": "to succeed",
+      "group": "2e",
+      "context": "Achievement, passing exams",
+      "tag": "rh_emploi",
+      "example": {
+        "fr": "Je réussis mon examen de français.",
+        "en": "I pass my French exam."
+      },
+      "npA": {
+        "present": "réussis/réussis/réussit/réussissons/réussissez/réussissent",
+        "passeCompose": "j'ai réussi",
+        "futurProche": "je vais réussir",
+        "imperatif": "réussis/réussissons/réussissez",
+        "example": {
+          "fr": "Je réussis mon examen de français.",
+          "en": "I pass my French exam."
+        }
+      },
+      "npB": {
+        "imparfait": "réussissais",
+        "plusQueParfait": "avais réussi",
+        "futurSimple": "réussirai",
+        "conditionnel": "réussirais",
+        "subjonctif": "réussisse",
+        "example": {
+          "fr": "Je réussirais si j'étudiais tous les jours.",
+          "en": "I would succeed if I studied every day."
+        }
+      },
+      "npC": {
+        "passeSimple": "réussis",
+        "subjPasse": "aie réussi",
+        "condPasse": "aurais réussi",
+        "futurAnterieur": "aurai réussi",
+        "gerondif": "en réussissant",
+        "example": {
+          "fr": "En réussissant cet examen, il ouvrit la porte à une promotion.",
+          "en": "By passing this exam, he opened the door to a promotion."
+        }
+      }
+    },
+    {
+      "id": 77,
+      "infinitif": "changer",
+      "en": "to change",
+      "group": "1er",
+      "context": "Modification, transfer, adaptation",
+      "tag": "gestion_admin",
+      "example": {
+        "fr": "On change l'horaire la semaine prochaine.",
+        "en": "We are changing the schedule next week."
+      },
+      "npA": {
+        "present": "change/changes/change/changeons/changez/changent",
+        "passeCompose": "j'ai changé",
+        "futurProche": "je vais changer",
+        "imperatif": "change/changeons/changez",
+        "example": {
+          "fr": "On change l'horaire la semaine prochaine.",
+          "en": "We are changing the schedule next week."
+        }
+      },
+      "npB": {
+        "imparfait": "changeais",
+        "plusQueParfait": "avais changé",
+        "futurSimple": "changerai",
+        "conditionnel": "changerais",
+        "subjonctif": "change",
+        "example": {
+          "fr": "Je changerais de méthode si celle-ci ne marchait pas.",
+          "en": "I would change methods if this one didn't work."
+        }
+      },
+      "npC": {
+        "passeSimple": "changeai",
+        "subjPasse": "aie changé",
+        "condPasse": "aurais changé",
+        "futurAnterieur": "aurai changé",
+        "gerondif": "en changeant",
+        "example": {
+          "fr": "En changeant de stratégie, l'unité améliora ses résultats.",
+          "en": "By changing strategy, the unit improved its results."
+        }
+      }
+    },
+    {
+      "id": 78,
+      "infinitif": "créer",
+      "en": "to create",
+      "group": "1er",
+      "context": "Establishing, designing, originating",
+      "tag": "gestion_admin",
+      "example": {
+        "fr": "Nous créons un nouveau système de suivi.",
+        "en": "We are creating a new tracking system."
+      },
+      "npA": {
+        "present": "crée/crées/crée/créons/créez/créent",
+        "passeCompose": "j'ai créé",
+        "futurProche": "je vais créer",
+        "imperatif": "crée/créons/créez",
+        "example": {
+          "fr": "Nous créons un nouveau système de suivi.",
+          "en": "We are creating a new tracking system."
+        }
+      },
+      "npB": {
+        "imparfait": "créais",
+        "plusQueParfait": "avais créé",
+        "futurSimple": "créerai",
+        "conditionnel": "créerais",
+        "subjonctif": "crée",
+        "example": {
+          "fr": "Je créerais un modèle si c'était utile.",
+          "en": "I would create a template if it were useful."
+        }
+      },
+      "npC": {
+        "passeSimple": "créai",
+        "subjPasse": "aie créé",
+        "condPasse": "aurais créé",
+        "futurAnterieur": "aurai créé",
+        "gerondif": "en créant",
+        "example": {
+          "fr": "En créant un outil simple, elle facilita le travail de tous.",
+          "en": "By creating a simple tool, she made everyone's work easier."
+        }
+      }
+    },
+    {
+      "id": 79,
+      "infinitif": "utiliser",
+      "en": "to use",
+      "group": "1er",
+      "context": "Equipment, resources, methods",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Utilisez le formulaire bleu pour cette demande.",
+        "en": "Use the blue form for this request."
+      },
+      "npA": {
+        "present": "utilise/utilises/utilise/utilisons/utilisez/utilisent",
+        "passeCompose": "j'ai utilisé",
+        "futurProche": "je vais utiliser",
+        "imperatif": "utilise/utilisons/utilisez",
+        "example": {
+          "fr": "Utilisez le formulaire bleu pour cette demande.",
+          "en": "Use the blue form for this request."
+        }
+      },
+      "npB": {
+        "imparfait": "utilisais",
+        "plusQueParfait": "avais utilisé",
+        "futurSimple": "utiliserai",
+        "conditionnel": "utiliserais",
+        "subjonctif": "utilise",
+        "example": {
+          "fr": "J'utiliserais un autre outil si celui-ci ne marchait pas.",
+          "en": "I would use another tool if this one didn't work."
+        }
+      },
+      "npC": {
+        "passeSimple": "utilisai",
+        "subjPasse": "aie utilisé",
+        "condPasse": "aurais utilisé",
+        "futurAnterieur": "aurai utilisé",
+        "gerondif": "en utilisant",
+        "example": {
+          "fr": "En utilisant les bonnes ressources, le projet fut un succès.",
+          "en": "By using the right resources, the project was a success."
+        }
+      }
+    },
+    {
+      "id": 80,
+      "infinitif": "préparer",
+      "en": "to prepare",
+      "group": "1er",
+      "context": "Readiness, planning, briefing prep",
+      "tag": "gestion_admin",
+      "example": {
+        "fr": "Je prépare le briefing pour demain.",
+        "en": "I am preparing the briefing for tomorrow."
+      },
+      "npA": {
+        "present": "prépare/prépares/prépare/préparons/préparez/préparent",
+        "passeCompose": "j'ai préparé",
+        "futurProche": "je vais préparer",
+        "imperatif": "prépare/préparons/préparez",
+        "example": {
+          "fr": "Je prépare le briefing pour demain.",
+          "en": "I am preparing the briefing for tomorrow."
+        }
+      },
+      "npB": {
+        "imparfait": "préparais",
+        "plusQueParfait": "avais préparé",
+        "futurSimple": "préparerai",
+        "conditionnel": "préparerais",
+        "subjonctif": "prépare",
+        "example": {
+          "fr": "Je préparerais une présentation si on me le demandait.",
+          "en": "I would prepare a presentation if asked."
+        }
+      },
+      "npC": {
+        "passeSimple": "préparai",
+        "subjPasse": "aie préparé",
+        "condPasse": "aurais préparé",
+        "futurAnterieur": "aurai préparé",
+        "gerondif": "en préparant",
+        "example": {
+          "fr": "En préparant tout à l'avance, il évita le stress du dernier moment.",
+          "en": "By preparing everything in advance, he avoided last-minute stress."
+        }
+      }
+    },
+    {
+      "id": 81,
+      "infinitif": "terminer",
+      "en": "to finish / to end",
+      "group": "1er",
+      "context": "Completion, deadlines, conclusion",
+      "tag": "temps_sequentiel",
+      "example": {
+        "fr": "Je termine ce travail avant midi.",
+        "en": "I finish this work before noon."
+      },
+      "npA": {
+        "present": "termine/termines/termine/terminons/terminez/terminent",
+        "passeCompose": "j'ai terminé",
+        "futurProche": "je vais terminer",
+        "imperatif": "termine/terminons/terminez",
+        "example": {
+          "fr": "Je termine ce travail avant midi.",
+          "en": "I finish this work before noon."
+        }
+      },
+      "npB": {
+        "imparfait": "terminais",
+        "plusQueParfait": "avais terminé",
+        "futurSimple": "terminerai",
+        "conditionnel": "terminerais",
+        "subjonctif": "termine",
+        "example": {
+          "fr": "Je terminerais plus tôt si j'avais de l'aide.",
+          "en": "I would finish earlier if I had help."
+        }
+      },
+      "npC": {
+        "passeSimple": "terminai",
+        "subjPasse": "aie terminé",
+        "condPasse": "aurais terminé",
+        "futurAnterieur": "aurai terminé",
+        "gerondif": "en terminant",
+        "example": {
+          "fr": "En terminant le rapport à temps, elle impressionna son chef.",
+          "en": "By finishing the report on time, she impressed her boss."
+        }
+      }
+    },
+    {
+      "id": 82,
+      "infinitif": "occuper",
+      "en": "to occupy / to hold (position)",
+      "group": "1er",
+      "context": "Position, role, territory",
+      "tag": "rh_emploi",
+      "example": {
+        "fr": "Elle occupe ce poste depuis mars.",
+        "en": "She has held this position since March."
+      },
+      "npA": {
+        "present": "occupe/occupes/occupe/occupons/occupez/occupent",
+        "passeCompose": "j'ai occupé",
+        "futurProche": "je vais occuper",
+        "imperatif": "occupe/occupons/occupez",
+        "example": {
+          "fr": "Elle occupe ce poste depuis mars.",
+          "en": "She has held this position since March."
+        }
+      },
+      "npB": {
+        "imparfait": "occupais",
+        "plusQueParfait": "avais occupé",
+        "futurSimple": "occuperai",
+        "conditionnel": "occuperais",
+        "subjonctif": "occupe",
+        "example": {
+          "fr": "J'occuperais ce rôle si on me le proposait.",
+          "en": "I would hold this role if it were offered to me."
+        }
+      },
+      "npC": {
+        "passeSimple": "occupai",
+        "subjPasse": "aie occupé",
+        "condPasse": "aurais occupé",
+        "futurAnterieur": "aurai occupé",
+        "gerondif": "en occupant",
+        "example": {
+          "fr": "En occupant ce poste, il acquit une grande expérience.",
+          "en": "By holding this position, he gained great experience."
+        }
+      }
+    },
+    {
+      "id": 83,
+      "infinitif": "expliquer",
+      "en": "to explain",
+      "group": "1er",
+      "context": "Briefings, instructions, clarification",
+      "tag": "communication_ecrite",
+      "example": {
+        "fr": "J'explique la procédure au groupe.",
+        "en": "I explain the procedure to the group."
+      },
+      "npA": {
+        "present": "explique/expliques/explique/expliquons/expliquez/expliquent",
+        "passeCompose": "j'ai expliqué",
+        "futurProche": "je vais expliquer",
+        "imperatif": "explique/expliquons/expliquez",
+        "example": {
+          "fr": "J'explique la procédure au groupe.",
+          "en": "I explain the procedure to the group."
+        }
+      },
+      "npB": {
+        "imparfait": "expliquais",
+        "plusQueParfait": "avais expliqué",
+        "futurSimple": "expliquerai",
+        "conditionnel": "expliquerais",
+        "subjonctif": "explique",
+        "example": {
+          "fr": "J'expliquerais mieux si j'avais plus de temps.",
+          "en": "I would explain better if I had more time."
+        }
+      },
+      "npC": {
+        "passeSimple": "expliquai",
+        "subjPasse": "aie expliqué",
+        "condPasse": "aurais expliqué",
+        "futurAnterieur": "aurai expliqué",
+        "gerondif": "en expliquant",
+        "example": {
+          "fr": "En expliquant avec patience, il résolut le malentendu.",
+          "en": "By explaining patiently, he resolved the misunderstanding."
+        }
+      }
+    },
+    {
+      "id": 84,
+      "infinitif": "garder",
+      "en": "to keep / to guard",
+      "group": "1er",
+      "context": "Security, retention, maintenance",
+      "tag": "verbes_base",
+      "example": {
+        "fr": "Gardez cette information pour vous.",
+        "en": "Keep this information to yourself."
+      },
+      "npA": {
+        "present": "garde/gardes/garde/gardons/gardez/gardent",
+        "passeCompose": "j'ai gardé",
+        "futurProche": "je vais garder",
+        "imperatif": "garde/gardons/gardez",
+        "example": {
+          "fr": "Gardez cette information pour vous.",
+          "en": "Keep this information to yourself."
+        }
+      },
+      "npB": {
+        "imparfait": "gardais",
+        "plusQueParfait": "avais gardé",
+        "futurSimple": "garderai",
+        "conditionnel": "garderais",
+        "subjonctif": "garde",
+        "example": {
+          "fr": "Je garderais le secret si on me le demandait.",
+          "en": "I would keep the secret if asked."
+        }
+      },
+      "npC": {
+        "passeSimple": "gardai",
+        "subjPasse": "aie gardé",
+        "condPasse": "aurais gardé",
+        "futurAnterieur": "aurai gardé",
+        "gerondif": "en gardant",
+        "example": {
+          "fr": "En gardant son calme, elle géra la crise avec succès.",
+          "en": "By keeping calm, she managed the crisis successfully."
+        }
+      }
+    },
+    {
+      "id": 85,
+      "infinitif": "former",
+      "en": "to train / to form",
+      "group": "1er",
+      "context": "Training, shaping, constituting",
+      "tag": "rh_emploi",
+      "example": {
+        "fr": "Je forme les nouveaux membres de l'équipe.",
+        "en": "I train the new team members."
+      },
+      "npA": {
+        "present": "forme/formes/forme/formons/formez/forment",
+        "passeCompose": "j'ai formé",
+        "futurProche": "je vais former",
+        "imperatif": "forme/formons/formez",
+        "example": {
+          "fr": "Je forme les nouveaux membres de l'équipe.",
+          "en": "I train the new team members."
+        }
+      },
+      "npB": {
+        "imparfait": "formais",
+        "plusQueParfait": "avais formé",
+        "futurSimple": "formerai",
+        "conditionnel": "formerais",
+        "subjonctif": "forme",
+        "example": {
+          "fr": "Je formerais plus de gens si j'avais le budget.",
+          "en": "I would train more people if I had the budget."
+        }
+      },
+      "npC": {
+        "passeSimple": "formai",
+        "subjPasse": "aie formé",
+        "condPasse": "aurais formé",
+        "futurAnterieur": "aurai formé",
+        "gerondif": "en formant",
+        "example": {
+          "fr": "En formant bien ses troupes, le chef assura le succès de la mission.",
+          "en": "By training his troops well, the chief ensured the mission's success."
+        }
+      }
+    },
+    {
+      "id": 86,
+      "infinitif": "maintenir",
+      "en": "to maintain",
+      "group": "3e",
+      "context": "Equipment, standards, discipline",
+      "tag": "gestion_admin",
+      "example": {
+        "fr": "Nous maintenons un haut niveau de qualité.",
+        "en": "We maintain a high level of quality."
+      },
+      "npA": {
+        "present": "maintiens/maintiens/maintient/maintenons/maintenez/maintiennent",
+        "passeCompose": "j'ai maintenu",
+        "futurProche": "je vais maintenir",
+        "imperatif": "maintiens/maintenons/maintenez",
+        "example": {
+          "fr": "Nous maintenons un haut niveau de qualité.",
+          "en": "We maintain a high level of quality."
+        }
+      },
+      "npB": {
+        "imparfait": "maintenais",
+        "plusQueParfait": "avais maintenu",
+        "futurSimple": "maintiendrai",
+        "conditionnel": "maintiendrais",
+        "subjonctif": "maintienne",
+        "example": {
+          "fr": "Je maintiendrais ce rythme si l'équipe suivait.",
+          "en": "I would maintain this pace if the team followed."
+        }
+      },
+      "npC": {
+        "passeSimple": "maintins",
+        "subjPasse": "aie maintenu",
+        "condPasse": "aurais maintenu",
+        "futurAnterieur": "aurai maintenu",
+        "gerondif": "en maintenant",
+        "example": {
+          "fr": "En maintenant la discipline, l'unité resta efficace.",
+          "en": "By maintaining discipline, the unit stayed effective."
+        }
+      }
+    },
+    {
+      "id": 87,
+      "infinitif": "soumettre",
+      "en": "to submit",
+      "group": "3e",
+      "context": "Reports, applications, proposals",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Je soumets ma demande aujourd'hui.",
+        "en": "I submit my request today."
+      },
+      "npA": {
+        "present": "soumets/soumets/soumet/soumettons/soumettez/soumettent",
+        "passeCompose": "j'ai soumis",
+        "futurProche": "je vais soumettre",
+        "imperatif": "soumets/soumettons/soumettez",
+        "example": {
+          "fr": "Je soumets ma demande aujourd'hui.",
+          "en": "I submit my request today."
+        }
+      },
+      "npB": {
+        "imparfait": "soumettais",
+        "plusQueParfait": "avais soumis",
+        "futurSimple": "soumettrai",
+        "conditionnel": "soumettrais",
+        "subjonctif": "soumette",
+        "example": {
+          "fr": "Je soumettrais le rapport au directeur si c'était prêt.",
+          "en": "I would submit the report to the director if it were ready."
+        }
+      },
+      "npC": {
+        "passeSimple": "soumis",
+        "subjPasse": "aie soumis",
+        "condPasse": "aurais soumis",
+        "futurAnterieur": "aurai soumis",
+        "gerondif": "en soumettant",
+        "example": {
+          "fr": "En soumettant le document à temps, il respecta la date limite.",
+          "en": "By submitting the document on time, he met the deadline."
+        }
+      }
+    },
+    {
+      "id": 88,
+      "infinitif": "exiger",
+      "en": "to require / to demand",
+      "group": "1er",
+      "context": "Requirements, standards, compliance",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "La règle exige une signature du chef.",
+        "en": "The rule requires a signature from the boss."
+      },
+      "npA": {
+        "present": "exige/exiges/exige/exigeons/exigez/exigent",
+        "passeCompose": "j'ai exigé",
+        "futurProche": "je vais exiger",
+        "imperatif": "exige/exigeons/exigez",
+        "example": {
+          "fr": "La règle exige une signature du chef.",
+          "en": "The rule requires a signature from the boss."
+        }
+      },
+      "npB": {
+        "imparfait": "exigeais",
+        "plusQueParfait": "avais exigé",
+        "futurSimple": "exigerai",
+        "conditionnel": "exigerais",
+        "subjonctif": "exige",
+        "example": {
+          "fr": "Le règlement exige que chaque membre soit qualifié.",
+          "en": "The regulation requires that each member be qualified."
+        }
+      },
+      "npC": {
+        "passeSimple": "exigeai",
+        "subjPasse": "aie exigé",
+        "condPasse": "aurais exigé",
+        "futurAnterieur": "aurai exigé",
+        "gerondif": "en exigeant",
+        "example": {
+          "fr": "En exigeant la perfection, il poussa l'équipe à se dépasser.",
+          "en": "By demanding perfection, he pushed the team to exceed expectations."
+        }
+      }
+    },
+    {
+      "id": 89,
+      "infinitif": "approuver",
+      "en": "to approve",
+      "group": "1er",
+      "context": "Authorization, endorsement",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Le chef approuve le plan de travail.",
+        "en": "The boss approves the work plan."
+      },
+      "npA": {
+        "present": "approuve/approuves/approuve/approuvons/approuvez/approuvent",
+        "passeCompose": "j'ai approuvé",
+        "futurProche": "je vais approuver",
+        "imperatif": "approuve/approuvons/approuvez",
+        "example": {
+          "fr": "Le chef approuve le plan de travail.",
+          "en": "The boss approves the work plan."
+        }
+      },
+      "npB": {
+        "imparfait": "approuvais",
+        "plusQueParfait": "avais approuvé",
+        "futurSimple": "approuverai",
+        "conditionnel": "approuverais",
+        "subjonctif": "approuve",
+        "example": {
+          "fr": "Il faut que le comité approuve le budget.",
+          "en": "The committee needs to approve the budget."
+        }
+      },
+      "npC": {
+        "passeSimple": "approuvai",
+        "subjPasse": "aie approuvé",
+        "condPasse": "aurais approuvé",
+        "futurAnterieur": "aurai approuvé",
+        "gerondif": "en approuvant",
+        "example": {
+          "fr": "En approuvant la demande, le directeur accéléra le projet.",
+          "en": "By approving the request, the director sped up the project."
+        }
+      }
+    },
+    {
+      "id": 90,
+      "infinitif": "transmettre",
+      "en": "to transmit / to forward",
+      "group": "3e",
+      "context": "Communications, documents, orders",
+      "tag": "communication_ecrite",
+      "example": {
+        "fr": "Je transmets le message à votre équipe.",
+        "en": "I forward the message to your team."
+      },
+      "npA": {
+        "present": "transmets/transmets/transmet/transmettons/transmettez/transmettent",
+        "passeCompose": "j'ai transmis",
+        "futurProche": "je vais transmettre",
+        "imperatif": "transmets/transmettons/transmettez",
+        "example": {
+          "fr": "Je transmets le message à votre équipe.",
+          "en": "I forward the message to your team."
+        }
+      },
+      "npB": {
+        "imparfait": "transmettais",
+        "plusQueParfait": "avais transmis",
+        "futurSimple": "transmettrai",
+        "conditionnel": "transmettrais",
+        "subjonctif": "transmette",
+        "example": {
+          "fr": "Je transmettrais l'information si j'avais la permission.",
+          "en": "I would forward the information if I had permission."
+        }
+      },
+      "npC": {
+        "passeSimple": "transmis",
+        "subjPasse": "aie transmis",
+        "condPasse": "aurais transmis",
+        "futurAnterieur": "aurai transmis",
+        "gerondif": "en transmettant",
+        "example": {
+          "fr": "En transmettant l'ordre clairement, le chef évita toute confusion.",
+          "en": "By transmitting the order clearly, the chief avoided all confusion."
+        }
+      }
+    },
+    {
+      "id": 91,
+      "infinitif": "effectuer",
+      "en": "to carry out / to perform",
+      "group": "1er",
+      "context": "Tasks, duties, operations",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "J'effectue la vérification chaque vendredi.",
+        "en": "I carry out the check every Friday."
+      },
+      "npA": {
+        "present": "effectue/effectues/effectue/effectuons/effectuez/effectuent",
+        "passeCompose": "j'ai effectué",
+        "futurProche": "je vais effectuer",
+        "imperatif": "effectue/effectuons/effectuez",
+        "example": {
+          "fr": "J'effectue la vérification chaque vendredi.",
+          "en": "I carry out the check every Friday."
+        }
+      },
+      "npB": {
+        "imparfait": "effectuais",
+        "plusQueParfait": "avais effectué",
+        "futurSimple": "effectuerai",
+        "conditionnel": "effectuerais",
+        "subjonctif": "effectue",
+        "example": {
+          "fr": "J'effectuerais l'inspection si on me le demandait.",
+          "en": "I would carry out the inspection if asked."
+        }
+      },
+      "npC": {
+        "passeSimple": "effectuai",
+        "subjPasse": "aie effectué",
+        "condPasse": "aurais effectué",
+        "futurAnterieur": "aurai effectué",
+        "gerondif": "en effectuant",
+        "example": {
+          "fr": "En effectuant un audit, l'équipe trouva trois problèmes.",
+          "en": "By carrying out an audit, the team found three problems."
+        }
+      }
+    },
+    {
+      "id": 92,
+      "infinitif": "participer",
+      "en": "to participate",
+      "group": "1er",
+      "context": "Engagement, exercises, meetings",
+      "tag": "gestion_admin",
+      "example": {
+        "fr": "Je participe à la réunion de lundi.",
+        "en": "I am participating in Monday's meeting."
+      },
+      "npA": {
+        "present": "participe/participes/participe/participons/participez/participent",
+        "passeCompose": "j'ai participé",
+        "futurProche": "je vais participer",
+        "imperatif": "participe/participons/participez",
+        "example": {
+          "fr": "Je participe à la réunion de lundi.",
+          "en": "I am participating in Monday's meeting."
+        }
+      },
+      "npB": {
+        "imparfait": "participais",
+        "plusQueParfait": "avais participé",
+        "futurSimple": "participerai",
+        "conditionnel": "participerais",
+        "subjonctif": "participe",
+        "example": {
+          "fr": "Je participerais à l'exercice si j'étais disponible.",
+          "en": "I would participate in the exercise if I were available."
+        }
+      },
+      "npC": {
+        "passeSimple": "participai",
+        "subjPasse": "aie participé",
+        "condPasse": "aurais participé",
+        "futurAnterieur": "aurai participé",
+        "gerondif": "en participant",
+        "example": {
+          "fr": "En participant au comité, elle élargit son réseau.",
+          "en": "By participating in the committee, she expanded her network."
+        }
+      }
+    },
+    {
+      "id": 93,
+      "infinitif": "remplir",
+      "en": "to fill / to fulfill",
+      "group": "2e",
+      "context": "Forms, duties, requirements",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Remplissez le formulaire en entier.",
+        "en": "Fill out the form completely."
+      },
+      "npA": {
+        "present": "remplis/remplis/remplit/remplissons/remplissez/remplissent",
+        "passeCompose": "j'ai rempli",
+        "futurProche": "je vais remplir",
+        "imperatif": "remplis/remplissons/remplissez",
+        "example": {
+          "fr": "Remplissez le formulaire en entier.",
+          "en": "Fill out the form completely."
+        }
+      },
+      "npB": {
+        "imparfait": "remplissais",
+        "plusQueParfait": "avais rempli",
+        "futurSimple": "remplirai",
+        "conditionnel": "remplirais",
+        "subjonctif": "remplisse",
+        "example": {
+          "fr": "Je remplirais le formulaire si j'avais les données.",
+          "en": "I would fill out the form if I had the data."
+        }
+      },
+      "npC": {
+        "passeSimple": "remplis",
+        "subjPasse": "aie rempli",
+        "condPasse": "aurais rempli",
+        "futurAnterieur": "aurai rempli",
+        "gerondif": "en remplissant",
+        "example": {
+          "fr": "En remplissant ses fonctions avec soin, elle gagna le respect de tous.",
+          "en": "By fulfilling her duties with care, she earned everyone's respect."
+        }
+      }
+    },
+    {
+      "id": 94,
+      "infinitif": "respecter",
+      "en": "to respect / to comply with",
+      "group": "1er",
+      "context": "Regulations, deadlines, protocol",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Respectez la date limite du projet.",
+        "en": "Respect the project deadline."
+      },
+      "npA": {
+        "present": "respecte/respectes/respecte/respectons/respectez/respectent",
+        "passeCompose": "j'ai respecté",
+        "futurProche": "je vais respecter",
+        "imperatif": "respecte/respectons/respectez",
+        "example": {
+          "fr": "Respectez la date limite du projet.",
+          "en": "Respect the project deadline."
+        }
+      },
+      "npB": {
+        "imparfait": "respectais",
+        "plusQueParfait": "avais respecté",
+        "futurSimple": "respecterai",
+        "conditionnel": "respecterais",
+        "subjonctif": "respecte",
+        "example": {
+          "fr": "Il faut que chacun respecte les nouvelles règles.",
+          "en": "Everyone needs to comply with the new rules."
+        }
+      },
+      "npC": {
+        "passeSimple": "respectai",
+        "subjPasse": "aie respecté",
+        "condPasse": "aurais respecté",
+        "futurAnterieur": "aurai respecté",
+        "gerondif": "en respectant",
+        "example": {
+          "fr": "En respectant les délais, l'équipe maintint sa bonne réputation.",
+          "en": "By meeting deadlines, the team maintained its good reputation."
+        }
+      }
+    },
+    {
+      "id": 95,
+      "infinitif": "vérifier",
+      "en": "to verify / to check",
+      "group": "1er",
+      "context": "Inspection, validation, QC",
+      "tag": "gestion_admin",
+      "example": {
+        "fr": "Vérifiez les chiffres avant d'envoyer.",
+        "en": "Check the numbers before sending."
+      },
+      "npA": {
+        "present": "vérifie/vérifies/vérifie/vérifions/vérifiez/vérifient",
+        "passeCompose": "j'ai vérifié",
+        "futurProche": "je vais vérifier",
+        "imperatif": "vérifie/vérifions/vérifiez",
+        "example": {
+          "fr": "Vérifiez les chiffres avant d'envoyer.",
+          "en": "Check the numbers before sending."
+        }
+      },
+      "npB": {
+        "imparfait": "vérifiais",
+        "plusQueParfait": "avais vérifié",
+        "futurSimple": "vérifierai",
+        "conditionnel": "vérifierais",
+        "subjonctif": "vérifie",
+        "example": {
+          "fr": "Je vérifierais chaque ligne si c'était important.",
+          "en": "I would check every line if it were important."
+        }
+      },
+      "npC": {
+        "passeSimple": "vérifiai",
+        "subjPasse": "aie vérifié",
+        "condPasse": "aurais vérifié",
+        "futurAnterieur": "aurai vérifié",
+        "gerondif": "en vérifiant",
+        "example": {
+          "fr": "En vérifiant deux fois, elle évita une erreur coûteuse.",
+          "en": "By double-checking, she avoided a costly error."
+        }
+      }
+    },
+    {
+      "id": 96,
+      "infinitif": "planifier",
+      "en": "to plan",
+      "group": "1er",
+      "context": "Operations, schedules, strategy",
+      "tag": "gestion_admin",
+      "example": {
+        "fr": "Je planifie la semaine chaque dimanche.",
+        "en": "I plan the week every Sunday."
+      },
+      "npA": {
+        "present": "planifie/planifies/planifie/planifions/planifiez/planifient",
+        "passeCompose": "j'ai planifié",
+        "futurProche": "je vais planifier",
+        "imperatif": "planifie/planifions/planifiez",
+        "example": {
+          "fr": "Je planifie la semaine chaque dimanche.",
+          "en": "I plan the week every Sunday."
+        }
+      },
+      "npB": {
+        "imparfait": "planifiais",
+        "plusQueParfait": "avais planifié",
+        "futurSimple": "planifierai",
+        "conditionnel": "planifierais",
+        "subjonctif": "planifie",
+        "example": {
+          "fr": "Je planifierais l'exercice pour mars si c'était approuvé.",
+          "en": "I would plan the exercise for March if it were approved."
+        }
+      },
+      "npC": {
+        "passeSimple": "planifiai",
+        "subjPasse": "aie planifié",
+        "condPasse": "aurais planifié",
+        "futurAnterieur": "aurai planifié",
+        "gerondif": "en planifiant",
+        "example": {
+          "fr": "En planifiant avec soin, le groupe réduisit les imprévus.",
+          "en": "By planning carefully, the group reduced unexpected issues."
+        }
+      }
+    },
+    {
+      "id": 97,
+      "infinitif": "signaler",
+      "en": "to report / to signal",
+      "group": "1er",
+      "context": "Incident reporting, flagging issues",
+      "tag": "communication_ecrite",
+      "example": {
+        "fr": "Je signale le problème au superviseur.",
+        "en": "I report the problem to the supervisor."
+      },
+      "npA": {
+        "present": "signale/signales/signale/signalons/signalez/signalent",
+        "passeCompose": "j'ai signalé",
+        "futurProche": "je vais signaler",
+        "imperatif": "signale/signalons/signalez",
+        "example": {
+          "fr": "Je signale le problème au superviseur.",
+          "en": "I report the problem to the supervisor."
+        }
+      },
+      "npB": {
+        "imparfait": "signalais",
+        "plusQueParfait": "avais signalé",
+        "futurSimple": "signalerai",
+        "conditionnel": "signalerais",
+        "subjonctif": "signale",
+        "example": {
+          "fr": "Je signalerais tout problème dès que possible.",
+          "en": "I would report any problem as soon as possible."
+        }
+      },
+      "npC": {
+        "passeSimple": "signalai",
+        "subjPasse": "aie signalé",
+        "condPasse": "aurais signalé",
+        "futurAnterieur": "aurai signalé",
+        "gerondif": "en signalant",
+        "example": {
+          "fr": "En signalant l'erreur tôt, il évita un problème grave.",
+          "en": "By reporting the error early, he avoided a serious problem."
+        }
+      }
+    },
+    {
+      "id": 98,
+      "infinitif": "autoriser",
+      "en": "to authorize",
+      "group": "1er",
+      "context": "Permissions, clearance, approval",
+      "tag": "verbes_admin",
+      "example": {
+        "fr": "Le chef autorise votre demande de congé.",
+        "en": "The boss authorizes your leave request."
+      },
+      "npA": {
+        "present": "autorise/autorises/autorise/autorisons/autorisez/autorisent",
+        "passeCompose": "j'ai autorisé",
+        "futurProche": "je vais autoriser",
+        "imperatif": "autorise/autorisons/autorisez",
+        "example": {
+          "fr": "Le chef autorise votre demande de congé.",
+          "en": "The boss authorizes your leave request."
+        }
+      },
+      "npB": {
+        "imparfait": "autorisais",
+        "plusQueParfait": "avais autorisé",
+        "futurSimple": "autoriserai",
+        "conditionnel": "autoriserais",
+        "subjonctif": "autorise",
+        "example": {
+          "fr": "J'autoriserais le voyage si le budget le permettait.",
+          "en": "I would authorize the trip if the budget allowed."
+        }
+      },
+      "npC": {
+        "passeSimple": "autorisai",
+        "subjPasse": "aie autorisé",
+        "condPasse": "aurais autorisé",
+        "futurAnterieur": "aurai autorisé",
+        "gerondif": "en autorisant",
+        "example": {
+          "fr": "En autorisant l'achat, le directeur accéléra le processus.",
+          "en": "By authorizing the purchase, the director sped up the process."
+        }
+      }
+    },
+    {
+      "id": 99,
+      "infinitif": "nommer",
+      "en": "to name / to appoint",
+      "group": "1er",
+      "context": "Appointments, designations",
+      "tag": "rh_emploi",
+      "example": {
+        "fr": "On nomme un nouveau chef de section.",
+        "en": "We are appointing a new section head."
+      },
+      "npA": {
+        "present": "nomme/nommes/nomme/nommons/nommez/nomment",
+        "passeCompose": "j'ai nommé",
+        "futurProche": "je vais nommer",
+        "imperatif": "nomme/nommons/nommez",
+        "example": {
+          "fr": "On nomme un nouveau chef de section.",
+          "en": "We are appointing a new section head."
+        }
+      },
+      "npB": {
+        "imparfait": "nommais",
+        "plusQueParfait": "avais nommé",
+        "futurSimple": "nommerai",
+        "conditionnel": "nommerais",
+        "subjonctif": "nomme",
+        "example": {
+          "fr": "Je nommerais Marie si j'avais le choix.",
+          "en": "I would appoint Marie if I had the choice."
+        }
+      },
+      "npC": {
+        "passeSimple": "nommai",
+        "subjPasse": "aie nommé",
+        "condPasse": "aurais nommé",
+        "futurAnterieur": "aurai nommé",
+        "gerondif": "en nommant",
+        "example": {
+          "fr": "En nommant un expert, le comité renforça sa crédibilité.",
+          "en": "By appointing an expert, the committee strengthened its credibility."
+        }
+      }
+    },
+    {
+      "id": 100,
+      "infinitif": "atteindre",
+      "en": "to reach / to achieve",
+      "group": "3e",
+      "context": "Goals, targets, objectives",
+      "tag": "gestion_admin",
+      "example": {
+        "fr": "Nous atteignons notre objectif ce mois-ci.",
+        "en": "We are reaching our goal this month."
+      },
+      "npA": {
+        "present": "atteins/atteins/atteint/atteignons/atteignez/atteignent",
+        "passeCompose": "j'ai atteint",
+        "futurProche": "je vais atteindre",
+        "imperatif": "atteins/atteignons/atteignez",
+        "example": {
+          "fr": "Nous atteignons notre objectif ce mois-ci.",
+          "en": "We are reaching our goal this month."
+        }
+      },
+      "npB": {
+        "imparfait": "atteignais",
+        "plusQueParfait": "avais atteint",
+        "futurSimple": "atteindrai",
+        "conditionnel": "atteindrais",
+        "subjonctif": "atteigne",
+        "example": {
+          "fr": "J'atteindrais l'objectif si j'avais plus de ressources.",
+          "en": "I would reach the goal if I had more resources."
+        }
+      },
+      "npC": {
+        "passeSimple": "atteignis",
+        "subjPasse": "aie atteint",
+        "condPasse": "aurais atteint",
+        "futurAnterieur": "aurai atteint",
+        "gerondif": "en atteignant",
+        "example": {
+          "fr": "En atteignant cet objectif, l'unité prouva sa valeur.",
+          "en": "By achieving this goal, the unit proved its worth."
+        }
+      }
+    }
+  ],
+  "tenses": [
+    {
+      "level": "A",
+      "tense": "Présent",
+      "description": "Current actions, general truths, habits",
+      "formation": "stem + endings (-e/-es/-e/-ons/-ez/-ent for -er)",
+      "triggers": "maintenant, toujours, chaque jour, en général"
+    },
+    {
+      "level": "A",
+      "tense": "Passé composé",
+      "description": "Completed past actions",
+      "formation": "avoir/être + past participle",
+      "triggers": "hier, la semaine dernière, déjà, ce matin"
+    },
+    {
+      "level": "A",
+      "tense": "Futur proche",
+      "description": "Near future, intentions",
+      "formation": "aller (present) + infinitive",
+      "triggers": "bientôt, demain, tout à l'heure, ce soir"
+    },
+    {
+      "level": "A",
+      "tense": "Impératif",
+      "description": "Commands, instructions, requests",
+      "formation": "present form without subject (tu/nous/vous)",
+      "triggers": "Orders, SOPs, directives, instructions"
+    },
+    {
+      "level": "B",
+      "tense": "Imparfait",
+      "description": "Habitual past, descriptions, background",
+      "formation": "nous-stem + -ais/-ais/-ait/-ions/-iez/-aient",
+      "triggers": "quand, pendant que, autrefois, chaque fois"
+    },
+    {
+      "level": "B",
+      "tense": "Plus-que-parfait",
+      "description": "Action before another past action",
+      "formation": "avoir/être (imparfait) + past participle",
+      "triggers": "avant que, déjà, auparavant, quand + PC"
+    },
+    {
+      "level": "B",
+      "tense": "Futur simple",
+      "description": "Future plans, predictions, policy",
+      "formation": "infinitive + -ai/-as/-a/-ons/-ez/-ont",
+      "triggers": "demain, l'année prochaine, quand + future"
+    },
+    {
+      "level": "B",
+      "tense": "Conditionnel présent",
+      "description": "Politeness, hypotheticals, advice",
+      "formation": "infinitive + -ais/-ais/-ait/-ions/-iez/-aient",
+      "triggers": "si + imparfait, pourriez-vous, je voudrais"
+    },
+    {
+      "level": "B",
+      "tense": "Subjonctif présent",
+      "description": "After verbs of will, doubt, emotion",
+      "formation": "ils-stem + -e/-es/-e/-ions/-iez/-ent",
+      "triggers": "il faut que, je veux que, bien que, pour que"
+    },
+    {
+      "level": "C",
+      "tense": "Passé simple",
+      "description": "Literary/formal completed past",
+      "formation": "stem + specific endings by group",
+      "triggers": "Formal reports, historical accounts, legal texts"
+    },
+    {
+      "level": "C",
+      "tense": "Subjonctif passé",
+      "description": "Past subjunctive in formal contexts",
+      "formation": "avoir/être (subj. présent) + past participle",
+      "triggers": "bien qu'il ait été, avant qu'elle soit partie"
+    },
+    {
+      "level": "C",
+      "tense": "Conditionnel passé",
+      "description": "Unrealized past, regret",
+      "formation": "avoir/être (conditionnel) + past participle",
+      "triggers": "si + PQP, j'aurais dû, on aurait pu"
+    },
+    {
+      "level": "C",
+      "tense": "Futur antérieur",
+      "description": "Before a future point",
+      "formation": "avoir/être (futur) + past participle",
+      "triggers": "quand j'aurai fini, dès que, une fois que"
+    },
+    {
+      "level": "C",
+      "tense": "Gérondif",
+      "description": "Simultaneous action, means",
+      "formation": "en + present participle (-ant)",
+      "triggers": "en arrivant, en travaillant, tout en sachant"
+    }
+  ]
+}

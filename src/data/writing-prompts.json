@@ -1,0 +1,60 @@
+{
+  "prompts": [
+    {
+      "id": "W1", "level": "NP-A", "topic": "Email - Leave Request",
+      "prompt": "Rédigez un courriel à votre superviseur pour demander deux jours de congé la semaine prochaine.",
+      "hints": ["Utilisez une formule de politesse", "Précisez les dates", "Expliquez brièvement la raison"],
+      "checklist": ["Salutation appropriée (Bonjour, Monsieur/Madame)", "Raison du congé mentionnée", "Dates précises indiquées", "Formule de clôture (Cordialement, Respectueusement)", "Registre formel maintenu"],
+      "example": "Bonjour Major Tremblay,\n\nJe vous écris pour demander deux jours de congé annuel, le lundi 24 et le mardi 25 mars. J'ai un rendez-vous médical et des obligations familiales.\n\nJe m'assurerai que mes tâches seront complétées avant mon départ.\n\nCordialement,\nCaporal Martin"
+    },
+    {
+      "id": "W2", "level": "NP-A", "topic": "Email - Meeting Request",
+      "prompt": "Écrivez un courriel pour organiser une réunion d'équipe cette semaine. Proposez une date, une heure et un lieu.",
+      "hints": ["Mentionnez l'objet de la réunion", "Proposez au moins une date", "Demandez confirmation"],
+      "checklist": ["Objet de la réunion clair", "Date et heure proposées", "Lieu spécifié", "Demande de confirmation", "Ton professionnel"],
+      "example": "Bonjour à tous,\n\nJ'aimerais organiser une réunion d'équipe pour discuter de notre prochain projet. Je propose le jeudi 20 mars à 10 h 00 dans la salle B.\n\nVeuillez confirmer votre disponibilité.\n\nMerci,\nSergent Lavoie"
+    },
+    {
+      "id": "W3", "level": "NP-B", "topic": "Report - Situation Update",
+      "prompt": "Rédigez un court rapport de situation sur un exercice d'entraînement qui vient de se terminer. Incluez les résultats, les défis rencontrés et les recommandations.",
+      "hints": ["Structurez avec introduction, corps et conclusion", "Utilisez le passé composé pour les événements", "Soyez objectif et précis"],
+      "checklist": ["Introduction avec contexte (quoi, quand, où)", "Résultats mentionnés", "Défis ou problèmes identifiés", "Recommandations pour l'avenir", "Structure claire et logique", "Registre formel et objectif"],
+      "example": "Rapport de situation — Exercice Boréal 2025\n\nL'exercice Boréal s'est déroulé du 10 au 14 mars à la BFC Valcartier. L'objectif principal était d'évaluer la capacité de déploiement rapide du peloton.\n\nRésultats : L'équipe a atteint tous les objectifs dans les délais prescrits. La coordination entre les sections a été excellente.\n\nDéfis : Les communications radio ont été perturbées par les conditions météorologiques.\n\nRecommandations : Acquérir des équipements de communication plus résistants et planifier un exercice supplémentaire en conditions hivernales."
+    },
+    {
+      "id": "W4", "level": "NP-B", "topic": "Email - Complaint / Issue",
+      "prompt": "Écrivez un courriel pour signaler un problème avec l'équipement informatique de votre bureau. Décrivez le problème et demandez une solution.",
+      "hints": ["Décrivez le problème précisément", "Mentionnez depuis quand il dure", "Proposez ou demandez une solution"],
+      "checklist": ["Description claire du problème", "Impact sur le travail mentionné", "Durée du problème", "Demande d'action spécifique", "Ton respectueux malgré la frustration"],
+      "example": "Bonjour,\n\nJe vous écris pour signaler un problème avec mon ordinateur de bureau. Depuis lundi dernier, l'écran s'éteint de manière aléatoire, ce qui perturbe mon travail et me fait perdre des données non sauvegardées.\n\nPourriez-vous envoyer un technicien ou me fournir un ordinateur de remplacement ?\n\nMerci de votre aide,\nCaporal-chef Bouchard"
+    },
+    {
+      "id": "W5", "level": "NP-C", "topic": "Memo - Policy Recommendation",
+      "prompt": "Rédigez une note de service proposant une nouvelle politique de télétravail pour votre unité. Justifiez votre proposition avec des arguments.",
+      "hints": ["Utilisez le format note de service (DE, À, DATE, OBJET)", "Présentez le contexte", "Donnez au moins 3 arguments", "Proposez une mise en œuvre"],
+      "checklist": ["Format note de service respecté", "Contexte et justification présentés", "Au moins 3 arguments en faveur", "Considération des objections possibles", "Plan de mise en œuvre proposé", "Vocabulaire administratif approprié", "Conclusion avec demande d'approbation"],
+      "example": "NOTE DE SERVICE\n\nDE : Lieutenant Moreau\nÀ : Commandant de l'unité\nDATE : 19 mars 2026\nOBJET : Proposition de politique de télétravail\n\nContexte : Suite aux récents changements dans les conditions de travail, je propose l'adoption d'une politique de télétravail hybride.\n\nArguments :\n1. Amélioration de la conciliation travail-vie personnelle\n2. Réduction des coûts de transport et de l'empreinte carbone\n3. Augmentation de la productivité selon les données récentes\n\nMise en œuvre proposée : Permettre deux jours de télétravail par semaine pour les postes administratifs, avec présence obligatoire les mardis et jeudis.\n\nJe sollicite votre approbation pour présenter cette proposition lors de la prochaine réunion du commandement."
+    },
+    {
+      "id": "W6", "level": "NP-A", "topic": "Self-Introduction",
+      "prompt": "Présentez-vous en français. Incluez votre nom, votre grade, votre unité et vos responsabilités principales.",
+      "hints": ["Utilisez le présent", "Mentionnez votre rôle", "Gardez un ton professionnel mais accessible"],
+      "checklist": ["Nom et grade mentionnés", "Unité ou lieu de travail", "Responsabilités principales", "Phrases complètes et correctes", "Utilisation correcte du présent"],
+      "example": "Bonjour, je m'appelle Caporal Martin. Je travaille au sein du 2e Bataillon du Royal 22e Régiment à la BFC Valcartier. Mes responsabilités principales incluent la maintenance des véhicules légers et la gestion de l'inventaire des pièces de rechange. Je suis en service depuis trois ans."
+    },
+    {
+      "id": "W7", "level": "NP-B", "topic": "Email - Thank You / Appreciation",
+      "prompt": "Rédigez un courriel de remerciement à un collègue qui vous a aidé à préparer une présentation importante.",
+      "hints": ["Soyez spécifique sur ce pour quoi vous remerciez", "Mentionnez l'impact de leur aide", "Maintenez un ton chaleureux mais professionnel"],
+      "checklist": ["Remerciement clair et sincère", "Mention spécifique de l'aide reçue", "Impact positif mentionné", "Ton chaleureux et professionnel", "Offre de réciprocité"],
+      "example": "Bonjour Marie,\n\nJe tenais à te remercier sincèrement pour ton aide dans la préparation de la présentation au commandant. Tes suggestions sur la structure et les données statistiques que tu as fournies ont considérablement amélioré la qualité du document.\n\nLa présentation a été très bien reçue, et cela n'aurait pas été possible sans ta contribution.\n\nN'hésite pas si je peux t'aider à mon tour.\n\nMerci encore,\nPierre"
+    },
+    {
+      "id": "W8", "level": "NP-C", "topic": "Analysis - Pros and Cons",
+      "prompt": "Rédigez une analyse des avantages et des inconvénients de l'utilisation de l'intelligence artificielle dans les opérations militaires canadiennes.",
+      "hints": ["Présentez les deux côtés objectivement", "Utilisez des connecteurs logiques", "Concluez avec votre recommandation"],
+      "checklist": ["Introduction avec contexte", "Au moins 3 avantages avec exemples", "Au moins 3 inconvénients avec exemples", "Connecteurs logiques variés (cependant, néanmoins, en revanche)", "Conclusion nuancée avec recommandation", "Vocabulaire spécialisé approprié", "Structure paragraphée claire"],
+      "example": ""
+    }
+  ]
+}

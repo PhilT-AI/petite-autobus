@@ -1,0 +1,160 @@
+{
+  "passages": [
+    {
+      "id": "R1",
+      "title": "Avis de réunion",
+      "level": "NP-A",
+      "topic": "Workplace Communication",
+      "text": "Chers collègues,\n\nJe vous informe qu'une réunion aura lieu le mardi 15 octobre à 14 h 00 dans la salle de conférence B. L'ordre du jour comprend la révision du budget trimestriel et la planification des activités pour le mois de novembre.\n\nVeuillez confirmer votre présence avant le vendredi 11 octobre. Si vous avez des points à ajouter à l'ordre du jour, envoyez-les-moi par courriel.\n\nCordialement,\nCapitaine Tremblay",
+      "questions": [
+        {
+          "stem": "Quand aura lieu la réunion ?",
+          "options": ["Le lundi 14 octobre", "Le mardi 15 octobre", "Le vendredi 11 octobre", "Le mercredi 16 octobre"],
+          "correct": 1,
+          "explanation": "La réunion aura lieu « le mardi 15 octobre à 14 h 00 »."
+        },
+        {
+          "stem": "Quel est l'un des sujets à l'ordre du jour ?",
+          "options": ["L'embauche de personnel", "La révision du budget trimestriel", "La formation linguistique", "Le déménagement du bureau"],
+          "correct": 1,
+          "explanation": "L'ordre du jour comprend « la révision du budget trimestriel »."
+        },
+        {
+          "stem": "Que doivent faire les collègues avant le 11 octobre ?",
+          "options": ["Soumettre un rapport", "Confirmer leur présence", "Réserver la salle", "Préparer une présentation"],
+          "correct": 1,
+          "explanation": "« Veuillez confirmer votre présence avant le vendredi 11 octobre. »"
+        }
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Politique de congés",
+      "level": "NP-B",
+      "topic": "HR Policy",
+      "text": "Les membres des Forces armées canadiennes ont droit à des congés annuels selon leur nombre d'années de service. Les militaires ayant moins de cinq ans de service ont droit à vingt jours de congé par année. Ceux qui ont entre cinq et vingt-huit ans de service bénéficient de vingt-cinq jours.\n\nIl est important de noter que les demandes de congé doivent être soumises au moins deux semaines à l'avance, sauf en cas d'urgence. Le superviseur immédiat doit approuver toute demande avant qu'elle ne soit traitée par les ressources humaines.\n\nLes congés non utilisés peuvent être reportés à l'année suivante, dans la limite de quinze jours.",
+      "questions": [
+        {
+          "stem": "Combien de jours de congé a un militaire avec trois ans de service ?",
+          "options": ["Quinze jours", "Vingt jours", "Vingt-cinq jours", "Trente jours"],
+          "correct": 1,
+          "explanation": "« Les militaires ayant moins de cinq ans de service ont droit à vingt jours. »"
+        },
+        {
+          "stem": "Combien de temps à l'avance doit-on soumettre une demande de congé ?",
+          "options": ["Une semaine", "Deux semaines", "Trois semaines", "Un mois"],
+          "correct": 1,
+          "explanation": "« Les demandes de congé doivent être soumises au moins deux semaines à l'avance. »"
+        },
+        {
+          "stem": "Combien de jours de congé non utilisés peut-on reporter ?",
+          "options": ["Cinq jours", "Dix jours", "Quinze jours", "Vingt jours"],
+          "correct": 2,
+          "explanation": "« Les congés non utilisés peuvent être reportés... dans la limite de quinze jours. »"
+        },
+        {
+          "stem": "Qui doit approuver une demande de congé en premier ?",
+          "options": ["Les ressources humaines", "Le commandant de base", "Le superviseur immédiat", "L'officier de service"],
+          "correct": 2,
+          "explanation": "« Le superviseur immédiat doit approuver toute demande. »"
+        }
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Rapport d'incident",
+      "level": "NP-B",
+      "topic": "Incident Reporting",
+      "text": "Le 3 mars 2025, à environ 09 h 30, un incident mineur s'est produit dans le hangar de maintenance de la Base des Forces canadiennes Trenton. Un technicien, le Caporal Dubois, a signalé une fuite d'huile hydraulique sur l'aéronef CC-130J, numéro de queue 614.\n\nL'équipe de maintenance a immédiatement isolé la zone et a commencé les procédures de nettoyage conformément aux protocoles environnementaux. Aucune blessure n'a été signalée. L'aéronef a été mis hors service jusqu'à ce que l'inspection complète soit terminée.\n\nLe rapport complet sera soumis au commandant de l'escadron avant le 7 mars.",
+      "questions": [
+        {
+          "stem": "Où l'incident s'est-il produit ?",
+          "options": ["Sur la piste d'atterrissage", "Dans le hangar de maintenance", "Au bureau administratif", "Dans la salle de briefing"],
+          "correct": 1,
+          "explanation": "« Un incident mineur s'est produit dans le hangar de maintenance. »"
+        },
+        {
+          "stem": "Quel type d'incident a été signalé ?",
+          "options": ["Un incendie", "Une fuite d'huile hydraulique", "Une panne électrique", "Un déversement chimique"],
+          "correct": 1,
+          "explanation": "« Le Caporal Dubois a signalé une fuite d'huile hydraulique. »"
+        },
+        {
+          "stem": "Y a-t-il eu des blessures ?",
+          "options": ["Oui, une personne", "Oui, deux personnes", "Non, aucune blessure", "Ce n'est pas mentionné"],
+          "correct": 2,
+          "explanation": "« Aucune blessure n'a été signalée. »"
+        }
+      ]
+    },
+    {
+      "id": "R4",
+      "title": "Directive sur le bilinguisme",
+      "level": "NP-C",
+      "topic": "Language Policy",
+      "text": "En vertu de la Loi sur les langues officielles, les institutions fédérales sont tenues de fournir des services dans les deux langues officielles du Canada. Pour les postes désignés bilingues, les titulaires doivent démontrer leur compétence dans les deux langues au niveau requis, tel qu'évalué par la Commission de la fonction publique.\n\nLes niveaux de compétence linguistique sont classés de A (rudimentaire) à C (avancé) pour chacune des trois habiletés évaluées : la compréhension de l'écrit, l'expression écrite et l'interaction orale. Un poste dont le profil linguistique est CBC exige, par exemple, un niveau avancé en compréhension de l'écrit, un niveau intermédiaire en expression écrite, et un niveau avancé en interaction orale.\n\nLes employés qui n'atteignent pas le niveau requis peuvent bénéficier d'une formation linguistique, sous réserve de l'approbation de leur gestionnaire et de la disponibilité des ressources.",
+      "questions": [
+        {
+          "stem": "Combien d'habiletés linguistiques sont évaluées ?",
+          "options": ["Deux", "Trois", "Quatre", "Cinq"],
+          "correct": 1,
+          "explanation": "Trois habiletés : compréhension de l'écrit, expression écrite et interaction orale."
+        },
+        {
+          "stem": "Que signifie un profil CBC ?",
+          "options": [
+            "Avancé en tout",
+            "Avancé en lecture, intermédiaire en écriture, avancé à l'oral",
+            "Intermédiaire en tout",
+            "Avancé en écriture, intermédiaire en lecture et à l'oral"
+          ],
+          "correct": 1,
+          "explanation": "C = avancé (lecture), B = intermédiaire (écriture), C = avancé (oral)."
+        },
+        {
+          "stem": "Qui évalue la compétence linguistique pour les postes bilingues ?",
+          "options": ["Le gestionnaire", "Le ministère de la Défense", "La Commission de la fonction publique", "Le Conseil du Trésor"],
+          "correct": 2,
+          "explanation": "« Tel qu'évalué par la Commission de la fonction publique. »"
+        },
+        {
+          "stem": "Quelle condition faut-il remplir pour recevoir une formation linguistique ?",
+          "options": [
+            "Avoir cinq ans de service",
+            "L'approbation du gestionnaire et la disponibilité des ressources",
+            "Être dans un poste bilingue depuis un an",
+            "Faire une demande au commissariat"
+          ],
+          "correct": 1,
+          "explanation": "« Sous réserve de l'approbation de leur gestionnaire et de la disponibilité des ressources. »"
+        }
+      ]
+    },
+    {
+      "id": "R5",
+      "title": "Message du commandant",
+      "level": "NP-A",
+      "topic": "Leadership Communication",
+      "text": "Bonjour à tous,\n\nJe tiens à vous féliciter pour votre excellent travail lors de l'exercice de la semaine dernière. Chaque membre de l'équipe a démontré un professionnalisme remarquable.\n\nLa semaine prochaine, nous allons commencer la préparation pour l'inspection annuelle. Je vous demande de vérifier votre équipement personnel et de compléter les formations obligatoires en ligne avant vendredi.\n\nN'hésitez pas à contacter votre chef de section si vous avez des questions.\n\nMajor Gagnon",
+      "questions": [
+        {
+          "stem": "Pourquoi le commandant félicite-t-il l'équipe ?",
+          "options": ["Pour l'inspection annuelle", "Pour l'exercice de la semaine dernière", "Pour les formations en ligne", "Pour le déploiement"],
+          "correct": 1,
+          "explanation": "« Je tiens à vous féliciter pour votre excellent travail lors de l'exercice de la semaine dernière. »"
+        },
+        {
+          "stem": "Que doivent faire les membres avant vendredi ?",
+          "options": [
+            "Soumettre un rapport",
+            "Vérifier l'équipement et compléter les formations en ligne",
+            "Préparer une présentation",
+            "Réserver la salle de conférence"
+          ],
+          "correct": 1,
+          "explanation": "« Vérifier votre équipement personnel et compléter les formations obligatoires en ligne avant vendredi. »"
+        }
+      ]
+    }
+  ]
+}

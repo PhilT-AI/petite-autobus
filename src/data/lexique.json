@@ -1,0 +1,2048 @@
+[
+  {
+    "id": 1,
+    "term": "accorder",
+    "synonyms": [
+      "autoriser"
+    ],
+    "en": "to grant, to allow",
+    "fascicules": [
+      15
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 2,
+    "term": "accroître",
+    "synonyms": [
+      "augmenter"
+    ],
+    "en": "to increase, to enhance",
+    "fascicules": [
+      2,
+      23
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 3,
+    "term": "à cet effet",
+    "synonyms": [
+      "pour cela",
+      "pour ce faire"
+    ],
+    "en": "to that end",
+    "fascicules": [
+      15
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 4,
+    "term": "acheminer",
+    "synonyms": [
+      "faire parvenir"
+    ],
+    "en": "to forward, to send",
+    "fascicules": [
+      1,
+      10
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 5,
+    "term": "acheter (qqch)",
+    "synonyms": [
+      "acquérir",
+      "se procurer (qqch)"
+    ],
+    "en": "to buy, to purchase",
+    "fascicules": [
+      21
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 6,
+    "term": "à compter de (+ date, jour, heure, moment)",
+    "synonyms": [
+      "à partir de (+ date, jour, heure, moment)",
+      "dès (+ date, jour, heure, moment)"
+    ],
+    "en": "starting, beginning, effective, as of",
+    "fascicules": [
+      7,
+      9,
+      17
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 7,
+    "term": "à condition que (+ subjonctif)",
+    "synonyms": [
+      "à condition de (+ infinitif)",
+      "pourvu que (+ subjonctif)",
+      "en autant que"
+    ],
+    "en": "provided that, on the condition that",
+    "fascicules": [
+      21,
+      25
+    ],
+    "category": "connecteur"
+  },
+  {
+    "id": 8,
+    "term": "actuellement",
+    "synonyms": [
+      "en ce moment",
+      "présentement"
+    ],
+    "en": "at present, at the moment, currently",
+    "fascicules": [
+      9
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 9,
+    "term": "une affectation",
+    "synonyms": [
+      "une mutation"
+    ],
+    "en": "posting",
+    "fascicules": [
+      4
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 10,
+    "term": "afin de (+ infinitif)",
+    "synonyms": [
+      "pour (+ infinitif)",
+      "dans le but de (+ infinitif)",
+      "de façon à (+ infinitif)",
+      "en vue de (+ infinitif)"
+    ],
+    "en": "in order to",
+    "fascicules": [
+      7,
+      12,
+      21,
+      25
+    ],
+    "category": "connecteur"
+  },
+  {
+    "id": 11,
+    "term": "afin que (+ subjonctif)",
+    "synonyms": [
+      "pour que (+ subjonctif)",
+      "de façon à ce que (+ subjonctif)"
+    ],
+    "en": "so that, in order that",
+    "fascicules": [
+      12,
+      21
+    ],
+    "category": "connecteur"
+  },
+  {
+    "id": 12,
+    "term": "ainsi que",
+    "synonyms": [
+      "de même que",
+      "et"
+    ],
+    "en": "and also, as well as",
+    "fascicules": [
+      7
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 13,
+    "term": "à la suite de",
+    "synonyms": [
+      "suite à"
+    ],
+    "en": "following",
+    "fascicules": [
+      24
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 14,
+    "term": "à l’époque",
+    "synonyms": [
+      "jadis",
+      "autrefois",
+      "avant/auparavant",
+      "formerly"
+    ],
+    "en": "at that time, back in the day, before,",
+    "fascicules": [
+      20
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 15,
+    "term": "aller",
+    "synonyms": [
+      "se rendre qqe part"
+    ],
+    "en": "to go somewhere",
+    "fascicules": [],
+    "category": "verbe"
+  },
+  {
+    "id": 16,
+    "term": "allouer",
+    "synonyms": [
+      "attribuer (qqch à qqn)"
+    ],
+    "en": "to allocate",
+    "fascicules": [
+      10
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 17,
+    "term": "à ma connaissance",
+    "synonyms": [
+      "à ce que je sache"
+    ],
+    "en": "as far as I know, to my knowledge",
+    "fascicules": [
+      4
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 18,
+    "term": "à moins que (+ subjonctif)",
+    "synonyms": [
+      "sauf si"
+    ],
+    "en": "unless",
+    "fascicules": [
+      25
+    ],
+    "category": "connecteur"
+  },
+  {
+    "id": 19,
+    "term": "annexé",
+    "synonyms": [
+      "ci-inclus",
+      "ci-joint"
+    ],
+    "en": "enclosed, attached",
+    "fascicules": [
+      11,
+      22
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 20,
+    "term": "appuyer (qqn/qqch)",
+    "synonyms": [
+      "soutenir (qqn/qqch)"
+    ],
+    "en": "to support",
+    "fascicules": [
+      16,
+      19
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 21,
+    "term": "assigner (qqch à qqn)",
+    "synonyms": [
+      "attribuer (qqch à qqn)"
+    ],
+    "en": "to assign (something to someone)",
+    "fascicules": [
+      12
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 22,
+    "term": "assister à",
+    "synonyms": [
+      "participer à",
+      "prendre part à",
+      "être présent à",
+      "suivre (un cours)"
+    ],
+    "en": "to attend (i.e. a meeting) to take part in to attend/to take a course",
+    "fascicules": [
+      3,
+      4,
+      24
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 23,
+    "term": "à titre de (+ profession, fonction)",
+    "synonyms": [
+      "en tant que (+ profession, fonction)",
+      "comme (+ profession, fonction)"
+    ],
+    "en": "as",
+    "fascicules": [
+      5,
+      21
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 24,
+    "term": "car",
+    "synonyms": [
+      "parce que",
+      "attendu que",
+      "étant donné que",
+      "vu que",
+      "puisque",
+      "given that, since"
+    ],
+    "en": "because",
+    "fascicules": [
+      7,
+      19,
+      20
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 25,
+    "term": "au besoin",
+    "synonyms": [
+      "le cas échéant",
+      "s’il y a lieu",
+      "si nécessaire"
+    ],
+    "en": "if necessary",
+    "fascicules": [
+      1,
+      6
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 26,
+    "term": "au cours de",
+    "synonyms": [
+      "lors de",
+      "durant",
+      "pendant"
+    ],
+    "en": "during",
+    "fascicules": [
+      4,
+      11
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 27,
+    "term": "au départ",
+    "synonyms": [
+      "au début"
+    ],
+    "en": "at first, initially",
+    "fascicules": [
+      21
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 28,
+    "term": "au fur et à mesure",
+    "synonyms": [
+      "petit à petit",
+      "graduellement"
+    ],
+    "en": "gradually",
+    "fascicules": [
+      23
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 29,
+    "term": "au plus tard (+ date, jour, heure, moment)",
+    "synonyms": [
+      "d’ici (+ date, jour, heure, moment)",
+      "avant (+ date, jour, heure, moment)"
+    ],
+    "en": "by (+date), at the latest",
+    "fascicules": [
+      1,
+      3
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 30,
+    "term": "au préalable",
+    "synonyms": [
+      "avant"
+    ],
+    "en": "before",
+    "fascicules": [
+      24
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 31,
+    "term": "auprès de (qqn)",
+    "synonyms": [
+      "une personne-ressource"
+    ],
+    "en": "contact",
+    "fascicules": [
+      9
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 32,
+    "term": "au sein de",
+    "synonyms": [
+      "dans le cadre de"
+    ],
+    "en": "within, within the framework of, as part of",
+    "fascicules": [
+      8,
+      11
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 33,
+    "term": "au terme de",
+    "synonyms": [
+      "à la fin de"
+    ],
+    "en": "at the completion of",
+    "fascicules": [
+      13
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 34,
+    "term": "aussitôt que possible",
+    "synonyms": [
+      "dès que possible",
+      "dans les plus brefs délais"
+    ],
+    "en": "as soon as possible",
+    "fascicules": [
+      12,
+      15,
+      16
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 35,
+    "term": "avertir (qqn de qqch)",
+    "synonyms": [
+      "informer (qqn de qqch)",
+      "prévenir (qqn de qqch)"
+    ],
+    "en": "to notify",
+    "fascicules": [
+      14,
+      16
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 36,
+    "term": "avoir besoin de (qqch)",
+    "synonyms": [
+      "nécessiter (qqch)"
+    ],
+    "en": "to need",
+    "fascicules": [],
+    "category": "verbe"
+  },
+  {
+    "id": 37,
+    "term": "avoir le droit de (+ infinitif)",
+    "synonyms": [
+      "avoir droit à (qqch)",
+      "avoir la permission de (+ infinitif)",
+      "pouvoir"
+    ],
+    "en": "to have the right to, to be entitled to",
+    "fascicules": [
+      3,
+      6
+    ],
+    "category": "connecteur"
+  },
+  {
+    "id": 38,
+    "term": "avoir pour objet de",
+    "synonyms": [
+      "avoir pour but de",
+      "viser à"
+    ],
+    "en": "to have as its aim",
+    "fascicules": [
+      15,
+      21
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 39,
+    "term": "bien que (+ subjonctif)",
+    "synonyms": [
+      "même si (qqch)",
+      "malgré (qqch)",
+      "en dépit de (qqch)",
+      "despite"
+    ],
+    "en": "although even if in spite of",
+    "fascicules": [
+      8,
+      10,
+      18,
+      19
+    ],
+    "category": "connecteur"
+  },
+  {
+    "id": 40,
+    "term": "cependant",
+    "synonyms": [
+      "toutefois",
+      "néanmoins",
+      "par contre",
+      "mais",
+      "or",
+      "pourtant",
+      "yet"
+    ],
+    "en": "however",
+    "fascicules": [
+      20,
+      23,
+      25
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 41,
+    "term": "ci-dessous",
+    "synonyms": [
+      "plus bas"
+    ],
+    "en": "hereafter, below",
+    "fascicules": [
+      10
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 42,
+    "term": "composer (un numéro)",
+    "synonyms": [
+      "faire (un numéro)"
+    ],
+    "en": "to dial",
+    "fascicules": [
+      3
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 43,
+    "term": "compressions budgétaires (f)",
+    "synonyms": [
+      "restrictions budgétaires (f)"
+    ],
+    "en": "budget cuts",
+    "fascicules": [
+      13
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 44,
+    "term": "compter (+ infinitif)",
+    "synonyms": [
+      "avoir l’intention de (+ infinitif)",
+      "penser (+ infinitif)"
+    ],
+    "en": "to intend to",
+    "fascicules": [
+      15
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 45,
+    "term": "conformément à",
+    "synonyms": [
+      "en vertu de",
+      "selon",
+      "d’après"
+    ],
+    "en": "in accordance with, according to",
+    "fascicules": [
+      9
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 46,
+    "term": "un congédiement",
+    "synonyms": [
+      "un renvoi",
+      "une mise à la porte",
+      "un licenciement",
+      "une mise à pied",
+      "une mise en disponibilité"
+    ],
+    "en": "dismissal at work dismissal at work dismissal at work layoff layoff layoff",
+    "fascicules": [
+      6,
+      8
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 47,
+    "term": "congédier",
+    "synonyms": [
+      "mettre à la porte",
+      "renvoyer (qqn)",
+      "démettre (qqn) de ses fonctions",
+      "licencier",
+      "mettre à pied",
+      "mettre en disponibilité"
+    ],
+    "en": "to fire to fire to fire to fire to lay off to lay off to lay off",
+    "fascicules": [
+      13,
+      14
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 48,
+    "term": "consacrer (du temps à)",
+    "synonyms": [
+      "passer (du temps à)"
+    ],
+    "en": "to devote (time to)",
+    "fascicules": [],
+    "category": "verbe"
+  },
+  {
+    "id": 49,
+    "term": "une consigne",
+    "synonyms": [
+      "une directive",
+      "une règle",
+      "un règlement"
+    ],
+    "en": "instruction, rule",
+    "fascicules": [
+      6,
+      8,
+      16
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 50,
+    "term": "constater (qqch)",
+    "synonyms": [
+      "remarquer (qqch)",
+      "s’apercevoir de (qqch)",
+      "se rendre compte de (qqch)",
+      "constater que",
+      "remarquer que",
+      "s’apercevoir que",
+      "se rendre compte que"
+    ],
+    "en": "to notice, to observe, to realize smt to notice, to observe, to realize that",
+    "fascicules": [
+      5,
+      20
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 51,
+    "term": "convenir à (qqn)",
+    "synonyms": [
+      "aller à (qqn)"
+    ],
+    "en": "to suit someone",
+    "fascicules": [
+      19
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 52,
+    "term": "convenir de (qqch)",
+    "synonyms": [
+      "s’entendre sur",
+      "se mettre d’accord sur"
+    ],
+    "en": "to agree on",
+    "fascicules": [
+      25
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 53,
+    "term": "d’ailleurs",
+    "synonyms": [
+      "de plus",
+      "en outre",
+      "par ailleurs"
+    ],
+    "en": "furthermore, besides, moreover",
+    "fascicules": [
+      3,
+      17,
+      19,
+      25
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 54,
+    "term": "dans la mesure du possible",
+    "synonyms": [
+      "autant que possible",
+      "possible"
+    ],
+    "en": "to the extent possible, as much as",
+    "fascicules": [
+      10
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 55,
+    "term": "une date limite",
+    "synonyms": [
+      "une date d’échéance",
+      "l’échéancier"
+    ],
+    "en": "deadline",
+    "fascicules": [
+      1
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 56,
+    "term": "d’autre part",
+    "synonyms": [
+      "en revanche",
+      "par contre"
+    ],
+    "en": "on the other hand",
+    "fascicules": [
+      16,
+      25
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 57,
+    "term": "davantage de (qqch)",
+    "synonyms": [
+      "plus de (qqch)"
+    ],
+    "en": "more",
+    "fascicules": [
+      24
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 58,
+    "term": "une demande",
+    "synonyms": [
+      "une requête"
+    ],
+    "en": "request, inquiry, application",
+    "fascicules": [
+      7
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 59,
+    "term": "une démarche",
+    "synonyms": [
+      "une procédure"
+    ],
+    "en": "a procedure",
+    "fascicules": [
+      12
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 60,
+    "term": "démissionner",
+    "synonyms": [
+      "quitter son poste"
+    ],
+    "en": "to resign",
+    "fascicules": [
+      6
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 61,
+    "term": "désormais",
+    "synonyms": [
+      "dorénavant",
+      "à partir de maintenant",
+      "à l’avenir"
+    ],
+    "en": "From now on, henceforth",
+    "fascicules": [
+      7,
+      8,
+      17
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 62,
+    "term": "de temps en temps",
+    "synonyms": [
+      "de temps à autre",
+      "parfois",
+      "quelquefois"
+    ],
+    "en": "from time to time, sometimes",
+    "fascicules": [
+      6
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 63,
+    "term": "d’habitude",
+    "synonyms": [
+      "d’ordinaire",
+      "normalement",
+      "habituellement",
+      "en général"
+    ],
+    "en": "usually",
+    "fascicules": [],
+    "category": "expression"
+  },
+  {
+    "id": 64,
+    "term": "un différend",
+    "synonyms": [
+      "une dispute"
+    ],
+    "en": "quarrel, opposite point of view",
+    "fascicules": [
+      20
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 65,
+    "term": "la direction",
+    "synonyms": [
+      "la gestion",
+      "les cadres supérieurs (m)",
+      "executives/management"
+    ],
+    "en": "management",
+    "fascicules": [
+      2,
+      4,
+      14
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 66,
+    "term": "disponible",
+    "synonyms": [
+      "libre"
+    ],
+    "en": "available",
+    "fascicules": [
+      3
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 67,
+    "term": "une ébauche",
+    "synonyms": [
+      "un premier jet",
+      "un brouillon"
+    ],
+    "en": "draft",
+    "fascicules": [
+      18
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 68,
+    "term": "un écart",
+    "synonyms": [
+      "une différence",
+      "une divergence"
+    ],
+    "en": "difference",
+    "fascicules": [
+      25
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 69,
+    "term": "effectuer (qqch)",
+    "synonyms": [
+      "faire (qqch)"
+    ],
+    "en": "to perform, to make, to execute, to do",
+    "fascicules": [
+      2
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 70,
+    "term": "également",
+    "synonyms": [
+      "aussi"
+    ],
+    "en": "also, as well",
+    "fascicules": [
+      1
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 71,
+    "term": "élevé",
+    "synonyms": [
+      "haut"
+    ],
+    "en": "high",
+    "fascicules": [
+      22
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 72,
+    "term": "embaucher",
+    "synonyms": [
+      "engager",
+      "recruter"
+    ],
+    "en": "to hire",
+    "fascicules": [
+      2,
+      6
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 73,
+    "term": "en ce qui a trait à",
+    "synonyms": [
+      "en matière de",
+      "pour ce qui est de",
+      "en ce qui concerne",
+      "par rapport à"
+    ],
+    "en": "concerning, regarding, as for",
+    "fascicules": [
+      12,
+      17,
+      24,
+      25
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 74,
+    "term": "en congé (de + type)",
+    "synonyms": [
+      "en vacances"
+    ],
+    "en": "on leave",
+    "fascicules": [
+      1
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 75,
+    "term": "en conséquence",
+    "synonyms": [
+      "par conséquent",
+      "conséquemment",
+      "donc"
+    ],
+    "en": "therefore",
+    "fascicules": [
+      18,
+      23
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 76,
+    "term": "en deçà de (qqch)",
+    "synonyms": [
+      "au-dessous de",
+      "sous"
+    ],
+    "en": "below, under",
+    "fascicules": [
+      20
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 77,
+    "term": "en fonction de",
+    "synonyms": [
+      "selon"
+    ],
+    "en": "based on",
+    "fascicules": [
+      21
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 78,
+    "term": "engendrer (qqch)",
+    "synonyms": [
+      "causer (qqch)",
+      "occasionner (qqch)",
+      "entraîner (qqch)",
+      "susciter (qqch)"
+    ],
+    "en": "to result in to give rise to",
+    "fascicules": [
+      13,
+      22
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 79,
+    "term": "en même temps",
+    "synonyms": [
+      "simultanément",
+      "au même moment"
+    ],
+    "en": "at the same time, simultaneously",
+    "fascicules": [
+      8
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 80,
+    "term": "en premier lieu",
+    "synonyms": [
+      "premièrement",
+      "pour commencer"
+    ],
+    "en": "firstly",
+    "fascicules": [
+      6
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 81,
+    "term": "en raison de (qqch)",
+    "synonyms": [
+      "à cause de (qqch)",
+      "compte tenu de (qqch)",
+      "considering, given",
+      "étant donné (qqch)"
+    ],
+    "en": "because of, due to",
+    "fascicules": [
+      14,
+      18
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 82,
+    "term": "en second lieu",
+    "synonyms": [
+      "deuxièmement"
+    ],
+    "en": "secondly",
+    "fascicules": [
+      21
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 83,
+    "term": "une entente",
+    "synonyms": [
+      "un accord"
+    ],
+    "en": "agreement",
+    "fascicules": [
+      14
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 84,
+    "term": "en tout temps",
+    "synonyms": [
+      "n’importe quand",
+      "à toute heure",
+      "à tout moment"
+    ],
+    "en": "at any time",
+    "fascicules": [
+      11
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 85,
+    "term": "entre-temps",
+    "synonyms": [
+      "pendant ce temps",
+      "en attendant"
+    ],
+    "en": "meanwhile",
+    "fascicules": [
+      17
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 86,
+    "term": "un entretien",
+    "synonyms": [
+      "une entrevue"
+    ],
+    "en": "interview",
+    "fascicules": [
+      4,
+      12
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 87,
+    "term": "être au courant de",
+    "synonyms": [
+      "savoir/connaître",
+      "être informé de"
+    ],
+    "en": "to know about, to be aware of",
+    "fascicules": [
+      13
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 88,
+    "term": "être chargé de",
+    "synonyms": [
+      "être responsable de"
+    ],
+    "en": "to be responsible for",
+    "fascicules": [
+      1,
+      14
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 89,
+    "term": "être disposé à",
+    "synonyms": [
+      "être prêt à"
+    ],
+    "en": "to be open to, to be ready to",
+    "fascicules": [
+      12,
+      22
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 90,
+    "term": "être en mesure de",
+    "synonyms": [
+      "être capable de",
+      "être apte à",
+      "pouvoir"
+    ],
+    "en": "to be able to to be in a position to do smt",
+    "fascicules": [
+      21
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 91,
+    "term": "être tenu de (+ infinitif)",
+    "synonyms": [
+      "être obligé à (+ infinitif)",
+      "devoir (+ infinitif)"
+    ],
+    "en": "to be obliged to, to be bound",
+    "fascicules": [
+      13
+    ],
+    "category": "connecteur"
+  },
+  {
+    "id": 92,
+    "term": "exiger",
+    "synonyms": [
+      "tenir à (qqch ou + infinitif)",
+      "tenir à ce que (+ subjonctif)",
+      "upon"
+    ],
+    "en": "to demand, to insist",
+    "fascicules": [
+      14,
+      16,
+      20
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 93,
+    "term": "faire découvrir (qqch à qqn)",
+    "synonyms": [
+      "faire connaître (qqch à qqn)"
+    ],
+    "en": "to show (countryside/history…)",
+    "fascicules": [],
+    "category": "verbe"
+  },
+  {
+    "id": 94,
+    "term": "faire part de (qqch à qqn)",
+    "synonyms": [
+      "faire savoir (qqch à qqn)",
+      "faire connaître (qqch à qqn)",
+      "announce something to someone."
+    ],
+    "en": "to inform someone of something, to",
+    "fascicules": [
+      20,
+      22,
+      23
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 95,
+    "term": "faire ressortir",
+    "synonyms": [
+      "mettre en valeur",
+      "souligner",
+      "mettre l’accent sur"
+    ],
+    "en": "to highlight, to bring out",
+    "fascicules": [
+      3,
+      15
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 96,
+    "term": "faute de quoi",
+    "synonyms": [
+      "sinon",
+      "sans quoi"
+    ],
+    "en": "otherwise",
+    "fascicules": [
+      18
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 97,
+    "term": "frais (m pl)",
+    "synonyms": [
+      "coûts (m pl)"
+    ],
+    "en": "costs, fees",
+    "fascicules": [
+      5
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 98,
+    "term": "hausser",
+    "synonyms": [
+      "augmenter"
+    ],
+    "en": "to raise, to inflate",
+    "fascicules": [
+      2,
+      10
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 99,
+    "term": "il s’agit de",
+    "synonyms": [
+      "ça parle de",
+      "c’est (au sujet de)"
+    ],
+    "en": "it is (regarding)",
+    "fascicules": [
+      12
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 100,
+    "term": "il se peut que (+ subjonctif)",
+    "synonyms": [
+      "il est possible que (+ subjonctif)"
+    ],
+    "en": "it is possible that",
+    "fascicules": [
+      17
+    ],
+    "category": "connecteur"
+  },
+  {
+    "id": 101,
+    "term": "il vaut mieux (+ infinitif)",
+    "synonyms": [
+      "c’est mieux de (+ infinitif)"
+    ],
+    "en": "it is better to, it is better if",
+    "fascicules": [
+      23
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 102,
+    "term": "une indemnité",
+    "synonyms": [
+      "une prestation",
+      "une réclamation"
+    ],
+    "en": "benefit claim",
+    "fascicules": [
+      4,
+      8,
+      13
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 103,
+    "term": "intérimaire",
+    "synonyms": [
+      "par intérim"
+    ],
+    "en": "acting, interim",
+    "fascicules": [
+      14,
+      25
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 104,
+    "term": "jusqu’à présent",
+    "synonyms": [
+      "jusqu’à maintenant",
+      "jusqu’à ce jour"
+    ],
+    "en": "until now, up to now",
+    "fascicules": [
+      20
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 105,
+    "term": "la plupart de",
+    "synonyms": [
+      "la majorité de"
+    ],
+    "en": "most (of)",
+    "fascicules": [
+      11
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 106,
+    "term": "lorsque",
+    "synonyms": [
+      "quand",
+      "une fois que",
+      "au moment où",
+      "dès que",
+      "aussitôt que",
+      "when",
+      "once"
+    ],
+    "en": "as soon as",
+    "fascicules": [
+      9
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 107,
+    "term": "le maintien",
+    "synonyms": [
+      "un entretien"
+    ],
+    "en": "maintenance",
+    "fascicules": [
+      12,
+      24
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 108,
+    "term": "une marche à suivre",
+    "synonyms": [
+      "une procédure",
+      "une démarche"
+    ],
+    "en": "procedure",
+    "fascicules": [
+      12,
+      17
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 109,
+    "term": "même",
+    "synonyms": [
+      "voire"
+    ],
+    "en": "even",
+    "fascicules": [
+      19
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 110,
+    "term": "commencer",
+    "synonyms": [
+      "débuter",
+      "entreprendre"
+    ],
+    "en": "to start to undertake",
+    "fascicules": [
+      22
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 111,
+    "term": "mener (qqch) à terme",
+    "synonyms": [
+      "finir",
+      "compléter",
+      "terminer"
+    ],
+    "en": "to bring to conclusion",
+    "fascicules": [
+      15
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 112,
+    "term": "mettre à la poste",
+    "synonyms": [
+      "envoyer (qqch) par la poste",
+      "poster"
+    ],
+    "en": "to mail",
+    "fascicules": [
+      6
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 113,
+    "term": "mettre au point",
+    "synonyms": [
+      "finaliser",
+      "peaufiner",
+      "une mise au point (f)"
+    ],
+    "en": "to fine tune, to finalize, to refine, a tune-up, a clarification",
+    "fascicules": [
+      13,
+      14
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 114,
+    "term": "mettre sur pied (projet)",
+    "synonyms": [
+      "mettre en œuvre",
+      "mettre en application",
+      "appliquer",
+      "exécuter",
+      "une mise sur pied",
+      "une mise en œuvre",
+      "une mise en application",
+      "implementation"
+    ],
+    "en": "to implement",
+    "fascicules": [
+      13,
+      18,
+      22,
+      23
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 115,
+    "term": "une moitié",
+    "synonyms": [
+      "demi"
+    ],
+    "en": "half",
+    "fascicules": [
+      11
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 116,
+    "term": "notamment",
+    "synonyms": [
+      "en particulier",
+      "particulièrement"
+    ],
+    "en": "In particular, among others",
+    "fascicules": [
+      15
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 117,
+    "term": "parvenir à",
+    "synonyms": [
+      "réussir à (+ infinitif)",
+      "arriver à",
+      "réussir (qqch)"
+    ],
+    "en": "to reach, to succeed in (+gerund)",
+    "fascicules": [
+      4,
+      9,
+      21
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 118,
+    "term": "poser sa candidature",
+    "synonyms": [
+      "postuler"
+    ],
+    "en": "to apply",
+    "fascicules": [
+      10,
+      16
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 119,
+    "term": "pour ma part",
+    "synonyms": [
+      "quant à moi"
+    ],
+    "en": "as for me",
+    "fascicules": [
+      20,
+      24
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 120,
+    "term": "prévenir (qqn)",
+    "synonyms": [
+      "avertir (qqn)"
+    ],
+    "en": "to warn, to notify",
+    "fascicules": [
+      14,
+      16
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 121,
+    "term": "prière de (+ infinitif)",
+    "synonyms": [
+      "veuillez (+ infinitif)"
+    ],
+    "en": "please",
+    "fascicules": [
+      1,
+      15
+    ],
+    "category": "connecteur"
+  },
+  {
+    "id": 122,
+    "term": "primordial",
+    "synonyms": [
+      "essentiel"
+    ],
+    "en": "essential, fundamental",
+    "fascicules": [
+      23
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 123,
+    "term": "provisoire",
+    "synonyms": [
+      "temporaire"
+    ],
+    "en": "temporary, provisional",
+    "fascicules": [
+      8
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 124,
+    "term": "quel que soit (qqch)",
+    "synonyms": [
+      "peu importe le / la / les (qqch)"
+    ],
+    "en": "whatever the + N, irrespective of + N",
+    "fascicules": [
+      22
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 125,
+    "term": "quiconque",
+    "synonyms": [
+      "n’importe qui",
+      "qui que ce soit",
+      "toute personne"
+    ],
+    "en": "whoever, whomever",
+    "fascicules": [
+      19
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 126,
+    "term": "rappeler (qqch) à (qqn)",
+    "synonyms": [
+      "rafraîchir la mémoire à (qqn)",
+      "faire penser à (qqn)"
+    ],
+    "en": "to remind, to reiterate",
+    "fascicules": [
+      1
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 127,
+    "term": "rédiger",
+    "synonyms": [
+      "écrire",
+      "composer (un texte)"
+    ],
+    "en": "to draw up, to draft, to write",
+    "fascicules": [
+      11
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 128,
+    "term": "remanier",
+    "synonyms": [
+      "réorganiser",
+      "restructurer"
+    ],
+    "en": "to reshuffle",
+    "fascicules": [
+      25
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 129,
+    "term": "remettre (qqch) à (qqn)",
+    "synonyms": [
+      "donner (qqch) à (qqn)",
+      "soumettre (qqch) à (qqn)"
+    ],
+    "en": "to submit, to hand in (a document)",
+    "fascicules": [
+      4,
+      15
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 130,
+    "term": "répondre à une exigence",
+    "synonyms": [
+      "satisfaire aux exigences"
+    ],
+    "en": "to meet a requirement/requirements",
+    "fascicules": [
+      12,
+      16
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 131,
+    "term": "reporter (à plus tard)",
+    "synonyms": [
+      "remettre (à plus tard)",
+      "retarder",
+      "repousser"
+    ],
+    "en": "to postpone",
+    "fascicules": [
+      2
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 132,
+    "term": "s’abstenir de (faire qqch)",
+    "synonyms": [
+      "se retenir de (faire qqch)",
+      "s’empêcher de (faire qqch)"
+    ],
+    "en": "to refrain",
+    "fascicules": [
+      25
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 133,
+    "term": "s’adresser à (qqn)",
+    "synonyms": [
+      "faire appel à (qqn)",
+      "someone"
+    ],
+    "en": "to seek recourse from, to appeal to",
+    "fascicules": [
+      7
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 134,
+    "term": "s’assurer de (+ infinitif)",
+    "synonyms": [
+      "faire en sorte de (+ infinitif)",
+      "veiller à ce que (+ subjonctif)",
+      "voir à ce que (+ subjonctif)",
+      "faire en sorte que (+ subjonctif)",
+      "s’assurer que"
+    ],
+    "en": "to make sure, to ensure that",
+    "fascicules": [
+      10,
+      11,
+      17,
+      23
+    ],
+    "category": "connecteur"
+  },
+  {
+    "id": 135,
+    "term": "consacrer du temps à (qqch)",
+    "synonyms": [
+      "se consacrer à (qqch)",
+      "se concentrer sur (qqch)"
+    ],
+    "en": "to devote time to to devote oneself to to devote oneself to",
+    "fascicules": [
+      14
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 136,
+    "term": "s’efforcer de (+ infinitif)",
+    "synonyms": [
+      "essayer de (+ infinitif)",
+      "tenter de (+ infinitif)",
+      "chercher à (+ infinitif)"
+    ],
+    "en": "to try (hard) to",
+    "fascicules": [
+      12
+    ],
+    "category": "connecteur"
+  },
+  {
+    "id": 137,
+    "term": "se servir de (qqch)",
+    "synonyms": [
+      "utiliser (qqch)"
+    ],
+    "en": "to use",
+    "fascicules": [
+      8
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 138,
+    "term": "se tromper",
+    "synonyms": [
+      "faire une erreur"
+    ],
+    "en": "to make a mistake",
+    "fascicules": [
+      4
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 139,
+    "term": "solliciter",
+    "synonyms": [
+      "demander",
+      "requérir"
+    ],
+    "en": "to request",
+    "fascicules": [
+      12
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 140,
+    "term": "un sondage",
+    "synonyms": [
+      "une enquête"
+    ],
+    "en": "survey, opinion poll",
+    "fascicules": [
+      2
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 141,
+    "term": "sous peu",
+    "synonyms": [
+      "bientôt",
+      "prochainement"
+    ],
+    "en": "shortly, soon",
+    "fascicules": [
+      9
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 142,
+    "term": "subventionner",
+    "synonyms": [
+      "financer",
+      "octroyer des fonds"
+    ],
+    "en": "to subsidize",
+    "fascicules": [
+      22
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 143,
+    "term": "susmentionné",
+    "synonyms": [
+      "ci-dessus",
+      "ci-haut"
+    ],
+    "en": "above-mentioned",
+    "fascicules": [
+      19
+    ],
+    "category": "expression"
+  },
+  {
+    "id": 144,
+    "term": "trier",
+    "synonyms": [
+      "classer",
+      "organiser",
+      "ranger",
+      "cataloguer"
+    ],
+    "en": "to sort",
+    "fascicules": [
+      20
+    ],
+    "category": "verbe"
+  },
+  {
+    "id": 145,
+    "term": "un usager, une usagère",
+    "synonyms": [
+      "un utilisateur, une utilisatrice"
+    ],
+    "en": "user (of a service) user (of a device)",
+    "fascicules": [
+      12,
+      15
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 146,
+    "term": "un imprévu",
+    "synonyms": [
+      "un contretemps",
+      "un empêchement"
+    ],
+    "en": "an unforeseen event something that came up unexpectedly",
+    "fascicules": [
+      14,
+      16
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 147,
+    "term": "avoir lieu",
+    "synonyms": [
+      "se dérouler",
+      "se passer",
+      "se tenir",
+      "se faire",
+      "être"
+    ],
+    "en": "to take place",
+    "fascicules": [],
+    "category": "verbe"
+  },
+  {
+    "id": 148,
+    "term": "proposer",
+    "synonyms": [
+      "recommander de (+ infinitif) / que (+ subjonctif)",
+      "suggérer"
+    ],
+    "en": "to recommend",
+    "fascicules": [],
+    "category": "verbe"
+  },
+  {
+    "id": 149,
+    "term": "une information",
+    "synonyms": [
+      "un renseignement",
+      "s’informer",
+      "se renseigner"
+    ],
+    "en": "information to get information",
+    "fascicules": [
+      6
+    ],
+    "category": "nom"
+  },
+  {
+    "id": 150,
+    "term": "lire",
+    "synonyms": [
+      "prendre connaissance de"
+    ],
+    "en": "to read",
+    "fascicules": [],
+    "category": "verbe"
+  },
+  {
+    "id": 151,
+    "term": "faire partie de",
+    "synonyms": [
+      "être membre de",
+      "appartenir à"
+    ],
+    "en": "to be a part of",
+    "fascicules": [
+      3
+    ],
+    "category": "verbe"
+  }
+]

@@ -1,0 +1,1220 @@
+{
+  "questions": [
+    {
+      "id": "M1-ART-001",
+      "module": "Mod 1",
+      "topic": "Articles / Gender",
+      "difficulty": "Easy",
+      "stem": "C’est ___ belle journée pour l’exercice extérieur.",
+      "correct": "une",
+      "correctExplanation": "'Journée' is a feminine singular noun, so it takes the feminine singular indefinite article 'une'.",
+      "wrong": [
+        {
+          "answer": "un",
+          "explanation": "Wrong gender: 'un' is masculine singular, but 'journée' is feminine."
+        },
+        {
+          "answer": "le",
+          "explanation": "Wrong article type: 'le' is definite ('the'), but the sentence introduces an unspecified day."
+        },
+        {
+          "answer": "des",
+          "explanation": "Wrong number: 'des' is plural, but 'journée' is singular."
+        }
+      ]
+    },
+    {
+      "id": "M1-AGR-002",
+      "module": "Mod 1",
+      "topic": "Adjective Agreement",
+      "difficulty": "Easy",
+      "stem": "Martin et Amélie sont très ___ aujourd’hui.",
+      "correct": "gentils",
+      "correctExplanation": "The subject is mixed plural (one male, one female), so French uses the masculine plural adjective 'gentils'.",
+      "wrong": [
+        {
+          "answer": "gentilles",
+          "explanation": "Wrong agreement: feminine plural is used only when the whole group is feminine."
+        },
+        {
+          "answer": "gentil",
+          "explanation": "Wrong number: singular form does not agree with two people."
+        },
+        {
+          "answer": "gentille",
+          "explanation": "Wrong number and gender: feminine singular agrees with one female person only."
+        }
+      ]
+    },
+    {
+      "id": "M1-ART-003",
+      "module": "Mod 1",
+      "topic": "Elision / Articles",
+      "difficulty": "Easy",
+      "stem": "Je suis ___ enseignante de ces deux militaires.",
+      "correct": "l’",
+      "correctExplanation": "'Enseignante' begins with a vowel sound, so the article 'la' becomes elided: 'l’enseignante'.",
+      "wrong": [
+        {
+          "answer": "la",
+          "explanation": "Wrong form: before a vowel sound, 'la' must elide to 'l’'."
+        },
+        {
+          "answer": "le",
+          "explanation": "Wrong gender: 'enseignante' is feminine here."
+        },
+        {
+          "answer": "un",
+          "explanation": "Wrong article type and gender: 'un' is masculine indefinite, not feminine definite."
+        }
+      ]
+    },
+    {
+      "id": "M1-CONJ-004",
+      "module": "Mod 1",
+      "topic": "Present Conjugation",
+      "difficulty": "Easy",
+      "stem": "C’est moi qui ___ responsable du transport.",
+      "correct": "suis",
+      "correctExplanation": "With 'c’est moi qui', the verb agrees with 'moi' (= je), so the correct form is 'suis'.",
+      "wrong": [
+        {
+          "answer": "est",
+          "explanation": "Wrong agreement: 'est' is third-person singular, but the real subject is 'moi' (= je)."
+        },
+        {
+          "answer": "sommes",
+          "explanation": "Wrong agreement: 'sommes' is used with 'nous', not 'je/moi'."
+        },
+        {
+          "answer": "es",
+          "explanation": "Wrong agreement: 'es' is used with 'tu', not 'moi'."
+        }
+      ]
+    },
+    {
+      "id": "M2-QUEST-005",
+      "module": "Mod 2",
+      "topic": "Interrogatives",
+      "difficulty": "Easy",
+      "stem": "___ est ton adresse?",
+      "correct": "Quelle",
+      "correctExplanation": "'Adresse' is a feminine singular noun, so the interrogative adjective must be feminine singular: 'quelle'.",
+      "wrong": [
+        {
+          "answer": "Quel",
+          "explanation": "Wrong agreement: 'quel' is masculine singular, but 'adresse' is feminine."
+        },
+        {
+          "answer": "Quels",
+          "explanation": "Wrong number and gender: masculine plural does not agree with singular feminine 'adresse'."
+        },
+        {
+          "answer": "Quelles",
+          "explanation": "Wrong number: feminine plural does not agree with singular 'adresse'."
+        }
+      ]
+    },
+    {
+      "id": "M2-PREP-006",
+      "module": "Mod 2",
+      "topic": "Prepositions with Places",
+      "difficulty": "Easy",
+      "stem": "Préférez-vous vivre ___ Nouvelle-Écosse?",
+      "correct": "en",
+      "correctExplanation": "French uses 'en' with most feminine provinces and countries. 'Nouvelle-Écosse' is feminine.",
+      "wrong": [
+        {
+          "answer": "à",
+          "explanation": "Wrong preposition: provinces and countries like 'Nouvelle-Écosse' normally take 'en', not plain 'à'."
+        },
+        {
+          "answer": "au",
+          "explanation": "Wrong gender: 'au' is used with masculine singular place names, not feminine ones."
+        },
+        {
+          "answer": "dans",
+          "explanation": "Wrong idiom: 'dans' means 'inside' and is not the standard preposition with provinces here."
+        }
+      ]
+    },
+    {
+      "id": "M2-VERB-007",
+      "module": "Mod 2",
+      "topic": "Verb Construction",
+      "difficulty": "Easy",
+      "stem": "Vous ___ du sport trois fois par semaine.",
+      "correct": "faites",
+      "correctExplanation": "The idiomatic expression is 'faire du sport'. With 'vous', the correct present tense form is 'faites'.",
+      "wrong": [
+        {
+          "answer": "jouez",
+          "explanation": "Wrong verb: in French, we 'faire du sport', not 'jouer du sport'."
+        },
+        {
+          "answer": "fais",
+          "explanation": "Wrong conjugation: 'fais' is used with 'je' or 'tu', not 'vous'."
+        },
+        {
+          "answer": "font",
+          "explanation": "Wrong conjugation: 'font' is used with 'ils/elles', not 'vous'."
+        }
+      ]
+    },
+    {
+      "id": "M3-VERB-008",
+      "module": "Mod 3",
+      "topic": "Jouer + à/de",
+      "difficulty": "Easy",
+      "stem": "Elles jouent ___ piano après le souper.",
+      "correct": "du",
+      "correctExplanation": "With musical instruments, French uses 'jouer de'. 'De + le piano' contracts to 'du piano'.",
+      "wrong": [
+        {
+          "answer": "au",
+          "explanation": "Wrong preposition: 'jouer à' is used for sports and games, not instruments."
+        },
+        {
+          "answer": "de",
+          "explanation": "Incomplete form: before masculine singular 'piano', 'de' must contract to 'du'."
+        },
+        {
+          "answer": "le",
+          "explanation": "Wrong structure: after 'jouer' with an instrument, French requires 'de', not the article alone."
+        }
+      ]
+    },
+    {
+      "id": "M3-SAV-009",
+      "module": "Mod 3",
+      "topic": "Savoir vs Connaître",
+      "difficulty": "Easy",
+      "stem": "Ma fille ___ bien Ottawa.",
+      "correct": "connaît",
+      "correctExplanation": "'Connaître' is used to express familiarity with a place. Ottawa is a city, so 'connaît' is correct.",
+      "wrong": [
+        {
+          "answer": "sait",
+          "explanation": "Wrong verb choice: 'savoir' is for facts or knowing how to do something, not being familiar with a city."
+        },
+        {
+          "answer": "connais",
+          "explanation": "Wrong conjugation: 'connais' is first person singular, but the subject is 'ma fille' (= elle)."
+        },
+        {
+          "answer": "savons",
+          "explanation": "Wrong conjugation and wrong verb: 'savons' is used with 'nous', and 'savoir' is still the wrong verb here."
+        }
+      ]
+    },
+    {
+      "id": "M3-TIME-010",
+      "module": "Mod 3",
+      "topic": "Time Expressions",
+      "difficulty": "Easy",
+      "stem": "Le train arrive ___ cinq minutes.",
+      "correct": "dans",
+      "correctExplanation": "'Dans cinq minutes' means 'in five minutes' (from now). It is used for a future point in time.",
+      "wrong": [
+        {
+          "answer": "en",
+          "explanation": "Wrong time expression: 'en cinq minutes' means 'within five minutes / taking five minutes to do something', not arrival from now."
+        },
+        {
+          "answer": "à",
+          "explanation": "Wrong preposition: clock times can take 'à', but durations from now do not."
+        },
+        {
+          "answer": "depuis",
+          "explanation": "Wrong meaning: 'depuis' marks an action that started in the past and continues."
+        }
+      ]
+    },
+    {
+      "id": "M4-PRON-011",
+      "module": "Mod 4",
+      "topic": "Indirect Object Pronouns",
+      "difficulty": "Easy",
+      "stem": "Tu dois ___ téléphoner au sujet du changement d’horaire.",
+      "correct": "leur",
+      "correctExplanation": "The verb 'téléphoner' takes an indirect object. Since the object is plural ('à eux/à elles'), the correct pronoun is 'leur'.",
+      "wrong": [
+        {
+          "answer": "les",
+          "explanation": "Wrong pronoun type: 'les' is direct object plural, but 'téléphoner' is constructed with an indirect object."
+        },
+        {
+          "answer": "lui",
+          "explanation": "Wrong number: 'lui' is singular indirect object, but the sentence refers to more than one person."
+        },
+        {
+          "answer": "le",
+          "explanation": "Wrong pronoun type and number: 'le' is singular direct object, but the verb requires an indirect plural pronoun."
+        }
+      ]
+    },
+    {
+      "id": "M4-EXP-012",
+      "module": "Mod 4",
+      "topic": "Set Expressions",
+      "difficulty": "Easy",
+      "stem": "C’est ___ la sortie pédagogique.",
+      "correct": "à propos de",
+      "correctExplanation": "The fixed expression is 'à propos de' meaning 'about / concerning'.",
+      "wrong": [
+        {
+          "answer": "au propos de",
+          "explanation": "Wrong idiom: this is not the correct fixed expression in standard French."
+        },
+        {
+          "answer": "au sujet du",
+          "explanation": "Wrong contraction: 'du' would require a masculine singular noun immediately after; here the correct fixed expression is requested."
+        },
+        {
+          "answer": "pour propos de",
+          "explanation": "Wrong structure: this is not a valid French expression."
+        }
+      ]
+    },
+    {
+      "id": "M4-CAL-013",
+      "module": "Mod 4",
+      "topic": "Dates and Time",
+      "difficulty": "Easy",
+      "stem": "Mes beaux-parents arrivent ___ samedi.",
+      "correct": "ce",
+      "correctExplanation": "For an upcoming day within the normal frame of reference, French commonly uses 'ce samedi'.",
+      "wrong": [
+        {
+          "answer": "à",
+          "explanation": "Wrong preposition: French does not say 'à samedi' in this context."
+        },
+        {
+          "answer": "le",
+          "explanation": "Wrong idiom here: 'le samedi' usually means 'on Saturdays' in general, not this specific upcoming Saturday."
+        },
+        {
+          "answer": "en",
+          "explanation": "Wrong preposition: 'en' is used with months, seasons, and some countries, not days of the week."
+        }
+      ]
+    },
+    {
+      "id": "M4-IMP-014",
+      "module": "Mod 4",
+      "topic": "Imperative",
+      "difficulty": "Easy",
+      "stem": "___-moi une barre de chocolat, s’il te plaît.",
+      "correct": "Achète",
+      "correctExplanation": "This is a command addressed to 'tu', so the imperative of 'acheter' is 'achète'.",
+      "wrong": [
+        {
+          "answer": "Achètes",
+          "explanation": "Wrong form: this is present indicative ('tu achètes'), not the imperative."
+        },
+        {
+          "answer": "Acheter",
+          "explanation": "Wrong form: infinitive cannot replace the command here."
+        },
+        {
+          "answer": "Achetez",
+          "explanation": "Wrong person: this is the imperative with 'vous', but the sentence uses the informal singular tone ('s’il te plaît')."
+        }
+      ]
+    },
+    {
+      "id": "M5-PREP-015",
+      "module": "Mod 5",
+      "topic": "Prepositions / Location",
+      "difficulty": "Easy",
+      "stem": "Vous trouverez un garage juste en face ___ dépanneur.",
+      "correct": "du",
+      "correctExplanation": "The fixed expression is 'en face de'. Before 'le dépanneur', 'de + le' contracts to 'du'.",
+      "wrong": [
+        {
+          "answer": "de",
+          "explanation": "Incomplete form: before masculine singular 'le dépanneur', 'de' must contract to 'du'."
+        },
+        {
+          "answer": "au",
+          "explanation": "Wrong preposition: 'en face' is followed by 'de', not 'à'."
+        },
+        {
+          "answer": "des",
+          "explanation": "Wrong number: 'des' would mean 'of the' plural, but 'dépanneur' is singular."
+        }
+      ]
+    },
+    {
+      "id": "M5-PRON-016",
+      "module": "Mod 5",
+      "topic": "Y / Place Pronouns",
+      "difficulty": "Easy",
+      "stem": "Vas-tu encore au gymnase? Non, je n’___ vais plus.",
+      "correct": "y",
+      "correctExplanation": "The pronoun 'y' replaces a place introduced by 'à' ('au gymnase').",
+      "wrong": [
+        {
+          "answer": "en",
+          "explanation": "Wrong pronoun: 'en' replaces complements introduced by 'de', not places introduced by 'à'."
+        },
+        {
+          "answer": "le",
+          "explanation": "Wrong pronoun type: 'le' replaces a direct object noun, not a place."
+        },
+        {
+          "answer": "lui",
+          "explanation": "Wrong pronoun type: 'lui' replaces an indirect human object, not a place."
+        }
+      ]
+    },
+    {
+      "id": "M5-PREP-017",
+      "module": "Mod 5",
+      "topic": "Prepositions / Distance",
+      "difficulty": "Medium",
+      "stem": "Pourriez-vous me dire ___ quelle distance se trouve l’aréna?",
+      "correct": "à",
+      "correctExplanation": "The correct expression is 'à quelle distance'. The preposition 'à' is required in this fixed question pattern.",
+      "wrong": [
+        {
+          "answer": "de",
+          "explanation": "Wrong preposition: French asks 'à quelle distance', not 'de quelle distance' in this context."
+        },
+        {
+          "answer": "en",
+          "explanation": "Wrong preposition: 'en' is not used in this expression."
+        },
+        {
+          "answer": "sur",
+          "explanation": "Wrong preposition: 'sur quelle distance' changes the meaning and is not idiomatic here."
+        }
+      ]
+    },
+    {
+      "id": "M5-VERB-018",
+      "module": "Mod 5",
+      "topic": "Savoir vs Connaître",
+      "difficulty": "Medium",
+      "stem": "Elles ne ___ pas comment se rendre à Rimouski.",
+      "correct": "savent",
+      "correctExplanation": "'Savoir' is used for knowing how / knowing information. Here it means 'they do not know how to get there'.",
+      "wrong": [
+        {
+          "answer": "connaissent",
+          "explanation": "Wrong verb choice: 'connaître' is used for familiarity with people/places, not for knowing how to do something."
+        },
+        {
+          "answer": "savez",
+          "explanation": "Wrong conjugation: 'savez' is used with 'vous', not 'elles'."
+        },
+        {
+          "answer": "connaît",
+          "explanation": "Wrong conjugation and wrong verb: 'connaît' is singular and still not the correct verb here."
+        }
+      ]
+    },
+    {
+      "id": "M5-COND-019",
+      "module": "Mod 5",
+      "topic": "Si Clauses",
+      "difficulty": "Medium",
+      "stem": "Si vous ___ le pont, vous aurez une meilleure vue des montagnes.",
+      "correct": "traversez",
+      "correctExplanation": "In a real future condition, French uses present tense after 'si': 'si vous traversez... vous aurez...'.",
+      "wrong": [
+        {
+          "answer": "traverserez",
+          "explanation": "Wrong tense after 'si': French does not use the future directly after 'si' in this type of sentence."
+        },
+        {
+          "answer": "traverser",
+          "explanation": "Wrong form: infinitive cannot be used after 'si' here."
+        },
+        {
+          "answer": "traversiez",
+          "explanation": "Wrong tense/mood: imperfect would suggest a hypothetical structure, which is not the case here."
+        }
+      ]
+    },
+    {
+      "id": "M6-PRON-020",
+      "module": "Mod 6",
+      "topic": "Object Pronouns + Word Order",
+      "difficulty": "Medium",
+      "stem": "Ses enfants sont à la garderie. Elle ___ chercher après le travail.",
+      "correct": "ira les",
+      "correctExplanation": "In the near future statement with a conjugated verb + infinitive, the object pronoun goes before the infinitive: 'ira les chercher'.",
+      "wrong": [
+        {
+          "answer": "les ira",
+          "explanation": "Wrong word order: object pronouns go before the infinitive, not before the conjugated verb in this structure."
+        },
+        {
+          "answer": "ira leur",
+          "explanation": "Wrong pronoun type: 'chercher quelqu’un' takes a direct object, so 'les' is needed, not indirect 'leur'."
+        },
+        {
+          "answer": "va les ira",
+          "explanation": "Wrong structure: this combines two incompatible verb patterns."
+        }
+      ]
+    },
+    {
+      "id": "M6-PREP-021",
+      "module": "Mod 6",
+      "topic": "Prepositions",
+      "difficulty": "Medium",
+      "stem": "Occupez-vous ___ remboursement de mes frais de voyage, s.v.p.",
+      "correct": "du",
+      "correctExplanation": "The verb phrase is 's’occuper de'. Before 'le remboursement', 'de + le' contracts to 'du'.",
+      "wrong": [
+        {
+          "answer": "de",
+          "explanation": "Incomplete form: before 'le remboursement', 'de' must contract to 'du'."
+        },
+        {
+          "answer": "au",
+          "explanation": "Wrong preposition: the verb requires 'de', not 'à'."
+        },
+        {
+          "answer": "des",
+          "explanation": "Wrong number: 'remboursement' is singular."
+        }
+      ]
+    },
+    {
+      "id": "M6-TIME-022",
+      "module": "Mod 6",
+      "topic": "Future Time Expressions",
+      "difficulty": "Medium",
+      "stem": "Nous irons camper en pleine forêt ___ .",
+      "correct": "le printemps prochain",
+      "correctExplanation": "This is the standard and natural placement of the time expression: 'le printemps prochain'.",
+      "wrong": [
+        {
+          "answer": "prochain printemps",
+          "explanation": "Awkward/less standard placement in this exercise context; the accepted course form is 'le printemps prochain'."
+        },
+        {
+          "answer": "au printemps prochaine",
+          "explanation": "Wrong article and adjective agreement: 'printemps' is masculine, so it would be 'prochain', not 'prochaine'."
+        },
+        {
+          "answer": "en prochain printemps",
+          "explanation": "Wrong preposition: French does not say 'en prochain printemps'."
+        }
+      ]
+    },
+    {
+      "id": "M7-REL-023",
+      "module": "Mod 7",
+      "topic": "Relative Pronouns",
+      "difficulty": "Medium",
+      "stem": "Ma fille, c’est celle ___ porte beaucoup de boucles d’oreilles.",
+      "correct": "qui",
+      "correctExplanation": "'Qui' is correct because it is the subject of the verb 'porte' in the relative clause.",
+      "wrong": [
+        {
+          "answer": "que",
+          "explanation": "Wrong relative pronoun: 'que' would be direct object, but here the pronoun is subject of 'porte'."
+        },
+        {
+          "answer": "dont",
+          "explanation": "Wrong relative pronoun: 'dont' is used with verbs/expressions built with 'de'."
+        },
+        {
+          "answer": "où",
+          "explanation": "Wrong relative pronoun: 'où' refers to place or time, not a person acting as subject."
+        }
+      ]
+    },
+    {
+      "id": "M7-PREP-024",
+      "module": "Mod 7",
+      "topic": "Countries / Place Names",
+      "difficulty": "Medium",
+      "stem": "J’arriverai ___ Kosovo le lendemain de mon atterrissage en Bosnie.",
+      "correct": "au",
+      "correctExplanation": "Traditional course usage treats 'Kosovo' as masculine singular, so 'à + le' contracts to 'au Kosovo'.",
+      "wrong": [
+        {
+          "answer": "à",
+          "explanation": "Incomplete form: before a masculine singular country name with article, 'à' must contract to 'au'."
+        },
+        {
+          "answer": "en",
+          "explanation": "Wrong preposition for this course pattern: 'en' is generally used with feminine countries or masculine ones beginning with a vowel."
+        },
+        {
+          "answer": "aux",
+          "explanation": "Wrong number: 'aux' is plural, but 'Kosovo' is singular."
+        }
+      ]
+    },
+    {
+      "id": "M7-EXP-025",
+      "module": "Mod 7",
+      "topic": "Fixed Expressions",
+      "difficulty": "Medium",
+      "stem": "Vous parlez de n’importe ___.",
+      "correct": "quoi",
+      "correctExplanation": "The fixed expression is 'n’importe quoi' ('anything / nonsense').",
+      "wrong": [
+        {
+          "answer": "comment",
+          "explanation": "Wrong expression: 'n’importe comment' means 'in any which way / carelessly', not the same meaning here."
+        },
+        {
+          "answer": "quel",
+          "explanation": "Wrong form: 'n’importe quel' must be followed by a singular noun."
+        },
+        {
+          "answer": "qui",
+          "explanation": "Wrong expression: 'n’importe qui' refers to a person, not a thing or idea."
+        }
+      ]
+    },
+    {
+      "id": "M7-VERB-026",
+      "module": "Mod 7",
+      "topic": "Avoir droit à / de",
+      "difficulty": "Medium",
+      "stem": "Pour notre voyage pédagogique, a-t-on droit ___ une avance de fonds?",
+      "correct": "à",
+      "correctExplanation": "The fixed expression is 'avoir droit à quelque chose' (to be entitled to something).",
+      "wrong": [
+        {
+          "answer": "de",
+          "explanation": "Wrong construction: 'avoir le droit de' is used before an infinitive verb, not before a noun phrase like 'une avance de fonds'."
+        },
+        {
+          "answer": "au",
+          "explanation": "Wrong form: there is no contraction needed because the next word is 'une', not 'le'."
+        },
+        {
+          "answer": "d’",
+          "explanation": "Wrong construction: again, 'avoir droit à' is required before a noun."
+        }
+      ]
+    },
+    {
+      "id": "M8-TENSE-027",
+      "module": "Mod 8",
+      "topic": "Passé composé vs Imparfait",
+      "difficulty": "Medium",
+      "stem": "Quand j’étais jeune, je ___ à la messe le dimanche.",
+      "correct": "allais",
+      "correctExplanation": "This describes a repeated habit in the past, so the imparfait 'allais' is required.",
+      "wrong": [
+        {
+          "answer": "suis allé",
+          "explanation": "Wrong tense nuance: passé composé would present it as one completed event, not a repeated Sunday habit."
+        },
+        {
+          "answer": "vais",
+          "explanation": "Wrong tense: present tense does not fit the past context."
+        },
+        {
+          "answer": "irai",
+          "explanation": "Wrong tense: future tense is incompatible with 'quand j’étais jeune'."
+        }
+      ]
+    },
+    {
+      "id": "M8-TENSE-028",
+      "module": "Mod 8",
+      "topic": "Passé composé",
+      "difficulty": "Medium",
+      "stem": "En 1991, je ___ en Espagne pendant deux mois.",
+      "correct": "suis allé",
+      "correctExplanation": "This is a completed past event situated at a specific time ('en 1991'), so the passé composé is correct.",
+      "wrong": [
+        {
+          "answer": "j’ai allé",
+          "explanation": "Wrong auxiliary: 'aller' is conjugated with 'être' in compound tenses, not with 'avoir'."
+        },
+        {
+          "answer": "vais",
+          "explanation": "Wrong tense: present does not match a past event in 1991."
+        },
+        {
+          "answer": "allais",
+          "explanation": "Wrong tense nuance: imparfait would suggest background or habit, not one completed trip."
+        }
+      ]
+    },
+    {
+      "id": "M8-NEG-029",
+      "module": "Mod 8",
+      "topic": "Negation",
+      "difficulty": "Medium",
+      "stem": "Il n’y a jamais ___ ici.",
+      "correct": "personne",
+      "correctExplanation": "'Ne... jamais personne' here means there is never anyone here; 'personne' is the correct word for people.",
+      "wrong": [
+        {
+          "answer": "rien",
+          "explanation": "Wrong meaning: 'rien' refers to things, not people."
+        },
+        {
+          "answer": "quelqu’un",
+          "explanation": "Wrong polarity: after this negative structure, an indefinite positive word like 'quelqu’un' is incorrect."
+        },
+        {
+          "answer": "aucun",
+          "explanation": "Wrong form: 'aucun' must modify a noun (e.g., 'aucun étudiant'), not stand alone here."
+        }
+      ]
+    },
+    {
+      "id": "M8-PRON-030",
+      "module": "Mod 8",
+      "topic": "Direct Object Pronouns",
+      "difficulty": "Medium",
+      "stem": "Ils ne peuvent pas ___ car ils sont pressés.",
+      "correct": "l’attendre",
+      "correctExplanation": "With an infinitive after 'peuvent', the direct object pronoun goes before the infinitive: 'l’attendre'.",
+      "wrong": [
+        {
+          "answer": "attendre pour lui",
+          "explanation": "Wrong structure: French does not use this pattern to mean 'wait for him'."
+        },
+        {
+          "answer": "lui attendre",
+          "explanation": "Wrong pronoun type: 'attendre quelqu’un' takes a direct object, not indirect 'lui'."
+        },
+        {
+          "answer": "attendre le",
+          "explanation": "Wrong word order: the pronoun must come before the infinitive, not after it."
+        }
+      ]
+    },
+    {
+      "id": "M8-TIME-031",
+      "module": "Mod 8",
+      "topic": "Depuis / Ça fait",
+      "difficulty": "Medium",
+      "stem": "Ça fait douze ans que j’___ ici.",
+      "correct": "habite",
+      "correctExplanation": "With 'ça fait... que' for an action that started in the past and still continues, French uses the present tense.",
+      "wrong": [
+        {
+          "answer": "habitais",
+          "explanation": "Wrong tense: imparfait would place the action in the past only, but the sentence implies it continues now."
+        },
+        {
+          "answer": "ai habité",
+          "explanation": "Wrong tense: passé composé would suggest a finished period, not an ongoing one."
+        },
+        {
+          "answer": "habiterai",
+          "explanation": "Wrong tense: future cannot follow a duration already in progress."
+        }
+      ]
+    },
+    {
+      "id": "M9-PREP-032",
+      "module": "Mod 9",
+      "topic": "Verb + Preposition",
+      "difficulty": "Medium",
+      "stem": "L’artilleur est capable ___ atteindre la cible avec précision.",
+      "correct": "d’",
+      "correctExplanation": "The fixed expression is 'être capable de + infinitif'. Before a vowel, 'de' becomes 'd’'.",
+      "wrong": [
+        {
+          "answer": "à",
+          "explanation": "Wrong preposition: 'capable' is followed by 'de', not 'à'."
+        },
+        {
+          "answer": "de",
+          "explanation": "Technically the base preposition is correct, but before the vowel in 'atteindre' the elided written form must be 'd’'."
+        },
+        {
+          "answer": "pour",
+          "explanation": "Wrong preposition: 'pour' is not used in this fixed structure."
+        }
+      ]
+    },
+    {
+      "id": "M9-PREP-033",
+      "module": "Mod 9",
+      "topic": "Verb + Preposition",
+      "difficulty": "Medium",
+      "stem": "Le fantassin doit apprendre ___ se servir des armes avec prudence.",
+      "correct": "à",
+      "correctExplanation": "The verb pattern is 'apprendre à + infinitif'.",
+      "wrong": [
+        {
+          "answer": "de",
+          "explanation": "Wrong preposition: 'apprendre' takes 'à' before an infinitive in this meaning."
+        },
+        {
+          "answer": "pour",
+          "explanation": "Wrong structure: 'pour' would introduce purpose, not the complement required by 'apprendre'."
+        },
+        {
+          "answer": "en",
+          "explanation": "Wrong preposition: this is not the pattern used after 'apprendre'."
+        }
+      ]
+    },
+    {
+      "id": "M9-PREP-034",
+      "module": "Mod 9",
+      "topic": "Faire partie de",
+      "difficulty": "Medium",
+      "stem": "Mon voisin fait partie ___ Bataillon de Service.",
+      "correct": "du",
+      "correctExplanation": "The expression is 'faire partie de'. Before 'le Bataillon', 'de + le' contracts to 'du'.",
+      "wrong": [
+        {
+          "answer": "de",
+          "explanation": "Incomplete form: before masculine singular 'le Bataillon', 'de' must contract to 'du'."
+        },
+        {
+          "answer": "au",
+          "explanation": "Wrong preposition: the expression requires 'de', not 'à'."
+        },
+        {
+          "answer": "des",
+          "explanation": "Wrong number: 'Bataillon' is singular."
+        }
+      ]
+    },
+    {
+      "id": "M9-REL-035",
+      "module": "Mod 9",
+      "topic": "Relative Pronouns",
+      "difficulty": "Medium",
+      "stem": "Rome est la première ville ___ j’aimerais visiter en Italie.",
+      "correct": "que",
+      "correctExplanation": "'Que' is correct because it is the direct object of 'visiter'.",
+      "wrong": [
+        {
+          "answer": "dont",
+          "explanation": "Wrong relative pronoun: 'dont' is used with verbs built with 'de', but 'visiter' takes a direct object."
+        },
+        {
+          "answer": "qui",
+          "explanation": "Wrong relative pronoun: 'qui' would be subject, but here the pronoun is object of 'visiter'."
+        },
+        {
+          "answer": "où",
+          "explanation": "Wrong relative pronoun: although cities can take 'où' in some contexts, here the grammar requires the direct object of 'visiter'."
+        }
+      ]
+    },
+    {
+      "id": "M9-TIME-036",
+      "module": "Mod 9",
+      "topic": "Durations",
+      "difficulty": "Medium",
+      "stem": "Le Régiment ira en Bosnie ___ six mois.",
+      "correct": "pour",
+      "correctExplanation": "'Pour six mois' expresses the planned duration of a future action or posting.",
+      "wrong": [
+        {
+          "answer": "depuis",
+          "explanation": "Wrong meaning: 'depuis' is used for something that started in the past and continues to the present."
+        },
+        {
+          "answer": "pendant",
+          "explanation": "Less suitable here in this course context: 'pendant' often describes the duration of an action viewed as a block of time, while the exercise expects planned future duration with 'pour'."
+        },
+        {
+          "answer": "en",
+          "explanation": "Wrong preposition: 'en' expresses the time needed to do something, not the duration of staying somewhere."
+        }
+      ]
+    },
+    {
+      "id": "M11-TENSE-037",
+      "module": "Mod 11",
+      "topic": "Compound Tenses",
+      "difficulty": "Hard",
+      "stem": "Mon mari ___ revenu du Kosovo hier soir.",
+      "correct": "est",
+      "correctExplanation": "'Revenir' is conjugated with 'être' in compound tenses, so the correct form is 'est revenu'.",
+      "wrong": [
+        {
+          "answer": "a",
+          "explanation": "Wrong auxiliary: 'revenir' takes 'être', not 'avoir', in the passé composé."
+        },
+        {
+          "answer": "avait",
+          "explanation": "Wrong tense: plus-que-parfait would require a different time relation than the simple completed event 'hier soir'."
+        },
+        {
+          "answer": "sera",
+          "explanation": "Wrong tense: future does not fit a completed event from yesterday."
+        }
+      ]
+    },
+    {
+      "id": "M11-TENSE-038",
+      "module": "Mod 11",
+      "topic": "Venir de + Infinitive",
+      "difficulty": "Hard",
+      "stem": "Il ___ de commencer à pleuvoir quand je suis arrivé à l’école.",
+      "correct": "venait",
+      "correctExplanation": "The structure 'venir de + infinitif' in the imparfait ('venait de') expresses an action that had just started when another past action happened.",
+      "wrong": [
+        {
+          "answer": "vient",
+          "explanation": "Wrong tense: present tense does not fit the past narration introduced by 'quand je suis arrivé'."
+        },
+        {
+          "answer": "est venu",
+          "explanation": "Wrong structure: 'venir de commencer' is the required idiom; simple past 'est venu' changes the meaning completely."
+        },
+        {
+          "answer": "viendra",
+          "explanation": "Wrong tense: future does not fit the past narrative context."
+        }
+      ]
+    },
+    {
+      "id": "M11-TENSE-039",
+      "module": "Mod 11",
+      "topic": "Passé composé vs Imparfait",
+      "difficulty": "Hard",
+      "stem": "J’ai entendu dire qu’il y ___ un accident mortel sur la 17 ce matin.",
+      "correct": "avait",
+      "correctExplanation": "After 'j’ai entendu dire', reported background information is naturally expressed with 'il y avait' in this context.",
+      "wrong": [
+        {
+          "answer": "a eu",
+          "explanation": "Wrong nuance for this exercise: the course pattern expects reported past information with 'il y avait'."
+        },
+        {
+          "answer": "avait eu",
+          "explanation": "Wrong tense: plus-que-parfait would place the accident before another past reference point, which is not needed here."
+        },
+        {
+          "answer": "a",
+          "explanation": "Wrong structure: 'il y a' would be present tense, not past."
+        }
+      ]
+    },
+    {
+      "id": "M11-AGR-040",
+      "module": "Mod 11",
+      "topic": "Agreement with Past Participles",
+      "difficulty": "Hard",
+      "stem": "Les enfants se sont ___ dans mon lit hier soir.",
+      "correct": "endormis",
+      "correctExplanation": "With the pronominal verb 's’endormir', the past participle agrees with the plural masculine subject 'les enfants': 'endormis'.",
+      "wrong": [
+        {
+          "answer": "endormi",
+          "explanation": "Wrong agreement: singular masculine does not agree with the plural subject."
+        },
+        {
+          "answer": "endormies",
+          "explanation": "Wrong agreement: feminine plural would be used only if the entire group were feminine."
+        },
+        {
+          "answer": "s’endormaient",
+          "explanation": "Wrong tense: imparfait describes ongoing past background, not the completed event of falling asleep."
+        }
+      ]
+    },
+    {
+      "id": "M11-PCIMP-041",
+      "module": "Mod 11",
+      "topic": "Narration Sequence",
+      "difficulty": "Hard",
+      "stem": "Quand nous sommes arrivés à Québec vendredi dernier, il ___.",
+      "correct": "neigeait",
+      "correctExplanation": "The arrival is a completed event (passé composé), while the weather forms the background, so the imparfait 'neigeait' is correct.",
+      "wrong": [
+        {
+          "answer": "a neigé",
+          "explanation": "Wrong narrative value: passé composé would present the snow as another completed event rather than the background situation."
+        },
+        {
+          "answer": "neigera",
+          "explanation": "Wrong tense: future cannot describe a background action in past narration."
+        },
+        {
+          "answer": "neige",
+          "explanation": "Wrong tense: present does not fit the past time frame."
+        }
+      ]
+    },
+    {
+      "id": "M12-SUBJ-042",
+      "module": "Mod 12",
+      "topic": "Subjunctive Trigger",
+      "difficulty": "Hard",
+      "stem": "Je suggère que vous ___ les réservations avant vendredi.",
+      "correct": "fassiez",
+      "correctExplanation": "After 'je suggère que', French requires the subjunctive. The subjunctive of 'faire' with 'vous' is 'fassiez'.",
+      "wrong": [
+        {
+          "answer": "faites",
+          "explanation": "Wrong mood: 'faites' is indicative/imperative, but 'suggérer que' requires the subjunctive here."
+        },
+        {
+          "answer": "ferez",
+          "explanation": "Wrong tense and mood: future indicative is not used after this trigger."
+        },
+        {
+          "answer": "faisons",
+          "explanation": "Wrong conjugation: 'faisons' is first person plural, not 'vous'."
+        }
+      ]
+    },
+    {
+      "id": "M12-SUBJ-043",
+      "module": "Mod 12",
+      "topic": "Subjunctive Trigger",
+      "difficulty": "Hard",
+      "stem": "Le général s’attend à ce que votre uniforme ___ impeccable.",
+      "correct": "soit",
+      "correctExplanation": "The structure 's’attendre à ce que' takes the subjunctive. The correct form of 'être' is 'soit'.",
+      "wrong": [
+        {
+          "answer": "est",
+          "explanation": "Wrong mood: indicative is not used after 'à ce que' in this structure."
+        },
+        {
+          "answer": "sera",
+          "explanation": "Wrong tense and mood: future indicative does not follow this subjunctive trigger."
+        },
+        {
+          "answer": "était",
+          "explanation": "Wrong tense and mood: imperfect indicative is not appropriate after this present expectation."
+        }
+      ]
+    },
+    {
+      "id": "M12-SUBJ-044",
+      "module": "Mod 12",
+      "topic": "Subjunctive vs Indicative",
+      "difficulty": "Hard",
+      "stem": "Elle ne croit pas qu’on ___ terminer ce projet avant la date d’échéance.",
+      "correct": "puisse",
+      "correctExplanation": "Negation of belief ('ne croit pas que') triggers the subjunctive. The correct form of 'pouvoir' is 'puisse'.",
+      "wrong": [
+        {
+          "answer": "peut",
+          "explanation": "Wrong mood: indicative is not expected after a negated belief in this exercise."
+        },
+        {
+          "answer": "pourra",
+          "explanation": "Wrong tense and mood: future indicative is incorrect here."
+        },
+        {
+          "answer": "pouvait",
+          "explanation": "Wrong tense and mood: imperfect indicative does not fit the present doubt."
+        }
+      ]
+    },
+    {
+      "id": "M13-SUBJ-045",
+      "module": "Mod 13",
+      "topic": "Subjunctive Trigger",
+      "difficulty": "Hard",
+      "stem": "Il tient à ce que chaque étudiant ___ bien les exigences du cours.",
+      "correct": "connaisse",
+      "correctExplanation": "'Tenir à ce que' requires the subjunctive. With 'chaque étudiant' (singular), the correct form is 'connaisse'.",
+      "wrong": [
+        {
+          "answer": "connaît",
+          "explanation": "Wrong mood: indicative is not used after 'tenir à ce que'."
+        },
+        {
+          "answer": "connaissent",
+          "explanation": "Wrong agreement and mood: plural form does not agree with singular 'chaque étudiant', and the subjunctive singular is required."
+        },
+        {
+          "answer": "connaîtra",
+          "explanation": "Wrong tense and mood: future indicative is not appropriate here."
+        }
+      ]
+    },
+    {
+      "id": "M13-SUBJ-046",
+      "module": "Mod 13",
+      "topic": "Important Expressions",
+      "difficulty": "Hard",
+      "stem": "Il est très important que vous vous ___ compte des réactions de vos collègues.",
+      "correct": "rendiez",
+      "correctExplanation": "After 'il est important que', the verb must be in the subjunctive. In the pronominal expression 'se rendre compte', the correct 'vous' subjunctive form is 'vous vous rendiez'.",
+      "wrong": [
+        {
+          "answer": "rendez",
+          "explanation": "Wrong mood: 'vous vous rendez' is indicative, but the trigger requires subjunctive."
+        },
+        {
+          "answer": "rendrez",
+          "explanation": "Wrong tense and mood: future indicative is not used after 'il est important que'."
+        },
+        {
+          "answer": "rendiez-vous",
+          "explanation": "Wrong structure: inversion is not used here; the pronouns must remain before the verb."
+        }
+      ]
+    },
+    {
+      "id": "M13-INF-047",
+      "module": "Mod 13",
+      "topic": "Infinitive Structures",
+      "difficulty": "Hard",
+      "stem": "___ partir, assurez-vous d’éteindre les lumières et l’ordinateur.",
+      "correct": "Avant de",
+      "correctExplanation": "When the subject stays the same, French uses 'avant de + infinitif', not 'avant que' with a conjugated verb.",
+      "wrong": [
+        {
+          "answer": "Avant que",
+          "explanation": "Wrong structure here: 'avant que' would require a new clause with a conjugated subjunctive verb."
+        },
+        {
+          "answer": "Avant",
+          "explanation": "Incomplete structure: the infinitive 'partir' needs the preposition 'de'."
+        },
+        {
+          "answer": "Pour avant de",
+          "explanation": "Wrong structure: this is not a correct French connector."
+        }
+      ]
+    },
+    {
+      "id": "M14-SUBJ-048",
+      "module": "Mod 14",
+      "topic": "Condition + Subjunctive",
+      "difficulty": "Hard",
+      "stem": "Nous irons camper à condition qu’il ne ___ pas.",
+      "correct": "pleuve",
+      "correctExplanation": "'À condition que' requires the subjunctive. The subjunctive form of 'pleuvoir' is 'pleuve'.",
+      "wrong": [
+        {
+          "answer": "pleut",
+          "explanation": "Wrong mood: present indicative is not used after 'à condition que'."
+        },
+        {
+          "answer": "pleuvra",
+          "explanation": "Wrong tense and mood: future indicative is incorrect after this conjunction."
+        },
+        {
+          "answer": "pleuvait",
+          "explanation": "Wrong tense and mood: imperfect indicative is not the required form here."
+        }
+      ]
+    },
+    {
+      "id": "M14-CONN-049",
+      "module": "Mod 14",
+      "topic": "Conjunctions",
+      "difficulty": "Hard",
+      "stem": "Je vais conduire jusqu’à ce qu’il ___ noir.",
+      "correct": "fasse",
+      "correctExplanation": "'Jusqu’à ce que' requires the subjunctive. The fixed expression is 'qu’il fasse noir'.",
+      "wrong": [
+        {
+          "answer": "fait",
+          "explanation": "Wrong mood: indicative is not used after 'jusqu’à ce que'."
+        },
+        {
+          "answer": "fera",
+          "explanation": "Wrong tense and mood: future indicative is incorrect after this conjunction."
+        },
+        {
+          "answer": "ferait",
+          "explanation": "Wrong mood: conditional is not required here."
+        }
+      ]
+    },
+    {
+      "id": "M14-CONN-050",
+      "module": "Mod 14",
+      "topic": "Conjunction Choice",
+      "difficulty": "Hard",
+      "stem": "On a accompli cette mission ___ on a dû abandonner l’équipement.",
+      "correct": "même si",
+      "correctExplanation": "'Même si' means 'even though' and correctly introduces a factual concession with the indicative.",
+      "wrong": [
+        {
+          "answer": "pour qu’",
+          "explanation": "Wrong conjunction: 'pour que' expresses purpose and requires the subjunctive; it does not fit the meaning here."
+        },
+        {
+          "answer": "afin que",
+          "explanation": "Wrong conjunction and meaning: this also expresses purpose, not concession."
+        },
+        {
+          "answer": "parce que",
+          "explanation": "Wrong meaning: 'because' gives a cause, not the contrast intended by the sentence."
+        }
+      ]
+    }
+  ],
+  "modules": [
+    "Mod 1",
+    "Mod 2",
+    "Mod 3",
+    "Mod 4",
+    "Mod 5",
+    "Mod 6",
+    "Mod 7",
+    "Mod 8",
+    "Mod 9",
+    "Mod 11",
+    "Mod 12",
+    "Mod 13",
+    "Mod 14"
+  ],
+  "topics": [
+    "Adjective Agreement",
+    "Agreement with Past Participles",
+    "Articles / Gender",
+    "Avoir droit à / de",
+    "Compound Tenses",
+    "Condition + Subjunctive",
+    "Conjunction Choice",
+    "Conjunctions",
+    "Countries / Place Names",
+    "Dates and Time",
+    "Depuis / Ça fait",
+    "Direct Object Pronouns",
+    "Durations",
+    "Elision / Articles",
+    "Faire partie de",
+    "Fixed Expressions",
+    "Future Time Expressions",
+    "Imperative",
+    "Important Expressions",
+    "Indirect Object Pronouns",
+    "Infinitive Structures",
+    "Interrogatives",
+    "Jouer + à/de",
+    "Narration Sequence",
+    "Negation",
+    "Object Pronouns + Word Order",
+    "Passé composé",
+    "Passé composé vs Imparfait",
+    "Prepositions",
+    "Prepositions / Distance",
+    "Prepositions / Location",
+    "Prepositions with Places",
+    "Present Conjugation",
+    "Relative Pronouns",
+    "Savoir vs Connaître",
+    "Set Expressions",
+    "Si Clauses",
+    "Subjunctive Trigger",
+    "Subjunctive vs Indicative",
+    "Time Expressions",
+    "Venir de + Infinitive",
+    "Verb + Preposition",
+    "Verb Construction",
+    "Y / Place Pronouns"
+  ],
+  "difficulties": [
+    "Easy",
+    "Medium",
+    "Hard"
+  ]
+}
